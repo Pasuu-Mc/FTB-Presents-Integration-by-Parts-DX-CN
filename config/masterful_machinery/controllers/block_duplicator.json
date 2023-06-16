@@ -1,0 +1,24 @@
+{
+  "controllerId": "block_duplicator",
+  "name": "\u65b9\u5757\u590d\u5236\u5668",
+  "textureOverride": "ibpdx:block/blockcasing_duskstone",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 10000
+      }
+    }
+  ]
+}

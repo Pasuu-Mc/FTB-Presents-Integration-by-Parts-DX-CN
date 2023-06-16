@@ -1,0 +1,832 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "399DE619470F4BE0"
+	filename: "upgrade_time"
+	default_quest_shape: ""
+	icon: "thermal:upgrade_augment_3"
+	title: "升级时刻"
+	order_index: 7
+	quests: [
+		{
+			size: 2.0d
+			description: ["&b机器框架&r允许制作许多适合单个方块空间的机器。对于压缩处理来说非常有用。一些机器还可以作为它们之前的、更大的替代设备。"]
+			id: "452CD6ADF4E2FDC3"
+			x: -8.0d
+			y: -4.5d
+			shape: "pentagon"
+			title: "压缩机械"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "03A1811D5A8FF76A"
+					item: "boss_tools:desh_ingot"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "2655D743071D2D5B"
+					item: "ibpdx:speed_gear"
+				}
+				{
+					id: "035499D4A4E89C66"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["403D6674FC7151B5"]
+			tasks: [
+				{
+					id: "6CB7FBA948B29054"
+					type: "item"
+					item: "thermal:machine_frame"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "50DC30AF8113BB3E"
+					type: "item"
+					item: "thermal:machine_crucible"
+				}
+			]
+			description: ["将各种东西熔化成液体。"]
+			id: "13992080B881F6AB"
+			x: -11.5d
+			y: -2.5d
+			title: "小冶炼厂。"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "7274BBFE597C7C98"
+					item: "tconstruct:lavawood"
+				}
+				{
+					id: "36D3BA54C255B568"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "292D1EABCC5B3C59"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_frame"
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			tasks: [
+				{
+					id: "5D178E188B8EE017"
+					type: "item"
+					item: "ftbic:mv_transformer"
+				}
+			]
+			description: ["&bMV变压器&r为发电和消耗解锁了许多选项。它也允许你为您的小型机器增压更多的能量."]
+			id: "3B633578A0C4A525"
+			x: -3.0d
+			y: -6.5d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "00D3FE5090137FD0"
+					item: "ftbic:transformer_upgrade"
+				}
+			]
+			dependencies: ["403D6674FC7151B5"]
+		}
+		{
+			tasks: [
+				{
+					id: "29C24C65C6E3A3D1"
+					type: "item"
+					item: "ftbic:antimatter_constructor"
+				}
+			]
+			description: ["注意:你的第一个&6铱&r将来自自定义的BM地牢。它们设计来自金战利品袋。"]
+			id: "4F6655A04B5C8358"
+			x: -1.5d
+			y: -6.5d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "48836B779C925C27"
+					item: "ftbic:advanced_circuit"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "62A5A06CBA93369F"
+					item: "ftbic:advanced_machine_block"
+				}
+				{
+					id: "585C786F76C6FF5E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["3B633578A0C4A525"]
+		}
+		{
+			tasks: [
+				{
+					id: "36D7D1774DC14811"
+					type: "item"
+					item: "ftbic:antimatter"
+				}
+			]
+			description: ["一种被认为只存在于理论中的物质，然而它在这里出现了。它不稳定的特性使得绕过了宇宙的法则成为可能。"]
+			id: "2E1C4FB599BF92BF"
+			x: -1.5d
+			y: -2.5d
+			rewards: [
+				{
+					id: "57AC9C8CF96C0B86"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "1B9ED31430DF8615"
+					item: "mysticalagriculture:uranium_seeds"
+				}
+			]
+			dependencies: ["4F6655A04B5C8358"]
+		}
+		{
+			tasks: [
+				{
+					id: "4F7B713635C7CFCF"
+					type: "item"
+					item: "ftbic:iridium_alloy"
+				}
+			]
+			description: ["现在你可以更轻松地合成&b铱&r,你可以将其用于非常高级的组件."]
+			id: "7F3509227F5C945E"
+			x: -3.0d
+			y: -2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "536995A77E4AA78B"
+					item: {
+						id: "ftbic:overclocked_heat_vent"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "2F486A9B4A000C02"
+					item: "ftbic:component_heat_vent"
+				}
+				{
+					id: "741654B0865DC900"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["2E1C4FB599BF92BF"]
+		}
+		{
+			tasks: [
+				{
+					id: "1611004F4905FFE7"
+					type: "item"
+					item: "thermal:machine_bottler"
+				}
+			]
+			description: ["用流体灌注物品,或者也许用流体填充储罐。"]
+			id: "104630A0F5785BC5"
+			x: -8.0d
+			y: -2.5d
+			title: "小瓶子"
+			rewards: [
+				{
+					id: "6A2F4CC7B242A126"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "thermal:rf_potato"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "50DD9CF7AC0DDF2E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			tasks: [
+				{
+					id: "05CEF98FB163CA7F"
+					type: "item"
+					item: "ibpdx:pyrotheum_blend"
+				}
+				{
+					id: "126274365F3F1252"
+					type: "item"
+					item: "ibpdx:cryotheum_blend"
+				}
+				{
+					id: "05E02BABCA47D72C"
+					type: "item"
+					item: "ibpdx:petrotheum_blend"
+				}
+				{
+					id: "3128815B88DA303A"
+					type: "item"
+					item: "ibpdx:aerotheum_blend"
+				}
+			]
+			description: ["击败一些&6烈焰人&r及其朋友,然后将其遗骸与其他组件结合,然后将结果融化."]
+			icon: "ibpdx:petrotheum_blend"
+			id: "3D019B92CF77B89B"
+			x: -13.0d
+			y: -2.5d
+			title: "粉的力量"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "0816436AEF27F84D"
+					item: "mysticalagriculture:fire_seeds"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "7B31D4498D11244C"
+					item: "mysticalagriculture:earth_seeds"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "5E35F5AC1DD7BDF4"
+					item: "mysticalagriculture:water_seeds"
+				}
+				{
+					id: "449B3D4CA325AF15"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:prism"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["13992080B881F6AB"]
+		}
+		{
+			tasks: [
+				{
+					id: "03F452B0334EBB0F"
+					type: "item"
+					item: "thermal:machine_smelter"
+				}
+			]
+			description: ["将最多三个输入原料结合成一个合金输出."]
+			id: "6ACA6B128CF6CBEC"
+			x: -4.5d
+			y: -4.5d
+			title: "不那么超级合金"
+			rewards: [
+				{
+					id: "44EEDC8FF66FBCB2"
+					type: "item"
+					item: "thermal:machine_speed_augment"
+				}
+				{
+					id: "006A5E49ECD412A4"
+					type: "item"
+					item: "thermal:upgrade_augment_2"
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			tasks: [
+				{
+					id: "6FFB399315092E37"
+					type: "item"
+					item: "thermal:upgrade_augment_1"
+				}
+			]
+			description: ["&b整合组件&r是&e热力&r机器的一种全方位增强,而不是&6升级&r,它们提供了更多的增强,但只在一个类别中。"]
+			id: "68436081EFF88585"
+			x: -9.5d
+			y: -2.5d
+			title: "为升级装备而做好准备"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "33F14FE863C8C0CF"
+					item: "thermal:upgrade_augment_1"
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			tasks: [
+				{
+					id: "1E4B69BA042C3A30"
+					type: "item"
+					item: "thermal:machine_pulverizer"
+				}
+			]
+			description: ["研磨矿石、锭和其他东西。"]
+			id: "4BE1B646D4A83B08"
+			x: -9.5d
+			y: -6.5d
+			title: "压缩粉碎机"
+			rewards: [
+				{
+					id: "12340C7CAE3459B4"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_null_augment"
+				}
+				{
+					id: "2744C9D9D2451C2F"
+					type: "item"
+					item: "thermal:cheese_wedge"
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			tasks: [
+				{
+					id: "10E4A4347F978E7C"
+					type: "item"
+					title: "炸药"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "thermal:fire_tnt"
+									Count: 1b
+								}
+								{
+									id: "thermal:ice_tnt"
+									Count: 1b
+								}
+								{
+									id: "thermal:lightning_tnt"
+									Count: 1b
+								}
+								{
+									id: "thermal:earth_tnt"
+									Count: 1b
+								}
+							]
+						}
+					}
+				}
+			]
+			description: ["想要快速和轻松的挖矿吗?大型方块冻结如何?你覆盖了&e热力&r炸药!"]
+			icon: "thermal:earth_tnt"
+			id: "43B2AD9D932DE9BC"
+			x: -14.5d
+			y: -2.5d
+			title: "爆炸!"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "5D56DDE73BD75F60"
+					item: "thermal:earth_tnt"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "70C6A60A935402E8"
+					item: "thermal:ice_tnt"
+				}
+			]
+			dependencies: ["3D019B92CF77B89B"]
+		}
+		{
+			tasks: [
+				{
+					id: "6701AC9D6E24528A"
+					type: "item"
+					item: "thermal:machine_refinery"
+				}
+			]
+			description: ["将&6油&r分解成加工的流体和副产品."]
+			id: "698348F4CEA70C0D"
+			x: -11.5d
+			y: -4.5d
+			title: "精馏块"
+			rewards: [
+				{
+					id: "62E0EF61A3C858D8"
+					type: "item"
+					team_reward: true
+					item: "thermal:crude_oil_bucket"
+				}
+				{
+					id: "345BCCBC07C899CC"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "60657ED8BA4C9BDA"
+					type: "item"
+					team_reward: true
+					item: "thermal:rf_coil_storage_augment"
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			size: 1.5d
+			description: [
+				"欢迎来到重构!"
+				""
+				"大量处理线是这个标记。用最紧凑的方式将许多机器融合在一起。"
+			]
+			id: "425AEF2694262F3A"
+			x: -3.0d
+			y: -4.5d
+			shape: "octagon"
+			title: "热力再混合物"
+			rewards: [
+				{
+					id: "0BE9F7E54FDB0316"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_catalyst_creative_augment"
+				}
+				{
+					id: "36404A2963085727"
+					type: "item"
+					item: "avaritia:cosmic_meatballs"
+				}
+				{
+					id: "440DDFB4B1AA80B5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "284E48A72A676820"
+					item: "mysticalagriculture:enderium_seeds"
+				}
+			]
+			dependencies: ["6ACA6B128CF6CBEC"]
+			tasks: [
+				{
+					id: "1E5575D878C23070"
+					type: "item"
+					item: "ibpdx:bio_napalm_cell"
+					count: 200L
+					consume_items: true
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "11CC708D63E4E47C"
+					type: "item"
+					item: "thermal:machine_press"
+				}
+			]
+			description: ["制造板,棒,还有更多的消亡。"]
+			id: "79B000AE11B2D98D"
+			x: -11.5d
+			y: -3.5d
+			title: "微型金属冲压机"
+			rewards: [
+				{
+					id: "6C2F4D06230787E8"
+					type: "item"
+					team_reward: true
+					item: "thermal:press_coin_die"
+				}
+				{
+					id: "5B0AD47815C138F0"
+					type: "item"
+					item: "thermal:stuffed_pepper"
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			tasks: [
+				{
+					id: "287DB55C6E12BE70"
+					type: "item"
+					item: "thermal:machine_chiller"
+				}
+			]
+			description: ["将流体冻结为固体形态。"]
+			id: "3B90BA80A1AED7CF"
+			x: -11.5d
+			y: -6.5d
+			title: "冰盖子"
+			rewards: [
+				{
+					id: "165C8B6961F63ECB"
+					type: "item"
+					item: "thermal:frost_melon_slice"
+				}
+				{
+					id: "3330EEC1B3C708A9"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_speed_augment"
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			tasks: [
+				{
+					id: "0621081A4A3C2FA0"
+					type: "item"
+					item: "thermal:machine_furnace"
+				}
+			]
+			description: ["用电力熔炼物品。"]
+			id: "54F770FA53C91CEA"
+			x: -6.5d
+			y: -6.5d
+			title: "RF?"
+			rewards: [
+				{
+					id: "38D3A1AA414BEF0C"
+					type: "item"
+					item: "thermal:green_bean_pie"
+				}
+				{
+					id: "34B310F31D88096F"
+					type: "item"
+					team_reward: true
+					item: "thermal:machine_speed_augment"
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			tasks: [
+				{
+					id: "30F9B199926B102A"
+					type: "item"
+					item: "thermal:machine_sawmill"
+				}
+			]
+			description: ["锯木成木板,将&6锯末&r作为副产品."]
+			id: "5924E02A6635154B"
+			x: -11.5d
+			y: -5.5d
+			title: "收割机"
+			rewards: [
+				{
+					id: "4D93BAB25A8B8806"
+					type: "item"
+					team_reward: true
+					item: "thermal:sawdust_block"
+				}
+				{
+					id: "3A4C9FF5EA37ACA7"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["452CD6ADF4E2FDC3"]
+		}
+		{
+			tasks: [
+				{
+					id: "47020C1FC07C0ACF"
+					type: "item"
+					item: "extendedcrafting:crafting_core"
+				}
+				{
+					id: "65C80D7A4B8E1FC0"
+					type: "item"
+					item: "extendedcrafting:pedestal"
+					count: 4L
+				}
+			]
+			description: ["&b合成核心&r是&6注魔祭坛&r的升级。它的基座对管道有反应,所以自动化更简单。但它还需要电力。对方块配方也没有任何催化剂。"]
+			icon: "extendedcrafting:crafting_core"
+			id: "74110EE15186851A"
+			x: -4.5d
+			y: -6.5d
+			title: "核心升级"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "0825492054AB0574"
+					item: "extendedcrafting:pedestal"
+				}
+			]
+			dependencies: ["6ACA6B128CF6CBEC"]
+		}
+		{
+			size: 2.0d
+			description: [
+				"使用各种&e热力&r机器,你成功制作了第一个&b钢质机壳&r"
+				""
+				"&e通用机械&r终于来了!"
+			]
+			id: "6B7AD9EF60FA60A3"
+			x: -4.5d
+			y: -1.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "23C44A18ACC68109"
+					type: "item"
+					team_reward: true
+					item: "mekanism:steel_casing"
+				}
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "27AA64DFE7B55543"
+					item: "mekanism:enriched_carbon"
+				}
+			]
+			subtitle: "通用机械终于来了"
+			dependencies: [
+				"6ACA6B128CF6CBEC"
+				"07D3A319D47D5AF0"
+			]
+			tasks: [
+				{
+					id: "43B914E403CCD346"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+			hide: false
+		}
+		{
+			tasks: [
+				{
+					id: "51DDC2F4BDF838CF"
+					type: "item"
+					item: "chemlib:ingot_chromium"
+				}
+			]
+			description: ["你现在已经做了一些介绍性炼金术了,对吗?如果不是的话,它不会太远。把一些&6戴斯&r变成&b铬(gè)&r."]
+			id: "0826663645D3FC58"
+			x: -11.5d
+			y: -1.0d
+			title: ""
+			rewards: [
+				{
+					id: "6AC595ECCC6218E7"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:chrome_seeds"
+				}
+				{
+					id: "4ED338C054A27CC5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"403D6674FC7151B5"
+				"13992080B881F6AB"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "0AB6670A484908E8"
+					type: "item"
+					item: "ibpdx:stainless_steel_ingot"
+				}
+			]
+			description: ["&b不锈钢&r是处理不稳定化学品的重要金属."]
+			id: "07D3A319D47D5AF0"
+			x: -8.0d
+			y: -1.0d
+			title: "这里没有生锈"
+			rewards: [
+				{
+					id: "48327160EF4800B0"
+					type: "item"
+					team_reward: true
+					item: "mekanism:basic_chemical_tank"
+				}
+				{
+					id: "15EB0731ED19F2FC"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_gas"
+				}
+			]
+			dependencies: [
+				"104630A0F5785BC5"
+				"0826663645D3FC58"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "1E8C31A75EAFBBAF"
+					type: "checkmark"
+					title: "矿物复制"
+				}
+			]
+			description: ["使用你新获得的&6反物质&r,你现在可以在它们来自的石头上复制材料。它只需要一些染料和一些&6水晶油&r."]
+			icon: "minecraft:iron_ore"
+			id: "197E995D3CB08036"
+			x: -1.5d
+			y: -1.0d
+			dependencies: ["2E1C4FB599BF92BF"]
+		}
+		{
+			tasks: [
+				{
+					id: "27FDF4D3E3434364"
+					type: "item"
+					item: "enderstorage:ender_chest"
+				}
+			]
+			description: ["&b末影箱子&r终于来了!他们和他们面向流体的表亲,&b末影储罐&r,可以基本免费长距离传输.你在这个阶段可以拆除&6传送板&r."]
+			icon: "enderstorage:ender_chest"
+			id: "78CE00F9CD55B0F3"
+			x: -6.5d
+			y: -2.5d
+			title: "传送箱"
+			rewards: [
+				{
+					id: "67A65354271CC133"
+					type: "item"
+					team_reward: true
+					item: "enderstorage:ender_chest"
+				}
+				{
+					id: "106973FBAF10609B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["6ACA6B128CF6CBEC"]
+		}
+	]
+}

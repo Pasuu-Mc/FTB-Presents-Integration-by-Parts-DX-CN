@@ -1,0 +1,32 @@
+{
+  "controllerId": "metal_empowerer",
+  "name": "\u91d1\u5c5e\u5145\u80fd\u5668",
+  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 20000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    }
+  ]
+}

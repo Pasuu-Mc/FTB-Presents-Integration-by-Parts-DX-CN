@@ -1,0 +1,1074 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "0B407E8656058B9B"
+	filename: "de"
+	default_quest_shape: ""
+	icon: "draconicevolution:awakened_draconium_ingot"
+	title: "龙之研究"
+	order_index: 9
+	quests: [
+		{
+			tasks: [
+				{
+					id: "1E57A4C4621E2B21"
+					type: "item"
+					item: "draconicevolution:awakened_draconium_ingot"
+				}
+			]
+			description: ["你需要和许多龙战斗...如果你喜欢的话,或者模拟战斗。我们不会决定。真的。"]
+			id: "0B0163A519B538A1"
+			x: -5.0d
+			y: -4.0d
+			title: "龙魂"
+			rewards: [
+				{
+					id: "404C26DA5D02170A"
+					type: "item"
+					team_reward: true
+					item: "draconicevolution:dragon_heart"
+				}
+				{
+					id: "048A8BBDA278EC76"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			tasks: [
+				{
+					id: "7BA2F4D4095FF708"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_chestpiece"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-7507347
+										-2145563545
+										-1100536553
+										782957108
+									]
+									modules: [ ]
+									properties: { }
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			description: ["要与&6混沌守卫&r战斗,你需要额外的护盾。&b龙之进化&r的盔甲可以为此服务。但它需要模块才能正常工作。"]
+			id: "5C19DF5E4CB8D057"
+			x: -5.0d
+			y: -8.0d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "1FB8AA2DDB240D24"
+					item: "draconicevolution:wyvern_energy_core"
+				}
+				{
+					id: "56EE3A5EDBF06262"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "75D6F88AE73D3295"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:dragon_base"
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			size: 1.25d
+			description: ["这些方法类似于其他注入式的制作方法。"]
+			id: "76E93D7195424420"
+			icon: "draconicevolution:crafting_core"
+			x: -5.0d
+			y: -6.0d
+			shape: "hexagon"
+			title: "注入时间"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "11DB804967AAE8BF"
+					item: "rftoolsbase:dimensionalshard_nether"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "58B781127F7912B4"
+					item: "rftoolsbase:dimensionalshard_end"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "712B1D7C1B73A230"
+					item: "draconicevolution:wyvern_crafting_injector"
+				}
+			]
+			dependencies: ["1B0F04C85A032B67"]
+			tasks: [
+				{
+					id: "67AD289F99FBA768"
+					type: "item"
+					item: "draconicevolution:wyvern_crafting_injector"
+					count: 4L
+				}
+				{
+					id: "40DF236328879481"
+					type: "item"
+					item: "draconicevolution:crafting_core"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "2A784DEC11D8A71E"
+					type: "item"
+					item: "draconicevolution:awakened_crafting_injector"
+				}
+			]
+			description: ["所需的最高等级的合成注射器。"]
+			id: "18C18F2D9D51F9F8"
+			x: -3.0d
+			y: -4.0d
+			rewards: [
+				{
+					id: "6F4518400B28C074"
+					type: "item"
+					team_reward: true
+					item: "mysticalagradditions:awakened_draconium_crux"
+				}
+				{
+					id: "691790B81AC01D1D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["0B0163A519B538A1"]
+		}
+		{
+			tasks: [
+				{
+					id: "1C9F373AACEF15FF"
+					type: "item"
+					item: {
+						id: "draconicevolution:draconic_staff"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										413268769
+										137842416
+										-1991525120
+										301880598
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			description: ["终极多功能工具。或者继续使用&6MekaTool&r,也行。"]
+			id: "1F81EC92AD24913D"
+			x: -2.0d
+			y: -8.0d
+			rewards: [
+				{
+					id: "7C755724CB37E727"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "21545212A0F2586B"
+					item: "mysticalagriculture:draconium_seeds"
+				}
+			]
+			dependencies: [
+				"2662086BE1884E6E"
+				"5F4BD5A1E10DCB70"
+				"112828C638E1A187"
+			]
+		}
+		{
+			size: 1.5d
+			description: ["开始合成。你需要很多。"]
+			x: -14.0d
+			id: "4B92473A8994CDE7"
+			y: -6.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "3853321D4E1F85E8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["3A8ABC877E3FE656"]
+			tasks: [
+				{
+					id: "1CD465E5430416EC"
+					type: "item"
+					item: "draconicevolution:draconium_ingot"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "7779614BB1283A9B"
+					type: "item"
+					item: "draconicevolution:draconium_core"
+				}
+			]
+			description: ["&b龙芯&r是基础的制作组件."]
+			id: "484E1D69A63F15D7"
+			x: -12.0d
+			y: -6.0d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "278830623CDBC580"
+					item: "draconicevolution:draconium_core"
+				}
+				{
+					id: "302F048FC540D708"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["4B92473A8994CDE7"]
+		}
+		{
+			tasks: [
+				{
+					id: "126C0D67EB12AD88"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_shovel"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										-583564037
+										-45528100
+										-1286625276
+										1176852351
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			description: ["一把超强的锹。"]
+			id: "112828C638E1A187"
+			x: -3.0d
+			y: -6.0d
+			rewards: [
+				{
+					id: "39531D2CEAD9B91C"
+					type: "item"
+					item: "draconicevolution:wyvern_energy_core"
+				}
+				{
+					id: "548BA603E4835100"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			tasks: [
+				{
+					id: "5CCB3AD1D64D9DC9"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_axe"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1959679558
+										226577006
+										-1494087668
+										-967389173
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			description: ["一个令人惊叹的气动斧。"]
+			id: "2662086BE1884E6E"
+			x: -1.0d
+			y: -6.0d
+			rewards: [
+				{
+					id: "3E39199A874E58E6"
+					type: "item"
+					item: "draconicevolution:wyvern_energy_core"
+				}
+				{
+					id: "00F865F855356471"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			tasks: [
+				{
+					id: "46895C0D25E454BF"
+					type: "item"
+					item: {
+						id: "draconicevolution:wyvern_pickaxe"
+						Count: 1b
+						ForgeCaps: {
+							Parent: {
+								module_host: {
+									provider_id: [I;
+										1708181138
+										1049251679
+										-1997926608
+										577154392
+									]
+									modules: [ ]
+									properties: {
+										mining_speed: {
+											hud: 1b
+											value: 1.0d
+										}
+									}
+								}
+								energy: {
+									energy: 0L
+								}
+							}
+						}
+					}
+				}
+			]
+			description: ["一种实用而强大的镐。"]
+			id: "5F4BD5A1E10DCB70"
+			x: -2.0d
+			y: -6.0d
+			rewards: [
+				{
+					id: "29727F1D5E8C0CDA"
+					type: "item"
+					item: "draconicevolution:wyvern_energy_core"
+				}
+				{
+					id: "30BE8ADFC09EB656"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["76E93D7195424420"]
+		}
+		{
+			size: 1.25d
+			description: [
+				"&b炼金反应堆&r!这台大型机器有7个迷你模块和一个主基座。老实说,&b这个机器的物品已经为你准备了&r."
+				""
+				"外环是一个环形的循环,从红色节点开始,逆时针工作,用额外的质子和其他材料对循环中的元素进行爆炸,直到它达到所需的元素。"
+				""
+				"这些元素可以压缩成一个奇点,提供100个特定元素的方块来制作."
+				""
+				"此外,&6无尽碎片&r是副产物。以后再做."
+				""
+				"如果一个步骤不能正常运行,它将在其位置产生核废料。"
+			]
+			id: "2A68ABA2C8C227E6"
+			icon: "masterfulmachinery:alchemy_reactor_core_controller"
+			x: -5.0d
+			y: -2.0d
+			shape: "hexagon"
+			title: "循环聚合"
+			rewards: [
+				{
+					id: "13C94FAA00A4BCA5"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "4D0D9550D736A947"
+					item: "avaritia:crystal_matrix_ingot"
+				}
+				{
+					id: "10FB6BE96BEF1A08"
+					type: "item"
+					item: "chemlib:element_hydrogen"
+					count: 16
+				}
+				{
+					id: "47F99E21F6E49259"
+					type: "item"
+					item: "ibpdx:singular_double_gearbox"
+					count: 4
+				}
+				{
+					id: "1BCBCDFE87C56CB3"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "alchemy_reactor"
+							structureName: "config/capsule/rewards/alchemy_reactor"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 23
+						}
+					}
+				}
+			]
+			dependencies: [
+				"0B0163A519B538A1"
+				"6A371D59F6C12829"
+			]
+			tasks: [
+				{
+					id: "29F5E9171BED9935"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_red_controller"
+					consume_items: true
+				}
+				{
+					id: "7CD3324EBAAB0888"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_orange_controller"
+					consume_items: true
+				}
+				{
+					id: "6701F124ABB5D665"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_yellow_controller"
+					consume_items: true
+				}
+				{
+					id: "0D24622CBE8CC0D6"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_green_controller"
+					consume_items: true
+				}
+				{
+					id: "2FA4E64AAA05555D"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_cyan_controller"
+					consume_items: true
+				}
+				{
+					id: "201FBCC38D500F4A"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_blue_controller"
+					consume_items: true
+				}
+				{
+					id: "1D6E170DC44004CA"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_violet_controller"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 19L
+					consume_items: true
+					id: "11414790AC038208"
+					item: "avaritia:infinity_block"
+				}
+				{
+					type: "item"
+					count: 204L
+					consume_items: true
+					id: "4BB543995455D335"
+					item: "ibpdx:blockcasing_bedrock"
+				}
+				{
+					id: "4B19C45CC964D5E5"
+					type: "item"
+					item: "ibpdx:blockcasing_empowered_steel"
+					count: 3L
+				}
+				{
+					id: "3B75EF5E808B4BBC"
+					type: "item"
+					item: "ibpdx:blockcasing_awakened"
+					count: 3L
+				}
+				{
+					id: "2E156ED14D04E042"
+					type: "item"
+					item: "ibpdx:blockcasing_refined_glowstone"
+					count: 3L
+				}
+				{
+					id: "3C340DF255A791BC"
+					type: "item"
+					item: "ibpdx:blockcasing_terrasteel"
+					count: 3L
+				}
+				{
+					id: "0944DA317AF2FE80"
+					type: "item"
+					item: "ibpdx:blockcasing_manasteel"
+					count: 3L
+				}
+				{
+					id: "39E5B29F5D0C9DD3"
+					type: "item"
+					item: "ibpdx:blockcasing_starmetal"
+					count: 3L
+				}
+				{
+					id: "1CDA818DB381B770"
+					type: "item"
+					item: "ibpdx:blockcasing_duskstone"
+					count: 3L
+				}
+				{
+					id: "778BB98C7F54261A"
+					type: "item"
+					item: "chisel:futura/wavy"
+					count: 2L
+				}
+				{
+					id: "502B976BB06B12BA"
+					type: "item"
+					item: "chisel:futura/screen_metallic"
+					count: 16L
+				}
+				{
+					id: "6372DB64543A6106"
+					type: "item"
+					item: "masterfulmachinery:alchemy_reactor_core_controller"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "3CCC03D84147EEFE"
+					type: "item"
+					item: "avaritia:infinity_ingot"
+				}
+			]
+			description: ["激活的终极合金!"]
+			id: "6A371D59F6C12829"
+			x: -9.0d
+			y: -2.0d
+			rewards: [
+				{
+					type: "toast"
+					description: ""
+					id: "5CD515BBBB3BAB37"
+					icon: "minecraft:clay_ball"
+					title: "完全平衡."
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "3766EB1A5546E4E0"
+					item: "ibpdx:inert_infinity_ingot"
+				}
+				{
+					id: "2D9B8187F10AA206"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			dependencies: ["18A6FCC5E23EE040"]
+		}
+		{
+			tasks: [
+				{
+					id: "3AEC735466C7513C"
+					type: "item"
+					item: "ibpdx:inert_infinity_ingot"
+				}
+			]
+			description: ["终极合金的基础......"]
+			id: "18A6FCC5E23EE040"
+			x: -10.5d
+			y: -2.0d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "5216A472949FD42B"
+					item: "mysticalagradditions:insanium_ingot"
+				}
+				{
+					id: "5224B4EACDE0D867"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["31EB44AE86F5AD22"]
+		}
+		{
+			size: 1.5d
+			description: ["与下级相同,但具有无限的耐久性。"]
+			x: -1.5d
+			id: "4CF53425F3C07473"
+			y: 0.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "01585A5CB4133F70"
+					item: "mysticalagriculture:supremium_growth_accelerator"
+				}
+				{
+					id: "5E84342969CA2759"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "62A4D67F8DC546DF"
+					type: "item"
+					team_reward: true
+					item: "miniutilities:reversing_hoe"
+				}
+			]
+			dependencies: ["46295F0C78C42BBC"]
+			tasks: [
+				{
+					id: "5DE611D47DB0C0D8"
+					type: "item"
+					item: "mysticalagriculture:master_infusion_crystal"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "59B38A8A040B4647"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:infusion_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: ["将你的精华升级为更高等级。"]
+			id: "31EB44AE86F5AD22"
+			x: -12.0d
+			y: -2.0d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "35C762DC935C22E8"
+					item: "mysticalagradditions:insanium_farmland"
+				}
+				{
+					id: "684831A65675F5EB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "33DD2F0A9B4E247D"
+					item: "mysticalagriculture:fertilized_essence"
+				}
+			]
+			dependencies: ["5D471A1744888913"]
+		}
+		{
+			size: 1.5d
+			description: ["一个更大的手工工作台。"]
+			x: -14.0d
+			id: "5D471A1744888913"
+			y: -2.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "5A33233A20CC51F2"
+					type: "item"
+					team_reward: true
+					item: "avaritia:crystal_matrix_ingot"
+				}
+				{
+					id: "7B0E3E27815433F4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5C7DE8E4707C5F3B"]
+			tasks: [
+				{
+					id: "310C212DCF1FBD03"
+					type: "item"
+					item: "extendedcrafting:advanced_table"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "6BC9096A9F889F46"
+					type: "item"
+					item: "draconicevolution:wyvern_core"
+				}
+			]
+			description: ["进入中级合成组件。"]
+			id: "1B0F04C85A032B67"
+			x: -9.0d
+			y: -6.0d
+			rewards: [
+				{
+					id: "504EACE7D33B1BAC"
+					type: "item"
+					team_reward: true
+					item: "draconicevolution:wyvern_core"
+				}
+			]
+			dependencies: ["484E1D69A63F15D7"]
+		}
+		{
+			tasks: [
+				{
+					id: "28CE57E8D719486C"
+					type: "item"
+					item: "extendedcrafting:elite_table"
+				}
+			]
+			description: ["另一个更大的工作台。结局快到了!"]
+			x: -1.5d
+			id: "46295F0C78C42BBC"
+			y: -2.0d
+			shape: "circle"
+			title: "7x7"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "0A844721B9405069"
+					item: "draconicevolution:awakened_core"
+				}
+				{
+					id: "35AA7C63DFCC88D1"
+					type: "xp"
+					xp: 50
+				}
+			]
+			dependencies: ["2195020C0F40D8E6"]
+		}
+		{
+			size: 1.5d
+			description: ["要使用&b炼金反应堆&r,你需要将你的产物压缩为奇点,然后爆炸以获得产物."]
+			x: 1.0d
+			id: "50804D7BB06B1123"
+			y: -2.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "3B5B13E2DC2F00EE"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:supremium_block"
+				}
+				{
+					id: "5FC47CC09492B662"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "5E4A697078CF0C85"
+					type: "item"
+					team_reward: true
+					item: "avaritia:neutronium_block"
+				}
+			]
+			dependencies: ["46295F0C78C42BBC"]
+			tasks: [
+				{
+					id: "624DC1F22DBC0359"
+					type: "item"
+					item: "extendedcrafting:compressor"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "2C5296AD32C6D6DA"
+					type: "item"
+					item: "draconicevolution:draconic_shield_capacity_module"
+				}
+			]
+			description: ["每次安装都会增加护盾容量。"]
+			id: "31C9870257C34C68"
+			x: -4.0d
+			y: -11.5d
+			rewards: [
+				{
+					id: "7305B79DC0F19752"
+					type: "item"
+					item: "fluxnetworks:gargantuan_flux_storage"
+				}
+				{
+					id: "69667D6A2CDC9D04"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["68F35476AB122FDB"]
+		}
+		{
+			tasks: [
+				{
+					id: "007AE81F12B556FF"
+					type: "item"
+					item: "draconicevolution:draconic_shield_recovery_module"
+				}
+			]
+			description: ["每次安装都会提高护盾的再生率。"]
+			id: "369A85840E0C7F4C"
+			x: -3.0d
+			y: -11.5d
+			rewards: [
+				{
+					id: "166703F2D4889F39"
+					type: "item"
+					item: "draconicevolution:draconic_undying_module"
+				}
+				{
+					id: "1D7968E2DE8C3C95"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["68F35476AB122FDB"]
+		}
+		{
+			tasks: [
+				{
+					id: "7039089E6E1CFD88"
+					type: "item"
+					item: "draconicevolution:draconic_shield_control_module"
+				}
+			]
+			description: ["需要一个&b神龙护盾控制模块&r来进行任何防御."]
+			id: "68F35476AB122FDB"
+			x: -5.0d
+			y: -11.5d
+			rewards: [
+				{
+					id: "0EF1FEB942C195C3"
+					type: "item"
+					item: "draconicevolution:awakened_core"
+				}
+				{
+					id: "720135EF6E77BD58"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5C19DF5E4CB8D057"]
+		}
+		{
+			tasks: [
+				{
+					id: "378FF582E94E5976"
+					type: "item"
+					item: "draconicevolution:draconic_speed_module"
+				}
+			]
+			description: ["让你移动得更快。"]
+			id: "491C909D83E24E28"
+			x: -5.0d
+			y: -9.5d
+			rewards: [
+				{
+					id: "4AFBC4BD34AD705D"
+					type: "item"
+					item: "draconicevolution:module_core"
+					count: 8
+				}
+				{
+					id: "46A02179A105ECA2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5C19DF5E4CB8D057"]
+		}
+		{
+			tasks: [
+				{
+					id: "4A5EA7AC12840DA3"
+					type: "item"
+					item: "draconicevolution:draconic_energy_module"
+				}
+			]
+			description: ["允许更多能量存储。"]
+			id: "0E1109F3AEC12EAF"
+			x: -5.0d
+			y: -10.5d
+			rewards: [
+				{
+					id: "22BADA8475690F98"
+					type: "item"
+					item: "draconicevolution:draconic_io_crystal"
+					count: 2
+				}
+				{
+					id: "55DE7D37A6E2A190"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5C19DF5E4CB8D057"]
+		}
+		{
+			size: 1.5d
+			description: ["最终挑战的制作组件。"]
+			x: -5.0d
+			id: "257C7433ABC63E2D"
+			y: 0.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "43C9AC3730E932A6"
+					item: "ibpdx:infinity_fragment"
+				}
+				{
+					id: "71F8C2A62A7345F2"
+					type: "item"
+					team_reward: true
+					item: "extradisks:1048576k_fluid_storage_disk"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "1C212C9567AFD5F6"
+					item: "refinedstorage:64k_storage_disk"
+				}
+			]
+			dependencies: ["2A68ABA2C8C227E6"]
+			tasks: [
+				{
+					id: "4878C9047779D536"
+					type: "item"
+					item: "ibpdx:infinity_fragment"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "44D1E7D940D89294"
+					type: "item"
+					item: "draconicevolution:chaos_shard"
+				}
+			]
+			description: ["你必须找到并击败一个&6混沌守卫&r才能前进。他们将在末地的X:1000和z:1000间隔内。你可能想要一些DE装备来完成。"]
+			id: "2195020C0F40D8E6"
+			x: -1.5d
+			y: -4.0d
+			title: "完美混沌"
+			rewards: [
+				{
+					id: "424E43C2FA541E63"
+					type: "item"
+					item: {
+						id: "draconicevolution:advanced_dislocator"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "3AE515DB0E03CB7D"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["18C18F2D9D51F9F8"]
+		}
+	]
+}

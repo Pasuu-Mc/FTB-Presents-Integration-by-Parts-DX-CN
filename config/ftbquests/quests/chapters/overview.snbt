@@ -1,0 +1,1027 @@
+{
+	default_hide_dependency_lines: false
+	group: ""
+	id: "74D51D852362B805"
+	filename: "overview"
+	default_quest_shape: ""
+	icon: {
+		id: "botania:cosmetic_questgiver_mark"
+		Count: 1b
+		tag: { }
+	}
+	title: "全貌概览"
+	order_index: 1
+	quests: [
+		{
+			tasks: [
+				{
+					id: "730F56278888D259"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+			]
+			description: [
+				"&b魔力池&r将使用&6魔力发射器&r和&6森林法杖&r以及你选择的魔力之花为你产生魔力."
+				""
+				"打开你的第一种处理金属的方法。"
+			]
+			icon: "botania:mana_pool"
+			id: "74E844EE60DB77B9"
+			x: -12.0d
+			y: 1.0d
+			rewards: [
+				{
+					id: "4E31B7E701C7F9C8"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "2312D6A70D5076D8"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+			]
+			description: ["&b充能台&r将物品带入充能状态,主要聚焦于电力应用,但也用于各种类型的设备升级。"]
+			icon: "powah:energizing_orb"
+			id: "7B5341681B6C6882"
+			x: -8.5d
+			y: 2.5d
+			title: "充能台"
+			rewards: [
+				{
+					id: "1AF06ED3EB0D4ED7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["29ABC4B2DF472B9E"]
+		}
+		{
+			tasks: [
+				{
+					id: "1AF35674CE5F4573"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+			]
+			description: ["&e沉浸工程&r具有许多与其他科技模组功能相似的多方块结构。但是,由于&eFTBIC&r使用自己的电力,如果你只喜欢使用RF能量,你可能想要使用你的&eIE&r机器。你需要一些这些多方块结构,但大多数都是简单的选择，所有胶囊都可以在胶囊公司买到."]
+			icon: "immersiveengineering:heavy_engineering"
+			id: "77EDFCCD349C7F6F"
+			x: -8.5d
+			y: 4.0d
+			rewards: [
+				{
+					id: "16DF68C273B0C045"
+					type: "xp"
+					xp: 20
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "524C267E6232E9AD"
+					item: "immersiveengineering:plate_steel"
+				}
+			]
+			dependencies: ["7B5341681B6C6882"]
+		}
+		{
+			tasks: [
+				{
+					id: "6D97F13CC28C4D82"
+					type: "item"
+					item: "ftbic:machine_block"
+				}
+			]
+			description: ["&eFTBIC&r具有许多通用的处理机器,可以进行矿物处理、材料精炼、替代制作配方以及需要更高级的组件等问题。"]
+			icon: "ftbic:machine_block"
+			id: "526CF3ABCD5EDD89"
+			x: -6.5d
+			y: 2.5d
+			rewards: [
+				{
+					id: "3FE986C9FD06F71F"
+					type: "item"
+					team_reward: true
+					item: "ftbic:machine_block"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "19ED696C4E7792CF"
+					item: "ftbic:lv_cable"
+				}
+			]
+			dependencies: ["7B5341681B6C6882"]
+		}
+		{
+			tasks: [
+				{
+					id: "2A3A82D696EEB479"
+					type: "item"
+					item: "astralsorcery:altar_discovery"
+				}
+			]
+			description: ["你进入&e星辉魔法&r的第一个主要步骤。一些精准的&e植物魔法&r的饰品可以作为奖励."]
+			id: "22DD44F698EFA1CB"
+			x: -8.5d
+			y: -0.5d
+			rewards: [
+				{
+					id: "29E3DE3F8B701384"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["29ABC4B2DF472B9E"]
+		}
+		{
+			tasks: [
+				{
+					id: "28D5C36153BF3105"
+					type: "item"
+					item: "betterendforge:infusion_pedestal"
+				}
+			]
+			description: ["注魔祭坛允许给一个核心物品充能,提供许多额外的物品。虽然它可以制作大量物品,但它也可以作为获得附魔书的额外方法。"]
+			id: "4FC0D1A25318A114"
+			x: -4.5d
+			y: 2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "69F8A048132DF5B3"
+					item: "ftbic:advanced_alloy"
+				}
+				{
+					id: "2962D87E81A4FB55"
+					type: "xp"
+					xp: 30
+				}
+				{
+					id: "1314E703083D18E5"
+					type: "item"
+					team_reward: true
+					item: "minecraft:ender_eye"
+				}
+			]
+			dependencies: ["526CF3ABCD5EDD89"]
+		}
+		{
+			tasks: [
+				{
+					id: "7A65D84FEDF57758"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_controller"
+				}
+			]
+			description: [
+				"&b金属充能器&r可以制作更好的水晶充能金属锭。有了它们,你可以用齿轮箱升级你的多方块机器,也可以建造火箭组件."
+				""
+			]
+			icon: "masterfulmachinery:metal_empowerer_controller"
+			id: "7F0856C80FECBA22"
+			x: -2.5d
+			y: 2.5d
+			title: "金属充能器"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "7031FC1F6F67AD3D"
+					item: "ibpdx:speed_gear"
+				}
+			]
+			dependencies: ["4FC0D1A25318A114"]
+		}
+		{
+			tasks: [
+				{
+					id: "1B5C0DEDE421C2CB"
+					type: "item"
+					item: {
+						id: "boss_tools:rocket_t1"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["前往月球,在那里你可以使用太阳能,与外星人交易特殊物品,最终致力于到更高等级的机器。"]
+			icon: {
+				id: "boss_tools:rocket_t1"
+				Count: 1b
+				tag: { }
+			}
+			id: "784129F2A3F7B244"
+			x: -0.5d
+			y: 2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "643FF7E54208E0A1"
+					item: "boss_tools:compressed_steel"
+				}
+				{
+					id: "4E9E1E9F38AB0338"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 1s
+									id: "boss_tools_giselle_addon:space_breathing"
+								}
+							]
+						}
+					}
+				}
+			]
+			dependencies: ["7F0856C80FECBA22"]
+		}
+		{
+			tasks: [
+				{
+					id: "168502E748ED647C"
+					type: "item"
+					item: "thermal:machine_frame"
+				}
+			]
+			description: ["&e热力&r允许更简单地处理之前的材料,以及比&eIE&r机器更快和小的更优替代物。然而,它们也消耗了正常数量的电力设备。"]
+			icon: "thermal:machine_frame"
+			id: "041984A3E03FFF6C"
+			x: 1.5d
+			y: 2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3B7444DC952803A8"
+					item: "thermal:machine_frame"
+				}
+				{
+					id: "32EBAB5D11599A37"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["784129F2A3F7B244"]
+		}
+		{
+			tasks: [
+				{
+					id: "6DE8024B5B5F52E4"
+					type: "item"
+					item: "industrialforegoing:machine_frame_pity"
+				}
+			]
+			description: ["&e工业先锋&r具有许多机器来帮助自动化。这解锁了它们的第一个套件."]
+			icon: "industrialforegoing:machine_frame_pity"
+			id: "5D899FC6EAC09AEB"
+			x: -6.5d
+			y: 4.0d
+			rewards: [
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "727585BD6C649BC1"
+					item: "immersiveengineering:treated_wood_horizontal"
+				}
+				{
+					id: "43047BE092D984C8"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["77EDFCCD349C7F6F"]
+		}
+		{
+			tasks: [
+				{
+					id: "1EDCA6F4C4E16C99"
+					type: "item"
+					item: "industrialforegoing:machine_frame_simple"
+				}
+			]
+			description: ["这是你第二组&e工业先锋&r的机器."]
+			icon: "industrialforegoing:machine_frame_simple"
+			id: "494461DF4CC248FC"
+			x: -2.5d
+			y: 4.0d
+			rewards: [
+				{
+					id: "6F3B1C7BB06BE656"
+					type: "item"
+					team_reward: true
+					item: "ftbic:mv_solar_panel"
+				}
+			]
+			dependencies: ["7F0856C80FECBA22"]
+		}
+		{
+			tasks: [
+				{
+					id: "4F884543C4868FB7"
+					type: "item"
+					item: "industrialforegoing:machine_frame_advanced"
+				}
+			]
+			description: ["&e工业先锋&r机器的最高级."]
+			icon: "industrialforegoing:machine_frame_advanced"
+			id: "0F5CD55D09556A4A"
+			x: 3.5d
+			y: 4.0d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "7620C6EB93D0130B"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "456B89022820EA66"
+					item: "thermal:signalum_ingot"
+				}
+				{
+					id: "06B427AEDC62D55D"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["27CEF4A50405D540"]
+		}
+		{
+			tasks: [
+				{
+					id: "4662B51DEB14E033"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+			description: ["&e通用机械&r的机器在其以化学为核心的配方中使用许多气体和流体,但也有一个工厂优先处理空间中的多个配方."]
+			icon: "mekanism:steel_casing"
+			id: "27CEF4A50405D540"
+			x: 3.5d
+			y: 2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "0A3FB5959AC10441"
+					item: "mekanism:steel_casing"
+				}
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "1EAAD1DF45E80E7C"
+					item: "mekanism:enriched_redstone"
+				}
+				{
+					id: "6E3667077C323491"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: [
+				"041984A3E03FFF6C"
+				"2F8A088CEED1D78D"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "2FC3F3BBF3E7A7DA"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+			]
+			description: ["一些在&e植物魔法&r中更复杂的花需要在配方中使用&6符文&r.&b符文祭坛&r上制作其他有用的东西."]
+			icon: "botania:runic_altar"
+			id: "581859F226EBA57D"
+			x: -4.5d
+			y: -0.5d
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "36D52E15947B2F4B"
+					item: "botania:livingrock"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "49766786E8EDE080"
+					item: "botania:livingwood"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "102B61A55EBF62ED"
+					item: "botania:mana_powder"
+				}
+				{
+					id: "6361C09F5FA22754"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["7FDBB2DDAAC7B4ED"]
+		}
+		{
+			tasks: [
+				{
+					id: "4A426FDA232B7F42"
+					type: "item"
+					item: "astralsorcery:altar_constellation"
+				}
+			]
+			description: ["&b天辉祭坛&r为你的星能相关任务提供了一个不错的检查点。你可以前往&e植物魔法&r或制作&6彩虹祭坛&r来获得一些奖励。"]
+			icon: "astralsorcery:altar_constellation"
+			id: "7FDBB2DDAAC7B4ED"
+			x: -6.5d
+			y: -0.5d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3D1741CF6035FC40"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+				{
+					id: "43055F59EF6C96FF"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "3CA57146518F1434"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+			dependencies: ["22DD44F698EFA1CB"]
+		}
+		{
+			tasks: [
+				{
+					id: "0EAB20CCC1DB776D"
+					type: "item"
+					item: "waystones:waystone"
+				}
+			]
+			description: ["&b指路石&r比&6天辉星门&r更友好。使用最适合你的情况."]
+			icon: "waystones:waystone"
+			id: "7883A646B2FE3ED6"
+			x: -6.5d
+			y: -2.0d
+			rewards: [
+				{
+					id: "76563A2C1BF00309"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "waystones:warp_stone"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			dependencies: ["7FDBB2DDAAC7B4ED"]
+		}
+		{
+			tasks: [
+				{
+					id: "5A6842FB781FCEE3"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+			]
+			description: [
+				"恭喜你,你已经到达了modpack的大约一半的程度。这也是一个类型的融合点,确保你在科技和魔法两个方面都有所进阶。"
+				""
+				"现在许多有用的自动化策略都可以向您开放,所以请务必查看你的所有选择!"
+			]
+			icon: "botania:alfheim_portal"
+			x: -2.5d
+			id: "2F8A088CEED1D78D"
+			y: -0.5d
+			shape: "circle"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3B5F30D1CB0FD58C"
+					item: "botania:terrasteel_ingot"
+				}
+				{
+					id: "1D51B3E29A7D3F59"
+					type: "xp"
+					xp: 30
+				}
+			]
+			dependencies: [
+				"581859F226EBA57D"
+				"4CDF9FBBD38CE85C"
+				"4FC0D1A25318A114"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "01DCAEB1300073C8"
+					type: "item"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "astralsorcery:mantle"
+									Count: 1b
+									tag: {
+										astralsorcery: {
+											constellationName: "astralsorcery:vicio"
+										}
+										Damage: 0
+									}
+								}
+								{
+									id: "botania:flight_tiara"
+									Count: 1b
+									tag: {
+										variant: 0
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			description: ["想要创造模式飞行吗?现在你都可以使用&b天翼族之冠&r和&b星斗披风&r。但要小心,你需要与御虚座共鸣,并获得相应的能力才能让斗篷发挥作用。"]
+			icon: {
+				id: "botania:flight_tiara"
+				Count: 1b
+				tag: {
+					variant: 0
+				}
+			}
+			id: "798086AD53CCF913"
+			x: -2.5d
+			y: 1.0d
+			title: "飞行"
+			rewards: [
+				{
+					id: "5693D61B80B363B4"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:attuned_celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellationName: "astralsorcery:vicio"
+							}
+						}
+					}
+				}
+				{
+					id: "16A5FCC758EBC6F2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["2F8A088CEED1D78D"]
+		}
+		{
+			tasks: [
+				{
+					id: "561919790DEFAD2C"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+			]
+			description: ["&e血魔法&r可以开启一些强大的自动化科技。你可以运行机器来模拟Boss为你战斗,也可以使用仪式以不同的方式获得资源."]
+			icon: "bloodmagic:altar"
+			id: "1E2DAEBE3A2D4F40"
+			x: -0.5d
+			y: -0.5d
+			title: "血之祭坛"
+			rewards: [
+				{
+					id: "1E0C20FE828CCCEB"
+					type: "xp"
+					xp: 40
+				}
+				{
+					id: "65EDC5D6AC009ACF"
+					type: "item"
+					item: "bloodmagic:bloodlightsigil"
+				}
+			]
+			dependencies: ["2F8A088CEED1D78D"]
+		}
+		{
+			tasks: [
+				{
+					id: "1634425099BD4650"
+					type: "item"
+					item: "ftbic:antimatter"
+				}
+			]
+			description: ["&b反物质&r用于其他世界的制作方法,例如材料复制。"]
+			icon: "ftbic:antimatter"
+			id: "056DB4E5C233C6CD"
+			x: -0.5d
+			y: 4.0d
+			title: "矿石生成"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2293A9C295E9307A"
+					item: "ftbic:antimatter"
+				}
+				{
+					id: "13D421C8EE873E0C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "24FEBFBCFB7EF00F"
+					item: "ftbic:electronic_circuit"
+				}
+			]
+			dependencies: ["784129F2A3F7B244"]
+		}
+		{
+			tasks: [
+				{
+					id: "2C49FEA588C541BB"
+					type: "item"
+					item: "mekanism:antiprotonic_nucleosynthesizer"
+				}
+			]
+			description: [
+				"一个精致的材料升级器,将物品转换为相关但不同的物品。"
+				""
+			]
+			icon: "mekanism:antiprotonic_nucleosynthesizer"
+			id: "072E342F1F9C403D"
+			x: 3.5d
+			y: 1.0d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "2447C208DBA7FD3D"
+					item: "ftbic:antimatter_crystal"
+				}
+				{
+					id: "2E83290DC5E57F96"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["27CEF4A50405D540"]
+		}
+		{
+			tasks: [
+				{
+					id: "331E1DD3E1DDE223"
+					type: "item"
+					item: "draconicevolution:wyvern_core"
+				}
+			]
+			description: ["科技和魔法从这里融合到终点。"]
+			icon: "draconicevolution:wyvern_core"
+			id: "083F27E0E05907B7"
+			x: 3.5d
+			y: -0.5d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "47EC4400F95BE796"
+					item: {
+						id: "draconicevolution:dislocator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "798FA1B0DA27AC8D"
+					item: "draconicevolution:dislocator_pedestal"
+				}
+				{
+					id: "705086A99AB22270"
+					type: "xp"
+					xp: 100
+				}
+			]
+			dependencies: [
+				"35FD8111A74D7478"
+				"072E342F1F9C403D"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "081F274115698EC3"
+					type: "item"
+					item: "ibpdx:bloodshine_ingot"
+				}
+			]
+			description: ["简单来说，这是一个进入游戏后期模组的制作原料的目标。如果你的科技落后了,现在还不用担心。"]
+			icon: "ibpdx:bloodshine_ingot"
+			id: "35FD8111A74D7478"
+			x: 1.5d
+			y: -0.5d
+			rewards: [
+				{
+					id: "2D7CE96EE70B9CB8"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:wither_base"
+				}
+				{
+					id: "511D4840520CDEB5"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:weak_tau"
+				}
+			]
+			dependencies: ["1E2DAEBE3A2D4F40"]
+		}
+		{
+			tasks: [
+				{
+					id: "055AA825AE26EE0C"
+					type: "item"
+					item: "ibpdx:hot_cooking_plate"
+				}
+			]
+			description: ["更好的食物需要更好的烹饪方法。&b烹饪板&r可能会有帮助."]
+			icon: "ibpdx:hot_cooking_plate"
+			id: "4CDF9FBBD38CE85C"
+			x: -4.5d
+			y: 1.0d
+			rewards: [
+				{
+					id: "19290EA8B295219E"
+					type: "item"
+					item: "pamhc2foodcore:chickendinneritem"
+				}
+			]
+			dependencies: ["526CF3ABCD5EDD89"]
+		}
+		{
+			tasks: [
+				{
+					id: "614E621BDB798FA6"
+					type: "item"
+					item: {
+						id: "mysticalagriculture:infusion_crystal"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: ["如果你想增加你缺少的任何资源,现在是时候这样做了。"]
+			icon: {
+				id: "mysticalagriculture:infusion_crystal"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "3E1C3E1AB51599D4"
+			x: 5.5d
+			y: 2.5d
+			rewards: [
+				{
+					id: "2BB63B23B757A51B"
+					type: "item"
+					team_reward: true
+					item: "xreliquary:fertile_lily_pad"
+				}
+				{
+					id: "080CD3302C09E40E"
+					type: "item"
+					item: {
+						id: "bloodmagic:growthsigil"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "416D27E0C1E2B672"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["27CEF4A50405D540"]
+		}
+		{
+			tasks: [
+				{
+					id: "26EC55A91757869D"
+					type: "item"
+					item: "ibpdx:inert_infinity_ingot"
+				}
+			]
+			description: ["结合你获得的所有各种金属!"]
+			icon: "ibpdx:inert_infinity_ingot"
+			id: "32FD469ABA75CD41"
+			x: 5.5d
+			y: 1.0d
+			title: "惰性无尽锭"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "02E9B0521CB8D560"
+					item: "botania:overgrowth_seed"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "5C47994CE30C6D21"
+					item: "mysticalagriculture:enderium_seeds"
+				}
+				{
+					id: "1D415BF03A936BD4"
+					type: "xp"
+					xp: 30
+				}
+			]
+			dependencies: ["3E1C3E1AB51599D4"]
+		}
+		{
+			tasks: [
+				{
+					id: "4D99E2C6908C722B"
+					type: "item"
+					item: "avaritia:infinity_catalyst"
+				}
+			]
+			description: ["你的终极挑战。"]
+			icon: "avaritia:infinity_catalyst"
+			id: "7E44361730C6C289"
+			x: 5.5d
+			y: -0.5d
+			rewards: [
+				{
+					id: "4A178B06373E47B1"
+					type: "item"
+					item: "avaritia:ultimate_stew"
+				}
+				{
+					id: "3D6193D0599611BC"
+					type: "item"
+					item: "avaritia:cosmic_meatballs"
+				}
+				{
+					id: "6498D771258C850E"
+					type: "xp"
+					xp: 100
+				}
+			]
+			dependencies: [
+				"32FD469ABA75CD41"
+				"083F27E0E05907B7"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "64E66D4B6C1FEA4E"
+					type: "item"
+					item: {
+						id: "simplyjetpacks:jetpack_te1"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["当你可能觉得它会像铅气球一样消失时,&b铅石喷气背包&r会让你在短时间内升空."]
+			icon: {
+				id: "simplyjetpacks:jetpack_te1"
+				Count: 1b
+				tag: { }
+			}
+			id: "28296ACC5433AEC3"
+			x: -6.5d
+			y: 1.0d
+			title: "喷气背包"
+			rewards: [
+				{
+					id: "088FE4187396F9E3"
+					type: "item"
+					team_reward: true
+					item: "mekanism:basic_energy_cube"
+				}
+			]
+			dependencies: ["526CF3ABCD5EDD89"]
+		}
+		{
+			tasks: [
+				{
+					id: "7BC1D7990F746907"
+					type: "item"
+					item: "botania:manasteel_ingot"
+				}
+			]
+			description: [
+				"你现在可以制作&b魔力钢锭&r了。这标志着第一章的结束。"
+				""
+				"从这里开始,有两条路线可以走。你需要同时进行,但从你更感兴趣的开始。"
+			]
+			id: "29ABC4B2DF472B9E"
+			x: -10.0d
+			y: 1.0d
+			rewards: [
+				{
+					id: "344420420AB9CF78"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["74E844EE60DB77B9"]
+		}
+		{
+			tasks: [
+				{
+					id: "06BCD65E74F3B008"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+			]
+			description: ["&e精致存储&r是你从一个方块访问整个存储系统的一站式商店."]
+			id: "09C0F5CE3E9DA0B6"
+			x: 1.5d
+			y: 4.0d
+			rewards: [
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "4D884AB0E0230F28"
+					item: "refinedstorage:cable"
+				}
+				{
+					id: "4A9CABBBDBF9BE91"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:silicon_seeds"
+				}
+			]
+			dependencies: ["041984A3E03FFF6C"]
+		}
+	]
+}

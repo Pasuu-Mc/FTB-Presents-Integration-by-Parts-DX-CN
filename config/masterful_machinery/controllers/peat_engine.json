@@ -1,0 +1,24 @@
+{
+  "controllerId": "peat_engine",
+  "name": "\u6ce5\u70ad\u5f15\u64ce",
+  "textureOverride": "immersiveengineering:block/metal/sheetmetal_copper",
+  "ports": [
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 100000
+      }
+    },
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 2,
+        "columns": 2
+      }
+    }
+  ]
+}

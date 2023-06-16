@@ -1,0 +1,1264 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "508F09DF9667FD2D"
+	filename: "floral_fun_fantasies"
+	default_quest_shape: ""
+	icon: "botania:bellethorn"
+	title: "花卉奇趣"
+	order_index: 5
+	quests: [
+		{
+			size: 1.5d
+			description: ["&b符文祭坛&r将配方放在祭坛上时会从魔力中获取物品. 右键单击祭坛上的物品. 接收到足够数量的魔力时将活石丢在顶部,并用&6森林法杖&r右键单击."]
+			id: "0924AA1F56C6E147"
+			x: -9.5d
+			y: -5.0d
+			shape: "pentagon"
+			title: "这是符文中的所有"
+			rewards: [
+				{
+					type: "item"
+					count: 128
+					team_reward: true
+					id: "30554B4096960E6A"
+					item: "botania:livingrock"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "70E6F6BACE0BF663"
+					item: "botania:mana_powder"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "216C59738FF59BD4"
+					item: "mysticalagriculture:manasteel_seeds"
+				}
+			]
+			dependencies: ["6D2932884A981777"]
+			tasks: [
+				{
+					id: "3A83912A0C0B47EA"
+					type: "item"
+					item: "botania:runic_altar"
+				}
+			]
+		}
+		{
+			size: 1.5d
+			description: [
+				"&b精灵传送门&r可以使用&6植物魔法辞典&r中显示的图纸来制作.当池子中有魔力时，在核心上使用&6森林法杖&r激活它.没有可前往的维度."
+				""
+				"或者有?"
+			]
+			id: "77DFF75DE06581C8"
+			icon: "botania:alfheim_portal"
+			x: -2.5d
+			y: 0.0d
+			shape: "pentagon"
+			title: "无法使用的传送门"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "43FB8A3905220BC7"
+					item: "botania:manasteel_ingot"
+				}
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "308F2D3464D3E523"
+					item: "botania:elf_glass"
+				}
+			]
+			dependencies: ["43762F0C3DEF95F3"]
+			tasks: [
+				{
+					id: "3657BD566ED99187"
+					type: "item"
+					icon: "botania:alfheim_portal"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "42E4FE995BCAC80A"
+					type: "item"
+					item: "botania:natura_pylon"
+					count: 2L
+				}
+				{
+					id: "6AC0184511E9B998"
+					type: "item"
+					item: "botania:glimmering_livingwood"
+					count: 3L
+				}
+				{
+					id: "72F32948DED9F5D8"
+					type: "item"
+					item: "botania:mana_pool"
+					count: 2L
+				}
+				{
+					id: "393CC0AA3D092C79"
+					type: "item"
+					item: "botania:livingwood"
+					count: 8L
+				}
+			]
+		}
+		{
+			size: 1.5d
+			description: ["&b泰拉凝聚板&r放置在由5个活石和4个青金石块构成的3x3水平格子样板上时,可以生产&6泰拉钢&r. 对于每个泰拉钢锭,你都需要1个魔力钢、1个魔力珍珠和1个魔力钻石,以及半个魔力池."]
+			id: "72FB35594552F252"
+			icon: "botania:terra_plate"
+			x: -9.5d
+			y: 0.0d
+			shape: "pentagon"
+			title: "泰拉时间"
+			rewards: [
+				{
+					id: "37CEC543D7DF946C"
+					type: "xp_levels"
+					xp_levels: 10
+				}
+				{
+					id: "757873B24023BFAA"
+					type: "item"
+					team_reward: true
+					item: "botania:mana_pearl"
+				}
+				{
+					id: "2B1A08FB5C0B09F1"
+					type: "item"
+					team_reward: true
+					item: "botania:mana_diamond"
+				}
+				{
+					id: "798EAEDD8C17F94C"
+					type: "item"
+					team_reward: true
+					item: "botania:manasteel_ingot"
+				}
+				{
+					id: "26C4F125435EAA1F"
+					type: "item"
+					team_reward: true
+					item: "botania:spark_upgrade_dominant"
+				}
+			]
+			dependencies: [
+				"31AD0991A32EBC56"
+				"0527A68925807071"
+				"097AA983BF55676D"
+				"31166BDC6C51B266"
+				"1A363C548CF2BD06"
+				"7EA8FFF0B929E19C"
+			]
+			tasks: [
+				{
+					id: "16E2C175C18ACAB0"
+					type: "item"
+					item: "botania:terra_plate"
+				}
+				{
+					id: "7377780B08C7CF45"
+					type: "item"
+					item: "minecraft:lapis_block"
+					count: 4L
+				}
+				{
+					id: "3E78285A52BED653"
+					type: "item"
+					item: "botania:livingrock"
+					count: 5L
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "7442A0169B7A969B"
+					type: "item"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			description: ["制作你的第一个&b泰拉钢锭&r."]
+			id: "43762F0C3DEF95F3"
+			x: -4.5d
+			y: 0.0d
+			title: "给聚光灯充能"
+			rewards: [
+				{
+					type: "item"
+					count: 3
+					team_reward: true
+					id: "78F91E63587D670A"
+					item: "botania:terrasteel_ingot"
+				}
+			]
+			dependencies: ["72FB35594552F252"]
+		}
+		{
+			tasks: [
+				{
+					id: "590F65BF7616BBBE"
+					type: "item"
+					item: "botania:gourmaryllis"
+				}
+			]
+			description: ["&b彼方兰&r从可消耗的物品中产生魔力。更多的饱和度会让它持续更久,而饥饿恢复决定它每个tick的产能。"]
+			id: "0F94657E916D07FC"
+			x: -11.0d
+			y: -6.0d
+			title: "美味的魔力"
+			rewards: [
+				{
+					id: "4B56F75A0A3446E7"
+					type: "item"
+					item: "pamhc2foodcore:chickenpotpieitem"
+					count: 4
+				}
+			]
+			dependencies: ["581859F226EBA57D"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [
+				{
+					id: "442A949BB9FA5DD2"
+					type: "item"
+					item: "botania:rune_earth"
+					count: 2L
+				}
+			]
+			description: ["制作一些&b土之符文&r."]
+			id: "0527A68925807071"
+			x: -10.5d
+			y: -2.0d
+			title: "土"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "11705460B6988D11"
+					item: "botania:rune_earth"
+				}
+			]
+			dependencies: ["0924AA1F56C6E147"]
+		}
+		{
+			tasks: [
+				{
+					id: "1624FEF3E42997C3"
+					type: "item"
+					item: "botania:rune_air"
+					count: 2L
+				}
+			]
+			description: ["制作一些&b风之符文&r."]
+			id: "31166BDC6C51B266"
+			x: -7.5d
+			y: -2.0d
+			title: "空气"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "4DED2CBCD7463F41"
+					item: "botania:rune_air"
+				}
+			]
+			dependencies: ["0924AA1F56C6E147"]
+		}
+		{
+			tasks: [
+				{
+					id: "1D94648775CB0884"
+					type: "item"
+					item: "botania:rune_fire"
+					count: 2L
+				}
+			]
+			description: ["制作一些&b火之符咒&r."]
+			id: "097AA983BF55676D"
+			x: -8.5d
+			y: -2.0d
+			title: "火"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "475D549819E22F15"
+					item: "botania:rune_fire"
+				}
+			]
+			dependencies: ["0924AA1F56C6E147"]
+		}
+		{
+			tasks: [
+				{
+					id: "215B906891626938"
+					type: "item"
+					item: "botania:rune_water"
+					count: 2L
+				}
+			]
+			description: ["制作一些&b水之符文&r."]
+			id: "31AD0991A32EBC56"
+			x: -11.5d
+			y: -2.0d
+			title: "水"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "35E67AFA12C10B91"
+					item: "botania:rune_water"
+				}
+			]
+			dependencies: ["0924AA1F56C6E147"]
+		}
+		{
+			tasks: [
+				{
+					id: "0E02F893CB5B8FF2"
+					type: "item"
+					item: "botania:elementium_ingot"
+					count: 4L
+				}
+			]
+			description: ["将2个魔力钢扔进传送门,以获得1个&b源质钢&r锭."]
+			id: "6A86B2D33FD63FEB"
+			x: -4.5d
+			y: 2.0d
+			title: "它是基础的"
+			rewards: [
+				{
+					id: "537ED8953DF54F7C"
+					type: "item"
+					item: {
+						id: "botania:elementium_axe"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			dependencies: ["77DFF75DE06581C8"]
+		}
+		{
+			tasks: [
+				{
+					id: "38AD3D247F2090CB"
+					type: "item"
+					item: "botania:elven_spreader"
+				}
+			]
+			description: ["&b精灵魔力发射器&r是一个升级的魔力发射器,每个脉冲可以发送更多的魔力."]
+			id: "61389DDBC0EB5810"
+			x: -4.0d
+			y: 4.0d
+			title: "更好的发射器"
+			rewards: [
+				{
+					id: "20C14D5D361E6277"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "botania:lens_power"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "36272BFB7B4A5CB6"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "botania:lens_speed"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			dependencies: ["6A86B2D33FD63FEB"]
+		}
+		{
+			tasks: [
+				{
+					id: "0B0C4F5F3AE8929B"
+					type: "item"
+					item: {
+						id: "botania:super_travel_belt"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["&b环游者腰带&r允许步行辅助,以及更快的移动速度和更高的跳跃高度."]
+			id: "26C32F750AC5D4AE"
+			x: -5.0d
+			y: 4.0d
+			title: "我更喜欢跑步"
+			rewards: [
+				{
+					id: "7FB1940A47579BDD"
+					type: "item"
+					item: {
+						id: "botania:brew_vial"
+						Count: 1b
+						tag: {
+							brewKey: "botania:speed"
+						}
+					}
+				}
+				{
+					id: "367FBB46E5308BD5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["6A86B2D33FD63FEB"]
+		}
+		{
+			tasks: [
+				{
+					id: "16B31B453F80AE19"
+					type: "item"
+					item: "botania:orechid"
+				}
+			]
+			description: ["&b凝矿兰&r将矿石的特定列表放入原版石头中。它不能让你获得太多稀有和不同的矿石,但它可以让你获得主世界中发现的大多数物品。该魔法相当于&6矿工的透镜&r."]
+			id: "10C2639C8D1482AC"
+			x: 1.0d
+			y: 0.0d
+			title: "矿石制造者花"
+			rewards: [
+				{
+					id: "0B69B733AA4530FE"
+					type: "item"
+					item: "minecraft:stone"
+					count: 128
+				}
+				{
+					id: "3D43C5952B206C57"
+					type: "item"
+					item: "botania:white_floating_flower"
+				}
+				{
+					id: "2AB450A7F9B35D69"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"0FFF395FFEB4BA29"
+				"2DAF259CDEC7BEB6"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "28BA9949B0787BDB"
+					type: "item"
+					item: "botania:loonium"
+				}
+			]
+			description: ["&b聚宝花&r在提供荒谬(miù)数量的魔力时会产生地牢战利品."]
+			id: "1EDB669CB0310EBE"
+			x: -1.0d
+			y: 4.0d
+			title: "更甜的战利品"
+			rewards: [
+				{
+					id: "05DB469E3B0F2C8F"
+					type: "item"
+					team_reward: true
+					item: "botania:overgrowth_seed"
+				}
+				{
+					id: "3EE356ECA2FF2CEC"
+					type: "item"
+					team_reward: true
+					item: "darkutils:ender_hopper"
+				}
+			]
+			dependencies: ["77C8244094E22EE8"]
+		}
+		{
+			tasks: [
+				{
+					id: "2AE1B5582F60B2B3"
+					type: "item"
+					item: "botania:pixie_dust"
+					count: 4L
+				}
+			]
+			description: ["将魔力珍珠扔进传送门来获得&b精灵尘&r."]
+			id: "77C8244094E22EE8"
+			x: -0.5d
+			y: 2.0d
+			title: "精灵的力量"
+			rewards: [
+				{
+					id: "59EE494177269515"
+					type: "item"
+					team_reward: false
+					item: "botania:auto_crafting_halo"
+				}
+			]
+			dependencies: ["77DFF75DE06581C8"]
+		}
+		{
+			tasks: [
+				{
+					id: "09E2F22ACE0CDFA7"
+					type: "item"
+					item: "botania:kekimurus"
+				}
+			]
+			description: ["&b贪食花&r是游戏中最产能的花之一。它吃放置在世界上的蛋糕。所有蛋糕都可以工作,包括潘马斯,不仅仅是原版。"]
+			id: "16ADF4B9A7A43360"
+			x: 0.0d
+			y: 4.0d
+			title: "K e k"
+			rewards: [
+				{
+					id: "0C87D1B52F453121"
+					type: "item"
+					item: "minecraft:cake"
+					count: 4
+				}
+				{
+					id: "0CEEA1B2FE06D96C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["77C8244094E22EE8"]
+		}
+		{
+			tasks: [
+				{
+					id: "3D28DB974A12A793"
+					type: "item"
+					item: "botania:rune_mana"
+				}
+			]
+			description: ["制作一个&b魔力符文&r."]
+			id: "1A363C548CF2BD06"
+			x: -9.5d
+			y: -2.0d
+			title: "魔力"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "1A33D85F3C0A47DF"
+					item: "botania:rune_mana"
+				}
+			]
+			dependencies: ["0924AA1F56C6E147"]
+		}
+		{
+			tasks: [
+				{
+					id: "7DE7C4F9D0DECF9F"
+					type: "item"
+					item: "botania:gaia_ingot"
+				}
+			]
+			description: ["用盖亚之魂来代替泰拉钢锭,与盖亚守护者II战斗."]
+			id: "237D1AA3FF2CD5D2"
+			x: -2.5d
+			y: -2.0d
+			title: "第二轮"
+			rewards: [
+				{
+					id: "5C749A5C86403CFB"
+					type: "item"
+					item: "mysticalagradditions:insanium_apple"
+				}
+				{
+					id: "72752DFBC1037753"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5C7DE8E4707C5F3B"]
+		}
+		{
+			tasks: [
+				{
+					id: "08E224E5B83C91DE"
+					type: "item"
+					item: "botania:life_essence"
+					count: 4L
+				}
+			]
+			description: ["它意味着神。通过进行仪式来与&b盖亚守护者&r战斗并获得一些&b盖亚之魂&r."]
+			id: "5C7DE8E4707C5F3B"
+			x: -4.5d
+			y: -2.0d
+			title: "卡米"
+			rewards: [
+				{
+					id: "3A232831332F5DDF"
+					type: "item"
+					item: {
+						id: "botania:king_key"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			dependencies: ["43762F0C3DEF95F3"]
+		}
+		{
+			tasks: [
+				{
+					id: "43FAB4742206827C"
+					type: "item"
+					item: {
+						id: "botania:flight_tiara"
+						Count: 1b
+						tag: {
+							variant: 0
+						}
+					}
+				}
+			]
+			description: ["&b天翼族之冠&r是在魔法世界的一种创造飞行形式。它需要魔力才能运行。你还需要前往&6末地&r才能获得."]
+			id: "3A1271C9A81B9414"
+			x: -0.5d
+			y: -2.0d
+			title: "前往天空"
+			rewards: [
+				{
+					id: "092C78707931FB8F"
+					type: "item"
+					item: {
+						id: "xreliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "minecraft:phantom"
+						}
+					}
+				}
+			]
+			dependencies: ["5C7DE8E4707C5F3B"]
+		}
+		{
+			tasks: [
+				{
+					id: "06D6CDFB94E27D25"
+					type: "item"
+					item: "botania:gaia_spreader"
+				}
+			]
+			description: ["盖亚魔力发射器允许除使用火花外的最大魔力传输。"]
+			id: "33166844AEFBC9AD"
+			x: -3.0d
+			y: 4.0d
+			title: "终极发射器"
+			rewards: [
+				{
+					id: "65EBD55A59C1B693"
+					type: "item"
+					item: "botania:gaia_head"
+				}
+			]
+			dependencies: [
+				"3A2048D84E9C6EE4"
+				"61389DDBC0EB5810"
+			]
+			hide_dependency_lines: false
+		}
+		{
+			tasks: [
+				{
+					id: "6162C686369EC0F1"
+					type: "item"
+					item: "botania:dragonstone"
+					count: 4L
+				}
+			]
+			description: ["将魔力钻石扔进传送门并获得&b龙石&r."]
+			id: "3A2048D84E9C6EE4"
+			x: -2.5d
+			y: 2.0d
+			title: "龙石"
+			rewards: [
+				{
+					id: "1A0B71A702C4C39B"
+					type: "item"
+					team_reward: true
+					item: "botania:dragonstone_block"
+				}
+			]
+			dependencies: ["77DFF75DE06581C8"]
+		}
+		{
+			tasks: [
+				{
+					id: "1DE8D91B8AF38410"
+					type: "item"
+					item: "botania:corporea_index"
+				}
+				{
+					id: "36D2D40DCEA7EA11"
+					type: "item"
+					item: "botania:corporea_spark_master"
+				}
+				{
+					id: "2FCC083D7B53DC6A"
+					type: "item"
+					item: "botania:corporea_spark"
+				}
+			]
+			description: ["多媒体网络允许在您不想触摸精致存储时使用存储系统。要使用它,只需将多媒体索引放置在多媒体索引上并放置一个主多媒体火花。然后将多媒体火花放在您想要连接的箱子上。您可以通过在聊天栏中输入来请求物品。"]
+			icon: "botania:corporea_index"
+			id: "66C697B6C478D30B"
+			x: -2.0d
+			y: 4.0d
+			title: "库存管理,魔法版"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "1C44E53C421645ED"
+					item: "botania:corporea_spark"
+				}
+				{
+					id: "37104217CF06B7EC"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["3A2048D84E9C6EE4"]
+		}
+		{
+			size: 1.5d
+			description: ["欢迎来到&a融合!"]
+			id: "4A178AD6FECE3181"
+			x: -2.5d
+			y: -5.5d
+			shape: "octagon"
+			title: "植物再混合"
+			rewards: [
+				{
+					type: "item"
+					count: 200
+					team_reward: true
+					id: "4B9B9DFDDC04347B"
+					item: "botania:blacker_lotus"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "403211C2B7CBFC52"
+					item: {
+						id: "botania:mana_tablet"
+						Count: 1b
+						tag: {
+							mana: 500000
+						}
+					}
+				}
+				{
+					id: "4214F41C73250850"
+					type: "item"
+					item: {
+						id: "xreliquary:mob_charm"
+						Count: 1b
+						tag: {
+							Damage: 0
+							entity: "botania:doppleganger"
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "1447F9778C13CBFF"
+					item: "mysticalagriculture:terrasteel_seeds"
+				}
+			]
+			dependencies: ["0924AA1F56C6E147"]
+			hide_dependency_lines: true
+			tasks: [
+				{
+					id: "2882171BFC5D6C6E"
+					type: "item"
+					item: "ibpdx:wispy_petal"
+					count: 400L
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "7AFA86207D0C4B7A"
+					type: "item"
+					item: "botania:heisei_dream"
+				}
+			]
+			description: ["这朵花让怪物相互攻击。一些物品可以通过怪物相互攻击获得!"]
+			id: "3FF61F2EEAEC8EC1"
+			x: 4.5d
+			y: 1.0d
+			title: "笼子匹配"
+			rewards: [
+				{
+					id: "265D59C5103D0538"
+					type: "item"
+					team_reward: true
+					item: "botania:rune_envy"
+				}
+			]
+			dependencies: ["3AADBF6D08AFE1FD"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "523ACDCC38270F4B"
+					type: "item"
+					item: "botania:tigerseye"
+				}
+			]
+			description: ["这朵花可以防止爬行者爆炸。"]
+			id: "02D003060175A656"
+			x: 4.5d
+			y: -1.0d
+			title: "我现在是深暗的圣人,进入我的眼睛"
+			rewards: [
+				{
+					id: "4396E6E768564758"
+					type: "item"
+					team_reward: true
+					item: "botania:rune_autumn"
+				}
+			]
+			dependencies: ["3AADBF6D08AFE1FD"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "35BD4F6C847BE21E"
+					type: "item"
+					item: "botania:medumone"
+				}
+			]
+			description: ["这朵花阻止怪物移动。"]
+			id: "088B884206F4FEB4"
+			x: 4.5d
+			y: -2.5d
+			title: "石头世界"
+			rewards: [
+				{
+					id: "1B209ADFE63535CD"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "3BC4EB6CF09A8374"
+					type: "item"
+					team_reward: true
+					item: "botania:rune_autumn"
+				}
+			]
+			dependencies: ["3AADBF6D08AFE1FD"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "33FDE28B66EF2BB8"
+					type: "item"
+					item: "botania:vinculotus"
+					weak_nbt_match: true
+				}
+			]
+			description: ["这朵花阻止末影人传送."]
+			id: "5F93DB63578BD6C1"
+			x: 4.5d
+			y: 2.5d
+			title: "闪闪发光,你不会怀念它"
+			dependencies: ["3AADBF6D08AFE1FD"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "3CA01549EDA988AA"
+					type: "checkmark"
+				}
+			]
+			description: ["如果你计划让怪物自动化而不会杀死他们,这些花可能会很有帮助。"]
+			id: "3AADBF6D08AFE1FD"
+			icon: "minecraft:zombie_spawn_egg"
+			x: 3.0d
+			y: 0.0d
+			title: "怪物管理器"
+			rewards: [
+				{
+					id: "4D03ABB5644807F8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["0924AA1F56C6E147"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [
+				{
+					id: "3255D3F60B6B6945"
+					type: "item"
+					item: "mythicbotany:kvasir_mead"
+				}
+			]
+			description: [
+				"通过饮用&b克瓦希尔之蜜酒&r,你可以使用你的&6艾尔夫海姆之门&r作为前往维度的真正传送门!"
+				""
+				"在这个维度中值得注意的东西:这是你只能在RF和魔力之间转化的地方,并且在这里也会产生大量的幻术师和女巫。"
+			]
+			id: "2DAF259CDEC7BEB6"
+			x: -0.5d
+			y: 0.0d
+			title: "不再无法使用!"
+			rewards: [
+				{
+					id: "35A60069731EB379"
+					type: "item"
+					item: {
+						id: "aiotbotania:terra_aiot"
+						Count: 1b
+						tag: {
+							RepairCost: 127
+							Enchantments: [
+								{
+									lvl: 3s
+									id: "minecraft:unbreaking"
+								}
+								{
+									lvl: 5s
+									id: "minecraft:efficiency"
+								}
+								{
+									lvl: 3s
+									id: "minecraft:fortune"
+								}
+								{
+									lvl: 3s
+									id: "cyclic:magnet"
+								}
+								{
+									lvl: 3s
+									id: "cyclic:experience_boost"
+								}
+								{
+									lvl: 5s
+									id: "minecraft:sharpness"
+								}
+								{
+									lvl: 3s
+									id: "cyclic:beheading"
+								}
+							]
+							Damage: 0
+							display: {
+								Name: "{\"text\":\"Excalibur's Demise\"}"
+							}
+							mana: 9999
+						}
+					}
+				}
+			]
+			dependencies: [
+				"230EDDA8E23B1A15"
+				"77DFF75DE06581C8"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "054F68F59E5B4008"
+					type: "item"
+					item: "botania:mana_fluxfield"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 12L
+					consume_items: true
+					id: "3F77CB7FEC2022F8"
+					item: "botania:livingrock_bricks_wall"
+				}
+				{
+					id: "08D0C995EBA57740"
+					type: "item"
+					item: "masterfulmachinery:fluxial_converter_controller"
+					consume_items: true
+				}
+				{
+					id: "2B06AE5C8D048F82"
+					type: "item"
+					item: "masterfulmachinery:fluxial_converter_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					id: "1A4C5C730640912B"
+					type: "item"
+					item: "masterfulmachinery:fluxial_converter_mana_port_botania_mana_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 6L
+					consume_items: true
+					id: "6EFF5885C93C2F43"
+					item: "botania:shimmerrock"
+				}
+				{
+					id: "5DFCB1B27BAA05E0"
+					type: "item"
+					item: "botania:diluted_pool"
+					consume_items: true
+				}
+			]
+			description: ["&6通量转换器&r可以将能量转化为魔力,但只能在精灵维度中制作."]
+			icon: "masterfulmachinery:fluxial_converter_controller"
+			id: "4847CD84B99DBC7E"
+			x: 0.5d
+			y: 1.0d
+			title: "将能量转化为魔力和回到能量"
+			rewards: [
+				{
+					id: "187E768BF2F1A4EA"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "botania:lens_power"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "377958BA2164DD62"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "botania:lens_speed"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "72528942B7796050"
+					type: "item"
+					team_reward: true
+					item: "botania:fabulous_pool"
+				}
+				{
+					id: "1EABDF1035D59F12"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "614080A417BAC3F2"
+					type: "item"
+					team_reward: true
+					item: "botania:diluted_pool"
+				}
+				{
+					id: "64DC6FF2B7D27EB2"
+					type: "item"
+					team_reward: true
+					item: "botania:mana_fluxfield"
+				}
+				{
+					id: "20C46F8CE9459737"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "fluxial_converter"
+							structureName: "config/capsule/rewards/fluxial_converter"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 7
+						}
+					}
+				}
+			]
+			dependencies: ["2DAF259CDEC7BEB6"]
+		}
+		{
+			tasks: [
+				{
+					id: "433799FC00B4197B"
+					type: "item"
+					item: "astralsorcery:fountain_prime_liquid"
+				}
+			]
+			description: ["&b纳耳狂曼引口&r可以找到需要使用的流体矿床!它可以找到石油、元素流体,以及不同数量的更多."]
+			id: "40271D74B3176E98"
+			x: 0.5d
+			y: -1.0d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "5157EC2B46FBED88"
+					item: "mysticalagriculture:enderman_seeds"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "119775859ED33F96"
+					item: "astralsorcery:shifting_star"
+				}
+			]
+			dependencies: ["2DAF259CDEC7BEB6"]
+		}
+		{
+			tasks: [
+				{
+					id: "1B235292D4D72487"
+					type: "item"
+					item: "botania:rannuncarpus"
+				}
+			]
+			description: [
+				"手掌花会放置方块,只要花朵的方块与它想要放置的方块相匹配。"
+				""
+				"例如,如果你把它放在草方块上,然后把圆石扔在上面,它就会把圆石放在草方块上,而不是放在泥土上。"
+				""
+				"如果您想要一个非土壤过滤器,请使用浮空手掌花作为替代。"
+			]
+			id: "2C9CBE34B26E63C1"
+			x: -8.0d
+			y: -6.0d
+			title: "手持的植物"
+			rewards: [
+				{
+					id: "25678136751F2CE3"
+					type: "item"
+					team_reward: true
+					item: "botania:open_crate"
+				}
+				{
+					id: "7D3BA71F72DBA561"
+					type: "item"
+					team_reward: true
+					item: "botania:floating_hopperhock"
+				}
+			]
+			dependencies: ["0924AA1F56C6E147"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [
+				{
+					id: "149860AA1B6D14A5"
+					type: "item"
+					item: "masterfulmachinery:mana_death_reactor_controller"
+				}
+				{
+					id: "19B457A5EF6EBD90"
+					type: "item"
+					item: "ibpdx:blockcasing_terrasteel"
+					count: 3L
+				}
+				{
+					id: "03157069627B450A"
+					type: "item"
+					item: "botania:framed_livingwood"
+					count: 7L
+				}
+				{
+					id: "5A95023C7455AC9B"
+					type: "item"
+					item: "masterfulmachinery:mana_death_reactor_fluid_port_fluids_input"
+					count: 3L
+				}
+				{
+					id: "5353DC7968746DF5"
+					type: "item"
+					item: "masterfulmachinery:mana_death_reactor_mana_port_botania_mana_output"
+				}
+				{
+					id: "0A885B49097E20DB"
+					type: "item"
+					item: "botania:mana_pylon"
+				}
+			]
+			description: [
+				"&b魔力死亡发电机&r会消耗各种生物的生命能量并将其转化为魔力。它可以消耗两组可能的原料。"
+				""
+				"它可以从&6血、奶和液态末影&r或&6烈焰血、霜雪血和液态末影中产生魔力.&r后一种配方的产能比前一种高两倍."
+			]
+			icon: "masterfulmachinery:mana_death_reactor_controller"
+			id: "7E19E6EFCD52D022"
+			x: -6.0d
+			y: -2.0d
+			rewards: [
+				{
+					id: "1EFBB7E9F0DA01DD"
+					type: "item"
+					team_reward: true
+					item: "botania:gaia_spreader"
+				}
+				{
+					id: "193A51FE8D229E94"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["43762F0C3DEF95F3"]
+		}
+		{
+			tasks: [
+				{
+					id: "6EB2C2E6C5E4CF47"
+					type: "item"
+					item: "betterendforge:infusion_pedestal"
+				}
+			]
+			description: ["这是科技方面的进度检查。有关更多信息，请参阅“返回”中的任务。"]
+			x: -9.5d
+			id: "7EA8FFF0B929E19C"
+			disable_toast: true
+			y: 2.0d
+			dependencies: ["1AEE7BF9E10A3801"]
+		}
+	]
+}

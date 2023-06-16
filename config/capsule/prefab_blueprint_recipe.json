@@ -1,0 +1,43 @@
+{
+  "__comment": "配方模板用于生成所有预制配方。您可以更改成分并移动 1、2 和 3。如果需要某个模组并且可能缺失，请将模板的 NBT 文件放在以所需模组命名的文件夹下，如果缺少该模组，则不会加载该配方。",
+  "type": "capsule:blueprint_prefabs",
+  "conditions": [],
+  "result": {
+    "item": "capsule:capsule",
+    "nbt": {
+      "state": 3,
+      "display": {
+        "color": 2963801
+      },
+      "sourceInventory": {},
+      "structureName": "",
+      "label": "",
+      "size": 1
+    }
+  },
+  "pattern": [
+    "2b3",
+    "l1l",
+    " p "
+  ],
+  "key": {
+    "b": {
+      "item": "minecraft:stone_button"
+    },
+    "p": {
+      "item": "minecraft:paper"
+    },
+    "l": {
+      "item": "minecraft:blue_dye"
+    },
+    "1": {
+      "item": "minecraft:air"
+    },
+    "2": {
+      "item": "minecraft:air"
+    },
+    "3": {
+      "item": "minecraft:air"
+    }
+  }
+}

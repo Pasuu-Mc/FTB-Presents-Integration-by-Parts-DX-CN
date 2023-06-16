@@ -1,0 +1,861 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "5BB39AC1DF8838F4"
+	filename: "ore_what"
+	default_quest_shape: ""
+	icon: "minecraft:iron_ore"
+	title: "矿石何在?"
+	order_index: 1
+	quests: [
+		{
+			size: 1.25d
+			description: ["标准矿石包括铁、金、铜、锡、铅和银"]
+			id: "0B306C10DC71B09B"
+			icon: "minecraft:iron_ore"
+			x: -4.5d
+			y: -4.5d
+			shape: "pentagon"
+			dependencies: ["77C545CAAE32985F"]
+			tasks: [
+				{
+					id: "5B6046D9437007F3"
+					type: "checkmark"
+					title: "标准矿石"
+				}
+			]
+		}
+		{
+			size: 1.25d
+			description: ["高能量矿石包括镍、铝、铀、锇、戴斯和硅。"]
+			id: "3E78259442959A12"
+			icon: "immersiveengineering:ore_aluminum"
+			x: 0.0d
+			y: -4.5d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "68691ADA9E1796FD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["77C545CAAE32985F"]
+			tasks: [
+				{
+					id: "545ED4EF6E609D62"
+					type: "checkmark"
+					title: "高能量"
+				}
+			]
+		}
+		{
+			size: 1.25d
+			description: ["任何不能将锭作为最终产物的东西。 红石,钻石等等。"]
+			id: "63C6D31757663744"
+			icon: "minecraft:redstone_ore"
+			x: 4.5d
+			y: -4.5d
+			shape: "pentagon"
+			dependencies: ["77C545CAAE32985F"]
+			tasks: [
+				{
+					id: "3502BB9F8170D77F"
+					type: "checkmark"
+					title: "宝石和尘土"
+				}
+			]
+		}
+		{
+			size: 1.5d
+			description: [
+				"这个包中的矿石按下三个处理线中的一条。每个处理线都有一定的魔法模组,但主要聚焦于科技。"
+				""
+				"水平线中的每一种产物都可以熔炼成锭,或者通过其他方法转换成。"
+				""
+				"基本来说,每个“线”都会到达链条的“结束”。例如,默认矿石从粉碎开始,然后洗涤,然后用液态星光搅拌。"
+			]
+			icon: "refinedstorage:basic_processor"
+			x: 0.0d
+			id: "77C545CAAE32985F"
+			y: -7.0d
+			shape: "gear"
+			rewards: [
+				{
+					id: "053DE979239BC450"
+					type: "xp"
+					xp: 5
+				}
+			]
+			tasks: [
+				{
+					id: "76058A2123D8E75B"
+					type: "checkmark"
+					title: "处理电源"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "612537E8E63BB934"
+					type: "item"
+					item: "tconstruct:smeltery_controller"
+				}
+			]
+			description: ["不使用魔力,你可以使用你的冶炼厂来获得每个矿石的1个锭"]
+			x: -3.0d
+			id: "6924A4F52A54DE16"
+			disable_toast: true
+			y: -2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "73C3509F44D51FDE"
+					item: "tconstruct:seared_bricks"
+				}
+			]
+			dependencies: ["0B306C10DC71B09B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "22576B4F2C6D04B4"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+			]
+			description: ["正常矿石的魔力池处理产生1倍的产量。"]
+			x: -6.0d
+			id: "0FB1FB8AB9C421D1"
+			disable_toast: true
+			y: -2.5d
+			rewards: [
+				{
+					id: "5D6892CE537CCCEB"
+					type: "item"
+					item: "botania:blacker_lotus"
+				}
+			]
+			dependencies: ["0B306C10DC71B09B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "70434354F7F3DA6B"
+					type: "item"
+					item: "ftbic:macerator"
+				}
+			]
+			description: ["矿石翻倍的选项。"]
+			x: -6.0d
+			id: "15BA8D806F3AFD23"
+			disable_toast: true
+			y: -0.5d
+			rewards: [
+				{
+					id: "147B50B71D70476B"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "18030F9F34DDC84A"
+					type: "item"
+					item: "ftbic:overclocker_upgrade"
+				}
+			]
+			dependencies: ["0B306C10DC71B09B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "1E914A1633CB545B"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "0D37BDFD30FE4561"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "73A6DE33F3115742"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 8L
+				}
+				{
+					id: "0D9E0C5A8602422A"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 10L
+				}
+			]
+			description: ["矿石翻倍的选项。"]
+			id: "056B2D2B8ADD15F4"
+			icon: "immersiveengineering:heavy_engineering"
+			disable_toast: true
+			x: -3.0d
+			y: -0.5d
+			title: "粉碎机"
+			rewards: [
+				{
+					id: "3B2194E51457C1D9"
+					type: "item"
+					item: "immersiveengineering:ingot_steel"
+					count: 16
+				}
+				{
+					id: "03B59BD0C595BF9C"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["0B306C10DC71B09B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "22AD91D3122728FD"
+					type: "item"
+					item: "thermal:machine_pulverizer"
+				}
+			]
+			description: ["矿石翻倍的选项。"]
+			x: -4.5d
+			id: "6BEF03969E06F7D5"
+			disable_toast: true
+			y: -0.5d
+			rewards: [
+				{
+					id: "7C08199DDACA582A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0A739D6D609A5127"
+					type: "item"
+					item: "thermal:machine_frame"
+				}
+			]
+			dependencies: ["0B306C10DC71B09B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "7C630CA97F476F14"
+					type: "item"
+					item: "masterfulmachinery:ore_washer_controller"
+					consume_items: true
+				}
+				{
+					id: "7ADC674A8023658E"
+					type: "item"
+					item: "masterfulmachinery:ore_washer_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "3067D75C4278373C"
+					type: "item"
+					item: "masterfulmachinery:ore_washer_fluid_port_fluids_input"
+					consume_items: true
+				}
+				{
+					id: "6C4CC3C7EF40C9C2"
+					type: "item"
+					item: "masterfulmachinery:ore_washer_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "2741973B7EB923A1"
+					type: "item"
+					item: "masterfulmachinery:ore_washer_fluid_port_fluids_output"
+					consume_items: true
+				}
+				{
+					id: "6F2B9D4B69A8CD2C"
+					type: "item"
+					item: "cyclic:fan"
+					consume_items: true
+				}
+				{
+					id: "7DFA45FE536058A4"
+					type: "item"
+					item: "quark:grate"
+					consume_items: true
+				}
+				{
+					id: "0453BD45CD766CE7"
+					type: "item"
+					item: "masterfulmachinery:ore_washer_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 12L
+					consume_items: true
+					id: "78E46991C34D5340"
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					type: "item"
+					count: 12L
+					consume_items: true
+					id: "62651BED9FCAF44F"
+					item: "immersiveengineering:sheetmetal_aluminum"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "354EF171A91B7CE2"
+					item: "immersiveengineering:slab_sheetmetal_aluminum"
+				}
+			]
+			description: ["这台机器有两种可能的输出。或者使用&6水&r作为输入流体来生产&6碎片&r,或者通过使用&b地岩&r来获得&6浆液&r。&6碎片&r可以被熔炼,&6浆液&r可以进一步处理以获得更高的增益."]
+			id: "15BCBFE940EDCDA6"
+			icon: "masterfulmachinery:ore_washer_controller"
+			x: -4.5d
+			y: 1.5d
+			title: "洗矿机"
+			rewards: [
+				{
+					id: "2AF63FA3ED2C82E2"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 7105644
+							author: "?"
+							label: "Ore Washer.nbt"
+							structureName: "config/capsule/rewards/ore_washer.nbt"
+							display: {
+								color: 8072841
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+				{
+					id: "14F04D80FF8D170E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "4F8AFDF917B5065F"
+					item: "minecraft:gold_ore"
+				}
+			]
+			dependencies: [
+				"15BA8D806F3AFD23"
+				"6BEF03969E06F7D5"
+				"056B2D2B8ADD15F4"
+			]
+			dependency_requirement: "one_completed"
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "0788E203AE4D5D6E"
+					type: "item"
+					item: "ftbic:centrifuge"
+				}
+			]
+			description: ["将&6晶体&r转化为&6粉尘&r来获得4个矿石."]
+			x: -4.5d
+			id: "73B72EC4601CAC17"
+			disable_toast: true
+			y: 5.5d
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "2BD8F1DB28D583E8"
+					item: "ftbic:iv_cable"
+				}
+				{
+					id: "7F26A0D334BD3359"
+					type: "item"
+					item: "ftbic:transformer_upgrade"
+				}
+			]
+			dependencies: ["0310DE3EFC57E5DA"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "5C2628D42EAFF01D"
+					type: "item"
+					item: "botania:mana_pool"
+				}
+			]
+			description: ["用矿石制作&6污浊尘土&r."]
+			x: 0.0d
+			id: "24D451563B130AD6"
+			disable_toast: true
+			y: -2.5d
+			rewards: [
+				{
+					id: "199406F34C8779C0"
+					type: "item"
+					item: {
+						id: "botania:monocle"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			dependencies: ["3E78259442959A12"]
+		}
+		{
+			tasks: [
+				{
+					id: "55A69F4C6B69E9E8"
+					type: "item"
+					item: "ftbic:compressor"
+				}
+			]
+			description: ["将&6污浊尘土&r变成两个&6碎块&r."]
+			id: "6374408A8B4E3D68"
+			x: 0.0d
+			y: -0.5d
+			rewards: [
+				{
+					id: "51C881C01B0E6534"
+					type: "xp"
+					xp: 5
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "4B39C776A3AB9D0B"
+					item: "immersiveengineering:ore_aluminum"
+				}
+			]
+			dependencies: ["24D451563B130AD6"]
+		}
+		{
+			tasks: [
+				{
+					id: "1484512DD3092C20"
+					type: "item"
+					item: "mekanism:purification_chamber"
+				}
+			]
+			description: ["将&6碎块&r变成&6碎片&r."]
+			id: "5DDAE7F50D3E6EA2"
+			x: 0.0d
+			y: 1.5d
+			rewards: [
+				{
+					id: "456019C96592AD03"
+					type: "xp"
+					xp: 5
+				}
+				{
+					id: "43215227DD2FFC9B"
+					type: "item"
+					item: {
+						id: "mekanism:advanced_chemical_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								securityMode: 0
+								owner: [I;
+									-921288654
+									1861829095
+									-2014526870
+									864766145
+								]
+								Items: [ ]
+								InfusionTanks: [ ]
+								componentEjector: {
+									color2: -1
+									color0: -1
+									color1: -1
+									strictInput: 0b
+									color5: -1
+									color3: -1
+									color4: -1
+								}
+								SlurryTanks: [ ]
+								PigmentTanks: [ ]
+								componentConfig: {
+									eject4: 1b
+									config3: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									eject5: 1b
+									eject6: 0b
+									config4: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									config2: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									config5: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									config6: {
+										side3: 1
+										side4: 1
+										side5: 1
+										side0: 4
+										side1: 1
+										side2: 1
+									}
+									eject3: 1b
+									eject2: 1b
+								}
+								controlType: 0
+								dumping: 0
+								GasTanks: [
+									{
+										Tank: 0b
+										stored: {
+											gasName: "mekanism:oxygen"
+											amount: 256000L
+										}
+									}
+								]
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["6374408A8B4E3D68"]
+		}
+		{
+			tasks: [
+				{
+					id: "105111BF95800B3C"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+					count: 5L
+				}
+				{
+					id: "44A4AFC8AC9B7F90"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "05D10825410D0390"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "44AE29E6CB4D37CA"
+					type: "item"
+					item: "immersiveengineering:storage_steel"
+					count: 6L
+				}
+				{
+					id: "623ABA6D940DABE8"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "10256AA554B3B2CD"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 10L
+				}
+				{
+					id: "26CDC57FA36749C4"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 27L
+				}
+				{
+					id: "1E2A5D2C28D3CE9A"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 14L
+				}
+				{
+					id: "3B9E2E2FD62DBD03"
+					type: "item"
+					item: "minecraft:cauldron"
+				}
+			]
+			description: ["完成这组处理,输出4x."]
+			icon: {
+				id: "immersiveengineering:graphite_electrode"
+				Count: 1b
+				tag: {
+					graphDmg: 0
+				}
+			}
+			id: "738529C48BE91DEC"
+			x: 0.0d
+			y: 5.5d
+			title: "电弧炉"
+			rewards: [
+				{
+					id: "1BED5F71665F310C"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0617FBFD6FFA7FC4"
+					type: "item"
+					item: {
+						id: "immersiveengineering:blueprint"
+						Count: 1b
+						tag: {
+							blueprint: "electrode"
+						}
+					}
+				}
+			]
+			dependencies: ["5DDAE7F50D3E6EA2"]
+		}
+		{
+			tasks: [
+				{
+					id: "3C65F5AFB86DB0BB"
+					type: "item"
+					item: "ibpdx:carbonic_acid_bucket"
+				}
+			]
+			description: ["如果你精准采集矿石,你可以将其丢入&b碳酸&r,你会得到4个碎块来进一步处理"]
+			id: "3FDB5E2ABE95006F"
+			x: 4.5d
+			y: -0.5d
+			rewards: [
+				{
+					id: "4BF899ED2596A4A6"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["65B56704C47EC19C"]
+		}
+		{
+			tasks: [
+				{
+					id: "5A5C699A10C4D15A"
+					type: "item"
+					item: "bloodmagic:alchemytable"
+				}
+			]
+			description: ["碎块可以加倍成碎片来进一步增加你的产量"]
+			id: "6DCB92DECC33AF5C"
+			x: 4.5d
+			y: 1.5d
+			rewards: [
+				{
+					id: "146B81D35EE3E05E"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 8
+				}
+				{
+					id: "325044676CA20C4E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["3FDB5E2ABE95006F"]
+		}
+		{
+			tasks: [
+				{
+					id: "7CB652D7F1B2B0E8"
+					type: "item"
+					item: "masterfulmachinery:precipitator_controller"
+					consume_items: true
+				}
+				{
+					id: "3B88EA0F98800C45"
+					type: "item"
+					item: "masterfulmachinery:precipitator_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					id: "2B12DD47BD0D690D"
+					type: "item"
+					item: "masterfulmachinery:precipitator_item_port_items_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "09B029C45758FCA5"
+					item: "masterfulmachinery:precipitator_fluid_port_fluids_input"
+				}
+				{
+					type: "item"
+					count: 16L
+					consume_items: true
+					id: "1C604D0BAE4512D1"
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					type: "item"
+					count: 5L
+					consume_items: true
+					id: "2368F10B6A26A38C"
+					item: "mekanism:basic_mechanical_pipe"
+				}
+				{
+					id: "558F5C666C86AE73"
+					type: "item"
+					item: "chisel:laboratory/wallvents"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 12L
+					consume_items: true
+					id: "3B7F641E96DA1156"
+					item: "immersiveengineering:sheetmetal_aluminum"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "69C050DC309AC9D3"
+					item: "immersiveengineering:slab_sheetmetal_aluminum"
+				}
+			]
+			description: ["冷却&6洗矿机&r的&6浆液&r."]
+			icon: "masterfulmachinery:precipitator_controller"
+			id: "0310DE3EFC57E5DA"
+			x: -4.5d
+			y: 3.5d
+			rewards: [
+				{
+					id: "049B80373F79BB77"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 14714914
+							author: "?"
+							label: "Precipitator.nbt"
+							structureName: "config/capsule/rewards/precipitator.nbt"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+				{
+					id: "18A4B1834C365383"
+					type: "item"
+					item: "ibpdx:singular_speed_gearbox"
+				}
+				{
+					id: "5E01C0AED1AA2FB4"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["15BCBFE940EDCDA6"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "459E090BE4438391"
+					type: "item"
+					title: "任意镐"
+					item: {
+						id: "itemfilters:or"
+						Count: 1b
+						tag: {
+							items: [
+								{
+									id: "itemfilters:tag"
+									Count: 1b
+									tag: {
+										value: "forge:pickaxes"
+									}
+								}
+								{
+									id: "itemfilters:id_regex"
+									Count: 1b
+									tag: {
+										value: "pickaxe$"
+									}
+								}
+							]
+						}
+					}
+				}
+			]
+			description: ["使用你信任的旧镐破坏矿石将产生一些宝石或粉尘"]
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "65B56704C47EC19C"
+			x: 4.5d
+			y: -2.5d
+			title: "时运采矿"
+			rewards: [
+				{
+					id: "5461BBA0CC2C3154"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["63C6D31757663744"]
+		}
+	]
+}

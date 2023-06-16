@@ -1,0 +1,256 @@
+{
+	default_hide_dependency_lines: false
+	group: ""
+	id: "565299CEC03A66B7"
+	filename: "integration_by_parts_dx"
+	default_quest_shape: ""
+	icon: "ibpdx:infinity_fragment"
+	title: "诚挚欢迎!"
+	images: [
+		{
+			rotation: 0.0d
+			image: "avaritia:textures/ascension.png"
+			width: 2.0d
+			click: ""
+			hover: [ ]
+			x: -0.5d
+			y: -0.5d
+			corner: false
+			dev: false
+			height: 2.0d
+		}
+	]
+	order_index: 0
+	quests: [
+		{
+			tasks: [
+				{
+					id: "0F27CDF08D5DA33E"
+					type: "checkmark"
+				}
+			]
+			description: [
+				""
+				"欢迎来到&dIntegrations-by-Parts-DX&r!这是个非常规专家包,用于增加乐趣和鼓励不规则地解决问题。"
+				"所以,你可以期待什么?一个不是专家的“专家包”。我们删除了许多繁琐的工作,使其更适合不同级别,并将乐趣放在首位。"
+				"将有许多奇怪而有趣的配方,大量的跨mod兼容,还有更多的需求需要被发现!"
+			]
+			icon: "jecalculation:item_calculator_math"
+			x: -2.5d
+			id: "6C8124F246693A5E"
+			y: -0.5d
+			shape: "gear"
+			title: "足够解释了"
+			rewards: [
+				{
+					id: "68E60AA12B353253"
+					type: "item"
+					item: "jecalculation:item_calculator_math"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "177E297EE650E017"
+					type: "checkmark"
+				}
+			]
+			description: [
+				"首先,感谢您回来。当然,吸引新加入者是一种很好的感觉,但看到人们回到我的包中,留下带有正面的意见,这也意味着很多。"
+				""
+				"现在,是什么让这个与原版大不相同?我想最畅销的是所有新的古怪的配方。在冶炼厂中烧炼女巫并将其产生的液体馏化成其组件,以及自动化红石?或者如何通过在铁块上生成怪物来制作黑铁块?KubeJS是一个允许我做许多事情的绝佳工具。并且希望你喜欢这一切,或者至少是大部分。"
+				""
+				"发生了大量的再平衡和mod变化。不仅仅是那些没有移植的东西,还有我想改变的东西。我想尽可能地远离从虚空中收集资源。现有的选择有它们应该做什么的选择,矿石处理已经分解成三个过程。多方块的铸造非常有用,因为很少有过时的机器。它们中的一组机器被剪短了,增加了更好的工具。有了新的自定义工具,我可以在Kube的脚本中找出什么效果，还有更多!"
+				""
+				"所以,玩得开心!"
+			]
+			icon: "jecalculation:item_calculator_craft"
+			x: 1.5d
+			id: "0D3900E01421136E"
+			y: -0.5d
+			shape: "gear"
+			title: "再次向您问好,老手们!"
+		}
+		{
+			tasks: [
+				{
+					id: "3F421944EAC55DE3"
+					type: "item"
+					item: "botania:fertilizer"
+				}
+			]
+			description: ["随着植物魔法出现在地平线上,一个人永远不会有太多的花。"]
+			id: "49F323C7E6C1C915"
+			x: -1.5d
+			y: 1.0d
+			title: "我需要更多花!"
+			rewards: [
+				{
+					id: "0F205357283DF337"
+					type: "item"
+					item: "mysticalagriculture:inferium_essence"
+					count: 4
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "05D461A70C9DA8B7"
+					type: "checkmark"
+				}
+			]
+			description: ["这个包具有食物mod的饮食和生活调味料胡萝卜版的特性。吃下大量的食物来获得额外的心,并注意你的食物组。保持每个条形结构,你将获得一个增益!"]
+			icon: "cookingforblockheads:recipe_book"
+			id: "1C169D27C9348130"
+			x: 0.5d
+			y: 1.0d
+			title: "食物规则"
+			rewards: [
+				{
+					id: "5ED0D43B345A2A58"
+					type: "item"
+					item: "solcarrot:food_book"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "71D58F003A1E8E32"
+					type: "checkmark"
+					title: "信息任务"
+				}
+			]
+			description: ["这些任务是为了给你更多关于任务的信息,并且通常不反应你执行的任务。"]
+			x: -6.5d
+			id: "77D953555B7575F4"
+			y: -1.0d
+			shape: "gear"
+			rewards: [
+				{
+					id: "52BB48468CA64359"
+					type: "xp"
+					xp: 5
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "456D9E86FBB79488"
+					type: "checkmark"
+					title: "重置任务"
+				}
+			]
+			description: ["重置任务是为了取出你解锁的所有物品,然后用它来制作带有合适的奖励的复杂物品。"]
+			x: -6.5d
+			id: "6B8759A0C0B8D3F4"
+			y: 0.0d
+			shape: "octagon"
+			rewards: [
+				{
+					id: "344E847C2B4A151D"
+					type: "xp"
+					xp: 5
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "72E2A5B52F35699F"
+					type: "checkmark"
+					title: "进阶门"
+				}
+			]
+			description: ["这些任务必须完成,才能继续通过章节。"]
+			x: -5.5d
+			id: "3665CB5D9234BF79"
+			y: 0.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "44A3CE95AABC4A74"
+					type: "xp"
+					xp: 5
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "02502261777628AE"
+					type: "checkmark"
+					title: "阿卡什宝典"
+				}
+			]
+			description: ["阿卡什宝典可以存储所有由各种模组创建的指南书。你可以查看任何你想要的书。"]
+			icon: "akashictome:tome"
+			id: "2E63A6D2D84E0F88"
+			x: 0.5d
+			y: -2.0d
+			title: "知识就是力量"
+			rewards: [
+				{
+					id: "36CB8F2346DDA81C"
+					type: "item"
+					item: "akashictome:tome"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "59C2624697B6C55E"
+					type: "checkmark"
+					title: "可选"
+				}
+			]
+			description: ["这些任务可能不代表主要阶段性任务,但它们是您通过任务过程中的一条路。如果其他任务没有依赖它们,它们通常都是可选的,并且不消耗完成章节。"]
+			x: -5.5d
+			id: "3E73F1C52D06DA3E"
+			y: -1.0d
+			shape: "circle"
+			title: "标准任务"
+			rewards: [
+				{
+					id: "52AE59F1FA374B88"
+					type: "xp"
+					xp: 5
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "581F5042C6C60853"
+					type: "checkmark"
+					title: "指南针"
+				}
+			]
+			description: ["如果您想要一个特定的生物群系,自然指南针将指导您前往最近的群系。如果你想要一棵树并且找不到它,请尝试&6Alchetree&r。当任务可用时，会有更多关于它的信息。"]
+			icon: {
+				id: "naturescompass:naturescompass"
+				Count: 1b
+				tag: { }
+			}
+			id: "4C6EADC2006A8B9F"
+			x: -1.5d
+			y: -2.0d
+			title: "土地法"
+			rewards: [
+				{
+					id: "62258BF73ACB1620"
+					type: "item"
+					item: {
+						id: "naturescompass:naturescompass"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+	]
+}

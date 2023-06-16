@@ -1,0 +1,24 @@
+{
+  "controllerId": "super_alloyer",
+  "name": "\u8d85\u7ea7\u5408\u91d1",
+  "textureOverride": "cyclic:blocks/machine/iron",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 50000
+      }
+    }
+  ]
+}

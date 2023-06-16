@@ -1,0 +1,32 @@
+{
+  "controllerId": "duskstone_mixer",
+  "name": "\u66ae\u5149\u6405\u62cc\u5668",
+  "textureOverride": "ibpdx:block/blockcasing_livingrock",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:botania_mana",
+      "name": "Mana",
+      "id": "mana",
+      "data": {
+        "capacity": 100000
+      }
+    }
+  ]
+}

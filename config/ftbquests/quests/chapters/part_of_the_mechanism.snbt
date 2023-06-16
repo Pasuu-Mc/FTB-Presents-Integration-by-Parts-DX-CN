@@ -1,0 +1,1091 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "1AF3E6ACA35FDADE"
+	filename: "part_of_the_mechanism"
+	default_quest_shape: ""
+	icon: "mekanism:configurator"
+	title: "机械组成"
+	order_index: 8
+	quests: [
+		{
+			size: 2.0d
+			description: ["&b钢质机壳&r与任何其他案例一样。只是钢制."]
+			id: "3F253C572189EBDD"
+			x: -2.5d
+			y: -9.5d
+			shape: "pentagon"
+			title: "钢铁制造案例"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "0DD5BE7D4006779D"
+					item: "ftbic:iridium_alloy"
+				}
+			]
+			dependencies: ["18EDCBEF9DD689DA"]
+			tasks: [
+				{
+					id: "7D00C39577EEFC9C"
+					type: "item"
+					item: "mekanism:steel_casing"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "5D07BE1B0975A78F"
+					type: "item"
+					item: "mekanism:metallurgic_infuser"
+				}
+			]
+			description: ["&b冶金灌注机&r可用于制作&6通用机械合金&r,这些合金用于大多数&e通用机械&r的机器及其升级."]
+			x: 0.0d
+			id: "67F710FD61796B92"
+			y: -9.5d
+			shape: "hexagon"
+			title: "灌注凝聚"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "61091C457D81F488"
+					item: "mekanism:alloy_infused"
+				}
+				{
+					id: "52B072C6E7A012CC"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+			dependencies: ["3F253C572189EBDD"]
+		}
+		{
+			tasks: [
+				{
+					id: "3171941FAB331C07"
+					type: "item"
+					item: "mekanism:energized_smelter"
+				}
+			]
+			description: ["&b充能冶炼厂&r是一个很好的供能冶炼厂,可以同时快速进行多达7次的操作."]
+			id: "2B8D98E409F8BE6A"
+			x: 0.0d
+			y: -11.5d
+			title: "充能和冶炼"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "4D4465DE7D5287C4"
+					item: "mekanism:dust_osmium"
+				}
+				{
+					id: "428A2AE288FCD9D8"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+			dependencies: ["67F710FD61796B92"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "3C89090301C658B7"
+					type: "item"
+					item: "mekanism:enrichment_chamber"
+				}
+			]
+			description: ["除了其工厂的实用性外,&b富集仓&r在其矿石处理中不是独特的。但它可以富集&6冶金灌注机&r的组件。此外,对&e通用机械&r的处理链来说也是必要的。"]
+			id: "7A9F15DDA99431C8"
+			x: 2.0d
+			y: -9.5d
+			title: "额外富集"
+			rewards: [
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "202837ACDB313704"
+					item: "mekanism:enriched_carbon"
+				}
+				{
+					id: "0E68A6EDD69225A0"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+			dependencies: ["67F710FD61796B92"]
+		}
+		{
+			tasks: [
+				{
+					id: "0DE01C471382E619"
+					type: "item"
+					item: "mekanism:basic_tier_installer"
+				}
+			]
+			description: ["&b安装器&r将机器升级到工厂。这个简单。基础等级提供3个插槽."]
+			id: "018DCC5C5A7A4511"
+			x: 0.0d
+			y: -8.0d
+			title: "我的工厂重新加载"
+			rewards: [
+				{
+					id: "514259F5A74CDCF6"
+					type: "item"
+					team_reward: true
+					item: "mekanism:basic_tier_installer"
+				}
+			]
+			dependencies: ["67F710FD61796B92"]
+		}
+		{
+			tasks: [
+				{
+					id: "1DBD9D6D0808049B"
+					type: "item"
+					item: "mekanism:advanced_tier_installer"
+				}
+			]
+			description: ["高级工厂有5个插槽。"]
+			id: "30A61769E8CFEC6D"
+			x: 0.0d
+			y: -6.5d
+			title: "工厂先锋 SP"
+			rewards: [
+				{
+					id: "07EEA6E01AF95A13"
+					type: "item"
+					team_reward: true
+					item: "mekanism:advanced_tier_installer"
+				}
+			]
+			dependencies: ["018DCC5C5A7A4511"]
+		}
+		{
+			tasks: [
+				{
+					id: "77808D9D486B2805"
+					type: "item"
+					item: "mekanism:elite_tier_installer"
+				}
+			]
+			description: ["精英工厂有7个插槽。"]
+			id: "2211FE12DD3B5DFF"
+			x: 0.0d
+			y: -5.0d
+			title: "精英战斗工厂"
+			rewards: [
+				{
+					id: "016AA2718113512F"
+					type: "item"
+					team_reward: true
+					item: "mekanism:elite_tier_installer"
+				}
+			]
+			dependencies: ["30A61769E8CFEC6D"]
+		}
+		{
+			size: 1.5d
+			description: [
+				"&5欢迎来到融合!"
+				""
+				"&b通用机械融合&r与其他物品略有不同。如果你希望的话,你一直使用的精致镍锭将成为简化其他物品处理的助手,而不是直接奖励。"
+			]
+			id: "53CE64D64736807F"
+			x: 14.0d
+			y: -9.5d
+			shape: "octagon"
+			title: "通用重构"
+			rewards: [
+				{
+					id: "65674FB3AB056E77"
+					type: "item"
+					team_reward: true
+					item: "draconicevolution:draconium_chest"
+				}
+				{
+					id: "58CB1A5003DE6627"
+					type: "item"
+					team_reward: true
+					item: "pipez:infinity_upgrade"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "5AF337E90744EB5F"
+					item: "mysticalagriculture:nether_star_seeds"
+				}
+				{
+					id: "61D12B33ACE3F56A"
+					type: "item"
+					team_reward: true
+					item: "mysticalagradditions:nether_star_crux"
+				}
+				{
+					id: "31365D8A87690A65"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			dependencies: ["268656F8FDEAA9B8"]
+			tasks: [
+				{
+					id: "51B9A75DED81D363"
+					type: "item"
+					item: "ibpdx:circuit_case"
+					count: 500L
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "3A99E6B1F786379A"
+					type: "item"
+					item: "mekanism:electrolytic_separator"
+				}
+			]
+			description: ["&b电解分离器&r将水分解成氢和氧。氢更常见地用作燃料或制作燃料,而氧更用于处理。"]
+			id: "580DE03B36FF15F1"
+			x: 4.0d
+			y: -9.5d
+			title: "科学复制机"
+			rewards: [
+				{
+					id: "248E82F37AA5B327"
+					type: "item"
+					team_reward: true
+					item: "mekanism:basic_chemical_tank"
+				}
+				{
+					id: "01B36164FA004B7B"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+			dependencies: ["7A9F15DDA99431C8"]
+		}
+		{
+			tasks: [
+				{
+					id: "65F3BA20FEA7DD41"
+					type: "item"
+					item: {
+						id: "mekanism:atomic_disassembler"
+						Count: 1b
+						tag: {
+							HideFlags: 2
+						}
+					}
+				}
+			]
+			description: ["&b原子分解器&r是一个&o全能工具&r和一个近战武器!它甚至可以锄地."]
+			id: "0A831DD6C2B81311"
+			x: 2.0d
+			y: -8.0d
+			title: "拆解和重置"
+			rewards: [
+				{
+					id: "2EA25436039C8230"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "mekanism:energy_tablet"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [
+									{
+										Container: 0b
+										stored: "1000000"
+									}
+								]
+							}
+						}
+					}
+				}
+				{
+					id: "6D0EF9968184EB1C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["67F710FD61796B92"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "7D37E70565863CB6"
+					type: "item"
+					item: "mekanism:thermal_evaporation_controller"
+				}
+				{
+					id: "008789AC81857F85"
+					type: "item"
+					item: "mekanism:thermal_evaporation_valve"
+					count: 2L
+				}
+				{
+					id: "6020AFF519524D9A"
+					type: "item"
+					item: "mekanism:thermal_evaporation_block"
+					count: 37L
+				}
+			]
+			description: ["&b热力蒸馏塔&r是一个复杂的多方块结构,用水和某些热量形式产生&6盐水&r。你可以通过阀门将热量传进来,也可以将水输入和产生的盐输出。它也可以从环境中获得热量,所以如果你能接触到一个炎热的生物群系,那么在这里建造它会很有用."]
+			icon: "mekanism:thermal_evaporation_controller"
+			id: "61804D092DFE9198"
+			x: 6.0d
+			y: -3.5d
+			title: "欢迎来到盐堡"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "3AE5A8EBCBC6F975"
+					item: "mekanism:thermal_evaporation_block"
+				}
+				{
+					id: "4378ED6B645929AA"
+					type: "item"
+					team_reward: true
+					item: "mekanism:resistive_heater"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "7EECA6EB37D901BA"
+					item: "mysticalagriculture:salt_seeds"
+				}
+			]
+			dependencies: ["15F30BC6CC74DA0A"]
+		}
+		{
+			tasks: [
+				{
+					id: "32FA5B4C7D8099B5"
+					type: "item"
+					item: "mekanism:chemical_infuser"
+				}
+			]
+			description: ["&b化学灌注机&r通过一起反应来将气体化学品转化为其他气体化学品。大多数产品是某种酸,主要用于矿石处理。"]
+			id: "6759DBC0CF1E21F2"
+			x: 8.0d
+			y: -3.5d
+			title: "酸性燃烧"
+			rewards: [
+				{
+					id: "2D617A9971A7121C"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+			]
+			dependencies: ["61804D092DFE9198"]
+		}
+		{
+			tasks: [
+				{
+					id: "354953CAA5A4778D"
+					type: "item"
+					item: "mekanism:pressurized_reaction_chamber"
+				}
+			]
+			description: ["&b加压反应室&r或PRC使用&e通用机械&r气体以及流体和固体来制造新的产品."]
+			id: "6A39CF1A9E6BF932"
+			x: 6.0d
+			y: -8.0d
+			title: "有目的的配方合成器"
+			rewards: [
+				{
+					id: "3CC13D48D2DA0169"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "523E223363F92970"
+					item: "ftbic:iridium_circuit"
+				}
+			]
+			dependencies: ["39CFFB6C147D0EF8"]
+		}
+		{
+			tasks: [
+				{
+					id: "617DDDAEA6F645A9"
+					type: "item"
+					item: "mekanism:solar_neutron_activator"
+				}
+			]
+			description: ["&b太阳能中子活化器&r从盐水中产生&6锂&r。它对于制造用于&6燃料反应堆&r的很有用."]
+			id: "089C7F036D912048"
+			x: 8.0d
+			y: -8.0d
+			title: "中子!"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "30E64E3F0E9DB8F2"
+					item: "immersiveengineering:heavy_engineering"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "570BB081C8D9698E"
+					item: "mysticalagriculture:steel_seeds"
+				}
+				{
+					id: "4204B34320702F21"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["6A39CF1A9E6BF932"]
+		}
+		{
+			tasks: [
+				{
+					id: "1DC41A4B597473EF"
+					type: "item"
+					item: "mekanism:digital_miner"
+				}
+			]
+			description: ["&b数字型采矿机&r是您上一个采矿工具的升级。它可以将您想要开采的东西白名单,而不是只是开采一切,甚至所有矿石."]
+			id: "2DD8BAB643EF4344"
+			x: 6.0d
+			y: -6.5d
+			title: "这是所有矿井"
+			rewards: [
+				{
+					type: "item"
+					count: 10
+					team_reward: true
+					id: "3A48A267F841B5AF"
+					item: "ftbic:iridium_alloy"
+				}
+				{
+					id: "2B0C5D59CB4AFB7D"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_anchor"
+				}
+			]
+			dependencies: ["339867861185A852"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "3641B030AEDA5F92"
+					type: "item"
+					item: "mekanism:chemical_crystallizer"
+				}
+			]
+			description: ["&b化学结晶器&r将你的矿石净化的矿浆转化为水晶."]
+			id: "108B50CAB0B4C0AA"
+			x: 6.0d
+			y: -5.0d
+			title: "水晶十字"
+			rewards: [
+				{
+					id: "5B286B0D36EEA14A"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+				{
+					id: "31CA3ABA5814E707"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_gas"
+				}
+				{
+					id: "05E277EC58D5A6A4"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["15F30BC6CC74DA0A"]
+		}
+		{
+			tasks: [
+				{
+					id: "2FC99FDA1CDED36C"
+					type: "item"
+					item: "mekanism:induction_port"
+					count: 2L
+				}
+				{
+					id: "514B2D3C3CF7E568"
+					type: "item"
+					item: "mekanism:basic_induction_provider"
+				}
+				{
+					id: "7246B5C68EBBFCA1"
+					type: "item"
+					item: "mekanism:basic_induction_cell"
+				}
+				{
+					id: "409A10C763DC6C4F"
+					type: "item"
+					item: "mekanism:induction_casing"
+					count: 34L
+				}
+			]
+			description: ["&b输导矩阵&r是一个巨大的多方块RF存储选项。说到此,它们对性能不起作用,所以你可能不想升级太多."]
+			icon: "mekanism:basic_induction_cell"
+			id: "0553780B5EE3E630"
+			x: 8.0d
+			y: -6.5d
+			title: "平息岩浆"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "684C88297B5E25AD"
+					item: "mekanism:advanced_induction_cell"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3DA30AE206A43FCB"
+					item: "mekanism:advanced_induction_provider"
+				}
+				{
+					id: "67F28DBAF1DB0119"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "rftoolsutility:energyplus_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "70533F8B2465A449"
+					type: "item"
+					team_reward: true
+					item: "rftoolsbase:information_screen"
+				}
+			]
+			dependencies: [
+				"089C7F036D912048"
+				"339867861185A852"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "05E9AF0880A9B977"
+					type: "item"
+					item: "mekanism:quantum_entangloporter"
+				}
+			]
+			description: ["&b量子传送装置&r可以无线传输能量、物品、流体、气体甚至热量!"]
+			id: "721F8178011367B7"
+			x: 10.0d
+			y: -6.5d
+			title: "量子运输"
+			rewards: [
+				{
+					id: "3ACCAE48643A23D0"
+					type: "item"
+					team_reward: true
+					item: "mekanism:quantum_entangloporter"
+				}
+				{
+					id: "3A394E9FF419BD14"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["339867861185A852"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "33CDB52C5599DB6F"
+					type: "item"
+					item: "mekanism:basic_pressurized_tube"
+				}
+			]
+			description: [
+				"与液体运输相比,气体运输有些限制."
+				""
+				"气体反应比液体反应快,但液体传输大得多。真的,取决于你。你也注意,它们之间的交换很便宜。"
+			]
+			id: "39CFFB6C147D0EF8"
+			x: 4.0d
+			y: -8.0d
+			title: "迷你气体管道"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "4C5039974ECE0685"
+					item: "mekanism:basic_pressurized_tube"
+				}
+				{
+					id: "457EC49A240D3083"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["580DE03B36FF15F1"]
+		}
+		{
+			tasks: [
+				{
+					id: "77F500A2650D14A0"
+					type: "item"
+					item: "ibpdx:crystal_of_life"
+				}
+			]
+			description: ["药水水晶就如同它们听起来的样子,结晶药水。"]
+			x: 8.0d
+			id: "339867861185A852"
+			y: -5.0d
+			shape: "pentagon"
+			title: "魔法块"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "04F9F4A99A76DBF4"
+					item: "mysticalagriculture:gold_seeds"
+				}
+				{
+					id: "7EA34C8046F79399"
+					type: "item"
+					item: "pamhc2foodcore:melonjellytoastitem"
+				}
+				{
+					id: "39B898FBED6BCDDF"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["108B50CAB0B4C0AA"]
+		}
+		{
+			tasks: [
+				{
+					id: "3BD2B3A68E179B33"
+					type: "item"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					id: "1E8489492CD3E04C"
+					type: "item"
+					item: "mekanismgenerators:control_rod_assembly"
+				}
+			]
+			description: [
+				"&b裂变反应堆&r可以产生大量的蒸汽,但也可以产生核废料,可以再处理成钋(pō)."
+				""
+				"如果你不想制作反应堆,你可以使用&6加压反应室&r来制造核废料."
+			]
+			icon: "mekanismgenerators:fission_fuel_assembly"
+			id: "0F722778DCE35AB1"
+			x: 11.5d
+			y: -5.0d
+			rewards: [
+				{
+					type: "item"
+					count: 3
+					team_reward: true
+					id: "4096558277804BBE"
+					item: "mekanismgenerators:fission_fuel_assembly"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "7C11CE98C4CE254E"
+					item: "mekanismgenerators:fission_reactor_casing"
+				}
+			]
+			dependencies: ["5AB8958D3FA3FD79"]
+		}
+		{
+			tasks: [
+				{
+					id: "02BAC1F9D83AC8F4"
+					type: "item"
+					item: "masterfulmachinery:advanced_chemical_plant_controller"
+					consume_items: true
+				}
+				{
+					id: "4D752AA70EDC9917"
+					type: "item"
+					item: "immersiveengineering:slab_sheetmetal_steel"
+					count: 8L
+				}
+				{
+					id: "2347AD6FE1ABA006"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+					count: 12L
+				}
+				{
+					id: "77C8E182B7A207D7"
+					type: "item"
+					item: "masterfulmachinery:advanced_chemical_plant_fluid_port_fluids_output"
+					count: 2L
+				}
+				{
+					id: "04869B3F8C0DC47D"
+					type: "item"
+					item: "ibpdx:stainless_steel_casing"
+					count: 8L
+				}
+				{
+					id: "6233A74FC86FEBF0"
+					type: "item"
+					item: "ibpdx:blockcasing_steel"
+					count: 8L
+				}
+				{
+					id: "447C2CBCD4ED4F1F"
+					type: "item"
+					item: "masterfulmachinery:advanced_chemical_plant_fluid_port_fluids_input"
+					count: 2L
+				}
+				{
+					id: "2F792A74D402EF43"
+					type: "item"
+					item: "masterfulmachinery:advanced_chemical_plant_energy_port_energy_input"
+				}
+			]
+			description: [
+				"&b高级化工厂控制器&r是一个使用液体成型材料的化学反应器,而不是使用相同配方的气体."
+				""
+				"您是否想要制作这个取决于您是否想要更高的流体传输量,或者只是使用您的气体机器,会更加容易使用,并且占用了更少的空间."
+			]
+			id: "12BB4A2563D6D15F"
+			icon: "masterfulmachinery:advanced_chemical_plant_controller"
+			x: 4.0d
+			y: -3.5d
+			title: "CSTR还是背包?"
+			rewards: [
+				{
+					id: "6F411F4322B64DDB"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "advanced_chemical_plant"
+							structureName: "config/capsule/rewards/advanced_chemical_plant"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 5
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3B16F7ACA69C6EBE"
+					item: "mysticalagriculture:diamond_seeds"
+				}
+				{
+					id: "7C8713F66C9681E5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["15F30BC6CC74DA0A"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "746E0504A45A5E46"
+					type: "item"
+					item: "mekanism:rotary_condensentrator"
+				}
+			]
+			description: ["在气体和液体之间切换."]
+			id: "15F30BC6CC74DA0A"
+			x: 4.0d
+			y: -5.0d
+			title: "减少压力"
+			rewards: [
+				{
+					id: "3EE07E557EFAE13D"
+					type: "item"
+					team_reward: true
+					item: "mekanism:upgrade_muffling"
+				}
+				{
+					id: "28B08DC43B8798CC"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:sink"
+				}
+			]
+			dependencies: ["39CFFB6C147D0EF8"]
+		}
+		{
+			tasks: [
+				{
+					id: "229DEEB62F726FB4"
+					type: "item"
+					item: "mekanism:pellet_polonium"
+				}
+			]
+			description: ["&b&r是一种用于使用核废料的后期合成材料."]
+			x: 11.5d
+			id: "6563F73606F8C62D"
+			y: -8.0d
+			shape: "circle"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3790C9970700A779"
+					item: "mysticalagriculture:supremium_essence"
+				}
+				{
+					id: "6152F486DD7FFBD2"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"0F722778DCE35AB1"
+				"089C7F036D912048"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "2EB36D33B2B984A4"
+					type: "item"
+					item: "mekanism:sps_casing"
+					count: 60L
+				}
+				{
+					id: "348374ADDBB4D03E"
+					type: "item"
+					item: "mekanism:structural_glass"
+					count: 123L
+				}
+				{
+					id: "0CEA15C89CA0A92A"
+					type: "item"
+					item: "mekanism:sps_port"
+					count: 3L
+				}
+				{
+					id: "313B0B0B820D85B9"
+					type: "item"
+					item: "mekanism:supercharged_coil"
+				}
+			]
+			description: ["&b超临界转速器&r是一个可以制造反物质、可以将材料转换成其他材料的多方块结构."]
+			icon: "mekanism:sps_casing"
+			id: "268656F8FDEAA9B8"
+			x: 14.0d
+			y: -8.0d
+			title: "关键机器"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "30D73EBB53677BFD"
+					item: "mysticalagriculture:magma_cube_seeds"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "699DCED13C837C31"
+					item: "mekanism:pellet_polonium"
+				}
+				{
+					id: "1AA914ADFE4EE9B9"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "012E80534F030182"
+					type: "item"
+					item: "pamhc2foodcore:noodlesoupitem"
+				}
+			]
+			dependencies: ["6563F73606F8C62D"]
+		}
+		{
+			size: 2.0d
+			description: [
+				"要大量获得&6龙&r,你需要从玛玉灵中处理它."
+				""
+				"&b核合成器&r还可以最大限度地提高各种类型的升级增强功能!"
+			]
+			x: 17.0d
+			id: "3A8ABC877E3FE656"
+			y: -8.0d
+			shape: "pentagon"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "2603B51B514DBA5D"
+					item: "mysticalagriculture:netherite_seeds"
+				}
+				{
+					id: "76764C5602BCAB0E"
+					type: "xp"
+					team_reward: true
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "6C67221B70C790C4"
+					item: "mekanism:module_energy_unit"
+				}
+				{
+					id: "2B7BB0B643C10686"
+					type: "item"
+					team_reward: true
+					item: "mekanism:module_radiation_shielding_unit"
+				}
+			]
+			dependencies: ["268656F8FDEAA9B8"]
+			tasks: [
+				{
+					id: "0FB1EFAFC3114B5B"
+					type: "item"
+					item: "mekanism:antiprotonic_nucleosynthesizer"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "0A647B3187AA1238"
+					type: "item"
+					item: "mekanism:fluorite_gem"
+				}
+			]
+			description: ["&b氟石&r是一种用于生产&6裂变燃料&r的资源."]
+			id: "5AB8958D3FA3FD79"
+			x: 10.0d
+			y: -5.0d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "2C759D77BB0AC248"
+					item: "mysticalagriculture:imperium_essence"
+				}
+				{
+					id: "113AC886D859DCE8"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: [
+				"339867861185A852"
+				"3F4A4B9F578858F8"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "1650576E0998A352"
+					type: "item"
+					item: "mekanism:yellow_cake_uranium"
+				}
+			]
+			description: ["&b黄饼&r是将铀转化为裂变燃料的第一步."]
+			id: "3F4A4B9F578858F8"
+			x: 10.0d
+			y: -3.5d
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "3C3DF1BA2FC69976"
+					item: "powah:uraninite"
+				}
+				{
+					id: "0C1BBA36E7F2E478"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["6759DBC0CF1E21F2"]
+		}
+		{
+			tasks: [
+				{
+					id: "185745550EBC2710"
+					type: "item"
+					item: "mekanism:ultimate_tier_installer"
+				}
+			]
+			description: ["终极工厂每个机器有9个插槽."]
+			id: "356EB4BEA5250F99"
+			x: 0.0d
+			y: -3.5d
+			title: "工厂-O"
+			rewards: [
+				{
+					id: "286250B2499F2713"
+					type: "item"
+					team_reward: true
+					item: "mekanism:ultimate_tier_installer"
+				}
+			]
+			dependencies: ["2211FE12DD3B5DFF"]
+		}
+	]
+}

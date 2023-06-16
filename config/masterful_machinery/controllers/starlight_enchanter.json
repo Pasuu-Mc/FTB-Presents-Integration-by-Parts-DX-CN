@@ -1,0 +1,32 @@
+{
+  "controllerId": "starlight_enchanter",
+  "name": "\u661f\u80fd\u9644\u9b54\u5e08",
+  "textureOverride": "minecraft:block/obsidian",
+  "ports": [
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 50000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    },
+        {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    }
+  ]
+}

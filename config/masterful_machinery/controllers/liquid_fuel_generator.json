@@ -1,0 +1,23 @@
+{
+  "controllerId": "liquid_fuel_generator",
+  "name": "\u6db2\u6001\u71c3\u6599\u53d1\u7535\u673a",
+  "textureOverride": "ibpdx:block/blockcasing_empowered_steel",
+  "ports": [
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 500000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    }
+  ]
+}

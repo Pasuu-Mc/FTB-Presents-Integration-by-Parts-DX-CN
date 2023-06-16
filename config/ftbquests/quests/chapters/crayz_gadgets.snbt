@@ -1,0 +1,279 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "0678AB6D5E7D1225"
+	filename: "crayz_gadgets"
+	default_quest_shape: ""
+	icon: {
+		id: "buildinggadgets:gadget_building"
+		Count: 1b
+		tag: {
+			state: {
+				serializer: "buildinggadgets:dummy_serializer"
+				state: {
+					Name: "minecraft:air"
+				}
+				data: { }
+			}
+		}
+	}
+	title: "奇思妙想"
+	order_index: 5
+	quests: [
+		{
+			tasks: [
+				{
+					id: "05FC02CE63919B71"
+					type: "item"
+					item: "compactmachines:personal_shrinking_device"
+				}
+			]
+			description: ["&b压缩空间机械&r允许你将多方块结构(或只是几个机器)存储到单个方块很好的小空间中."]
+			icon: "compactmachines:personal_shrinking_device"
+			id: "3B7A9D6E1069EA93"
+			x: 2.5d
+			y: -3.0d
+			title: "精致压缩"
+			rewards: [
+				{
+					id: "25AAFF1028F3F748"
+					type: "item"
+					team_reward: true
+					item: "minecraft:iron_block"
+				}
+			]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "4FD83F75457E54DA"
+					type: "item"
+					item: "compactmachines:machine_small"
+				}
+			]
+			description: ["不是最小的,但第一个可以容纳一些小型多方块,但仍然可以让你在其中移动。里面有个5x5x5。"]
+			id: "74B2CDB516FF913B"
+			x: 2.5d
+			y: -1.5d
+			title: "压缩的第一层"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1F28165E3CFFE13B"
+					item: "compactmachines:wall"
+				}
+			]
+			dependencies: ["3B7A9D6E1069EA93"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "6E0E2BDDF5D73B33"
+					type: "item"
+					item: {
+						id: "thermal:fluid_reservoir"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["&b贮液器&r基本上是更大的桶."]
+			id: "0DB2134DDF5E5D54"
+			x: 4.5d
+			y: -3.0d
+			title: "更好的桶"
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "4CCC0222F9120407"
+					type: "item"
+					item: "botania:horn_grass"
+				}
+			]
+			description: ["&b狂野号角&r是一个被长笛绑定的割草机。不要问它如何工作。(按住右键来收获作物并破坏草方块)"]
+			id: "3E1DFC8218EA4AC6"
+			x: 0.5d
+			y: -3.0d
+			title: "狂野之息"
+			rewards: [
+				{
+					id: "3FEA29DCDAF4078D"
+					type: "item"
+					team_reward: true
+					item: "botania:redstone_spreader"
+				}
+			]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "2FB276BDE2C772DC"
+					type: "item"
+					item: "cyclic:crafting_stick"
+				}
+			]
+			description: ["&b手持工作台&r是一个便携式工作台."]
+			id: "666C355089B7EE0C"
+			x: -1.5d
+			y: -3.0d
+			title: "手持制作"
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "0D638895F3136102"
+					type: "item"
+					item: {
+						id: "powah:battery_starter"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["&b电池&r完全按您所希望的做.按住shift右键激活他们的充电."]
+			id: "2DCD47DA0F967A32"
+			x: 6.5d
+			y: -3.0d
+			title: "电池工"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "78AADCC7F4F537D3"
+					item: "powah:capacitor_basic_tiny"
+				}
+			]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "6EE88027F9492984"
+					type: "item"
+					item: {
+						id: "thermal:flux_capacitor"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["&b电容&r在其内部存储RF(和等价)能量,并且可以为使用它的工具充电."]
+			id: "69561ECD5B84E7F0"
+			x: 6.5d
+			y: -1.5d
+			title: "充能!"
+			rewards: [
+				{
+					id: "22B6E16667E6F650"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:dummy_holding_book"
+				}
+				{
+					id: "0517F5F35CD1883C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["2DCD47DA0F967A32"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "7836962188F527A5"
+					type: "item"
+					item: {
+						id: "botania:mana_gun"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: [
+				"P e W"
+				""
+				"注意的透镜是&6闪光&r(用于轻型枪),&6挖掘&r(对采矿激光来说),&6伤害&r(作为攻击),和&6爆炸&r(如果你想向敌人发射导弹的话)。"
+				""
+				"如果你对一把基本上是魔法激光枪的东西有加速效果，你可以更快地发射。"
+			]
+			id: "6D68E9AADCB59DF6"
+			x: 0.5d
+			y: -1.5d
+			title: "G u N"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "1A9299C3519852AC"
+					item: {
+						id: "botania:lens_normal"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "41A9F16C608F7EDF"
+					type: "item"
+					item: "thermal:prismarine_rail"
+				}
+			]
+			description: ["&b海晶铁轨&r基本上是在水下运行的轨道。虽然这声音可能不太多,但它会使水下建造更有可能!它们甚至带了矿车来,让你在水下前进得更久!"]
+			id: "380BB2FECBAAC7AD"
+			x: 4.5d
+			y: -1.5d
+			title: "它甚至可以在水下工作!"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "427131CD2746F63E"
+					item: "thermal:prismarine_powered_rail"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "0C1F4EF74069DF5F"
+					item: "thermal:prismarine_rail"
+				}
+			]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "67B58C762E9E4AA9"
+					type: "item"
+					item: "quark:abacus"
+				}
+			]
+			description: [
+				"1,2,3..."
+				""
+				"这使您可以根据单击的块来确定长度."
+			]
+			id: "1165E819716CA5A0"
+			x: -1.5d
+			y: -1.5d
+			title: "数沙漠中的沙子粒"
+			optional: true
+		}
+	]
+}

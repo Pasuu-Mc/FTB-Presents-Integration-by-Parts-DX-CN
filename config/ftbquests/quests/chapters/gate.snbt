@@ -1,0 +1,322 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "7754838A8082E9A0"
+	filename: "gate"
+	default_quest_shape: ""
+	icon: "minecraft:oak_fence_gate"
+	title: "无限可能"
+	order_index: 10
+	quests: [
+		{
+			size: 1.5d
+			description: ["结局就在眼前！继续努力！"]
+			id: "0E0239A4C510F35C"
+			x: 0.0d
+			y: 3.0d
+			shape: "octagon"
+			title: "最终重铸"
+			rewards: [
+				{
+					id: "7A0BFA222ACA1116"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_helmet"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "48126BC6F4B84814"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_chestplate"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2FB19EFF1C996941"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_leggings"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "14438746422E8414"
+					type: "item"
+					item: {
+						id: "avaritia:infinity_armor_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "2E2653606057EBE5"
+					type: "item"
+					item: {
+						id: "avaritia:swordofthe_cosmos"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "3771ACBE5774607F"
+					type: "item"
+					item: {
+						id: "avaritia:world_breaker"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CF1F051DD52FB8C"
+					type: "item"
+					item: {
+						id: "avaritia:longbowofthe_heavens"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			dependencies: [
+				"232ED0A1F80BFD23"
+				"702B64E15C2D7440"
+			]
+			tasks: [
+				{
+					id: "420B7057029D0296"
+					type: "item"
+					item: "avaritia:infinity_catalyst"
+					count: 100L
+				}
+			]
+		}
+		{
+			size: 1.5d
+			description: ["以科技模组及其相关组件为核心的试炼。"]
+			id: "232ED0A1F80BFD23"
+			x: 1.5d
+			y: 0.5d
+			shape: "octagon"
+			title: "科技再组合"
+			rewards: [
+				{
+					id: "200BEBD80D20EE95"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "mekanism:creative_energy_cube"
+						Count: 1b
+						tag: {
+							mekData: {
+								EnergyContainers: [
+									{
+										Container: 0b
+										stored: "18446744073709551615.9999"
+									}
+								]
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["49DF80ABBD0B2CC2"]
+			tasks: [
+				{
+					id: "2E20C6192930DA62"
+					type: "item"
+					item: "ibpdx:ultimate_tech_block"
+					count: 100L
+				}
+			]
+		}
+		{
+			size: 1.5d
+			description: ["一个聚焦于魔法模组及其组件的试炼。"]
+			id: "702B64E15C2D7440"
+			x: -1.5d
+			y: 0.5d
+			shape: "octagon"
+			title: "魔法重铸"
+			rewards: [
+				{
+					id: "6AE88161116A11ED"
+					type: "item"
+					team_reward: true
+					item: "botania:creative_pool"
+				}
+			]
+			dependencies: ["49DF80ABBD0B2CC2"]
+			tasks: [
+				{
+					type: "item"
+					count: 100L
+					consume_items: false
+					id: "4944598DE48C1637"
+					item: "ibpdx:ultimate_magic_block"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "123CB706CE273687"
+					type: "item"
+					item: "extendedcrafting:ultimate_table"
+				}
+			]
+			description: ["好吧,朋友,你有两个选项。你可以先做&b科技融合&r或&b魔法融合&r。这是你两个选项。"]
+			id: "49DF80ABBD0B2CC2"
+			x: 0.0d
+			y: -1.5d
+			title: "史蒂夫的终极图腾"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "20ADCE0D0B389742"
+					item: "draconicevolution:chaotic_core"
+				}
+				{
+					id: "54F11C0FC109BB23"
+					type: "xp_levels"
+					xp_levels: 50
+				}
+			]
+			dependencies: ["697B35DFB1397C12"]
+		}
+		{
+			tasks: [
+				{
+					id: "3F3D59E111E3A825"
+					type: "item"
+					item: "minecraft:oak_fence_gate"
+				}
+				{
+					id: "6C8FD26BB14872EF"
+					type: "item"
+					item: "powah:ender_gate_nitro"
+				}
+				{
+					id: "1EEB8A28AE348302"
+					type: "item"
+					item: "botania:alfheim_portal"
+				}
+				{
+					id: "01A816593DF045AA"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					id: "063F07752EB9CE82"
+					type: "item"
+					item: "draconicevolution:flux_gate"
+				}
+			]
+			description: [
+				"在最终挑战之前的最后一个笑话。"
+				""
+				"你需要清除所有前期的组合才能达到此处。"
+			]
+			id: "697B35DFB1397C12"
+			x: 0.0d
+			y: -4.0d
+			title: "大门"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "4E2EC6D5D2872B9C"
+					item: "mysticalagriculture:nitro_crystal_seeds"
+				}
+				{
+					id: "67D03E7BA5679479"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "2F8193C6C8E68B9C"
+					item: "extendedcrafting:luminessence"
+				}
+			]
+			dependencies: [
+				"50804D7BB06B1123"
+				"21024F4FAE314904"
+				"0CCC62DD7C8DFC5A"
+				"4A178AD6FECE3181"
+				"3095414D402F5142"
+				"53CE64D64736807F"
+				"36806CE3DAD3DF05"
+				"425AEF2694262F3A"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "495836B1C83A6457"
+					type: "checkmark"
+				}
+			]
+			description: [
+				"特别感谢所有帮助完成这个包的人。"
+				""
+				"Saereth,Tazz,Nikki和其他所有与我一起工作的人。"
+				""
+				"Zulu,谁又问他是否首先可以制作包,以及他所有与移植有关的工作。"
+				""
+				"来自KubeJSDiscord服务器的有用的人,特别是Quening765,Cead,和Pie."
+				""
+				"我的所有测试者,包括过去和现在。特别是BreakinBlocks的人。"
+				""
+				"Sphysics和MrTest1,虽然这些天他们没有为包工作，但当我6年前开始做包开发时，他们帮助我启动了包。"
+				""
+				"其他任何为这个包提供东西的人,无论是mod的开发人员,一个可以提出概念的朋友,甚至是那些在任务标题中似乎给我东西参考的人。"
+				""
+				"PhantomKaffit用于你重绘我的唱片材质(一个小但值得注意的帮助)。"
+				""
+				"而且，尽管它是普通的和愚蠢的，而你，玩家。我对你的感激之情溢于言表。你让我认为这是我人生中的另一项成就。"
+			]
+			icon: "thermal:chocolate_cake"
+			id: "7315AD56DBFE90AB"
+			x: 0.0d
+			y: 0.5d
+			title: "特别感谢"
+			rewards: [
+				{
+					id: "25B2D5BE21F0CFE4"
+					type: "item"
+					item: "thermal:chocolate_cake"
+				}
+			]
+			dependencies: ["0E0239A4C510F35C"]
+		}
+	]
+}

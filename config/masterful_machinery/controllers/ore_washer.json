@@ -1,0 +1,32 @@
+{
+  "controllerId": "ore_washer",
+  "name": "\u6d17\u77ff\u673a",
+  "textureOverride": "immersiveengineering:block/metal/storage_steel",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 2,
+        "columns": 2
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 16000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 16000
+      }
+    }
+  ]
+}

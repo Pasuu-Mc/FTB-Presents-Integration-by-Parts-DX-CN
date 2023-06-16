@@ -1,0 +1,945 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "39055D30E8C27F17"
+	filename: "breaking_immersion"
+	default_quest_shape: ""
+	icon: "immersiveengineering:blastbrick"
+	title: "破碎沉浸"
+	order_index: 1
+	quests: [
+		{
+			size: 2.0d
+			description: [
+				"普通的&6下界石英&r对机器结构方块来说很不够。让我们点亮它......也许有1亿伏特左右."
+				""
+				"查看下方任务,了解如何使用&b魔钢剑&r召唤闪电."
+			]
+			id: "091E1E0C922050E9"
+			icon: {
+				id: "botania:manasteel_sword"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			x: -3.0d
+			y: -2.0d
+			shape: "pentagon"
+			title: "闪电之神降临......"
+			rewards: [
+				{
+					id: "0743227B5E303DCE"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["04017143CD3E2283"]
+			tasks: [
+				{
+					id: "1EF7BD7B8343F756"
+					type: "item"
+					item: {
+						id: "botania:manasteel_sword"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "5FB145D1BECEF8DA"
+					type: "item"
+					item: "botania:quartz_dark"
+				}
+			]
+			description: ["当被闪电击中时,&6下界石英&r变成&b烟熏石英&r。现在,你可以等待一场雷阵雨并获得极高的幸运,但通过在&6活石&r上右键单击&b魔钢剑&r会更容易召唤。这将转化方块上的&6下界石英&r,但剑会在这个过程中被消耗,所以一次做一堆."]
+			id: "43C39702FE00E750"
+			x: -1.0d
+			y: -0.5d
+			title: "为你的生命奔跑,烟熏!"
+			rewards: [
+				{
+					id: "59D17F6866385512"
+					type: "item"
+					item: "thermal:lightning_charge"
+					count: 4
+				}
+			]
+			dependencies: ["091E1E0C922050E9"]
+		}
+		{
+			tasks: [
+				{
+					id: "41CDC4FDE9E826ED"
+					type: "item"
+					item: "ibpdx:iron_casing"
+				}
+			]
+			description: ["你能接触到的第一种合适的结构材料是&6铁&r。一些外壳配方可能会嵌套,但每个外壳的嵌套不会超过两次."]
+			x: 0.5d
+			id: "05FCFCBA18EF8B21"
+			y: -2.0d
+			shape: "circle"
+			title: "万一你想知道..."
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "05E1AEE49F0C140F"
+					item: "ibpdx:iron_casing"
+				}
+				{
+					id: "171FDD1E7025C87B"
+					type: "xp"
+					xp: 5
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "75E0EE787BA4E1CA"
+					item: "mysticalagriculture:nether_quartz_seeds"
+				}
+			]
+			dependencies: [
+				"43C39702FE00E750"
+				"102FFE60B6953B5E"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "42F1BEA0BA32AEF9"
+					type: "item"
+					item: "powah:dielectric_casing"
+				}
+			]
+			description: ["&b绝缘外壳&r是Powah发电机的制作原料,也许还有一些其他东西。"]
+			id: "3369EF0C6AB619C6"
+			x: 2.0d
+			y: -0.5d
+			title: "更像框架,真的"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "20ED995799CF1251"
+					item: "powah:dielectric_paste"
+				}
+			]
+			dependencies: ["05FCFCBA18EF8B21"]
+		}
+		{
+			tasks: [
+				{
+					id: "2ADC01CF492E8E38"
+					type: "item"
+					item: "powah:energizing_orb"
+				}
+				{
+					id: "6B126CCA0D3700EC"
+					type: "item"
+					item: "powah:energizing_rod_starter"
+				}
+			]
+			description: ["&b原子反冲&r-我指,&b充能台&r,给物品注入能量以改变其状态,任何类型的RF(或FE，如果你不是来自白天)都可以。你需要将&b充能棒&r连接到能量源上,然后将你想使用的物品放置在充能台上。建筑装配台旧时代几乎被遗忘了。当然,更多的棒会更快地制作物品."]
+			icon: "powah:energizing_orb"
+			id: "144871AFDCF9F014"
+			x: 2.0d
+			y: -3.5d
+			title: "能量灌注机"
+			rewards: [
+				{
+					type: "item"
+					count: 3
+					team_reward: true
+					id: "0E43A297C0B5468B"
+					item: "powah:energizing_rod_starter"
+				}
+				{
+					id: "4081A6F4BCECC35D"
+					type: "item"
+					item: "immersiveengineering:manual"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3E673B3E1CBE7336"
+					item: "pipez:advanced_upgrade"
+				}
+			]
+			dependencies: ["05FCFCBA18EF8B21"]
+		}
+		{
+			tasks: [
+				{
+					id: "529414CD46D51846"
+					type: "item"
+					item: "immersiveengineering:cokebrick"
+					count: 27L
+				}
+			]
+			description: ["&b焦炉&r是一个3x3x3的多方块结构,通过用&6工程师锤子&r右键单击上面的组装而成."]
+			id: "3A8964900FEA64AD"
+			x: 5.0d
+			y: -3.5d
+			title: "打开你的烤箱"
+			rewards: [
+				{
+					type: "item"
+					count: 27
+					team_reward: true
+					id: "1AC096098D2C44F9"
+					item: "immersiveengineering:cokebrick"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "34E799BA6FA2E636"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+				{
+					id: "7C0EF37CC52073AA"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["144871AFDCF9F014"]
+		}
+		{
+			tasks: [
+				{
+					id: "11EE4C2AE7FC1DF9"
+					type: "item"
+					item: "immersiveengineering:blastbrick"
+					count: 27L
+				}
+			]
+			description: [
+				"&b高炉&r有两个用途."
+				""
+				"第一个是,它只是允许你使用&6焦煤&r作为燃料来制作&6钢锭&r."
+				""
+				"第二,它比普通熔炉更高效和快速地熔炼矿石粉。你是否想要使用这个或&6冶炼厂&r取决于你。"
+				""
+				"提醒你,你可以制作&b强化高炉&r,方法是用&6强化高炉砖&r替换所有&6高炉砖&r,并将结构改成上方的&6漏斗&r."
+			]
+			id: "395EFC76FCA9EAB7"
+			x: 6.5d
+			y: -3.5d
+			title: "炸这些砖块!"
+			rewards: [
+				{
+					type: "item"
+					count: 27
+					team_reward: true
+					id: "5270C41DFD534DE1"
+					item: "immersiveengineering:blastbrick"
+				}
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "43C91C9A12422993"
+					item: "thermal:coal_coke"
+				}
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "5BBF467DD02B6DF2"
+					item: "minecraft:iron_ingot"
+				}
+				{
+					id: "4A1DAAB784FA1A21"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "021D253E476C2893"
+					type: "item"
+					item: "immersiveengineering:blastbrick_reinforced"
+					count: 3
+				}
+			]
+			dependencies: ["3A8964900FEA64AD"]
+		}
+		{
+			tasks: [
+				{
+					id: "04405C896BE4070E"
+					type: "item"
+					item: "masterfulmachinery:super_alloyer_controller"
+					consume_items: true
+				}
+				{
+					id: "0DD39143198DB8F7"
+					type: "item"
+					item: "masterfulmachinery:super_alloyer_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "2B92703B870033E0"
+					type: "item"
+					item: "masterfulmachinery:super_alloyer_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					id: "6B06E758A79986FA"
+					type: "item"
+					item: "masterfulmachinery:super_alloyer_item_port_items_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "26D1E572F6EDF994"
+					item: "infused_crystals:block_of_redstonium"
+				}
+				{
+					type: "item"
+					count: 7L
+					consume_items: true
+					id: "5165D2AE44C46AB7"
+					item: "ibpdx:blockcasing_duskstone"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "42F45C1AB080A64C"
+					item: "mekanism:superheating_element"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "6BFD3E0339601CC6"
+					item: "minecraft:glass"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "25CD57FF4C72A963"
+					item: "cyclic:mason_iron"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "203DCBED406D0775"
+					item: "immersiveposts:fence_iron"
+				}
+			]
+			description: ["&b超级合金&r是你的第一个真正的合金机器。它可以处理&6模块化合金&r更便宜的,以及其他基础合金."]
+			id: "00447C8DC955FE54"
+			icon: "masterfulmachinery:super_alloyer_controller"
+			x: 6.5d
+			y: -2.0d
+			shape: "circle"
+			title: "超级充能?"
+			rewards: [
+				{
+					id: "68CDA57A72578409"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "super_alloyer"
+							structureName: "config/capsule/rewards/super_alloyer"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1
+							size: 5
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2D893D57494BC98E"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					id: "3C7C7F366A4CB1E0"
+					type: "item"
+					item: "pamhc2foodcore:meatloafitem"
+				}
+				{
+					id: "472201E1A28D1506"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"395EFC76FCA9EAB7"
+				"6B0B1ED522363D26"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "3E83DD6C3866293E"
+					type: "item"
+					item: "powah:furnator_starter"
+				}
+			]
+			description: ["&b熔炉发电机&r是你的库存标准燃煤发电机。除了它不能升级到和其他大多数&ePowah&r发电机一样的更高等级外,没有太多关于它的信息。"]
+			id: "6B0B1ED522363D26"
+			x: 5.0d
+			y: -0.5d
+			title: "看,鸭嘴兽佩里... 暖炉!"
+			rewards: [
+				{
+					id: "77773ADB6E3A6B5F"
+					type: "item"
+					item: "thermal:coal_coke"
+					count: 16
+				}
+			]
+			dependencies: ["3369EF0C6AB619C6"]
+		}
+		{
+			tasks: [
+				{
+					id: "33137FFEC3D6AB1F"
+					type: "item"
+					item: "immersiveengineering:heavy_engineering"
+				}
+			]
+			description: [
+				"&e沉浸工程&r具有许多自己的多方块结构。然而,由于这个模组已经有许多多方块结构了,所以这个模组中的大量机器是可选的。但这不表示它们没有用!对于一些更神秘的配方,它们也是需要的。这也是你早期自动酿造的方法。"
+				""
+				"此外,该mod的机器通常是每个过程中最高效的,尽管它体积巨大。这是将它们与&e热力&r和&e通用机械&r进行分离,前者具有扩展和最高原始速度,而&e通用机械&r具有允许并行处理和更高传输的工厂。"
+			]
+			id: "5BB511A3BD53616C"
+			x: 6.5d
+			y: -5.0d
+			title: "沉浸在自己身上"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2EDC0F67F6695941"
+					item: "immersiveengineering:heavy_engineering"
+				}
+			]
+			dependencies: ["395EFC76FCA9EAB7"]
+		}
+		{
+			size: 2.0d
+			description: ["有了&b基础机器外壳&r,你应该能很好地掌握设备的工业化。干得很好，奖励你一块小饼干。"]
+			id: "117BBECA8864CAB1"
+			x: 9.0d
+			y: -2.0d
+			shape: "pentagon"
+			title: "前往工业!"
+			rewards: [
+				{
+					id: "4789F87E549FACB5"
+					type: "item"
+					item: "botania:mana_cookie"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1221C3A49A5C73CB"
+					item: "ftbic:industrial_grade_metal"
+				}
+				{
+					id: "31E6702A5B816504"
+					type: "xp"
+					xp: 30
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "2CCFA9281972DD3D"
+					item: "mysticalagriculture:aluminum_seeds"
+				}
+			]
+			dependencies: ["00447C8DC955FE54"]
+			tasks: [
+				{
+					id: "1A9473BCE1DB9AF7"
+					type: "item"
+					item: "ftbic:machine_block"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "6D5F463B615E7778"
+					type: "item"
+					item: "pipez:item_pipe"
+				}
+				{
+					id: "6CDAF63D3C87F300"
+					type: "item"
+					item: "powah:energy_cable_starter"
+				}
+				{
+					id: "4ACFEED450A79FFE"
+					type: "item"
+					item: "immersiveengineering:sorter"
+				}
+			]
+			description: [
+				"你有很多物流选项,几个具有自己的利弊。"
+				""
+				"&ePipez&r非常简单,非常简单。它们可以进行基础的运输、过滤,最终可以进行升级,允许在一个方块空间中进行所有类型的运输。"
+				""
+				"&e沉浸工程&r提供&6传送带&r和&6输液管&r,它们可以使用&b物品路由器&r和&b流体路由器&r进行布线。这些方块也适用于其他大多数类型的管道,虽然流体&eIE&r管道最有效。此外,&eIE&r管道需要在线上某个地方安装泵,以允许流体移动."
+				"IE也有它自己的传送能量的线缆,使用连接器传输能量和中继器将&6连接器&r连接得更远."
+				""
+				"&ePowah&r有自己的分层能量电缆,允许高能量传输。"
+				""
+				"&e通用机械&r对一切都有选择,但等级是逐渐解锁的(气体除外,以后更多)。"
+				""
+				"&e植物魔法&r的&6微光&r擅长远程飞行，而不需要管道。用&6森林之杖&r连接它们,在“输入”下放置一个微光发射器,发射红石信号,并且物品将在指定的路径上移动。它只在一个方向上工作,你需要&6漏斗&r、&6漏斗花&r、&6真空箱子&r来将物品放入容器中。每个都有20个方块的范围,必须加载传送的区块."
+			]
+			icon: "pipez:item_pipe"
+			id: "2C2DE27BFA1D56C3"
+			x: 6.5d
+			y: -0.5d
+			title: "管道还是Pipez?"
+			rewards: [
+				{
+					id: "0BBE4AC3F4724221"
+					type: "item"
+					team_reward: true
+					item: "pipez:wrench"
+				}
+				{
+					id: "33628597EAA53489"
+					type: "item"
+					team_reward: true
+					item: "botania:light_launcher"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "49A2E6E6150A2029"
+					item: "botania:light_relay"
+				}
+				{
+					id: "788820BC1F539A9D"
+					type: "item"
+					team_reward: true
+					item: "pipez:advanced_upgrade"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1A012DE02DF3252D"
+					item: "pipez:item_pipe"
+				}
+				{
+					id: "4B617CED13054689"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["00447C8DC955FE54"]
+		}
+		{
+			tasks: [
+				{
+					id: "3A081A0C4099E9D4"
+					type: "item"
+					item: "masterfulmachinery:plate_presser_controller"
+					consume_items: true
+				}
+				{
+					id: "62C114179C670A78"
+					type: "item"
+					item: "masterfulmachinery:plate_presser_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "451D0FEB42C76E49"
+					type: "item"
+					item: "masterfulmachinery:plate_presser_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "24C1572BA69F357E"
+					type: "item"
+					item: "masterfulmachinery:plate_presser_mana_port_botania_mana_input"
+					consume_items: true
+				}
+				{
+					id: "133674CCE8ECC18E"
+					type: "item"
+					item: "minecraft:piston"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 5L
+					consume_items: true
+					id: "01C72C43008315E9"
+					item: "minecraft:nether_brick_fence"
+				}
+				{
+					type: "item"
+					count: 9L
+					consume_items: true
+					id: "6BD6607475430381"
+					item: "ibpdx:blockcasing_bedrock"
+				}
+			]
+			description: [
+				"&b板冲压机&r是一个用魔力的、有点低效率的机器,用锭制作板。"
+				""
+				"记住,如果你没有新零件的资源,你可以从其他机器中回收它们,然后再把它们放回原处."
+			]
+			icon: "masterfulmachinery:plate_presser_controller"
+			id: "102FFE60B6953B5E"
+			x: -1.0d
+			y: -3.5d
+			title: "冲压材料"
+			rewards: [
+				{
+					id: "7B3F5F455A758AC6"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							mirror: "NONE"
+							oneUse: 1b
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+							color: 7105644
+							isReward: 1b
+							rotation: "CLOCKWISE_90"
+							author: "?"
+							label: "Plate Presser.nbt"
+							structureName: "config/capsule/rewards/plate_presser.nbt"
+							display: {
+								color: 7105644
+							}
+							canRotate: 1
+							size: 5
+						}
+					}
+				}
+			]
+			dependencies: ["091E1E0C922050E9"]
+		}
+		{
+			tasks: [
+				{
+					id: "350162F350062C0D"
+					type: "checkmark"
+					title: "它去哪?"
+				}
+			]
+			description: [
+				"让我们谈论如何使用&eIE&r的&6物品分配器&r来制作一个分拣系统:"
+				"首先,它有一些限制,因为每个分配器每个面最多只能接收8种物品。"
+				""
+				"要整理物品,路由器必须“查看”将要放入的物品放入其中的位置。"
+				""
+				"物品可以添加任何东西,例如&6漏斗&r。分配器将寻找任何物品的“目的地”。为了将分配器“链接”在一起,让它们形成一条线性路径。这可能需要禁用不需要的面板，使其无法使用你不需要的物品进行互动。"
+				""
+				"过滤器可以从JEI中提取,所以只需选择基岩作为你的虚拟物品或什么的."
+			]
+			icon: "immersiveengineering:sorter"
+			id: "10D744D11DCA269F"
+			x: 6.5d
+			y: 1.0d
+			rewards: [
+				{
+					id: "2CF770391B0797E5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "0EBE2F49CD980E35"
+					type: "item"
+					item: "pamhc2foodcore:carrotsoupitem"
+				}
+			]
+			dependencies: ["2C2DE27BFA1D56C3"]
+		}
+		{
+			tasks: [
+				{
+					id: "65C991937C3BF8C5"
+					type: "item"
+					item: "masterfulmachinery:peat_engine_controller"
+					consume_items: true
+				}
+				{
+					id: "4B9A0563955C4F1B"
+					type: "item"
+					item: "masterfulmachinery:peat_engine_energy_port_energy_output"
+					consume_items: true
+				}
+				{
+					id: "255023B9B8807E60"
+					type: "item"
+					item: "masterfulmachinery:peat_engine_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "2AB30063D971B65B"
+					type: "item"
+					item: "masterfulmachinery:peat_engine_item_port_items_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 9L
+					consume_items: true
+					id: "7169A26BD1EA2798"
+					item: "immersiveengineering:sheetmetal_copper"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "179F98CFFBE41156"
+					item: "immersiveengineering:light_engineering"
+				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "1ACCA57E24BA5F13"
+					item: "minecraft:glass"
+				}
+				{
+					id: "27E223803A820F33"
+					type: "item"
+					item: "minecraft:campfire"
+					consume_items: true
+				}
+			]
+			description: [
+				"&b泥炭引擎&r是一个多方块发电机,从&6泥炭&r产生80RF/tick,从&6沥青泥炭&r产生160RF/tick."
+				""
+				"它在大约15秒内一次产生所有能量。"
+				""
+				"您需要使用某种提取管道来提取能量,例如&ePipez&r&6能量管道&r."
+			]
+			icon: "masterfulmachinery:peat_engine_controller"
+			id: "43C608ECA7CFCC40"
+			x: 5.0d
+			y: -2.0d
+			title: "泥炭人"
+			rewards: [
+				{
+					id: "4BE818BAD418DC0E"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							author: "?"
+							label: "Peat Engine.nbt"
+							structureName: "config/capsule/rewards/peat_engine.nbt"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "3B5B2519BD666847"
+					item: "immersiveengineering:light_engineering"
+				}
+				{
+					id: "202A4B917EFAAB18"
+					type: "item"
+					team_reward: true
+					item: "immersiveengineering:conveyor_extract"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "100B9F6631DCB6F4"
+					item: "immersiveengineering:conveyor_basic"
+				}
+			]
+			dependencies: ["00447C8DC955FE54"]
+		}
+		{
+			tasks: [
+				{
+					id: "3AC6ED980D2719A6"
+					type: "item"
+					item: "littlelogistics:tug"
+				}
+				{
+					id: "487F01C7590208A8"
+					type: "item"
+					item: "littlelogistics:fishing_barge"
+				}
+				{
+					id: "45377217995714D7"
+					type: "item"
+					item: "littlelogistics:barge"
+				}
+			]
+			description: [
+				"&b拖船&r允许你沿定义的路径自动钓鱼."
+				""
+				"它们最适合在深水上工作,如果区域不够宽,则会减慢钓鱼速度。"
+				""
+				"&6区块加载驳船&r可以让你的&b拖船&r远离你的基地."
+				""
+				"&6运输驳船&r是一种在水路上移动物品的方法。也许你有一个向下游收集资源的地方,并且想自动大量移动它们?"
+			]
+			icon: "littlelogistics:tug"
+			id: "7376954F8B6805EE"
+			x: 5.0d
+			y: 1.0d
+			title: "浮游的船"
+			rewards: [
+				{
+					id: "57C018C5382AEC4F"
+					type: "item"
+					team_reward: true
+					item: "littlelogistics:chunk_loader_barge"
+				}
+				{
+					id: "658B89F5D28A1A01"
+					type: "item"
+					team_reward: true
+					item: "littlelogistics:tug_dock"
+				}
+				{
+					id: "23F11D46B5A01FA4"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "littlelogistics:guide"
+						}
+					}
+				}
+			]
+			dependencies: ["6B0B1ED522363D26"]
+		}
+		{
+			tasks: [
+				{
+					id: "496B6DC130E4186F"
+					type: "checkmark"
+					title: "需要更多的粒子"
+				}
+			]
+			description: ["如果你需要一个小型被动来源,你的&6自动捕鱼驳船&r可以提取大量常见的金属粒。它们还可以在鱼和粒一起捕捉大量标准捕鱼垃圾。"]
+			icon: "minecraft:iron_nugget"
+			id: "7BB3D6473D02BF0C"
+			x: 3.5d
+			y: 1.0d
+			dependencies: ["7376954F8B6805EE"]
+		}
+		{
+			tasks: [
+				{
+					id: "37FAA0AF7F1EEDD3"
+					type: "item"
+					item: "botania:dark_quartz"
+				}
+			]
+			description: [
+				"你可以右键单击一块&b烟熏石英&r来召唤怪物。怪物被召唤到方块顶部,并取决于石英附近的4个方块."
+				""
+				"这些方块将始终处于对称的布局中,在两个方向上都工作。"
+				""
+				"僵尸:腐肉块"
+				"骷髅:骨块"
+				"苦力怕:火药块(热力)"
+				"蜘蛛:羊毛"
+				"女巫:2个红石块和2个荧石块"
+				"烈焰人:4个烈焰灯(夸克)"
+				"暴雪人:2个烈焰灯和2个浮冰"
+				"狂风人:2个烈焰灯和2个荧石块"
+				"岩石人:2个烈焰灯和2个煤块"
+				""
+				"传送带、水、等等可以用来传输这些生物."
+			]
+			id: "7F1CCF50B6C504CA"
+			x: -1.0d
+			y: -2.0d
+			title: "Shazzam!"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "0622C2F2BC27384A"
+					item: "quark:blaze_lantern"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "5C544FE9E327EF23"
+					item: "minecraft:packed_ice"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "09E57430A147B628"
+					item: "architects_palette:rotten_flesh_block"
+				}
+				{
+					id: "7B493C8C73BEED03"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["43C39702FE00E750"]
+		}
+	]
+}

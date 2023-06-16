@@ -1,0 +1,392 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "42E0B17692E9F69C"
+	filename: "gourmet_race"
+	default_quest_shape: ""
+	icon: "pamhc2foodcore:skilletitem"
+	title: "美食竞速"
+	order_index: 4
+	quests: [
+		{
+			tasks: [
+				{
+					id: "1A7452A2E4A2F495"
+					type: "item"
+					item: "minecraft:anvil"
+				}
+			]
+			description: [
+				"要磨碎东西,你将使用&b铁砧&r来代替擀面杖、研磨机和榨汁机！"
+				""
+				"让它自然落在预定的配料上。"
+			]
+			id: "296E43A9E3C6D7D6"
+			x: -7.0d
+			y: -3.0d
+			title: "过量?当然不是!"
+			rewards: [
+				{
+					id: "6697D985A10E333F"
+					type: "item"
+					team_reward: true
+					item: "minecraft:anvil"
+				}
+			]
+			dependencies: ["1C169D27C9348130"]
+		}
+		{
+			size: 1.5d
+			description: [
+				"&b烹饪板&r将用鼠标右键点击的液体的热变体放在其顶部。执行此操作时，它会冷却，需要重新熔化才能再次使用。也许可以自动化这个过程?"
+				""
+				"如果破坏和替换盘子感觉很困难,也许某个模组可以在世界中熔炼方块......"
+				""
+				"{image:ibpdx:textures/questbook/cooking_plate.png width:275 height:150 align:1}"
+			]
+			id: "5B6047D852139380"
+			x: -10.0d
+			y: 1.0d
+			shape: "pentagon"
+			title: "托皮卡很热(托皮卡的主要产业为食品加工)"
+			rewards: [
+				{
+					id: "5D28E8931B72D0C0"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:tool_rack"
+				}
+				{
+					id: "2AA4BED363145159"
+					type: "item"
+					item: "ibpdx:cool_cooking_plate"
+				}
+			]
+			dependencies: ["1C169D27C9348130"]
+			tasks: [
+				{
+					id: "6AFFFFCA80AD0501"
+					type: "item"
+					item: "ibpdx:hot_cooking_plate"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "07909A17B4CB09BB"
+					type: "item"
+					item: "ibpdx:cooking_oil_bucket"
+				}
+			]
+			description: ["对于油炸物品,你会想要使用油作为流体."]
+			id: "78EA0724366659D3"
+			x: -7.0d
+			y: -1.0d
+			title: "现在你正在用油烹饪!"
+			rewards: [
+				{
+					id: "342578DF8270B439"
+					type: "item"
+					item: "pamhc2foodcore:batteritem"
+					count: 8
+				}
+			]
+			dependencies: [
+				"5B6047D852139380"
+				"296E43A9E3C6D7D6"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "0C82C238FAAD1971"
+					type: "item"
+					item: "ibpdx:stock_bucket"
+				}
+			]
+			description: ["汤的基础。"]
+			id: "23DD403D374EEA4B"
+			x: -5.0d
+			y: 2.0d
+			rewards: [
+				{
+					id: "2C9706341FA64E94"
+					type: "item"
+					item: "pamhc2foodcore:pastaitem"
+					count: 8
+				}
+			]
+			dependencies: ["414D6EB06126E595"]
+		}
+		{
+			tasks: [
+				{
+					id: "4BE88D63B2A60B56"
+					type: "item"
+					item: "ibpdx:hot_water_bucket"
+				}
+			]
+			description: ["水,但很热!"]
+			id: "414D6EB06126E595"
+			x: -7.0d
+			y: 2.0d
+			rewards: [
+				{
+					id: "17D71EB16EE21A79"
+					type: "item"
+					item: "minecraft:bone"
+					count: 8
+				}
+			]
+			dependencies: ["5B6047D852139380"]
+		}
+		{
+			tasks: [
+				{
+					id: "287F86DD0DE8AC57"
+					type: "item"
+					item: "ibpdx:milk_bucket"
+				}
+			]
+			description: ["保温牛奶有自己的一些配方。"]
+			id: "5427B4A43C19E281"
+			x: -7.0d
+			y: 3.5d
+			rewards: [
+				{
+					id: "104CC84EFBAABF47"
+					type: "item"
+					item: "pamhc2foodcore:cocoapowderitem"
+					count: 8
+				}
+			]
+			dependencies: ["5B6047D852139380"]
+		}
+		{
+			tasks: [
+				{
+					id: "7A8CD64FED3D5456"
+					type: "item"
+					item: "ibpdx:fake_air_bucket"
+				}
+			]
+			description: ["这当然不是假装烹饪盘在没有任何液体的情况下工作的方法。只需要装成正常工作即可。"]
+			id: "7878220AB63770F5"
+			x: -7.0d
+			y: 0.5d
+			title: "等待,什么?"
+			rewards: [
+				{
+					id: "4631CE823BBB64CB"
+					type: "item"
+					item: "pamhc2foodcore:doughitem"
+					count: 8
+				}
+			]
+			dependencies: ["5B6047D852139380"]
+		}
+		{
+			tasks: [
+				{
+					id: "2F814C64357E4D29"
+					type: "item"
+					item: "pamhc2foodcore:noodlesoupitem"
+				}
+			]
+			dependencies: ["23DD403D374EEA4B"]
+			id: "1A29BAF4D746B033"
+			y: 2.0d
+			x: -3.0d
+			rewards: [
+				{
+					id: "5CE64FF3619DE0D1"
+					type: "item"
+					item: "pamhc2foodcore:noodlesoupitem"
+					count: 8
+				}
+			]
+		}
+		{
+			size: 1.5d
+			description: [
+				"恭喜!你解锁了“MC餐厅”"
+				""
+				"前往胶囊公司.章节并获得胶囊!"
+			]
+			id: "45BCF2BB105E1559"
+			icon: "pamhc2foodcore:friedchickenitem"
+			x: 0.0d
+			y: 1.0d
+			shape: "pentagon"
+			title: "可以给我一些薯条吗?"
+			rewards: [
+				{
+					id: "281A7DF5F21B90D9"
+					type: "item"
+					item: "pamhc2foodcore:friedchickenitem"
+					count: 8
+				}
+			]
+			dependencies: [
+				"1A29BAF4D746B033"
+				"74C8EA5B30A944EF"
+				"3333BA9C047FEA15"
+				"67F9665726D7078E"
+			]
+			subtitle: "MC挖矿机解锁"
+			tasks: [
+				{
+					id: "72A20D7E6B8AFD61"
+					type: "checkmark"
+					title: "建造解锁"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "3FDFEA67D55EAC68"
+					type: "item"
+					item: "pamhc2foodcore:jellydonutitem"
+				}
+			]
+			id: "67F9665726D7078E"
+			x: -3.0d
+			y: -1.0d
+			title: "装满甜甜圈的果冻是最好的"
+			rewards: [
+				{
+					id: "7A547F6888E7F8B2"
+					type: "item"
+					item: "pamhc2foodcore:jellydonutitem"
+					count: 8
+				}
+			]
+			dependencies: ["78EA0724366659D3"]
+		}
+		{
+			tasks: [
+				{
+					id: "6CECE37D268AF109"
+					type: "item"
+					item: "pamhc2foodcore:grilledcheeseitem"
+				}
+			]
+			dependencies: ["7878220AB63770F5"]
+			id: "74C8EA5B30A944EF"
+			y: 0.5d
+			x: -3.0d
+			rewards: [
+				{
+					id: "031D0099F91D009D"
+					type: "item"
+					item: "pamhc2foodcore:grilledcheeseitem"
+					count: 8
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "507B8163822E19A0"
+					type: "item"
+					item: "pamhc2foodcore:hotchocolateitem"
+				}
+			]
+			dependencies: ["5427B4A43C19E281"]
+			id: "3333BA9C047FEA15"
+			y: 3.5d
+			x: -3.0d
+			rewards: [
+				{
+					id: "37F23FF7D910D5EF"
+					type: "item"
+					item: "pamhc2foodcore:hotchocolateitem"
+					count: 8
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "2CF37585469DE04B"
+					type: "item"
+					item: "cookingforblockheads:fridge"
+				}
+			]
+			description: ["厨房的存储方块,可以连接到烹饪桌。"]
+			id: "367EB7A3CF79287B"
+			x: 3.5d
+			y: 1.0d
+			title: "冰箱-冰箱冷冻机"
+			rewards: [
+				{
+					id: "04A0E932516381F5"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:heating_unit"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "29F783938C36E6A0"
+					item: "cookingforblockheads:cabinet"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "2DC607D3EF785994"
+					type: "item"
+					item: "cookingforblockheads:cooking_table"
+				}
+			]
+			description: ["&b烹饪桌&r可以从连接库存中获取任何可能的食物。然而,由于对许多东西的处理略加改变,它不会对许多配方起作用。不过,对于任何制作的东西,它还是在这里工作。"]
+			id: "1F2FD8D0FC6AAF08"
+			x: 3.5d
+			y: 3.0d
+			title: "坚毅厨师始终跟随配方"
+			rewards: [
+				{
+					id: "45EB249B240E6DA4"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:heating_unit"
+				}
+				{
+					id: "701B9368DB546D2B"
+					type: "item"
+					team_reward: true
+					item: "cookingforblockheads:oven"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "68FEC2676FCD9FAD"
+					type: "item"
+					item: "cookingforblockheads:cow_jar"
+				}
+			]
+			description: ["自己生产牛奶。虽然机器的选项有更高的产率。"]
+			id: "65840B92DEF07688"
+			x: 3.5d
+			y: -1.0d
+			title: "它如何相容?"
+			rewards: [
+				{
+					id: "4CF432A16EA7E56C"
+					type: "item"
+					item: "cookingforblockheads:sink"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "controllerId": "plate_presser",
+  "name": "\u677f\u51b2\u538b\u673a",
+  "textureOverride": "ibpdx:block/blockcasing_bedrock",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:botania_mana",
+      "name": "Mana",
+      "id": "mana",
+      "data": {
+        "capacity": 100000
+      }
+    }
+  ]
+}

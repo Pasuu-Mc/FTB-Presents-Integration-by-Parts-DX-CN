@@ -1,0 +1,32 @@
+{
+  "controllerId": "carpenter",
+  "name": "\u6728\u5320",
+  "textureOverride": "immersiveengineering:block/metal/sheetmetal_copper",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 16000
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 20000
+      }
+    }
+  ]
+}

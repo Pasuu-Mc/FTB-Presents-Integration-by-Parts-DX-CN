@@ -1,0 +1,48 @@
+{
+  "controllerId": "alchemy_reactor_cyan",
+  "name": "\u70bc\u91d1\u53cd\u5e94\u5806\u0020\u0028\u9752\u8272\u0029",
+  "textureOverride": "ibpdx:block/blockcasing_manasteel",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 20000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:botania_mana",
+      "name": "Mana",
+      "id": "mana",
+      "data": {
+        "capacity": 100000
+      }
+    },
+        {
+      "type": "masterfulmachinery:mekanism_gas",
+      "name": "Gas",
+      "id": "gassy",
+      "data": {
+        "capacity": 10000
+      }
+    }
+  ]
+}

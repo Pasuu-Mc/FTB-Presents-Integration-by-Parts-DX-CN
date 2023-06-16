@@ -1,0 +1,23 @@
+{
+  "controllerId": "fluxial_converter",
+  "name": "\u901a\u91cf\u8f6c\u6362\u5668",
+  "textureOverride": "botania:block/shimmerrock",
+  "ports": [
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 160000
+      }
+    },
+    {
+      "type": "masterfulmachinery:botania_mana",
+      "name": "Mana",
+      "id": "mana",
+      "data": {
+        "capacity": 100000
+      }
+    }
+  ]
+}

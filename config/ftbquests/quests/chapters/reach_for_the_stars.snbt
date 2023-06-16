@@ -1,0 +1,1486 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "4E1B32C17DA62F29"
+	filename: "reach_for_the_stars"
+	default_quest_shape: ""
+	icon: {
+		id: "boss_tools:rocket_t1"
+		Count: 1b
+		tag: { }
+	}
+	title: "星际远航"
+	order_index: 4
+	quests: [
+		{
+			tasks: [
+				{
+					id: "37DB6481BCD3175D"
+					type: "item"
+					item: "boss_tools:compressor"
+				}
+			]
+			description: ["&b压缩机&r可以制作压缩材料."]
+			id: "709C80BDE255ABD7"
+			x: -6.5d
+			y: -5.5d
+			title: "不再按键了?"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "590C3867E4DA0CB9"
+					item: "ftbic:electronic_circuit"
+				}
+				{
+					id: "18354CEBB0D53D54"
+					type: "item"
+					item: "pamhc2foodcore:appleyogurtitem"
+				}
+				{
+					id: "58CA696FB34CCF6B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["301BB7E56A9DC2C4"]
+		}
+		{
+			tasks: [
+				{
+					id: "4B9C0E23EEF3B606"
+					type: "item"
+					item: "boss_tools:nasa_workbench"
+				}
+			]
+			description: ["火箭是在这里制作的。"]
+			id: "458C424C18D38DE9"
+			x: -4.0d
+			y: -3.5d
+			title: "火箭制造机9000"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "09DB31C17C8E0416"
+					item: "boss_tools:compressed_steel"
+				}
+			]
+			dependencies: ["709C80BDE255ABD7"]
+		}
+		{
+			tasks: [
+				{
+					id: "5C6F9D9F6CA6A48D"
+					type: "item"
+					item: "boss_tools_giselle_addon:advanced_compressor"
+				}
+			]
+			description: ["不需要任何说明。"]
+			id: "7F390FF27F539B13"
+			x: -6.5d
+			y: -3.5d
+			title: "电力,但是没有短语"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "4C046EBA1E84ECA8"
+					item: "ibpdx:empowered_steel_ingot"
+				}
+				{
+					id: "5ACC19B7D1C5D372"
+					type: "item"
+					item: "miniutilities:experience_pearl_3x"
+				}
+			]
+			dependencies: ["709C80BDE255ABD7"]
+		}
+		{
+			tasks: [
+				{
+					id: "61444EBBECD0F349"
+					type: "item"
+					item: {
+						id: "boss_tools:rocket_t1"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["一个适合太空旅行的容器。"]
+			id: "62176204D51D00EE"
+			x: -2.0d
+			y: -3.5d
+			title: "太空太空想去太空"
+			dependencies: ["458C424C18D38DE9"]
+		}
+		{
+			tasks: [
+				{
+					id: "38F346B25E774EA1"
+					type: "item"
+					item: "boss_tools_giselle_addon:fuel_loader"
+				}
+			]
+			description: ["猜这有什么用。把它放在火箭发射台附近。"]
+			id: "5E91B1B59FB15F0D"
+			x: -2.0d
+			y: -5.5d
+			rewards: [
+				{
+					id: "592F64D834595801"
+					type: "item"
+					item: {
+						id: "rftoolsutility:fluidplus_module"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "6A44BE3A591183AA"
+					type: "item"
+					item: "rftoolsbase:information_screen"
+				}
+				{
+					id: "3497C32BA037176E"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["64074C73A8547F81"]
+		}
+		{
+			tasks: [
+				{
+					id: "1F3EBA8BCBA6CC87"
+					type: "item"
+					item: {
+						id: "boss_tools:oxygen_mask"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "1C5889673EF1C5BA"
+					type: "item"
+					item: {
+						id: "boss_tools:space_suit"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "77BE565241620483"
+					type: "item"
+					item: {
+						id: "boss_tools:space_pants"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "7FB9981116CD37A2"
+					type: "item"
+					item: {
+						id: "boss_tools:space_boots"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: ["太空需要一个&b太空服&r.你可以稍后升级它,使其更具有保护性,或者用&6Meka套装&r和一些合适的模块替换它."]
+			icon: {
+				id: "boss_tools:space_suit"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "59126A874108902B"
+			x: -2.0d
+			y: -7.5d
+			title: "嘿,Jimmy,为什么我们不需要在外太空的盔甲?"
+			rewards: [
+				{
+					id: "1E2BAE3A9339CC7C"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 1s
+									id: "boss_tools_giselle_addon:space_breathing"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3BD57BE15E87DA5E"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["2D3FC1AA31308EDA"]
+		}
+		{
+			size: 1.5d
+			description: ["登陆月球。按住空格来减速!"]
+			id: "553CFEB6F30A29ED"
+			icon: "boss_tools:moon_sand"
+			x: 1.0d
+			y: -5.5d
+			shape: "pentagon"
+			title: "月亮月亮月亮，勺子勺子勺子"
+			rewards: [
+				{
+					id: "625EBCDD020DC374"
+					type: "item"
+					team_reward: true
+					item: "ftbic:mv_solar_panel"
+				}
+				{
+					id: "11F9B85BC3C2BCBF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"62176204D51D00EE"
+				"5E91B1B59FB15F0D"
+				"59126A874108902B"
+			]
+			tasks: [
+				{
+					id: "11F7EB589EF4EE0F"
+					type: "dimension"
+					dimension: "boss_tools:moon"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "31E4CB00C533CDF9"
+					type: "item"
+					item: {
+						id: "boss_tools:rocket_t2"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["适合到达火星的容器。"]
+			id: "17A02FF4F6CDEA0E"
+			x: 5.0d
+			y: -5.5d
+			title: "我在太空中"
+			rewards: [
+				{
+					id: "733F209C6E9EE02C"
+					type: "item"
+					item: "pamhc2foodcore:marshmellowchicksitem"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "025C363B6E7C7694"
+					item: "minecraft:glass_bottle"
+				}
+				{
+					id: "697159226A829C56"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["403D6674FC7151B5"]
+		}
+		{
+			tasks: [
+				{
+					id: "315FAE93792E603D"
+					type: "item"
+					item: "boss_tools:desh_ingot"
+				}
+			]
+			description: ["&b戴斯&r是月球上发现的材料。也许可以设置一个太阳能采石场?必须注意,它只生成在Y-20级以下。在设置你的采石场时,请记住。"]
+			id: "403D6674FC7151B5"
+			x: 3.5d
+			y: -5.5d
+			title: "戴斯奶酪非常奈斯"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "5000C2C811B3ACEA"
+					item: "boss_tools:desh_ingot"
+				}
+				{
+					id: "5F96BAA1555F13A0"
+					type: "item"
+					item: {
+						id: "cyclic:charm_luck"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			dependencies: ["553CFEB6F30A29ED"]
+		}
+		{
+			tasks: [
+				{
+					id: "3ED715E67303A090"
+					type: "item"
+					item: "boss_tools:fuel_refinery"
+				}
+			]
+			description: [
+				"燃料精炼厂将油精炼成燃料,但不会提供任何有用的副产品。"
+				""
+				"或者,你可以使用IE柴油。"
+			]
+			icon: "boss_tools:fuel_refinery"
+			id: "64074C73A8547F81"
+			x: -4.0d
+			y: -5.5d
+			rewards: [
+				{
+					id: "023E3A4FD6875F23"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "industrialforegoing:efficiency_addon_2"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Efficiency: 0.8f
+							}
+						}
+					}
+				}
+				{
+					id: "602FE536111931FE"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "industrialforegoing:range_addon3"
+						Count: 1b
+						tag: {
+							TitaniumAugment: {
+								Range: 3.0f
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["709C80BDE255ABD7"]
+		}
+		{
+			tasks: [
+				{
+					id: "691A9765AB67967D"
+					type: "item"
+					item: "boss_tools:oxygen_loader"
+				}
+			]
+			description: ["将&6水&r转化为&6氧气&r,用&6氧气&r填充你的&6太空服&r."]
+			id: "2D3FC1AA31308EDA"
+			x: -4.0d
+			y: -7.5d
+			title: "空气储罐"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "12142A506FA64FC5"
+					item: "industrialforegoing:fluid_transporter_type"
+				}
+			]
+			dependencies: ["709C80BDE255ABD7"]
+		}
+		{
+			size: 2.0d
+			description: [
+				"&b金属充能器&r输入&6充能油&r&6灌注水晶&r和锭,并返还该锭的充能版本."
+				""
+				"使用它,你可以制作各种&6充能锭&r,用于制作."
+			]
+			id: "301BB7E56A9DC2C4"
+			icon: "masterfulmachinery:metal_empowerer_controller"
+			x: -8.5d
+			y: -5.5d
+			shape: "pentagon"
+			rewards: [
+				{
+					id: "5C402DD1ED474738"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							isReward: 1b
+							oneUse: 1b
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+							author: "?"
+							color: 7105644
+							label: "Metal Empowerer.nbt"
+							structureName: "config/capsule/rewards/metal_empowerer.nbt"
+							display: {
+								color: 9819623
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "2D7636C4E7091909"
+					item: "immersiveengineering:ingot_steel"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "67C11C28960800DE"
+					item: "ibpdx:speed_gear"
+				}
+				{
+					id: "5C83B6F9B9F4A36F"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"2918C4DB605D6026"
+				"1AEE7BF9E10A3801"
+			]
+			tasks: [
+				{
+					id: "44F444FFB02F731F"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_controller"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 28L
+					consume_items: true
+					id: "04A16CC39E1ECB12"
+					item: "ibpdx:blockcasing_black_quartz"
+				}
+				{
+					type: "item"
+					count: 57L
+					consume_items: true
+					id: "236D18FCC4E18DAB"
+					item: "ibpdx:blockcasing_steel"
+				}
+				{
+					id: "41A54B63C0915A59"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_fluid_port_fluids_input"
+					consume_items: true
+				}
+				{
+					id: "3218449F38EA3D82"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "7ACBBBDE1D430260"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "021ADAB366368F9B"
+					type: "item"
+					item: "masterfulmachinery:metal_empowerer_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "5BA8F34BE48856A8"
+					item: "infused_crystals:block_of_redstonium"
+				}
+				{
+					id: "4639FDD1DF06C8CC"
+					type: "item"
+					item: "infused_crystals:block_of_infused_redstonium"
+					consume_items: true
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "6CC6301E6C654BDA"
+					type: "item"
+					item: "boss_tools:silicon_ingot"
+				}
+			]
+			description: ["一种用于更高等级机器的材料。"]
+			id: "18EDCBEF9DD689DA"
+			x: 8.0d
+			y: -5.5d
+			title: "电脑材料"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "519E0FA48B010609"
+					item: "boss_tools:silicon_ingot"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "6C448D5C93744987"
+					item: "mysticalagriculture:silicon_seeds"
+				}
+				{
+					id: "3C50E18A4D46F2EB"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["65ED6F4A23AF275B"]
+		}
+		{
+			tasks: [
+				{
+					id: "70810C7D80D79CAB"
+					type: "dimension"
+					dimension: "boss_tools:mars"
+				}
+			]
+			description: ["前往火星需要比到达月球更好的火箭。"]
+			icon: "boss_tools:mars_stone"
+			id: "65ED6F4A23AF275B"
+			x: 6.5d
+			y: -5.5d
+			title: "火星王(或女王)"
+			rewards: [
+				{
+					id: "4C89DB352E593147"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "tconstruct:seared_fuel_tank"
+						Count: 1b
+						tag: {
+							tank: {
+								FluidName: "boss_tools:fuel"
+								Amount: 4000
+							}
+						}
+					}
+				}
+				{
+					id: "110C3793628B756E"
+					type: "item"
+					item: {
+						id: "botania:cosmetic_alien_antenna"
+						Count: 1b
+						tag: { }
+					}
+				}
+				{
+					id: "04952846DB0CCDE1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "025F4C0C97305EBD"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+			dependencies: ["17A02FF4F6CDEA0E"]
+		}
+		{
+			tasks: [
+				{
+					id: "56FAD9DFE13C3BA7"
+					type: "item"
+					item: {
+						id: "boss_tools:rocket_t3"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+			description: ["可以在金星上着陆的容器。"]
+			id: "76B708B779324859"
+			x: 9.5d
+			y: -5.5d
+			title: "我是太空中最好的"
+			rewards: [
+				{
+					id: "737BB1765193D0C1"
+					type: "item"
+					item: "mysticalagriculture:netherite_seeds"
+					count: 2
+				}
+				{
+					id: "6C55A11117E77EE5"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "12842D9D42B8A6B5"
+					type: "item"
+					item: "ibpdx:stainless_steel_ingot"
+					count: 8
+				}
+			]
+			dependencies: ["18EDCBEF9DD689DA"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "26B8FEC0550436A8"
+					type: "item"
+					item: "ftbic:lv_solar_panel"
+				}
+			]
+			description: [
+				"&b太阳能电池板&r只在月球上工作,因为地面上有太多的大气干扰和普遍的低效率."
+				""
+				"使用足够大小的电池来让它们整个晚上工作,这很重要。"
+			]
+			id: "7BB144AFA4E6D52E"
+			x: 3.5d
+			y: -3.5d
+			title: "阳光日"
+			rewards: [
+				{
+					id: "5FC70D5177564C4D"
+					type: "item"
+					item: "ftbic:hv_battery_box"
+				}
+				{
+					id: "401D35C0DA044D98"
+					type: "item"
+					item: "ftbic:transformer_upgrade"
+					count: 2
+				}
+			]
+			dependencies: ["403D6674FC7151B5"]
+		}
+		{
+			tasks: [
+				{
+					id: "15D145AF3DDA0BA1"
+					type: "item"
+					item: "masterfulmachinery:lunar_satellite_dish_controller"
+					consume_items: true
+				}
+				{
+					id: "7B6764CAD262F160"
+					type: "item"
+					item: "masterfulmachinery:lunar_satellite_dish_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "15EE5B4BAA301141"
+					type: "item"
+					item: "masterfulmachinery:lunar_satellite_dish_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "7A3179E3BF9EF5F4"
+					type: "item"
+					item: "masterfulmachinery:lunar_satellite_dish_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "4F4FBBB11CEE42BF"
+					item: "boss_tools:blue_iron_plating_block"
+				}
+				{
+					type: "item"
+					count: 33L
+					consume_items: true
+					id: "0A2B29E255684A63"
+					item: "immersiveengineering:sheetmetal_aluminum"
+				}
+				{
+					type: "item"
+					count: 29L
+					consume_items: true
+					id: "265ABB7C9188A7EE"
+					item: "immersiveengineering:slab_sheetmetal_aluminum"
+				}
+				{
+					type: "item"
+					count: 5L
+					consume_items: true
+					id: "6AB90FDFF00E3399"
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					id: "0DDF32B0490CFB91"
+					type: "item"
+					item: "minecraft:redstone_torch"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 36L
+					consume_items: true
+					id: "400E50A979CC1DA5"
+					item: "boss_tools:iron_plating_block"
+				}
+			]
+			description: [
+				"&b月长者&r称被困在这里。也许我们可以帮助他们与他们的家进行通信?如果你帮助的话,他们可能会有好东西给你."
+				""
+				"有了这个,你就可以制作&e精致存储&r驱动器,处理&6能力光盘&r,并获得&6坐标数据&r."
+			]
+			icon: "masterfulmachinery:lunar_satellite_dish_controller"
+			id: "49C9842EDF5D85DF"
+			x: 3.5d
+			y: -9.0d
+			rewards: [
+				{
+					id: "297F98C9EB311761"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							rotation: "NONE"
+							mirror: "NONE"
+							oneUse: 1b
+							Damage: 0
+							color: 16777215
+							canRotate: 1
+							state: 5
+							label: "lunar_satellite_dish"
+							structureName: "config/capsule/rewards/lunar_satellite_dish"
+							display: {
+								color: 16777215
+							}
+							size: 13
+							isReward: 1b
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "0A30E4B1E824A371"
+					item: "immersiveengineering:ingot_aluminum"
+				}
+				{
+					id: "7AEB353714737C62"
+					type: "item"
+					item: "thermal:cheese_wedge"
+					count: 4
+				}
+			]
+			dependencies: ["25B3D9DCF9A6BEFF"]
+		}
+		{
+			tasks: [
+				{
+					id: "30393D258274B990"
+					type: "item"
+					item: "thermal:enderium_coin"
+				}
+			]
+			description: [
+				"&b月光村民&r具有许多有用的物品来交易,你可能没有料到!"
+				""
+				"目前,以下有自定义交易表:"
+				"Fletcher:低级售出特殊箭头,高级售出特殊箭袋。为什么太空里有弓和箭?你捉到了我们，伙计。"
+				"农夫:特别为你提供食物。"
+				"牧师:售卖符咒和购买电路板。"
+				"工具匠:提供独特的实用工具。"
+				"牧羊人:购买动物制品。"
+			]
+			id: "25B3D9DCF9A6BEFF"
+			x: 3.5d
+			y: -7.5d
+			title: "月长者"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3EE30E103F5CA4F1"
+					item: "mysticalagriculture:emerald_seeds"
+				}
+				{
+					id: "360C9C0F7E16342A"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "03D31F954A4F272E"
+					type: "item"
+					item: "environmental:truffle_pie"
+				}
+			]
+			dependencies: ["403D6674FC7151B5"]
+		}
+		{
+			tasks: [
+				{
+					id: "4203BF7C45D8E1A8"
+					type: "item"
+					item: "boss_tools:venus_sandstone"
+				}
+			]
+			id: "0780187E52D874B6"
+			x: 11.0d
+			y: -5.5d
+			title: "热之星球"
+			rewards: [
+				{
+					id: "63FEB22700CD4A72"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 1s
+									id: "boss_tools_giselle_addon:venus_acid_proof"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "3592F41AFEE55283"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+			dependencies: ["76B708B779324859"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "0C652D2AE885F90D"
+					type: "item"
+					item: "chemlib:compound_carbon_dioxide"
+				}
+			]
+			description: ["火星的大气大多数是&b碳氧化物&r!这对制作矿石的酸可能非常有用."]
+			id: "7D6E097AA46AF3CE"
+			x: 6.5d
+			y: -6.5d
+			title: "收割火星空气"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1DCA2995C59DCE03"
+					item: "chemlib:compound_carbon_dioxide"
+				}
+				{
+					id: "01ECFCD981AEE00D"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "08904506427BDDF4"
+					item: "ftbic:carbon_fiber_mesh"
+				}
+			]
+			dependencies: ["65ED6F4A23AF275B"]
+		}
+		{
+			tasks: [
+				{
+					id: "3DC6AB76E5377D96"
+					type: "checkmark"
+				}
+			]
+			description: ["本地人看起来像他们的下界伙伴一样友好。"]
+			id: "00645689882ECCF3"
+			icon: "boss_tools:pygro_spawn_egg"
+			x: 11.0d
+			y: -4.0d
+			title: "交易之人"
+			rewards: [
+				{
+					id: "7DDA9526AF5CEB54"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["0780187E52D874B6"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "23BD15E4D4CB8D65"
+					type: "item"
+					item: "storagenetwork:request"
+				}
+			]
+			description: ["&b合成存储终端&r可以从存储网络中制作物品."]
+			id: "7DC4AEB5885FDE56"
+			x: -8.5d
+			y: -3.5d
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "7C90D3832DA81AB2"
+					item: "storagenetwork:kabel"
+				}
+				{
+					id: "64FE467544A6C44E"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "292F88E92CEE77F2"
+					item: "immersiveengineering:reinforced_crate"
+				}
+			]
+			dependencies: ["301BB7E56A9DC2C4"]
+		}
+		{
+			tasks: [
+				{
+					id: "4C188C908F730D12"
+					type: "item"
+					item: "storagenetwork:crafting_remote"
+				}
+			]
+			description: ["&b合成存储终端&r,但远程!"]
+			id: "5B020FA02BC27B77"
+			x: -8.5d
+			y: -2.5d
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3F0A1706A62ECE33"
+					item: "mysticalagriculture:blazing_crystal_seeds"
+				}
+				{
+					id: "013C3F5DC888CDFD"
+					type: "xp"
+					xp: 5
+				}
+			]
+			dependencies: ["7DC4AEB5885FDE56"]
+		}
+		{
+			tasks: [
+				{
+					id: "2A381A06A0932FB1"
+					type: "item"
+					item: "ibpdx:carbonic_acid_bucket"
+				}
+			]
+			description: ["你可以通过这种方式得到更高的产量,处理你的宝石和尘土。"]
+			id: "12F54FF533B915E3"
+			x: 6.5d
+			y: -7.5d
+			rewards: [
+				{
+					id: "3A6BFC918C54F9B5"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "tconstruct:seared_fuel_tank"
+						Count: 1b
+						tag: {
+							tank: {
+								FluidName: "ibpdx:carbonic_acid"
+								Amount: 4000
+							}
+						}
+					}
+				}
+				{
+					id: "796647848982AA67"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["7D6E097AA46AF3CE"]
+		}
+		{
+			tasks: [
+				{
+					id: "54D0951DB2637604"
+					type: "item"
+					item: "ibpdx:decrypted_disc"
+				}
+			]
+			description: ["你可能在旅途中遇到过，也可能没有遇到过&b加密光盘&r。也许&6月长者&r知道更多?让它们通过&6月球卫星天线&r来查看它."]
+			id: "1C247C27BEED3BED"
+			x: 5.0d
+			y: -9.0d
+			rewards: [
+				{
+					id: "1DD123CC32B0D520"
+					type: "item"
+					team_reward: true
+					item: "quark:music_disc_endermosh"
+				}
+				{
+					id: "65DBE690A30F42EF"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["49C9842EDF5D85DF"]
+		}
+		{
+			tasks: [
+				{
+					id: "6A947059CBE7B630"
+					type: "item"
+					item: "ibpdx:spirit_charge"
+				}
+			]
+			description: [
+				"有趣的是...那里好像有几种不同的唱片!你可能想要收集它们,看看最喜欢什么。"
+				""
+				"但是,要注意,你一次只能得到一个。这些物品似乎还需要&b灵魂充能&r才能正常工作,所以请随时都可以准备一些!"
+				""
+				"您还需要在物品栏中安装灵魂充能来使用它们。每次使用消耗量随效果而异。"
+				""
+				""
+			]
+			id: "2E277327DB94599B"
+			x: 6.5d
+			y: -9.0d
+			title: "内部的力量"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "20B3E6BA376894D5"
+					item: {
+						id: "bloodmagic:basemonstersoul"
+						Count: 1b
+						tag: {
+							souls: 1.0d
+						}
+					}
+				}
+				{
+					id: "137B84039A44838C"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: [
+				"12F54FF533B915E3"
+				"1C247C27BEED3BED"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "3919BD333C5B6A89"
+					type: "checkmark"
+					title: "我不想那样!完全不要!"
+				}
+			]
+			description: ["如果你不喜欢你的磁盘,请不要害怕!只需把其中两个使用卫星天线发回，然后再试一次!"]
+			id: "6B1203A09A587EC7"
+			x: 8.0d
+			y: -9.0d
+			title: "这是我的拒绝，狗。"
+			rewards: [
+				{
+					id: "5FF41EF657052F23"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5141DD22CEF2D028"
+					type: "item"
+					item: "betterendforge:chorus_mushroom_raw"
+				}
+			]
+			dependencies: ["2E277327DB94599B"]
+		}
+		{
+			tasks: [
+				{
+					id: "73050B7B98C78840"
+					type: "item"
+					item: "ibpdx:on_the_moon"
+				}
+			]
+			description: ["如果怪物在空中有30个方块,他们就不会攻击你!"]
+			id: "49B66510C487DE51"
+			x: 6.5d
+			y: -11.5d
+			subtitle: "为什么感觉我永远无法破坏天花板?"
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "757BB5B26BF67DCD"
+					type: "item"
+					item: "ibpdx:ufo_lover"
+				}
+			]
+			description: ["短暂的飞行充能。"]
+			id: "1C330CE52FF4800D"
+			x: 7.5d
+			y: -11.5d
+			subtitle: "让我们去疯狂的骑乘,一个星系要塞......"
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "706B8B4D2BD342BD"
+					type: "item"
+					item: "ibpdx:china_gal"
+				}
+			]
+			description: ["现在没有东西可以阻止你!"]
+			id: "24B1DE4F96AB0487"
+			x: 4.5d
+			y: -11.5d
+			subtitle: "你是我夜晚生存的星星..."
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "32BD9439C11CDDF7"
+					type: "item"
+					item: "ibpdx:phantom_fantasy"
+				}
+			]
+			description: ["因为当墙是你的门时,谁需要门?"]
+			id: "1F90B40724321715"
+			x: 5.5d
+			y: -11.5d
+			subtitle: "在闪闪发光的瞬间消失。"
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "47BD7E74B818F3C4"
+					type: "item"
+					item: "minecraft:ancient_debris"
+				}
+			]
+			description: ["需要&b远古残骸&r吗?你可以用&6金星煤矿石&r制作一些."]
+			id: "5895AB20B1559BFE"
+			x: 11.0d
+			y: -7.5d
+			title: "不是下界"
+			rewards: [
+				{
+					id: "3C5D7CABE960EEBC"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 4s
+									id: "minecraft:protection"
+								}
+							]
+						}
+					}
+				}
+				{
+					id: "2B32D652B7EFDC46"
+					type: "item"
+					item: {
+						id: "quark:ancient_tome"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 5s
+									id: "minecraft:sharpness"
+								}
+							]
+						}
+					}
+				}
+			]
+			dependencies: ["0780187E52D874B6"]
+			optional: true
+		}
+		{
+			size: 1.5d
+			description: ["这些村民已经准备好离开!最好带上必需品送他们。"]
+			id: "36806CE3DAD3DF05"
+			x: 8.0d
+			y: -7.5d
+			shape: "octagon"
+			title: "空间重构"
+			rewards: [
+				{
+					id: "316060101DA39627"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+				{
+					id: "639EAA43FA31C28D"
+					type: "item"
+					item: "cyclic:chorus_flight"
+					count: 16
+				}
+				{
+					id: "02F394C7EC837FBB"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 1s
+									id: "boss_tools_giselle_addon:space_breathing"
+								}
+							]
+						}
+					}
+					count: 4
+				}
+				{
+					id: "4B91BB36E16659C0"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 1s
+									id: "boss_tools_giselle_addon:gravity_normalizing"
+								}
+							]
+						}
+					}
+					count: 4
+				}
+				{
+					id: "3721E8180778A092"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 1s
+									id: "boss_tools_giselle_addon:space_fire_proof"
+								}
+							]
+						}
+					}
+					count: 4
+				}
+				{
+					id: "27485AA3920C2FE2"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 1s
+									id: "boss_tools_giselle_addon:venus_acid_proof"
+								}
+							]
+						}
+					}
+					count: 4
+				}
+			]
+			dependencies: ["18EDCBEF9DD689DA"]
+			tasks: [
+				{
+					type: "item"
+					count: 25L
+					consume_items: true
+					id: "4E5C7ADC07C067C7"
+					item: "ibpdx:space_survival_kit"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "13AFD2B63FDD8897"
+					type: "item"
+					item: "miniutilities:magical_egg"
+				}
+			]
+			description: [
+				"&b魔法蛋&r是外星科技的一页。它们允许你将一个生物存储回它的卵形态。也许你可以给村民卷轴?"
+				""
+				"注意怪物卵可以改变刷怪笼。"
+			]
+			id: "75018BB19D892ED7"
+			x: 2.0d
+			y: -7.5d
+			title: "一只鸡蛋"
+			rewards: [
+				{
+					id: "53046941ADC3A3C5"
+					type: "item"
+					team_reward: true
+					item: "miniutilities:magical_egg"
+				}
+			]
+			dependencies: ["25B3D9DCF9A6BEFF"]
+		}
+		{
+			tasks: [
+				{
+					id: "7C451FE0824946F8"
+					type: "item"
+					item: "ibpdx:uninstall_love"
+				}
+			]
+			description: ["石砖变成下界砖,红石矿石变成下界石英矿石,橡木原木变成绯红菌柄,白桦木变成诡异菌柄,海晶石变成荧石,绿宝石矿石变成远古残骸。"]
+			id: "6D41182DDD855AFD"
+			x: 8.5d
+			y: -11.5d
+			subtitle: "我可以将你的灵魂送回下界。"
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "52784B5407FC8D77"
+					type: "item"
+					item: "ibpdx:speed_gearbox"
+				}
+				{
+					id: "328E6293A30059C4"
+					type: "item"
+					item: "ibpdx:power_gearbox"
+				}
+			]
+			description: ["&b齿轮箱&r是增强你的多方块机器以更快或更高的效率的一种方法。&b能量齿轮箱&r有时也允许使用比机器正常处理更多的配方."]
+			id: "509E7BE0BA695DBD"
+			x: -8.5d
+			y: -7.5d
+			rewards: [
+				{
+					id: "5EE217E9FAB5681A"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:speed_gearbox"
+				}
+				{
+					id: "267DF90C15076584"
+					type: "item"
+					team_reward: true
+					item: "ibpdx:power_gearbox"
+				}
+			]
+			dependencies: ["301BB7E56A9DC2C4"]
+		}
+		{
+			tasks: [
+				{
+					id: "4853D6525D2655D2"
+					type: "item"
+					item: "ibpdx:catch_us"
+				}
+			]
+			description: ["你的星座晚上不出来吗?明晚呢?"]
+			id: "312845B5ABBEED0D"
+			x: 3.5d
+			y: -11.5d
+			subtitle: "浪费我们的时间等待行星排列应该是一种犯罪..."
+			dependencies: ["2E277327DB94599B"]
+			optional: true
+		}
+	]
+}

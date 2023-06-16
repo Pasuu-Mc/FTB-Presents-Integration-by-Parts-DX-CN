@@ -1,0 +1,23 @@
+{
+  "controllerId": "mana_death_reactor",
+  "name": "\u9b54\u529b\u6b7b\u4ea1\u53d1\u7535\u673a",
+  "textureOverride": "ibpdx:block/blockcasing_terrasteel",
+  "ports": [
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:botania_mana",
+      "name": "Mana",
+      "id": "mana",
+      "data": {
+        "capacity": 100000
+      }
+    }
+  ]
+}

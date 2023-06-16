@@ -1,0 +1,470 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "25D81B195D25DE7F"
+	filename: "digitems"
+	default_quest_shape: ""
+	icon: "refinedstorage:controller"
+	title: "储物妙手"
+	order_index: 6
+	quests: [
+		{
+			size: 1.25d
+			description: [
+				"&b富石英铁&r是存储需求的主要成分。它对于&e精致存储&r来说很关键。它由&6感应炉&r制作."
+				""
+				""
+			]
+			id: "57567AF96A8DD9AB"
+			x: -8.0d
+			y: -3.0d
+			shape: "pentagon"
+			title: "大量的石英"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "20CCD512BCF28F00"
+					item: "mysticalagriculture:quartz_enriched_iron_seeds"
+				}
+			]
+			dependencies: ["6ACA6B128CF6CBEC"]
+			tasks: [
+				{
+					id: "0F2923403B33D942"
+					type: "item"
+					item: "refinedstorage:quartz_enriched_iron"
+					count: 16L
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "15499CE857B12BB2"
+					type: "item"
+					item: "masterfulmachinery:processor_cutter_controller"
+				}
+				{
+					id: "19B8DDB796F57A49"
+					type: "item"
+					item: "minecraft:end_rod"
+				}
+				{
+					id: "4255C287BBD7911E"
+					type: "item"
+					item: "minecraft:stonecutter"
+				}
+				{
+					id: "7CEBDC1FC3D62C88"
+					type: "item"
+					item: "masterfulmachinery:processor_cutter_item_port_items_input"
+				}
+				{
+					id: "7EA38AA97153B95A"
+					type: "item"
+					item: "masterfulmachinery:processor_cutter_item_port_items_output"
+				}
+				{
+					id: "23754683AC524894"
+					type: "item"
+					item: "masterfulmachinery:processor_cutter_energy_port_energy_input"
+				}
+				{
+					id: "6310329AFBE3A156"
+					type: "item"
+					item: "ibpdx:blockcasing_empowered_diamond"
+					count: 4L
+				}
+				{
+					id: "7A56F31BC9A588DA"
+					type: "item"
+					item: "ibpdx:blockcasing_steel"
+					count: 15L
+				}
+			]
+			description: ["&b处理器切割机&r是组装各种RS处理器的一个步骤."]
+			icon: "masterfulmachinery:processor_cutter_controller"
+			id: "59FF3EAC5515FF77"
+			x: -6.0d
+			y: -3.0d
+			title: "切割人"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "2D20ED47B73F4692"
+					item: "boss_tools:desh_ingot"
+				}
+				{
+					id: "7C5788FCE827378B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["57567AF96A8DD9AB"]
+		}
+		{
+			size: 1.25d
+			description: ["任何&e精致存储&r系统的核心功能。注意每个系统只能有一个,它将是接收能量的地方."]
+			id: "1C8F75EF987A0A09"
+			x: -4.0d
+			y: -3.0d
+			shape: "pentagon"
+			title: "母脑"
+			rewards: [
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "13AF5AB39FEC775B"
+					item: "refinedstorage:processor_binding"
+				}
+			]
+			dependencies: ["59FF3EAC5515FF77"]
+			tasks: [
+				{
+					id: "16BB5E3102894212"
+					type: "item"
+					item: "refinedstorage:controller"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "2ACE2CA9E6560CE3"
+					type: "item"
+					item: "refinedstorage:cable"
+				}
+			]
+			description: ["将RS网络的一部分连接在一起。"]
+			id: "29D8E0C698C45B38"
+			x: -8.0d
+			y: -1.5d
+			title: "纤维光学"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "12435FCCAA67DA7D"
+					item: {
+						id: "compactmachines:tunnel"
+						Count: 1b
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+				}
+				{
+					id: "53313C6FCCF675E5"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["57567AF96A8DD9AB"]
+		}
+		{
+			tasks: [
+				{
+					id: "1A9B96F9B2322B69"
+					type: "item"
+					item: "refinedstorage:disk_drive"
+				}
+			]
+			description: ["存储RS驱动器。它们每个都有指定数量的物品,通常比外部存储更好。"]
+			id: "09DA658D925394BA"
+			x: -4.0d
+			y: -4.5d
+			title: "磁盘,不是磁盘"
+			rewards: [
+				{
+					id: "4725E4046159BAFE"
+					type: "item"
+					item: "refinedstorage:1k_storage_disk"
+				}
+			]
+			dependencies: ["1C8F75EF987A0A09"]
+		}
+		{
+			tasks: [
+				{
+					id: "38B3A02AF9AA2D20"
+					type: "item"
+					item: "refinedstorage:interface"
+				}
+			]
+			description: ["可以从容器中双向运输物品。"]
+			id: "7438DEAA71FEC1A0"
+			x: -1.5d
+			y: -1.5d
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "7CB724B30208D38C"
+					item: "refinedstorage:machine_casing"
+				}
+			]
+			dependencies: [
+				"4522C0150418EE51"
+				"52E3B5C8EEBC4DE4"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "0856E765C7F6B310"
+					type: "item"
+					item: "refinedstorage:crafting_grid"
+				}
+			]
+			description: ["与终端相同,但你可以制作物品。"]
+			id: "59B0D08A03BB7734"
+			x: -1.5d
+			y: -6.0d
+			title: "比终端更好"
+			dependencies: ["49D54EE7BEC04408"]
+		}
+		{
+			tasks: [
+				{
+					id: "79A6572D80027BD2"
+					type: "item"
+					item: "refinedstorage:crafter"
+				}
+			]
+			description: ["指向一个方块以“使用”它来制作配方,或指向空气来正常制作配方."]
+			id: "10B4B876832364FC"
+			x: 0.5d
+			y: -3.0d
+			title: "我如何再次制作这个?"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "44B058F81435FDCB"
+					item: "refinedstorage:crafter"
+				}
+			]
+			dependencies: ["4522C0150418EE51"]
+		}
+		{
+			tasks: [
+				{
+					id: "4D543334F0077E27"
+					type: "item"
+					item: "refinedstorage:grid"
+				}
+			]
+			description: ["允许您访问存储网络中的物品。"]
+			id: "49D54EE7BEC04408"
+			x: -1.5d
+			y: -4.5d
+			title: "在终端上"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "01E29BEE2C792B72"
+					item: "refinedstorage:basic_processor"
+				}
+			]
+			dependencies: ["4522C0150418EE51"]
+		}
+		{
+			tasks: [
+				{
+					id: "7BDA2F8390C64EDA"
+					type: "item"
+					item: "refinedstorage:importer"
+				}
+				{
+					id: "24C07DD45D49BFA2"
+					type: "item"
+					item: "refinedstorage:exporter"
+				}
+			]
+			description: ["&b输入面板&r和&b输出面板&r对于将物品自动移动出你的&e精致存储&r网络至关紧要"]
+			icon: "refinedstorage:exporter"
+			id: "52E3B5C8EEBC4DE4"
+			x: -4.0d
+			y: -1.5d
+			title: "输入和输出"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1FC254B024B9508E"
+					item: "refinedstorage:cable"
+				}
+			]
+			dependencies: ["1C8F75EF987A0A09"]
+		}
+		{
+			tasks: [
+				{
+					id: "5D7ACC8E63688E00"
+					type: "item"
+					item: "refinedstorageaddons:wireless_crafting_grid"
+				}
+				{
+					id: "4074CF1B280451F9"
+					type: "item"
+					item: "refinedstorage:wireless_transmitter"
+				}
+			]
+			description: ["&b无线&r制作访问你的网格。需要一个&6发送器&r在网络的某个地方,然后shift右键单击&6控制器&r来连接."]
+			icon: "refinedstorage:wireless_grid"
+			id: "6F28477B0D2CDA7B"
+			x: 0.5d
+			y: -6.0d
+			title: "关闭终端"
+			rewards: [
+				{
+					id: "08874B77C5BF2187"
+					type: "item"
+					team_reward: true
+					item: "refinedstorage:range_upgrade"
+				}
+			]
+			dependencies: ["59B0D08A03BB7734"]
+		}
+		{
+			tasks: [
+				{
+					id: "7A0BCC0853B07E8F"
+					type: "item"
+					item: "dankstorage:dank_1"
+				}
+			]
+			description: ["&b黑盒&r存储大量少数物品。不同物品的存储容量和数量随等级增加."]
+			id: "7BF54448C5E22A27"
+			x: 2.0d
+			y: -4.5d
+			title: "这是黑盒"
+			rewards: [
+				{
+					id: "17F99F874EFED526"
+					type: "item"
+					item: "dankstorage:dank_1"
+				}
+			]
+			dependencies: ["70002CA6BFF5CF52"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "49B9D6A8E7ADC000"
+					type: "item"
+					item: "sophisticatedbackpacks:backpack"
+				}
+			]
+			description: [
+				"&b背包&r是将物品存储在玩家身上的有用方法。它们可以接受各种&6升级&r,这些帮助使&b背包&r更有用。此外,你可以将其放置在世界上像箱子一样运行."
+				""
+				"你知道通过&6磁铁升级&r,&b背包&r可以作为物品真空吸尘器?"
+			]
+			id: "6CF9137FB2515BB3"
+			x: 2.0d
+			y: -3.0d
+			shape: "circle"
+			title: "山地背包"
+			rewards: [
+				{
+					id: "4FFF042A1B53FF5A"
+					type: "item"
+					item: "sophisticatedbackpacks:void_upgrade"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "30B018CEE4C10598"
+					type: "item"
+					item: "refinedstorage:machine_casing"
+				}
+			]
+			description: ["一台电脑零件的中央结构。"]
+			id: "4522C0150418EE51"
+			x: -1.5d
+			y: -3.0d
+			rewards: [
+				{
+					id: "1E71AF4D83F7A83E"
+					type: "item"
+					team_reward: true
+					item: "refinedstorage:machine_casing"
+				}
+			]
+			dependencies: [
+				"1C8F75EF987A0A09"
+				"452CD6ADF4E2FDC3"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "08AAC0201A60FF9B"
+					type: "item"
+					item: "extendedcrafting:black_iron_ingot"
+				}
+			]
+			description: [
+				"&b黑铁&r是通过在铁块上引出敌对生物锻造出来的."
+				""
+				"它可以在敌对生物在&6铁块&r上产生时生成。如果你需要强制一个生成,&6暗夜粉&r可能会有帮助."
+				""
+				"{image:ibpdx:textures/questbook/black_iron.png width:200 height:150 align:1}"
+			]
+			id: "70002CA6BFF5CF52"
+			x: 2.0d
+			y: -6.0d
+			title: "锻造在黑暗中"
+			rewards: [
+				{
+					id: "2BE08BBCA5B5ED0E"
+					type: "item"
+					item: "extendedcrafting:black_iron_block"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "5EBAAA7B40BC17D0"
+					type: "item"
+					item: "metalbarrels:wood_to_copper"
+				}
+			]
+			description: ["&b桶升级&r允许&6桶&r和&6箱子&r存储更多的物品."]
+			id: "3F6BD16C9EBC8722"
+			x: 2.0d
+			y: -1.5d
+			title: "内部更大,外边相同"
+			rewards: [
+				{
+					id: "2E28C318D0319F72"
+					type: "item"
+					team_reward: true
+					item: "metalbarrels:wood_to_copper"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+	]
+}

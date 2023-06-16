@@ -1,0 +1,24 @@
+{
+  "controllerId": "auto_starlight_infuser",
+  "name": "\u81ea\u52a8\u661f\u80fd\u586b\u5145\u5668",
+  "textureOverride": "astralsorcery:block/marble_raw",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    }
+  ]
+}

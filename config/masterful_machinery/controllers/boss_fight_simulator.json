@@ -1,0 +1,40 @@
+{
+  "controllerId": "boss_fight_simulator",
+  "name": "\u0042\u006f\u0073\u0073\u6218\u6597\u6a21\u62df\u5668",
+  "textureOverride": "immersiveengineering:block/metal/sheetmetal_copper",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 7
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity":  30000000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:botania_mana",
+      "name": "Mana",
+      "id": "mana",
+      "data": {
+        "capacity": 100000
+      }
+    }
+  ]
+}

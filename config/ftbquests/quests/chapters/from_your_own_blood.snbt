@@ -1,0 +1,1095 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "676949883B3EE9FD"
+	filename: "from_your_own_blood"
+	default_quest_shape: ""
+	icon: "bloodmagic:altar"
+	title: "以己之血"
+	order_index: 6
+	quests: [
+		{
+			size: 2.0d
+			description: ["&b血之祭坛&r用于收集你用&b献祭刀&r从自己身上取出的血。给它一些空间。虽然它相当大。我们建议你在计划其位置时查阅尺寸。&6生命收集器&r需要大量的专注和精力才能使用,因此在使用它生成生命值的过程中，它最终会让你筋疲力尽。"]
+			id: "3B657C48A24C52DA"
+			icon: "bloodmagic:altar"
+			x: -4.0d
+			y: -1.0d
+			shape: "pentagon"
+			title: "幻影血脉"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "5108448B3F0C768E"
+					item: "tconstruct:soulsteel_ingot"
+				}
+				{
+					id: "28747DC3F61EC4CE"
+					type: "item"
+					team_reward: true
+					item: "tconstruct:blood_bucket"
+				}
+			]
+			dependencies: ["1C90C3EBEB93D2A8"]
+			tasks: [
+				{
+					id: "49010FFDB03E55DD"
+					type: "item"
+					item: "bloodmagic:altar"
+				}
+				{
+					id: "4AC062848C7FDBC1"
+					type: "item"
+					item: {
+						id: "bloodmagic:sacrificialdagger"
+						Count: 1b
+						tag: { }
+					}
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "77497BCC2AAFB6EB"
+					type: "item"
+					item: "bloodmagic:blankslate"
+					count: 4L
+				}
+			]
+			description: ["通过将强化石头浸润在填满&6生命精华&r的&6血之祭坛&r中,你可以制作&b空白石板&r.它们是&e血魔法&r的常见制作组件."]
+			id: "60E6E7FFDF6160DA"
+			x: -2.0d
+			y: -1.0d
+			title: "浸润板岩"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "059DD9C9184C7746"
+					item: "bloodmagic:blankslate"
+				}
+				{
+					id: "41DE025B0D6A166B"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "botania:incense_stick"
+						Count: 1b
+						tag: {
+							brewKey: "botania:regen"
+						}
+					}
+				}
+			]
+			dependencies: ["3B657C48A24C52DA"]
+		}
+		{
+			size: 1.5d
+			description: ["&b虚弱气血宝珠&r是&6血之宝珠&r的第一层,用于&e血之魔法&r的合成配方。它需要绑定到玩家才能工作,所以你手持它右键单击."]
+			id: "7D32C585EDAC8EDF"
+			x: 0.0d
+			y: -1.0d
+			shape: "hexagon"
+			title: "力量宝珠"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "2DFCE79A90A1F0EA"
+					item: "mysticalagriculture:obsidian_seeds"
+				}
+			]
+			dependencies: ["60E6E7FFDF6160DA"]
+			tasks: [
+				{
+					id: "6DA215938F11A272"
+					type: "item"
+					item: "bloodmagic:weakbloodorb"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "6AA364C11C0F9A00"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 8L
+				}
+			]
+			description: ["&b血之祭坛&r需要将任何类型的符文放在其周围的特殊配置中。第一级是祭坛下方的y级的8个符文。(如果祭坛是y=50,那它就是y=49。)"]
+			id: "0FB2AC887BA67751"
+			x: 0.0d
+			y: 0.5d
+			title: "升级时间!"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "07EC85ECEF04FD1E"
+					item: "mysticalagriculture:nether_seeds"
+				}
+				{
+					id: "603C992AC223CC81"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["7D32C585EDAC8EDF"]
+		}
+		{
+			tasks: [
+				{
+					id: "072B890C3E353BCF"
+					type: "item"
+					item: "bloodmagic:soulforge"
+				}
+			]
+			description: ["我们最终将你收集的所有&6意志&r很好地用作&b狱火锻炉&r的燃料;&e血魔法&r的制作机."]
+			id: "50250E180AECBB40"
+			x: 0.0d
+			y: 2.0d
+			title: "邪恶能量"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "5261CBE1490C0EF7"
+					item: "astralsorcery:nocturnal_powder"
+				}
+				{
+					id: "5466DC73CEFADD7A"
+					type: "item"
+					item: "bloodmagic:demonwillgauge"
+				}
+			]
+			dependencies: ["0FB2AC887BA67751"]
+		}
+		{
+			tasks: [
+				{
+					id: "3BDD6B6DF0C02EA1"
+					type: "item"
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: ["&b奥术粉灰&r用于在&e血魔法&r中制作所有类型的&6印记&r."]
+			id: "7800A839713D1501"
+			x: 2.0d
+			y: 2.0d
+			title: "奥术铭文"
+			rewards: [
+				{
+					id: "50AF734621ADE5EF"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "bloodmagic:arcaneashes"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			dependencies: ["50250E180AECBB40"]
+		}
+		{
+			size: 1.5d
+			description: ["升级你的&b气血宝珠&r可以让你制作更复杂的物品."]
+			id: "14FC6AB8B1CE4F0B"
+			x: 0.0d
+			y: 6.0d
+			shape: "hexagon"
+			title: "更好的宝珠"
+			rewards: [
+				{
+					id: "7CE0DF0BB131431C"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:reagentholding"
+				}
+				{
+					id: "1E61260A4F06980A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["49AA13C4A49AB1CC"]
+			tasks: [
+				{
+					id: "7BA3F7AE9E92AA4B"
+					type: "item"
+					item: "bloodmagic:apprenticebloodorb"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "49FDDAC81017F14D"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgempetty"
+						Count: 1b
+						tag: {
+							souls: 64.0d
+						}
+					}
+				}
+			]
+			description: ["&b微尘地狱魂石&r是第一层&6意志&r的存储物品。它会自动将任何意志添加到自己身上。它可以在&6狱火锻炉&r中代替意志。你可能需要两个,所以你可以同时升级它们."]
+			id: "49AA13C4A49AB1CC"
+			x: 0.0d
+			y: 4.0d
+			title: "心烦意乱的小东西"
+			rewards: [
+				{
+					id: "4EEC2E06D2752B53"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "bloodmagic:soulgempetty"
+						Count: 1b
+						tag: {
+							souls: 64.0d
+						}
+					}
+				}
+			]
+			dependencies: ["50250E180AECBB40"]
+		}
+		{
+			tasks: [
+				{
+					id: "60824F1E2A64DDDB"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemlesser"
+						Count: 1b
+						tag: {
+							souls: 256.0d
+						}
+					}
+				}
+			]
+			description: ["这个小宝石不会让你走远的。升级它,这样你就可以在其中储存更多的意志,并且制作更好的东西。"]
+			id: "43A93A09ECE5A99A"
+			x: 2.0d
+			y: 4.0d
+			title: "意志是坚不可摧的"
+			rewards: [
+				{
+					id: "5DB6488E18AB75E9"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "bloodmagic:soulgemlesser"
+						Count: 1b
+						tag: {
+							souls: 256.0d
+						}
+					}
+				}
+			]
+			dependencies: ["49AA13C4A49AB1CC"]
+		}
+		{
+			tasks: [
+				{
+					id: "02B812F699683F64"
+					type: "item"
+					item: "minecraft:glowstone"
+					count: 4L
+				}
+				{
+					id: "04A9E16B5325D33A"
+					type: "item"
+					item: "bloodmagic:blankrune"
+					count: 16L
+				}
+			]
+			description: ["一个3级&6血之祭坛&r可以让你制作灌输石板,这对于任何更好的工具和符文的思考都是非常重要的。"]
+			icon: "bloodmagic:infusedslate"
+			id: "73A0F1D0DD7E4F59"
+			x: 4.0d
+			y: 4.0d
+			title: "血流"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "4502B95D9A6ECA41"
+					item: "bloodmagic:altarcapacityrune"
+				}
+				{
+					id: "37151D43DE3FF998"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["43A93A09ECE5A99A"]
+		}
+		{
+			size: 1.5d
+			description: ["&b法师气血宝珠&r是下一个升级。开始!"]
+			id: "4024980B5C36B4E8"
+			x: 4.0d
+			y: 2.0d
+			shape: "hexagon"
+			title: "真正的血魔法"
+			dependencies: ["73A0F1D0DD7E4F59"]
+			tasks: [
+				{
+					id: "6C96582F27F69EE3"
+					type: "item"
+					item: "bloodmagic:magicianbloodorb"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "389846EBF8B2727D"
+					type: "item"
+					item: {
+						id: "bloodmagic:soulgemcommon"
+						Count: 1b
+						tag: {
+							souls: 1024.0d
+						}
+					}
+				}
+			]
+			description: ["&b普通地狱魂石&r是下一个步骤。它的容量增加允许在&6狱火锻炉&r中添加一些配方."]
+			id: "193868B02AD9794F"
+			x: 4.0d
+			y: 6.0d
+			title: "污秽的平民"
+			rewards: [
+				{
+					id: "1DA64274AB5D49E3"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "bloodmagic:soulgemcommon"
+						Count: 1b
+						tag: {
+							souls: 1024.0d
+						}
+					}
+				}
+				{
+					id: "2061FAE932A3839C"
+					type: "item"
+					item: "immersiveengineering:shader_bag_ie_masterwork"
+				}
+				{
+					id: "27B33FDC1A652888"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["73A0F1D0DD7E4F59"]
+		}
+		{
+			tasks: [
+				{
+					id: "021CE6F656271179"
+					type: "item"
+					item: "bloodmagic:weakbloodshard"
+					count: 2L
+				}
+			]
+			description: [
+				"将&6饱满血命果&r与&6炼金反应炉&r结合,你可以制作&b虚弱气血碎片&r."
+				""
+				"注意:要获得饱满血命果,你必须在怪物站在植物上的时候获得血命果。"
+			]
+			id: "230EDDA8E23B1A15"
+			icon: "bloodmagic:weakbloodshard"
+			x: 8.0d
+			y: 6.0d
+			shape: "hexagon"
+			title: "血魔法的束缚"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "79777CD948FAF625"
+					item: "bloodmagic:weak_tau"
+				}
+				{
+					id: "347A4018FDFD5B48"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "5672C2EBC1055A9A"
+					type: "item"
+					item: "tconstruct:blood_cake"
+				}
+			]
+			dependencies: [
+				"193868B02AD9794F"
+				"6AF0498295283990"
+			]
+			optional: true
+		}
+		{
+			size: 1.5d
+			description: ["使用更多的符文和血石制作一个等级4&6血之祭坛&r。你现在应该知道训练了。"]
+			id: "4E0970B8BF1577D0"
+			x: 10.0d
+			y: 6.0d
+			shape: "pentagon"
+			title: "然后"
+			rewards: [
+				{
+					id: "0184DF1AFF075CD9"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:lavacrystal"
+				}
+				{
+					id: "31C598AF36B62EDB"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "4F6BAD732B598094"
+					item: "ibpdx:duskstone_ingot"
+				}
+			]
+			dependencies: ["230EDDA8E23B1A15"]
+			tasks: [
+				{
+					id: "57CB8925E6687405"
+					type: "item"
+					item: "bloodmagic:masterbloodorb"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "3082C8D0E35BF0A7"
+					type: "item"
+					item: "bloodmagic:masterroutingnode"
+				}
+				{
+					id: "633F0A29B51B81B8"
+					type: "item"
+					item: "bloodmagic:noderouter"
+				}
+				{
+					id: "277EDC01B7C8C8ED"
+					type: "item"
+					item: "bloodmagic:itemroutingnode"
+					count: 4L
+				}
+			]
+			description: ["&b路由节点&r是另一个神奇的存储排序选项。随时可以与&6多媒体&r系统一起使用它们."]
+			icon: "bloodmagic:masterroutingnode"
+			id: "7A6EA4DACF5B779F"
+			x: 2.0d
+			y: 6.0d
+			title: "前往此地的路线"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "32A2F20F1642B747"
+					item: "bloodmagic:itemroutingnode"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "381BFF127B98777A"
+					item: "bloodmagic:itemrouterfilterexact"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "7689284D33755644"
+					item: "bloodmagic:componentframeparts"
+				}
+			]
+			dependencies: ["193868B02AD9794F"]
+		}
+		{
+			tasks: [
+				{
+					id: "20926C1B22729440"
+					type: "item"
+					item: "bloodmagic:selfsacrificerune"
+				}
+				{
+					id: "4BEC217707EA8D12"
+					type: "item"
+					item: "bloodmagic:sacrificerune"
+				}
+			]
+			description: ["将&b血之符文&r替换在祭坛上是一种提高自身效率并获得额外好处的好方法。牺牲符文允许更多LP,献祭符文允许更多其他生物的LP。这些是基本的符文,现在对你可能最有用。"]
+			icon: "bloodmagic:selfsacrificerune"
+			id: "7EB03C981FB5158C"
+			x: 0.0d
+			y: 8.0d
+			title: "祭坛升级"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "77444EF4DAF8AC17"
+					item: "bloodmagic:selfsacrificerune"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "7202A3C5CEE6039B"
+					item: "bloodmagic:sacrificerune"
+				}
+			]
+			dependencies: ["14FC6AB8B1CE4F0B"]
+		}
+		{
+			tasks: [
+				{
+					id: "6B99070DD24DC622"
+					type: "item"
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					id: "67CE6FD8B5730B8E"
+					type: "item"
+					item: "bloodmagic:ritualstone"
+					count: 10L
+				}
+				{
+					id: "3D4408DDFD335F3D"
+					type: "item"
+					item: "bloodmagic:activationcrystalweak"
+				}
+				{
+					id: "7915B310BA08CA24"
+					type: "item"
+					item: "bloodmagic:ritualdiviner"
+				}
+			]
+			description: ["&b主仪式石&r和&b仪式推测仪&r可以制作复杂的&e血之魔法&r仪式,使用&6生命点&r来达到不同的效果.&6仪式祭坛&r是许多不同的形状和大小,取决于您想要执行的仪式,所以在为它们制作时会考虑空间这一点.用&b虚弱激活水晶&r激活. 右键或左键单击祭坛来滚动你的选项并右键单击主石来建造."]
+			icon: "bloodmagic:masterritualstone"
+			id: "7A95B8AB273D8C96"
+			x: 6.0d
+			y: 2.0d
+			title: "仪式法杖"
+			rewards: [
+				{
+					type: "item"
+					count: 10
+					team_reward: true
+					id: "215EAF9F55F7DEE2"
+					item: "bloodmagic:ritualstone"
+				}
+				{
+					id: "56781BFFBC965B85"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["4024980B5C36B4E8"]
+		}
+		{
+			size: 1.5d
+			description: ["&o欢迎来到融合&r!"]
+			id: "0CCC62DD7C8DFC5A"
+			x: 14.0d
+			y: 6.0d
+			shape: "octagon"
+			title: "血融合"
+			rewards: [
+				{
+					id: "244522032D786DE3"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:masterritualstone"
+				}
+				{
+					type: "item"
+					count: 64
+					team_reward: true
+					id: "3BF361E8EDF55673"
+					item: "bloodmagic:ritualstone"
+				}
+				{
+					type: "item"
+					count: 44
+					team_reward: true
+					id: "21D8293398F8FBAD"
+					item: "bloodmagic:ritualstone"
+				}
+				{
+					id: "44E635F4C7346634"
+					type: "item"
+					team_reward: true
+					item: "bloodmagic:activationcrystalcreative"
+				}
+			]
+			dependencies: ["5C62926BC2AA420F"]
+			tasks: [
+				{
+					id: "68808C8645E164B4"
+					type: "item"
+					item: "ibpdx:life_infused_cooler"
+					count: 200L
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "3ACC6A38432E4469"
+					type: "item"
+					item: "astralsorcery:ritual_pedestal"
+				}
+			]
+			description: ["&e星辉魔法&r有自己的一套仪式可以做各种有用的事情。请查看&6星芒宝典&r了解更多信息。"]
+			id: "785951EEB322A340"
+			x: 4.0d
+			y: 8.0d
+			title: "神秘仪式"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "50E64FA06F7AA7C9"
+					item: "astralsorcery:ritual_link"
+				}
+				{
+					id: "445B2F2EB99BC65A"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:lens"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "3FD72E3D88CAF1F0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["193868B02AD9794F"]
+		}
+		{
+			tasks: [
+				{
+					id: "2DBCE45F00DAD006"
+					type: "item"
+					item: "ibpdx:bloodshine_ingot"
+				}
+			]
+			description: ["有趣的是:如果你结合盖亚魂锭、生命精华和星辉的颜色,它最终会变成红色、白色和蓝色的白星......反正,你需要制作一个&6星辉灌注机&r来制作&b血光锭&r,用于后面的魔法合成。"]
+			icon: "ibpdx:bloodshine_ingot"
+			id: "5C62926BC2AA420F"
+			x: 12.0d
+			y: 6.0d
+			title: "魔法冶金"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "22A1F12D719373A0"
+					item: "ibpdx:crystal_of_speed"
+				}
+				{
+					id: "2F519A3FB55AD3F7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "510042F1C376DF85"
+					type: "item"
+					team_reward: true
+					item: "pamhc2foodcore:epicbaconitem"
+				}
+			]
+			dependencies: ["4E0970B8BF1577D0"]
+		}
+		{
+			tasks: [
+				{
+					id: "302CD4413DBA3157"
+					type: "item"
+					item: "bloodmagic:simplekey"
+				}
+			]
+			description: ["你可以用它来访问&e血魔法&r的地牢,或者只是用来制作&6维度地牢&r的钥匙."]
+			x: 8.0d
+			id: "1E3F737E8E7119FE"
+			y: 2.0d
+			shape: "hexagon"
+			title: "这是钥匙"
+			rewards: [
+				{
+					id: "40B1242F4C95DDB1"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "4B689BD1572C5986"
+					item: "tconstruct:soulsteel_ingot"
+				}
+			]
+			dependencies: ["7A95B8AB273D8C96"]
+		}
+		{
+			tasks: [
+				{
+					id: "0962995A70CDE91F"
+					type: "item"
+					item: "bloodmagic:alchemicalreactionchamber"
+				}
+			]
+			description: ["例如,你可以用它来制作&6气血碎片&r."]
+			id: "6AF0498295283990"
+			x: 8.0d
+			y: 4.0d
+			rewards: [
+				{
+					id: "4178F0357F29D466"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "bloodmagic:crystalline_resonator"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+				{
+					id: "4CBA944F180F8E84"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "把东西放进去。得到不同的物品。"
+			dependencies: ["1E3F737E8E7119FE"]
+		}
+		{
+			tasks: [
+				{
+					id: "080A6CB13FAFE4A4"
+					type: "item"
+					item: "dimdungeons:block_gilded_portal"
+					count: 2L
+				}
+				{
+					id: "08A845057A2AAA92"
+					type: "item"
+					item: "dimdungeons:block_portal_keyhole"
+				}
+				{
+					id: "6B19209E70FB64D7"
+					type: "item"
+					item: "minecraft:stone_bricks"
+					count: 9L
+				}
+				{
+					id: "60571699323B8E1B"
+					type: "item"
+					item: "dimdungeons:item_portal_key"
+				}
+			]
+			description: [
+				"要进入&b维度地牢&r,你需要建造一个传送门框架。查看指南了解更多信息。"
+				""
+				"这些地牢是你获取某些资源的主要方法,例如你的初始&6铱&r或&6未知唱片&r."
+			]
+			icon: "dimdungeons:block_portal_keyhole"
+			id: "66126EF0BC3EA6CE"
+			x: 8.0d
+			y: 0.0d
+			title: "金荧光"
+			rewards: [
+				{
+					id: "3068DF6415BE4E19"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "6FE1319CBAC43CFD"
+					type: "item"
+					item: "darkutils:charm_portal"
+				}
+			]
+			dependencies: ["1E3F737E8E7119FE"]
+		}
+		{
+			tasks: [
+				{
+					id: "18B768A61F90B51B"
+					type: "item"
+					item: "dimdungeons:block_portal_crown"
+					count: 2L
+				}
+			]
+			description: ["在地牢中找到&6高级钥匙&r和一些&6传送王冠&r来访问更难的地牢."]
+			id: "4FA6FBD67B2384AF"
+			x: 10.0d
+			y: 0.0d
+			title: "地牢2:更大的"
+			rewards: [
+				{
+					id: "3AD219F00F34FD06"
+					type: "item"
+					item: "pamhc2foodcore:fruitpunchitem"
+				}
+				{
+					id: "5EC36DAF46C45714"
+					type: "xp"
+					xp: 10
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "05456D99F6255360"
+					item: "mysticalagriculture:experience_seeds"
+				}
+			]
+			dependencies: ["66126EF0BC3EA6CE"]
+		}
+		{
+			tasks: [
+				{
+					id: "2B58BEAA1A894F43"
+					type: "item"
+					item: "masterfulmachinery:boss_fight_simulator_controller"
+					consume_items: true
+				}
+				{
+					id: "2D9D3E36D3653ABD"
+					type: "item"
+					item: "masterfulmachinery:boss_fight_simulator_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "19070FA6FA2FF0FD"
+					type: "item"
+					item: "masterfulmachinery:boss_fight_simulator_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "00DFC2CE30900719"
+					type: "item"
+					item: "masterfulmachinery:boss_fight_simulator_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					id: "045EFF3FA4E41F54"
+					type: "item"
+					item: "masterfulmachinery:boss_fight_simulator_fluid_port_fluids_input"
+					consume_items: true
+				}
+				{
+					id: "28D8C736AC8C5FC1"
+					type: "item"
+					item: "masterfulmachinery:boss_fight_simulator_mana_port_botania_mana_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 56L
+					consume_items: true
+					id: "19346B2D1B9CE87D"
+					item: "bloodmagic:bloodstonebrick"
+				}
+				{
+					type: "item"
+					count: 34L
+					consume_items: true
+					id: "5AC7A67CEC459878"
+					item: "immersiveengineering:sheetmetal_copper"
+				}
+				{
+					type: "item"
+					count: 50L
+					consume_items: true
+					id: "6C6667EBDADD30E3"
+					item: "ibpdx:blockcasing_black_quartz"
+				}
+				{
+					type: "item"
+					count: 36L
+					consume_items: true
+					id: "7C93157DCF40515D"
+					item: "thermal:signalum_glass"
+				}
+				{
+					type: "item"
+					count: 12L
+					consume_items: true
+					id: "2B07C29FC9D5D937"
+					item: "ibpdx:simulation_core"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "601C1400EC71E234"
+					item: "refinedstorage:red_controller"
+				}
+				{
+					id: "13733D359F3BB1CB"
+					type: "item"
+					item: {
+						id: "thermal:energy_cell"
+						Count: 1b
+						tag: {
+							BlockEntityTag: {
+								EnergyMax: 1000000
+								EnergySend: 1000
+								Energy: 0
+								EnergyRecv: 1000
+							}
+						}
+					}
+					consume_items: true
+				}
+			]
+			description: [
+				"&bBoss战斗模拟器&r将你制作的所有物品收集到输入材料,作为交换,会产生各种Boss掉落物。但是,它非常耗电,你需要2个给定的变速箱来升级它。"
+				""
+				"它使用&6合成基座&r来决定Boss的掉落物。"
+				""
+				"另外,由于胶囊无法放置&6红石控制器&r,你需要手动放置它们。它们会在&6红石通量单元&r上下放置."
+			]
+			icon: "masterfulmachinery:boss_fight_simulator_controller"
+			id: "5A3BEF8FA38E9F35"
+			x: 10.0d
+			y: 8.0d
+			title: "框架匹配"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "2F46B4347C734907"
+					item: "refinedstorage:red_controller"
+				}
+				{
+					id: "6FFC46B08A64D7E9"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "boss_fight_simulator"
+							structureName: "config/capsule/rewards/boss_fight_simulator"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 9
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "5FF67F6C3B3100BE"
+					item: "mysticalagriculture:wither_skeleton_seeds"
+				}
+				{
+					id: "7A65711A0C7B81B8"
+					type: "xp_levels"
+					xp_levels: 30
+				}
+			]
+			dependencies: ["4E0970B8BF1577D0"]
+		}
+		{
+			tasks: [
+				{
+					id: "005CB5EC5E86120E"
+					type: "item"
+					item: "bloodmagic:life_essence_bucket"
+				}
+			]
+			description: [
+				"想要从你的&6血之祭坛&r中提取生命精华吗?管道确实有效,但如果你希望的话,你也可以用桶来提取."
+				""
+				"默认情况下,传输速率非常缓慢,您可以通过转位符文来大幅提高传输速率。"
+			]
+			id: "13FC9AF47D4EC0EE"
+			x: -4.0d
+			y: 0.5d
+			title: "拾取它"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "59D56446F62D2D1A"
+					item: "bloodmagic:dislocationrune"
+				}
+			]
+			dependencies: ["3B657C48A24C52DA"]
+			dependency_requirement: "one_completed"
+		}
+	]
+}

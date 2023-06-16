@@ -1,0 +1,2008 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "159CFE9400E2643E"
+	filename: "capsule_corp"
+	default_quest_shape: ""
+	icon: {
+		id: "capsule:capsule"
+		Count: 1b
+		tag: {
+			size: 1
+			state: 3
+			label: "Copy Any Capsule"
+			sourceInventory: { }
+			structureName: "generated_blueprint_copy_path"
+			display: {
+				color: 3949738
+			}
+		}
+	}
+	title: "胶囊公司."
+	order_index: 0
+	quests: [
+		{
+			tasks: [
+				{
+					id: "4EF2794713169AC5"
+					type: "checkmark"
+					title: "购房人"
+				}
+			]
+			description: [
+				"你讨厌花时间建造自己的基础吗?这个任务为你准备的!这些是预设的基础。它们不是巨大的,你需要自己处理大型建造,如果你不想建造,但想要美观,这是个选择。"
+				""
+				"请注意,所有这些样本图像都是“装饰窗”,只有实际的建筑包含在胶囊中。"
+				""
+				"也不含奶酪主机。"
+			]
+			icon: "minecraft:cobblestone"
+			id: "622E55E477FBD715"
+			x: -2.0d
+			y: 0.0d
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "205985054A528D0E"
+					type: "checkmark"
+					title: "多方块疯狂"
+				}
+			]
+			description: [
+				"在这里,你可以找到一个包含每个模具的胶囊的物品栏-我指&e高级机器&r!"
+				""
+				"说明手册：大多数控制都在胶囊的工具提示上，但要旋转,当全息图激活时左键单击。要激活全息图,请用胶囊右键单击,然后再次右键单击以放置它。"
+			]
+			icon: "masterfulmachinery:bedrock_miner_controller"
+			id: "1290D6B2716C0297"
+			x: 5.0d
+			y: 0.0d
+			dependencies: ["23EBF86680398203"]
+		}
+		{
+			tasks: [
+				{
+					id: "2C138C7DBFAF948A"
+					type: "checkmark"
+					title: "舒适的木屋"
+				}
+			]
+			description: [
+				"简单,但更吸引人,一个比原版方块及其雕刻变体还多的建筑。"
+				""
+				"{image:ibpdx:textures/questbook/cozy_wooden_house.png width:200 height:125 align:1}"
+			]
+			icon: "minecraft:oak_planks"
+			id: "0E48578F27BF2312"
+			x: 0.5d
+			y: 1.5d
+			rewards: [
+				{
+					id: "18F501FDE485781A"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 21
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "cozy_wooden_house_dx"
+							structureName: "config/capsule/rewards/cozy_wooden_house_dx"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1b
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: ["622E55E477FBD715"]
+		}
+		{
+			tasks: [
+				{
+					id: "345C3A6E1A7E271F"
+					type: "checkmark"
+					title: "沉浸工厂"
+				}
+			]
+			description: [
+				"一个大型工厂,用来容纳各种沉浸工程机器,包括焦炉和高炉的空间和传送物品的空间。"
+				""
+				"{image:ibpdx:textures/questbook/immersive_factory.png width:200 height:125 align:1}"
+			]
+			icon: "chisel:bricks/soft_bricks"
+			id: "28AF1F90E95B795E"
+			x: -1.0d
+			y: 1.5d
+			rewards: [
+				{
+					id: "473134C9421FAB32"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 31
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "immersive_factory"
+							structureName: "config/capsule/rewards/immersive_factory"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1b
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: [
+				"622E55E477FBD715"
+				"5BB511A3BD53616C"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "5EBB1882A3A7E008"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:duskstone_mixer_controller"
+			id: "1671ED5E38717AFD"
+			x: 4.0d
+			y: 1.5d
+			title: "暮光搅拌器"
+			rewards: [
+				{
+					id: "3873C3644902AA18"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							state: 3
+							label: "Duskstone Mixer"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/duskstone_mixer"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "744DA0D040DF1715"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:bedrock_miner_controller"
+			id: "227FCED7B31466C8"
+			x: 2.5d
+			y: 1.5d
+			title: "基岩采矿机"
+			rewards: [
+				{
+					id: "29241107C3FAF3D5"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Bedrock Miner"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/bedrock_miner"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "3B8BE413EB7D5262"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:plate_presser_controller"
+			id: "6C405F5EF6F3B6A2"
+			x: 6.0d
+			y: 1.5d
+			title: "板冲压机"
+			rewards: [
+				{
+					id: "78E1136D89F7A568"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Plate Presser"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/plate_presser"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "3E0D1719F04964FF"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:super_alloyer_controller"
+			id: "4BF1281EB18ED476"
+			x: 7.5d
+			y: 1.5d
+			title: "超级合金"
+			rewards: [
+				{
+					id: "2A1047BBE3742D97"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							Damage: 0
+							sourceInventory: { }
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+							label: "Super Alloyer"
+							structureName: "config/capsule/prefabs/super_alloyer"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "1B3093612ABA726F"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:metal_empowerer_controller"
+			id: "24219129A208F8C8"
+			x: 6.0d
+			y: 3.0d
+			title: "金属充能器"
+			rewards: [
+				{
+					id: "40BC16210E2CA7AF"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							state: 3
+							Damage: 0
+							sourceInventory: { }
+							spawnPosition: {
+								x: 50
+								y: 56
+								dim: "minecraft:overworld"
+								z: 104
+							}
+							label: "Metal Empowerer"
+							structureName: "config/capsule/prefabs/metal_empowerer"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "4439AB20BBF4F4FB"
+					type: "checkmark"
+				}
+			]
+			description: [""]
+			icon: "masterfulmachinery:liquid_fuel_generator_controller"
+			id: "5444356ACF6D6CBE"
+			x: 7.5d
+			y: 3.0d
+			title: "液态燃料发电机"
+			rewards: [
+				{
+					id: "1804EF51E13B1758"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 9
+							state: 3
+							label: "Liquid Fuel Generator"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/liquid_fuel_generator"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "3A219FD763528ED7"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:starlight_factory_controller"
+			id: "6AEED9AE1E8DA3C5"
+			x: 2.5d
+			y: 4.5d
+			title: "星能工厂"
+			rewards: [
+				{
+					id: "56033246C5F837D6"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Starlight Factory"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/starlight_factory"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "58D1BDCBB3D3B5BF"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:starlight_enchanter_controller"
+			id: "0FB118D9E9B02DA1"
+			x: 4.0d
+			y: 4.5d
+			title: "星能附魔师"
+			rewards: [
+				{
+					id: "122D2CE3612C7580"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							state: 3
+							label: "Starlight Enchanter"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/starlight_enchanter"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "5E8738132029453D"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:block_duplicator_controller"
+			id: "1D71CDE63672478F"
+			x: 2.5d
+			y: 6.0d
+			title: "方块复制器"
+			rewards: [
+				{
+					id: "2E09A8F8937DF893"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							label: "Block Duplicator"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/block_duplicator"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "14B41FDA585F8409"
+					type: "checkmark"
+				}
+			]
+			description: [""]
+			icon: "masterfulmachinery:ore_washer_controller"
+			id: "05FAD2B16A6FA76C"
+			x: 6.0d
+			y: 4.5d
+			title: "洗矿机"
+			rewards: [
+				{
+					id: "1528AF21E2E7DCC2"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Ore Washer"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ore_washer"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "19176086BB1A3578"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:precipitator_controller"
+			id: "43034A0FDD7A655B"
+			x: 7.5d
+			y: 4.5d
+			title: "降水机"
+			rewards: [
+				{
+					id: "49E295988418C929"
+					type: "item"
+					auto: "enabled"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Precipitator"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/precipitator"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "0307E1504BCE7F6E"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:lunar_satellite_dish_controller"
+			id: "3820250E7BAE1301"
+			x: 4.0d
+			y: 6.0d
+			title: "月球卫星天线"
+			rewards: [
+				{
+					id: "0C6F7F290B708E32"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 13
+							state: 3
+							label: "Lunar Satellite Dish"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/lunar_satellite_dish"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "7C068884D405D85F"
+					type: "checkmark"
+					title: "MC餐具"
+				}
+			]
+			description: [
+				"一个不错的餐桌,背面有空间来制作食物。"
+				""
+				"很不幸,你可以放在这里的很多东西都是瓷砖实体,因此阻止了胶囊的旋转,所以你需要自己添加装饰品。"
+				""
+				"{image:ibpdx:textures/questbook/mc_diner.png width:200 height:125 align:1}"
+			]
+			icon: "chisel:prismarine/small_bricks"
+			id: "576A353566CEC84D"
+			x: -3.0d
+			y: 1.5d
+			rewards: [
+				{
+					id: "5E1C2D8804E31095"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 27
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "mc_diner"
+							structureName: "config/capsule/rewards/mc_diner"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1b
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: [
+				"622E55E477FBD715"
+				"45BCF2BB105E1559"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "60E33BCCC1C41F99"
+					type: "checkmark"
+				}
+			]
+			description: [
+				"一个高高的城堡,用于自动化药水,配有IE混合器和小型房间。"
+				""
+				"{image:ibpdx:textures/questbook/alchemy_castle.png width:200 height:125 align:1}"
+			]
+			icon: "betterendforge:umbrella_tree_cluster"
+			id: "42003E80E7824377"
+			x: -4.5d
+			y: 1.5d
+			title: "炼金城堡"
+			rewards: [
+				{
+					id: "4D6B6F65D14B470B"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 33
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "alchemy_castle"
+							structureName: "config/capsule/rewards/alchemy_castle"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: [
+				"622E55E477FBD715"
+				"5BB511A3BD53616C"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "71D47FBF28A0A958"
+					type: "checkmark"
+				}
+			]
+			description: [
+				"一个实验室在地上悬停,下方有一个房间和楼梯."
+				""
+				"{image:ibpdx:textures/questbook/stilted_laboratory.png width:200 height:125 align:1}"
+			]
+			icon: "chisel:laboratory/wallpanel"
+			id: "49B5B46679648ED4"
+			x: 0.5d
+			y: 3.0d
+			title: "精致的实验室"
+			rewards: [
+				{
+					id: "0FBB2D706F6EFFAF"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 23
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "stilted_laboratory"
+							structureName: "config/capsule/rewards/stilted_laboratory"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1b
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: ["622E55E477FBD715"]
+		}
+		{
+			tasks: [
+				{
+					id: "57161C7F710FECB1"
+					type: "checkmark"
+					title: "大理石塔"
+				}
+			]
+			description: [
+				"一个更好的看星星的高层建筑。"
+				""
+				"{image:ibpdx:textures/questbook/marble_tower.png width:200 height:125 align:1}"
+			]
+			icon: "astralsorcery:marble_runed"
+			id: "26D9660B64699040"
+			x: -1.0d
+			y: 3.0d
+			title: "大理石塔"
+			rewards: [
+				{
+					id: "424BD08B5CDAED8C"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 21
+							isReward: 1b
+							oneUse: 1b
+							Damage: 0
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+							author: "?"
+							color: 6196919
+							label: "Marble Tower.nbt"
+							structureName: "config/capsule/rewards/marble_tower.nbt"
+							display: {
+								color: 10076989
+							}
+							canRotate: 1b
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: [
+				"622E55E477FBD715"
+				"5FD6DC6712D24FA7"
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "4CCB4373BBB079FE"
+					type: "checkmark"
+				}
+			]
+			description: ["注意-RS控制器不会被放置。手动放置."]
+			icon: "masterfulmachinery:boss_fight_simulator_controller"
+			id: "1303A7FA4C8DA2C6"
+			x: 6.0d
+			y: 6.0d
+			title: "Boss战斗模拟器"
+			rewards: [
+				{
+					id: "697C8654CDBFAAAC"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 9
+							state: 3
+							label: "Boss Fight Simulator"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/boss_fight_simulator"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "73304374AC974498"
+					type: "checkmark"
+					title: "覆苔的魔力"
+				}
+			]
+			description: [
+				"一个3层的魔力场,具有巨大的地板空间。"
+				""
+				"首先,只是看起来不错,除非你想在内部工作。"
+				""
+				"{image:ibpdx:textures/questbook/mossy_manor.png width:200 height:125 align:1}"
+			]
+			icon: "architects_palette:olivestone_tiles"
+			id: "455A69FB0C33B613"
+			x: -3.0d
+			y: 3.0d
+			rewards: [
+				{
+					id: "3EFDAE732C642E65"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 29
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "mossy_manor"
+							structureName: "config/capsule/rewards/mossy_manor"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1b
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: ["622E55E477FBD715"]
+		}
+		{
+			tasks: [
+				{
+					id: "1F45ABEE63530681"
+					type: "checkmark"
+					title: "9x9 豪华"
+				}
+			]
+			description: [
+				"这个任务引入了一个升级的生活空间,它消除了地板上的火把需求。它为早期游戏的建造者提供了基本特征,包括石砖、圆石和特别添加的深板岩。有了这个结构,你就可以让恼人的生物有效的离开你的基地。"
+				""
+				"在放置这个结构之前,必须注意它包括一个地下室。要容纳它,你需要做一些准备。共挖掘6个方块并将结构放在第7个方块上。此外,确保周围有足够的19x6x19个方块来进行正确的放置。值得一提的是，处理地下室可能会很麻烦，这就是为什么它们经常被省略的原因。"
+				""
+				"{image:ibpdx:textures/questbook/9x9_deluxe.png width:200 height:150 align:1}"
+			]
+			icon: "minecraft:stone_bricks"
+			id: "35170F0774925B16"
+			x: -4.5d
+			y: 3.0d
+			rewards: [
+				{
+					id: "61C00CEB15B5B959"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "9x9_deluxe"
+							structureName: "config/capsule/rewards/9x9_deluxe"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1b
+							size: 29
+						}
+					}
+				}
+			]
+			dependencies: ["622E55E477FBD715"]
+		}
+		{
+			hide_text_until_complete: false
+			description: [
+				"一个大型的储物柜,有空间容纳许多箱子、桶和抽屉。在箱子前往的地方有空间,所以你可以放置电缆、物品路由器和其他东西用于物流。"
+				""
+				"{image:ibpdx:textures/questbook/wooden_warehouse.png width:200 height:125 align:1}"
+			]
+			icon: "minecraft:dark_oak_log"
+			id: "6E8FF6871F854B11"
+			x: -1.0d
+			y: 4.5d
+			rewards: [
+				{
+					id: "1F2E654345437169"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 29
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "wooden_warehouse"
+							structureName: "config/capsule/rewards/wooden_warehouse"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							state: 5
+						}
+					}
+				}
+			]
+			dependencies: [
+				"10D744D11DCA269F"
+				"622E55E477FBD715"
+			]
+			tasks: [
+				{
+					id: "61BEA9FAC5C1BE44"
+					type: "checkmark"
+					title: "木质仓库"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "2042542C21A81F1A"
+					type: "item"
+					item: "botania:terraform_rod"
+				}
+			]
+			description: [
+				"男人,这些预设结构确实非常大,并且需要大量的平坦空间!如果有方法平滑地形来适应这些建筑的话。"
+				""
+				"使用&b大地权杖&r,你可以右键单击将地形平滑到您所站的高度。它只移除泥土、石头及其产物。你还需要站在一些泥土上或附近的泥土才能成形。"
+				""
+				"佩戴&6魔源长袍&r来增加范围并减少魔力消耗."
+				""
+				"另外,它只在y=64上方工作,如果你想用它来挖矿的话。"
+			]
+			id: "165E10C5B8217CFD"
+			x: -2.0d
+			y: -1.5d
+			title: "比煎饼还扁"
+			dependencies: ["622E55E477FBD715"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [
+				{
+					id: "00C5C965F03D2D6D"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:carpenter_controller"
+			id: "62DCA685D291F0E6"
+			x: 2.5d
+			y: 3.0d
+			title: "木匠"
+			rewards: [
+				{
+					id: "51996D0E23CB7AE6"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							Damage: 0
+							sourceInventory: { }
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+							label: "Carpenter"
+							structureName: "config/capsule/prefabs/carpenter"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "35A1C9D7D55FA9E5"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:peat_engine_controller"
+			id: "0C9FE377E0414787"
+			x: 4.0d
+			y: 3.0d
+			title: "泥炭引擎"
+			rewards: [
+				{
+					id: "6A3EC866681B6F44"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							label: "Peat Engine"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/peat_engine"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "3989D2E33F63FA3C"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:processor_cutter_controller"
+			id: "06F0F604C95915E4"
+			x: 7.5d
+			y: 6.0d
+			title: "处理器切割机"
+			rewards: [
+				{
+					id: "27ED6F2217D97E99"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							Damage: 0
+							sourceInventory: { }
+							AS_Amulet_Holder: [I;
+								-921288654
+								1861829095
+								-2014526870
+								864766145
+							]
+							label: "Processor Cutter"
+							structureName: "config/capsule/prefabs/processor_cutter"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "48BBC04043818CC7"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 1
+							state: 3
+							label: "Copy Any Capsule"
+							sourceInventory: { }
+							structureName: "generated_blueprint_copy_path"
+							display: {
+								color: 3949738
+							}
+						}
+					}
+				}
+			]
+			description: ["&b蓝图胶囊&r是将许多相同的结构放置在你的世界上的一个简单方法。如果你手持材料,只需左键单击即可填充&b胶囊&r并右键单击以部署."]
+			id: "74C921CAECC43405"
+			x: 5.0d
+			y: -1.5d
+			title: "复制并粘贴"
+			dependencies: ["1290D6B2716C0297"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [
+				{
+					id: "5C012B32C78E1EBC"
+					type: "item"
+					item: {
+						id: "constructionwand:iron_wand"
+						Count: 1b
+						tag: {
+							wand_options: { }
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: ["&b建筑法杖&r允许将许多方块同时放置,只要它们连接到同一个方块上."]
+			id: "4EDC3284A5C673F6"
+			x: 12.0d
+			y: -1.5d
+			title: "更快建造"
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "2145637922FA8B39"
+					type: "item"
+					item: "capsule:capsulemarker"
+				}
+			]
+			description: ["想要将你的设置转移到另一个地方吗?做个空的胶囊,将&b装置&r放在结构面前,右键单击胶囊,并将其扔到区域内."]
+			id: "141BC0066AEC7091"
+			x: 19.0d
+			y: -1.5d
+			title: "根基在箱子中"
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "17B9D7F8D2466AD8"
+					type: "checkmark"
+				}
+			]
+			icon: "masterfulmachinery:advanced_chemical_plant_controller"
+			id: "380BCB03E6B6A280"
+			x: 4.0d
+			y: 7.5d
+			title: "高级化工厂"
+			dependencies: ["1290D6B2716C0297"]
+		}
+		{
+			tasks: [
+				{
+					id: "6BDE26E32EAE9FF8"
+					type: "checkmark"
+					title: "工程师"
+				}
+			]
+			description: [
+				"&e沉浸工程&r的全套武库都是你用来制作蓝图的."
+				""
+				"或者至少是相关的和相对复杂的。"
+			]
+			icon: {
+				id: "immersiveengineering:hammer"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "786E2AA9F24455F9"
+			x: 12.0d
+			y: 0.0d
+			dependencies: ["5BB511A3BD53616C"]
+		}
+		{
+			tasks: [
+				{
+					id: "13D07ECCC8D9A004"
+					type: "checkmark"
+					title: "粉碎机"
+				}
+			]
+			icon: "thermal:iron_dust"
+			id: "1D359C2A4F573419"
+			x: 9.5d
+			y: 3.0d
+			rewards: [
+				{
+					id: "012351E14611A68E"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Ie Crusher"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_crusher"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "2536DB0F79EB7273"
+					type: "checkmark"
+					title: "电弧炉"
+				}
+			]
+			icon: {
+				id: "immersiveengineering:graphite_electrode"
+				Count: 1b
+				tag: {
+					graphDmg: 0
+				}
+			}
+			id: "573B27F95F064903"
+			x: 9.5d
+			y: 1.5d
+			rewards: [
+				{
+					id: "186F0D1BF46310C9"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Ie Arc Furnace"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_arc_furnace"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "27782611A38D6256"
+					type: "checkmark"
+					title: "装配机"
+				}
+			]
+			icon: "minecraft:crafting_table"
+			id: "7877F218F23A65B7"
+			x: 11.0d
+			y: 1.5d
+			rewards: [
+				{
+					id: "0F4CC9562C591BCD"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							label: "Ie Assembler"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_assembler"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "3B98D0D4530D6060"
+					type: "checkmark"
+					title: "自动工作台"
+				}
+			]
+			icon: "immersiveengineering:workbench"
+			id: "4570B0520CB7EA60"
+			x: 13.0d
+			y: 1.5d
+			rewards: [
+				{
+					id: "2D33D11261488A76"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							label: "Ie Auto Workbench"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_auto_workbench"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "0BBAE104F20AD0CF"
+					type: "checkmark"
+					title: "装瓶机"
+				}
+			]
+			icon: "immersiveengineering:fluid_pump"
+			id: "6E3139F098FFE40D"
+			x: 14.5d
+			y: 1.5d
+			rewards: [
+				{
+					id: "497906C12A050F48"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							label: "Ie Bottler"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_bottler"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "6F9E7EA0BAD91D24"
+					type: "checkmark"
+					title: "柴油发电机"
+				}
+			]
+			icon: "immersiveengineering:generator"
+			id: "7313F6AAEE27C7AD"
+			x: 11.0d
+			y: 3.0d
+			rewards: [
+				{
+					id: "363E7221A6BE6AAD"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Ie Diesel Generator"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_diesel_generator"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "30635EDC6F971F66"
+					type: "checkmark"
+					title: "精馏塔"
+				}
+			]
+			icon: "immersiveengineering:sheetmetal_iron"
+			id: "14D45DA44A90D686"
+			x: 13.0d
+			y: 3.0d
+			rewards: [
+				{
+					id: "3D72294E77ECFD47"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 17
+							state: 3
+							label: "Ie Distillation Tower"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_distillation_tower"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "62FFAAE22684C483"
+					type: "checkmark"
+					title: "挖掘机(基础)"
+				}
+			]
+			icon: {
+				id: "minecraft:diamond_pickaxe"
+				Count: 1b
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "6CA5E22B7B278937"
+			x: 14.5d
+			y: 3.0d
+			rewards: [
+				{
+					id: "1E8C8C04099B2A3E"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							state: 3
+							label: "Ie Excavator Base"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_excavator_base"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "52307F8B81F2E520"
+					type: "checkmark"
+					title: "发酵机"
+				}
+			]
+			icon: "minecraft:melon_slice"
+			id: "5BB7930DFD6D0DAD"
+			x: 9.5d
+			y: 4.5d
+			rewards: [
+				{
+					id: "555B45B7BBD98E42"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							label: "Ie Fermenter"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_fermenter"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "29B502F001849750"
+					type: "checkmark"
+					title: "流体储罐"
+				}
+			]
+			icon: "minecraft:water_bucket"
+			id: "163B4974F3FD52CC"
+			x: 11.0d
+			y: 4.5d
+			rewards: [
+				{
+					id: "79EBBB210DF5175A"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Ie Fluid Tank"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_fluid_tank"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "5E6F574DACBAD389"
+					type: "checkmark"
+					title: "物品筒仓"
+				}
+			]
+			icon: "minecraft:chest"
+			id: "4A2DB25E2A76927A"
+			x: 13.0d
+			y: 4.5d
+			rewards: [
+				{
+					id: "77104822A8332CA9"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							state: 3
+							label: "Ie Item Silo"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_item_silo"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "2DAA55747E4F92CC"
+					type: "checkmark"
+					title: "金属冲压机"
+				}
+			]
+			icon: "immersiveengineering:mold_plate"
+			id: "4B3E44FD1B757B8F"
+			x: 14.5d
+			y: 4.5d
+			rewards: [
+				{
+					id: "108DF77B0ED02143"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							label: "Ie Metal Press"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_metal_press"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "20F858CC8268B9C4"
+					type: "checkmark"
+					title: "搅拌机"
+				}
+			]
+			icon: {
+				id: "minecraft:potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			id: "529D4533C061293F"
+			x: 9.5d
+			y: 6.0d
+			rewards: [
+				{
+					id: "297A8E77FE89FA18"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							label: "Ie Mixer"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_mixer"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "702DD92268B0FD17"
+					type: "checkmark"
+					title: "钻井"
+				}
+			]
+			icon: "thermal:crude_oil_bucket"
+			id: "49FC81D13C35F405"
+			x: 11.0d
+			y: 6.0d
+			rewards: [
+				{
+					id: "1532FEAE348A0C62"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							state: 3
+							label: "Ie Pumpjack"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_pumpjack"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "79EF894642C9F37B"
+					type: "checkmark"
+					title: "精炼厂"
+				}
+			]
+			icon: "immersiveengineering:biodiesel_bucket"
+			id: "5FD74B9C7C6178D7"
+			x: 13.0d
+			y: 6.0d
+			rewards: [
+				{
+					id: "136A9D9BA35D8AE8"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Ie Refinery"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_refinery"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "33C4442F575EFE7F"
+					type: "checkmark"
+					title: "锯木机"
+				}
+			]
+			icon: "minecraft:oak_planks"
+			id: "06F99A337EE20C85"
+			x: 14.5d
+			y: 6.0d
+			rewards: [
+				{
+					id: "334765BC4CB3834C"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							state: 3
+							label: "Ie Sawmill"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_sawmill"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "7DEC384010DB6828"
+					type: "checkmark"
+					title: "挤压机"
+				}
+			]
+			icon: "minecraft:wheat_seeds"
+			id: "249E3D54489F9104"
+			x: 11.0d
+			y: 7.5d
+			rewards: [
+				{
+					id: "508419C0E2B132CA"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 3
+							state: 3
+							label: "Ie Squeezer"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_squeezer"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "6D28E3CC89BDFEFB"
+					type: "checkmark"
+					title: "蒸汽涡轮机"
+				}
+			]
+			icon: "mekanism:steam_bucket"
+			id: "456D0A01E95FDE24"
+			x: 13.0d
+			y: 7.5d
+			rewards: [
+				{
+					id: "47EB94F18CCAEE44"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							state: 3
+							label: "Ie Steam Turbine"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/ie_steam_turbine"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["786E2AA9F24455F9"]
+		}
+		{
+			tasks: [
+				{
+					id: "46D196BDFE5B6587"
+					type: "checkmark"
+					title: "星辉魔法"
+				}
+			]
+			description: ["这里可以找到&e星辉魔法&r的所有有关结构."]
+			icon: "astralsorcery:wand"
+			id: "5C2B4C08CACEA43B"
+			x: 19.0d
+			y: 0.0d
+			title: "凝星者"
+			dependencies: ["078E195012579DE3"]
+		}
+		{
+			tasks: [
+				{
+					id: "47AC02183D40D51A"
+					type: "checkmark"
+					title: "天辉祭坛"
+				}
+			]
+			icon: "astralsorcery:altar_constellation"
+			id: "5FB6419EAC1B1C4A"
+			x: 18.0d
+			y: 1.5d
+			rewards: [
+				{
+					id: "5213705443F4DA58"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 11
+							state: 3
+							label: "Starlight Celestial Altar"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/starlight_celestial_altar"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [
+				{
+					id: "6D7228A42D5A6FCE"
+					type: "checkmark"
+					title: "星辉祭坛"
+				}
+			]
+			icon: "astralsorcery:altar_attunement"
+			id: "385B66A75E4079EE"
+			x: 16.5d
+			y: 1.5d
+			rewards: [
+				{
+					id: "2C1BB243477883FC"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 9
+							state: 3
+							label: "Starlight Crafting Altar"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/starlight_crafting_altar"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [
+				{
+					id: "039804D7C39F5420"
+					type: "checkmark"
+					title: "彩虹祭坛"
+				}
+			]
+			icon: "astralsorcery:altar_radiance"
+			id: "28D7F86632F450CE"
+			x: 20.0d
+			y: 1.5d
+			rewards: [
+				{
+					id: "00F7F4655CD695D1"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 11
+							state: 3
+							label: "Starlight Iridescent Altar"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/starlight_iridescent_altar"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [
+				{
+					id: "5171BBF12E3E5A46"
+					type: "checkmark"
+					title: "星能填充器"
+				}
+			]
+			description: ["提醒注意,它可以转化为具有控制器和一些端口的多方块结构的机器。"]
+			icon: "astralsorcery:infuser"
+			id: "0ED33020C795E838"
+			x: 21.5d
+			y: 1.5d
+			rewards: [
+				{
+					id: "2F2636BDE84AD495"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							state: 3
+							label: "Starlight Infuser"
+							sourceInventory: { }
+							structureName: "config/capsule/prefabs/starlight_infuser"
+							display: {
+								color: 2963801
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [
+				{
+					id: "3AA8784E2C586CB6"
+					type: "checkmark"
+					title: "工业塔"
+				}
+			]
+			description: [
+				"一个大塔,适合商业启动。四层楼，有5个方块高的内部,楼层之间有铺设管道和电缆的空间。"
+				""
+				"{image:ibpdx:textures/questbook/tower_of_industry.png width:200 height:150 align:1}"
+			]
+			icon: "minecraft:nether_bricks"
+			id: "4B8A6DF1B310893E"
+			x: -3.0d
+			y: 4.5d
+			rewards: [
+				{
+					id: "3ECB9B442929748D"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							Damage: 0
+							color: 16777215
+							label: "tower_of_industry"
+							structureName: "config/capsule/rewards/tower_of_industry"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 41
+						}
+					}
+				}
+			]
+			dependencies: [
+				"622E55E477FBD715"
+				"48639F567DBAD564"
+			]
+		}
+	]
+}

@@ -1,0 +1,31 @@
+{
+  "controllerId": "advanced_chemical_plant",
+  "name": "\u9ad8\u7ea7\u5316\u5de5\u5382",
+  "textureOverride": "ibpdx:block/stainless_steel_casing",
+  "ports": [
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 50000
+      }
+    },
+    {
+      "type": "masterfulmachinery:mekanism_gas",
+      "name": "Gas",
+      "id": "gassy",
+      "data": {
+        "capacity": 10000
+      }
+    },
+    {
+      "type": "masterfulmachinery:fluids",
+      "name": "Fluid",
+      "id": "fluid",
+      "data": {
+        "capacity": 10000
+      }
+    }
+  ]
+}

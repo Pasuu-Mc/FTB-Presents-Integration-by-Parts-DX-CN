@@ -1,0 +1,763 @@
+{
+	default_hide_dependency_lines: false
+	group: "3838AB5A3188522F"
+	id: "7BCC20EC4AC252ED"
+	filename: "automation_station"
+	default_quest_shape: ""
+	icon: "industrialforegoing:machine_frame_advanced"
+	title: "智能工厂"
+	order_index: 4
+	quests: [
+		{
+			tasks: [{
+				id: "4F469BB675FFFDC4"
+				type: "item"
+				item: "industrialforegoing:plant_sower"
+			}]
+			description: [
+				"种子男孩"
+				""
+				"草料油在燃烧"
+				"种子男孩"
+				"越快越好"
+				"种子男孩"
+				"日复一夜"
+				"风出现在我的空间里"
+				""
+				"&b播种机&r种植种子、树苗和作物.."
+				""
+				"我想没有&e农业工艺&e,你真的不会再饲养种子了?"
+			]
+			id: "5A871B702644B771"
+			x: -8.0d
+			y: -7.0d
+			title: "种子男孩"
+			rewards: [{
+				id: "16374FCFF54EB9F1"
+				type: "item"
+				team_reward: true
+				item: "industrialforegoing:plant_sower"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "7785806DD27CA102"
+				type: "item"
+				item: "industrialforegoing:plant_gatherer"
+			}]
+			description: ["&b收割机&r收获树木和作物."]
+			id: "27543F93AC59CF7C"
+			x: -8.0d
+			y: -5.5d
+			title: "收获方块"
+			rewards: [{
+				id: "557ADEB8CFE1F2FC"
+				type: "item"
+				team_reward: true
+				item: "industrialforegoing:plant_gatherer"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "182E4FB0A3D1F7DC"
+				type: "item"
+				item: "industrialforegoing:animal_rancher"
+			}]
+			description: ["&b动物资源收获机&r为牛挤奶,剪羊毛,以及其他相关的动物收获."]
+			id: "25BC2B67C5934D29"
+			x: -4.5d
+			y: -5.5d
+			title: "动物农场"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "5CD785584BB93DEE"
+				item: "minecraft:leather"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "1DDC6393D9E5DAFD"
+				type: "item"
+				item: "industrialforegoing:animal_baby_separator"
+			}]
+			description: ["&b动物分离器&r将幼崽和成熟的分开."]
+			id: "2BEB43EF6B256054"
+			x: -1.5d
+			y: -2.5d
+			title: "动物还是混合生物?"
+			optional: true
+		}
+		{
+			size: 1.5d
+			description: [
+				"一个介绍性自动化机器框架。"
+				""
+				"请注意,没有列出所有机器,因为你可能不想使用所有机器。"
+			]
+			x: -8.0d
+			id: "087DFD363BBD4900"
+			y: -4.0d
+			shape: "pentagon"
+			title: "贫瘠但强大的"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "36B67C3FFFDE9C16"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+			tasks: [{
+				id: "139523E6C327619B"
+				type: "item"
+				item: "industrialforegoing:machine_frame_pity"
+			}]
+		}
+		{
+			size: 1.5d
+			description: ["中级复杂机器的中层框架。"]
+			id: "54570C3CD806FBAF"
+			x: -4.5d
+			y: -4.0d
+			shape: "pentagon"
+			title: "它非常简单"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "35ED5F304BFB8399"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+			dependencies: ["709C80BDE255ABD7"]
+			tasks: [{
+				id: "4AB42D31D5C70951"
+				type: "item"
+				item: "industrialforegoing:machine_frame_simple"
+			}]
+		}
+		{
+			size: 1.5d
+			description: ["高级机器的顶级框架。通常在配方中具有药剂结晶。"]
+			id: "6801E8F3351E6E44"
+			x: -1.5d
+			y: -4.0d
+			shape: "pentagon"
+			title: "Automatic Advancement"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "058E65A9CF1E2326"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+			dependencies: ["3F253C572189EBDD"]
+			tasks: [{
+				id: "7FDAA125BD1B1922"
+				type: "item"
+				item: "industrialforegoing:machine_frame_advanced"
+			}]
+		}
+		{
+			tasks: [{
+				id: "1C39B2FC0DBCC860"
+				type: "item"
+				item: "industrialforegoing:sewer"
+			}]
+			description: ["污水是一种被动获得的掉落物,可用于作物肥料或压缩炉中的燃料。"]
+			id: "20DC6CDA164666DC"
+			x: -8.0d
+			y: -2.5d
+			rewards: [{
+				id: "4BB17F7E13E763F8"
+				type: "item"
+				team_reward: true
+				item: "industrialforegoing:sewer"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "12E8CBE908F1615C"
+				type: "item"
+				item: "industrialforegoing:sewage_composter"
+			}]
+			description: ["通过污水产生肥料。"]
+			id: "025B41FDD1121F29"
+			x: -8.0d
+			y: -1.0d
+			rewards: [{
+				id: "6D43990B872D44F9"
+				type: "item"
+				team_reward: true
+				item: "industrialforegoing:sewage_composter"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "347CFCE6F97CC577"
+				type: "item"
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+			description: ["&b机械诅咒之土&r是生成怪物的一种相当有效的方法。你知道，如果你不喜欢其他耕种方法的话。"]
+			id: "305DC6931A23DAC1"
+			x: -1.5d
+			y: -5.5d
+			title: "腐化机器"
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "0FCC01D41C3E2ED2"
+				item: "industrialforegoing:mechanical_dirt"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "2E2CFF4C43D69B76"
+				type: "item"
+				item: "industrialforegoing:animal_feeder"
+			}]
+			description: ["&b饲育机&r自动喂食动物."]
+			id: "322294EE825142D5"
+			x: -4.5d
+			y: -2.5d
+			title: "午餐时间"
+			rewards: [{
+				type: "item"
+				count: 128
+				team_reward: true
+				id: "093C95378D0FBC52"
+				item: "minecraft:wheat"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "18FF75B2BFC80E1D"
+				type: "item"
+				item: "xnet:controller"
+			}]
+			description: [
+				"&b控制器&r是处理高级自动化物流的非常有用的工具。"
+				""
+				"以普通人的话来说,你可以设置你想要的物品/流体/能量及其去向的精确数量。"
+				""
+				"如果你想对流体或世界中的操作进行量子化配方,这特别有用。"
+			]
+			id: "5B976B14ACFC67FE"
+			x: -11.0d
+			y: -7.0d
+			title: "XNet.exe,发送!"
+			rewards: [
+				{
+					id: "44C933AC2937E4FF"
+					type: "item"
+					team_reward: true
+					item: "xnet:advanced_connector_blue"
+				}
+				{
+					id: "7B7C3767A79FC884"
+					type: "item"
+					team_reward: true
+					item: "xnet:netcable_blue"
+				}
+				{
+					type: "item"
+					count: 3
+					team_reward: true
+					id: "438192B746201E0D"
+					item: "xnet:connector_blue"
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "1FFA89AC7A7B3754"
+				type: "item"
+				item: "industrialforegoing:fluid_collector"
+			}]
+			description: ["&b流体收集器&r从世界中收集流体,而不需要IE泵的缺点,它可以用圆石替换流体。"]
+			id: "482F2228E477F17E"
+			x: -9.5d
+			y: -2.5d
+			title: "用手把它捡起来"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "376E4B4A3DAF1B93"
+				item: "powah:capacitor_blazing"
+			}]
+		}
+		{
+			tasks: [{
+				id: "047BEC1DC8BEB41B"
+				type: "item"
+				item: "immersiveengineering:fluid_pump"
+			}]
+			description: ["各种类型的泵都可用于从世界中提取流体。"]
+			x: -9.5d
+			id: "6F07084C3A5B9B67"
+			disable_toast: true
+			y: -4.0d
+			title: "泵起来"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "041C25FFEC197442"
+					item: "pipez:fluid_pipe"
+				}
+				{
+					id: "43DD53C1975BECCE"
+					type: "xp"
+					xp: 10
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "4BF0486384256932"
+				type: "item"
+				item: "minecraft:dispenser"
+			}]
+			description: ["提醒你,&b发射器&r可以使用桶和红石信号拾取并放置流体."]
+			id: "2A8593BA0C81B12C"
+			x: -9.5d
+			y: -5.5d
+			title: "这比什么也好..."
+			rewards: [
+				{
+					id: "3C6D26F8A9AB4723"
+					type: "item"
+					team_reward: true
+					item: "minecraft:observer"
+				}
+				{
+					id: "3AE4F70EEDD53701"
+					type: "item"
+					team_reward: true
+					item: "minecraft:bucket"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [{
+				id: "3B9EDABD07D36DE1"
+				type: "item"
+				item: "industrialforegoing:fluid_placer"
+			}]
+			description: ["如果你想要离桶远一点来进行流体自动化,&b流体放置器&r可能会很有用."]
+			id: "1492FA9917562745"
+			x: -9.5d
+			y: -7.0d
+			title: "喷溅"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "171FD32356E81E5F"
+				item: "powah:capacitor_blazing"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "50297BE83ECBE2AA"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 5L
+				}
+				{
+					id: "7A0D5B8FB0E442C4"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 4L
+				}
+				{
+					id: "1CA0EA6D8BACEFF5"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 4L
+				}
+				{
+					id: "14A7F55E9219F933"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "40ACADEFCF2B3CD0"
+					type: "item"
+					item: "immersiveengineering:steel_fence"
+				}
+				{
+					id: "68608A252EC9DBED"
+					type: "item"
+					item: "immersiveengineering:fluid_pipe"
+					count: 3L
+				}
+			]
+			description: ["混合器是你在工业范围内制作药剂的第一步。"]
+			icon: {
+				id: "minecraft:splash_potion"
+				Count: 1b
+				tag: {
+					Potion: "minecraft:healing"
+				}
+			}
+			id: "50B73CFC2F65E292"
+			x: -11.0d
+			y: -5.5d
+			title: "Schmix-0"
+			rewards: [{
+				type: "item"
+				count: 32
+				team_reward: true
+				id: "4FBFEEAE2C4617F5"
+				item: "minecraft:sugar"
+			}]
+		}
+		{
+			tasks: [
+				{
+					id: "4ACAA12BDD975E26"
+					type: "item"
+					item: "immersiveengineering:sheetmetal_iron"
+					count: 2L
+				}
+				{
+					id: "74CC540EEF99767B"
+					type: "item"
+					item: "immersiveengineering:steel_scaffolding_standard"
+					count: 3L
+				}
+				{
+					id: "7267FC1B54A68706"
+					type: "item"
+					item: "immersiveengineering:rs_engineering"
+				}
+				{
+					id: "5A6BD2C0936FF5DE"
+					type: "item"
+					item: "immersiveengineering:light_engineering"
+					count: 2L
+				}
+				{
+					id: "5D952A30B0318FFA"
+					type: "item"
+					item: "immersiveengineering:conveyor_basic"
+					count: 3L
+				}
+				{
+					id: "5CD1CE5C2F92B6A2"
+					type: "item"
+					item: "immersiveengineering:fluid_pump"
+				}
+			]
+			description: ["装瓶机是一种将药水流体转化为可用形式的方法。"]
+			icon: "minecraft:glass_bottle"
+			id: "52C804DEA84E56D4"
+			x: -11.0d
+			y: -4.0d
+			title: "填充机器人"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "7A6B31D228E640E1"
+					item: "immersiveengineering:steel_scaffolding_standard"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "6C656D48C93BB443"
+					item: "immersiveengineering:light_engineering"
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "16E921DF17A2547E"
+				type: "item"
+				item: "thermal:device_potion_diffuser"
+			}]
+			description: [
+				"&b药水雾化器&r对自动使用药水很有用。从&6药水酿造机&r中提取药水,它会自动分解到其范围内的实体。"
+				""
+				"它甚至接受&e沉浸工程&r的药水!"
+			]
+			id: "60D748412AB83097"
+			x: -11.0d
+			y: -2.5d
+			title: "喷溅和粉碎"
+			rewards: [{
+				id: "6FDD55AEF15DD52D"
+				type: "item"
+				team_reward: true
+				item: "thermal:device_potion_diffuser"
+			}]
+		}
+		{
+			tasks: [{
+				id: "18EB2CF9F5F0B776"
+				type: "item"
+				item: "rftoolsutility:sensor"
+			}]
+			description: ["&b传感器&r可以检测它前面的任何方块或流体(在“输入”末端),如果过滤器与目标匹配,可以在“输出”末端上发出红石信号。也许使用红石信号在世界中创建流体很有用。"]
+			id: "0EBA5577A700068C"
+			x: -14.0d
+			y: -7.0d
+			title: "我感知路由问题"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "651C2AFC28E21737"
+				item: "rftoolsutility:sensor"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "1A30953344375545"
+				type: "checkmark"
+			}]
+			description: [
+				"许多生物可以在冶炼厂中被熔化,以获得各种流体。如果你希望它可以持续,你必须自己修复大多数流体。"
+				""
+				"大多数流体会变成他们原版的物品掉落物,除了几个例子."
+				""
+				"特别有用的生物包括:"
+				"女巫:制作魔法混合液(可以在精馏塔中处理以制作红石、荧石和玻璃)"
+				"烈焰人及其衍生生物可以转化为液滴,对元素流体很有用。"
+				""
+			]
+			icon: "tconstruct:smeltery_controller"
+			id: "591AFC0113E8D5C1"
+			x: -12.5d
+			y: -5.5d
+			title: "怪物果汁"
+			rewards: [{
+				id: "1433ABD580892EBC"
+				type: "item"
+				item: "tconstruct:smeltery_controller"
+			}]
+		}
+		{
+			tasks: [{
+				id: "026A865DF4ED6CE6"
+				type: "checkmark"
+				title: "XNet快速启动指南"
+			}]
+			description: [
+				"这是一本快速指南,让你开始&eXNet&r."
+				""
+				"{image:ibpdx:textures/questbook/xnet_info_1.png width:200 height:200 align:1 fit:true}"
+				""
+				"在上面的配置中放下上一个任务奖励中的物品。请务必将&6高级连接器&r放在&6熔炉&r上。注意颜色必须匹配,你无法将红色连接到蓝色."
+				""
+				"给您的&6控制器&r一些外部电源并打开GUI。在GUI的框1中,单击主选择框,直到它是“xnet.item”为止。然后单击“Create”并给它命名。你现在在通道1上设置了一个物品通道。然后,在框3中,选择你的输入箱和通道1的重复的箱子。在框2中单击“Create”并打开新的菜单。将“输入”更改为“输出”,意思是您正在将箱子设置为物品的“提取”源。然后,在同一栏中前往熔炉容器,重复,但请确保它是“Ins”来“Ext”。将方向更改为“上”。最后,再次前往箱子旁,在底部的网格中,放置&6圆石&r."
+				""
+				"这是非常多的吗?放心,你将在不同的情况下在不同的频道上再次做相同的步骤。在&6箱子&r里放一些&6圆石&r,它应该移动到&6熔炉&r的顶部插槽里。现在请重复你已经做的,但这次使用&6煤&r。确保将输入设置为任何水平方向。最后,为熔炉制作一个提取通道,从底部提取&6石头&r并将它输入到最后箱子中。这应该会自动冶炼&6圆石&r到&6石头&r。希望吧"
+			]
+			id: "7695969009C26C85"
+			y: -7.0d
+			x: -12.5d
+		}
+		{
+			tasks: [{
+				id: "518419AB361F5CB8"
+				type: "item"
+				item: "industrialforegoing:item_transporter_type"
+			}]
+			description: ["&b传输器&r是在两个关闭的容器之间移动物品的简单方法。只要容器只在1个方块之间,你可以在1个方块上放置一个。右键单击“目的地”传送器,使物品或流体向内流动。&b世界传输器&r会将物品放置在世界上。"]
+			id: "48F26490934F2FEA"
+			x: -8.0d
+			y: 0.5d
+			title: "P2P,短但快速"
+			rewards: [{
+				type: "item"
+				count: 2
+				team_reward: true
+				id: "7B8603B3AECE43FE"
+				item: "industrialforegoing:fluid_transporter_type"
+			}]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "68FE53476158B6B8"
+				type: "item"
+				item: "rftoolsutility:sequencer"
+			}]
+			description: ["&b音序器&r将提取红石,并基于内部配置图案设置输出。"]
+			id: "64327519D8EE1992"
+			x: -14.0d
+			y: -5.5d
+			title: "简单到1-2-3"
+			rewards: [
+				{
+					type: "item"
+					count: 32
+					team_reward: true
+					id: "04D49C2A89739D67"
+					item: "minecraft:redstone_torch"
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "71E3627BD935BF06"
+					item: "minecraft:repeater"
+				}
+			]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "77D4FF316D0DE389"
+				type: "item"
+				item: "rftoolsutility:invchecker"
+			}]
+			description: ["如果你需要一种方法来检查物品栏中是否有一个精准的物品,那么&b物品检查器&r是该任务的工具."]
+			id: "2E6334DCFF2BE0D7"
+			x: -14.0d
+			y: -4.0d
+			title: "抽取物品栏"
+			rewards: [{
+				id: "129F169D3672940E"
+				type: "item"
+				team_reward: true
+				item: "ironchest:iron_chest"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+		}
+		{
+			tasks: [
+				{
+					id: "7C4DBA7A7D9CD909"
+					type: "item"
+					item: "rftoolsutility:redstone_receiver"
+				}
+				{
+					id: "165A61709AF12A5F"
+					type: "item"
+					item: "rftoolsutility:redstone_transmitter"
+				}
+			]
+			description: ["&b红石发信器和接收器&r将无线连接以发送红石信号。如果你想在存储网络上停止自动制作,发送信号很有用。"]
+			id: "37D0BC38BCF91BE1"
+			x: -14.0d
+			y: -2.5d
+			title: "无限距离的信号"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "49F088C353A863D3"
+				item: "immersiveengineering:wirecoil_redstone"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "0B2AFD1528106E48"
+				type: "item"
+				item: "rftoolsutility:timer"
+			}]
+			description: ["&b计时器&r在可控制间隔内输出红石.也可以用红石输入关闭."]
+			id: "705C6F67192C7794"
+			x: -15.5d
+			y: -4.0d
+			title: "自动化时间"
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "2E8B0FC57F9498D1"
+				item: "rftoolsutility:timer"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "73CA14039DB60E8C"
+				type: "item"
+				item: "rftoolspower:power_monitor"
+			}]
+			description: [
+				"&b能量监视仪&r根据机器内部的能量发出红石信号."
+				""
+				"如果你想在发电机或机器里有一段时间获得特定的能量范围,这行得通。"
+			]
+			id: "2940E4FFFC05BBE8"
+			x: -15.5d
+			y: -5.5d
+			title: "现在,我获得了你的力量"
+			rewards: [{
+				id: "70E764EA150286EE"
+				type: "item"
+				item: "powah:energy_cell_starter"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "62D918CD36F85560"
+				type: "item"
+				item: "rftoolsutility:wire"
+			}]
+			description: [
+				"&b红石导线&r只是一条直线,单向红石线。它的行为与&6红石粉&r相同,但产生的延迟减少,并且可用于不想要连接的地方。"
+				""
+				"或者你可以用&6充能铁轨&r和&6侦测器&r来进行直接布线。我偶然发现了一个巧妙的把戏。"
+			]
+			id: "5D9A6CBE328C281A"
+			x: -15.5d
+			y: -7.0d
+			title: "红石减少"
+			rewards: [{
+				type: "item"
+				count: 32
+				team_reward: true
+				id: "554E8B1EDEEA89B6"
+				item: "rftoolsutility:wire"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "15357765CA29A033"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+			description: ["&b自动炼药机&r将所有药水自动化压缩成一个方块."]
+			id: "3E4A599913D19EE8"
+			x: -1.5d
+			y: -1.0d
+			title: "不再持续"
+			rewards: [{
+				id: "1F45A321CDD6E6DC"
+				type: "item"
+				item: "industrialforegoing:potion_brewer"
+			}]
+			optional: true
+		}
+	]
+}

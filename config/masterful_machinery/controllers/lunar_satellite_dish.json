@@ -1,0 +1,24 @@
+{
+  "controllerId": "lunar_satellite_dish",
+  "name": "\u6708\u7403\u536b\u661f\u5929\u7ebf",
+  "textureOverride": "boss_tools:blocks/iron_plating_block",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 2,
+        "columns": 2
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 1000000
+      }
+    }
+  ]
+}

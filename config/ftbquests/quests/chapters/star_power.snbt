@@ -1,0 +1,1336 @@
+{
+	default_hide_dependency_lines: false
+	group: "37AB9EB20C7BCBA9"
+	id: "03596E37F85B2325"
+	filename: "star_power"
+	default_quest_shape: ""
+	icon: "astralsorcery:starmetal"
+	title: "星光璀璨"
+	order_index: 2
+	quests: [
+		{
+			size: 2.0d
+			description: [
+				""
+				"&b共振星杖&r是一种工具,可以让你激活&6星辉合成台&r,同时显示&6水晶石&r在夜间地下生成的地方."
+			]
+			id: "078E195012579DE3"
+			x: -7.0d
+			y: -4.5d
+			shape: "pentagon"
+			title: "让这个与你共鸣"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "02AB3BA88FC203D9"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					id: "51BF08107E8ECEE2"
+					type: "item"
+					item: {
+						id: "astralsorcery:constellation_paper"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "42A1525E63B15607"
+					item: "ibpdx:night_summoner"
+				}
+			]
+			dependencies: [
+				"43B4F7D8C3642E7C"
+				"04017143CD3E2283"
+			]
+			tasks: [
+				{
+					id: "4F7A93364021281C"
+					type: "item"
+					item: "astralsorcery:wand"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "64A1B4941263F2F7"
+					type: "item"
+					item: "astralsorcery:altar_discovery"
+				}
+			]
+			description: [
+				"&b星辉合成台&r需要透过夜空,在海平面上方有较高的高度才能工作。最高效率为y=128,比它任何更高的都会没有更好的结果."
+				""
+				"要创建&b星辉合成台&r,你需要将&6合成台&r放置在&6月亮&r或&6沙漠&r生物群系中的大理石结构中.记住你有&6自然指南针!&r"
+			]
+			id: "5FD6DC6712D24FA7"
+			x: -3.5d
+			y: -4.5d
+			title: "实际上并不发光"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "57CEFC5267242A06"
+					item: "ibpdx:duskstone_ingot"
+				}
+			]
+			dependencies: ["078E195012579DE3"]
+		}
+		{
+			tasks: [
+				{
+					id: "00900E65C8FA97E5"
+					type: "item"
+					item: "astralsorcery:hand_telescope"
+				}
+			]
+			description: ["一旦你为特定的星座获得&6星图&r,该星座就会从此出现在夜空中."]
+			id: "0D989A3AE674950E"
+			x: -3.5d
+			y: -6.0d
+			title: "向上看"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "1FD25B584F959122"
+					item: "botania:livingwood"
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "3B7B4F6BAEE1F6A8"
+					item: "botania:manasteel_ingot"
+				}
+			]
+			dependencies: ["5FD6DC6712D24FA7"]
+		}
+		{
+			tasks: [
+				{
+					id: "3E791A8EA7615C2F"
+					type: "item"
+					item: "astralsorcery:well"
+				}
+			]
+			description: ["&b聚星缸&r用于以液体形式收集&6星能&r.只需把它放下并放置一个&6海蓝宝石&r或&6水晶石&r."]
+			id: "13046109B3419EEB"
+			x: -2.0d
+			y: -4.5d
+			title: "好吧..."
+			rewards: [
+				{
+					type: "item"
+					count: 9
+					team_reward: true
+					id: "3148983AAC55C021"
+					item: "astralsorcery:aquamarine"
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "6265B46D118DCC75"
+					item: "astralsorcery:well"
+				}
+			]
+			dependencies: ["5FD6DC6712D24FA7"]
+		}
+		{
+			size: 1.25d
+			description: ["&b星辉祭坛&r是&e星辉魔法&r中的第一个升级祭坛.制作它可以转换&6星辉合成台&r而不是实际制作新的物品.桶在使用时会返还."]
+			id: "4A9815B41BD564B0"
+			x: -0.5d
+			y: -4.5d
+			shape: "pentagon"
+			title: "许许多多祭坛"
+			rewards: [
+				{
+					id: "160CB8BE3DACB421"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:rock_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "2857801B17C29FC3"
+					item: "astralsorcery:black_marble_raw"
+				}
+				{
+					id: "0A733DD3603AF194"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["13046109B3419EEB"]
+			tasks: [
+				{
+					id: "4DAB67189C1CE143"
+					type: "item"
+					item: "astralsorcery:altar_attunement"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "60AEB6561D1DBABD"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+				}
+			]
+			description: ["&b星辉转继器&r将为附近的祭坛提供额外的&6星能&r。建造其微型结构,将转继器放在顶部,在其内部放一个&6玻璃透镜&r,它会激活."]
+			id: "15A901953366EB69"
+			x: -0.5d
+			y: -3.0d
+			title: "更多星能"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "4260509BA47CAD4C"
+					item: "astralsorcery:rock_crystal_ore"
+				}
+				{
+					id: "309065F7BE4ADCF5"
+					type: "item"
+					item: "astralsorcery:spectral_relay"
+					count: 3
+				}
+			]
+			dependencies: ["4A9815B41BD564B0"]
+		}
+		{
+			tasks: [
+				{
+					id: "4B2DCB44FA725BF9"
+					type: "item"
+					item: "astralsorcery:attunement_altar"
+				}
+			]
+			description: ["&b共鸣祭坛&r可以让你增强自己和物品的能力。要使用它,你需要创建&6星芒宝典&r中显示的多方块结构,然后使用&6光谱中继器&r制作你想要的星座的形状。最后,站在&b共鸣祭坛&r上。要查看每个中继器的位置,请把&6星图&r放在副手查看你想要的星座."]
+			id: "7BBDD841C7F4B52F"
+			x: -0.5d
+			y: -1.5d
+			title: "唱一首新歌"
+			rewards: [
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "4CF5A3630E38E7D5"
+					item: "mysticalagriculture:marble_seeds"
+				}
+				{
+					id: "3973FBBF2D4C3BAD"
+					type: "item"
+					team_reward: true
+					item: "mysticalagriculture:inferium_growth_accelerator"
+				}
+				{
+					id: "313ED7B0F4872DC1"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["15A901953366EB69"]
+		}
+		{
+			tasks: [
+				{
+					id: "30243EE61AE9F709"
+					type: "item"
+					item: "astralsorcery:tome"
+				}
+			]
+			description: ["像大多数mod一样,&e星辉魔法&r具有一本指南,比任务书本身提供了更多关于这个mod的进度的信息."]
+			id: "43B4F7D8C3642E7C"
+			x: -7.0d
+			y: -6.5d
+			title: "补充指南"
+			rewards: [
+				{
+					id: "0FD6DB5F84453359"
+					type: "xp"
+					xp: 10
+				}
+				{
+					id: "55796B395537277F"
+					type: "item"
+					item: "pamhc2foodcore:applepieitem"
+				}
+			]
+			dependencies: ["07D35F22FBF6FB0C"]
+		}
+		{
+			tasks: [
+				{
+					id: "409DC546782DB7D4"
+					type: "checkmark"
+				}
+			]
+			description: ["一些&6植物魔法的饰品&r可以在&b星辉祭坛&r中制作,比其他的要快。如果你希望的话,你可以用传统的方式制作它们。查看JEI的最后一个页面来找到配方."]
+			id: "495D8481AC479DD3"
+			icon: {
+				id: "botania:travel_belt"
+				Count: 1b
+				tag: { }
+			}
+			x: -3.5d
+			y: -3.0d
+			title: "整洁的小饰品"
+			rewards: [
+				{
+					id: "1633D13E4CA8B5E0"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["5FD6DC6712D24FA7"]
+			optional: true
+		}
+		{
+			tasks: [
+				{
+					id: "13CEE030D7D6749C"
+					type: "item"
+					item: "astralsorcery:telescope"
+				}
+			]
+			description: ["&b天文望远镜&r可以更容易地查看星星."]
+			id: "1A929CDC20B87094"
+			x: -2.0d
+			y: -6.0d
+			title: "远程观测"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "4C199B44422A3208"
+					item: "botania:black_lotus"
+				}
+			]
+			dependencies: ["0D989A3AE674950E"]
+		}
+		{
+			tasks: [
+				{
+					id: "6B851C7CAFB627D5"
+					type: "item"
+					item: "astralsorcery:linking_tool"
+				}
+			]
+			description: ["&b连接器&r将&6星能&r的源头链接在一起.足够简单."]
+			id: "094749EE5772B619"
+			x: 1.0d
+			y: -4.5d
+			title: "连接它"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "0585DF51FC7B47EB"
+					item: "minecraft:ender_pearl"
+				}
+				{
+					id: "7A67CCAC3CCA84F6"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:lens"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "42DB3B1DC3966F75"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["4A9815B41BD564B0"]
+		}
+		{
+			tasks: [
+				{
+					id: "16FDE381C0392DBB"
+					type: "item"
+					item: "astralsorcery:starmetal_ingot"
+				}
+				{
+					id: "0825F0FA8E6B2C6E"
+					type: "item"
+					item: {
+						id: "astralsorcery:chisel"
+						Count: 1b
+						tag: {
+							Damage: 0
+						}
+					}
+				}
+			]
+			description: [
+				"&b星辉&r具有&6星光&r的力量。你需要将&6浮动水晶&r连接到&6铁矿石&r中来制作&b星辉矿石&r。然后将一大堆星辉矿石熔炼成&b星辉块状物&r。以后你会得到更多."
+				""
+				"使用&b星辉切割机&r,你可以点击掉落的&b星辉锭&r将其转化为&b星尘&r."
+			]
+			id: "70171CC07F33789E"
+			icon: "astralsorcery:starmetal_ingot"
+			x: 2.5d
+			y: -4.5d
+			title: "星辉十字军"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "77629678374CA5FF"
+					item: "minecraft:iron_ore"
+				}
+				{
+					id: "53692025CE05D51B"
+					type: "xp"
+					xp: 10
+				}
+			]
+			subtitle: "另外,它闪闪发光!"
+			dependencies: ["094749EE5772B619"]
+		}
+		{
+			size: 1.25d
+			description: ["&b天辉祭坛&r的网格比以前更大,因此需要一个更大的结构,具有更多的方块和&6星能&r.它还打开更多的&e植物魔法&r."]
+			id: "6D2932884A981777"
+			x: 4.0d
+			y: -3.0d
+			shape: "pentagon"
+			title: "更多星能!更多合成!"
+			rewards: [
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "3D4305614E226379"
+					item: "astralsorcery:marble_runed"
+				}
+				{
+					type: "item"
+					count: 8
+					team_reward: true
+					id: "77BECE0FCB3C663C"
+					item: "astralsorcery:black_marble_raw"
+				}
+				{
+					id: "2481C4743223AEC7"
+					type: "item"
+					team_reward: true
+					item: "botania:blacker_lotus"
+				}
+				{
+					id: "5989EC38C154026A"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["38A0F8C5A32B4B81"]
+			tasks: [
+				{
+					id: "5EB90BFF631D75A8"
+					type: "item"
+					item: "astralsorcery:altar_constellation"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "3F14BC2208E23164"
+					type: "item"
+					item: "astralsorcery:infuser"
+				}
+			]
+			description: ["&b星能注入器&r在&e星辉魔法&r中提供一些资源,之后你需要这些.它还需要自己的多方块结构,记住这个."]
+			id: "0FFF395FFEB4BA29"
+			x: 4.0d
+			y: -1.5d
+			title: "注魔电源"
+			rewards: [
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "3969CE1F64596BE2"
+					item: "mysticalagriculture:gold_seeds"
+				}
+				{
+					id: "38AB080FB0E8E773"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "mekanism:basic_fluid_tank"
+						Count: 1b
+						tag: {
+							mekData: {
+								owner: [I;
+									1322214020
+									-1310177861
+									-1296886500
+									-1782337265
+								]
+								FluidTanks: [
+									{
+										Tank: 0b
+										stored: {
+											FluidName: "astralsorcery:liquid_starlight"
+											Amount: 32000
+										}
+									}
+								]
+								securityMode: 0
+								Items: [ ]
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["6D2932884A981777"]
+		}
+		{
+			size: 2.0d
+			description: ["&b彩虹祭坛&r可以消耗大量&6星能&r来制作非常大型的合成."]
+			id: "007D25A62689FF1D"
+			x: 4.0d
+			y: 0.5d
+			shape: "pentagon"
+			title: "巨型桌子"
+			rewards: [
+				{
+					id: "32EE2D26D2FB1444"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:celestial_collector_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellation: "astralsorcery:aevitas"
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:collector.rate"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.aevitas"
+											pLevel: 2
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 4
+					team_reward: true
+					id: "7E91EB74B6438539"
+					item: "astralsorcery:resonating_gem"
+				}
+				{
+					id: "192340EDCAD0E7C7"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["0FFF395FFEB4BA29"]
+			tasks: [
+				{
+					id: "29DF7D50D20D48BD"
+					type: "item"
+					item: "astralsorcery:altar_radiance"
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "0E1FF2459FF9EAE7"
+					type: "item"
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+			]
+			description: ["&b天辉星门&r是将区域连接在一起的有用工具."]
+			id: "02C30878BB717E56"
+			x: 6.0d
+			y: 0.5d
+			title: "呜!"
+			rewards: [
+				{
+					id: "7C158384098C29AA"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:celestial_gateway"
+						Count: 1b
+						tag: {
+							astralsorcery: { }
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "69831DB0EAC4A9E9"
+					item: "xreliquary:interdiction_torch"
+				}
+				{
+					id: "3D21BF608518FC42"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["007D25A62689FF1D"]
+		}
+		{
+			tasks: [
+				{
+					id: "66ADCD517A1D4502"
+					type: "item"
+					item: "waystones:waystone"
+				}
+			]
+			description: ["&b指路石&r比&6天辉传送门&r更友好。使用最适合你的情况."]
+			id: "041730FBDEED447E"
+			x: 7.5d
+			y: 0.5d
+			title: "另一种方法"
+			rewards: [
+				{
+					id: "0D8DA94CB6F90949"
+					type: "item"
+					team_reward: true
+					item: "waystones:waystone"
+				}
+				{
+					id: "5BBD0CEFB55489C8"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["02C30878BB717E56"]
+		}
+		{
+			size: 1.5d
+			description: [
+
+
+
+				"&5欢迎来到融合!"
+				"&a&5奖励:"
+				"&r2个完美&6天辉水晶石&r!"
+				""
+
+
+				"&5提示:"
+				"即使你现在不计划这样做,你还是可能想要自动化&6天辉水晶石&r拆分."
+				""
+				"你可以使用任何流体管道从聚星缸底部输出星能液。"
+				""
+				"你也可以将&6纳星圣杯&r放置在聚星缸旁,以自动输出到圣杯."
+				""
+				"&6浮动水晶&r可以链接到不仅仅是制作&6祭坛&r.当您将两个不同的流体放在一起时,纳星圣杯可以产生许多不同的结果!"
+			]
+			id: "21024F4FAE314904"
+			x: 4.0d
+			y: 3.0d
+			shape: "octagon"
+			title: "星辉重构"
+			rewards: [
+				{
+					id: "20FE8A43E1A1E20A"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:attuned_celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:shape"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.efficiency"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:ritual.range"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.discidia"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.armara"
+											pLevel: 2
+											discovered: 1b
+										}
+									]
+								}
+								constellationName: "astralsorcery:horologium"
+							}
+						}
+					}
+				}
+				{
+					id: "1850451BD882886C"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:attuned_celestial_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:tool.durability"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:ritual.effect"
+											pLevel: 1
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.evorsio"
+											pLevel: 2
+											discovered: 1b
+										}
+									]
+								}
+								constellationName: "astralsorcery:horologium"
+							}
+						}
+					}
+				}
+				{
+					id: "35BD3B96B5762A6F"
+					type: "item"
+					team_reward: true
+					item: "astralsorcery:ritual_pedestal"
+				}
+				{
+					id: "4713D4799F06AF43"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:celestial_collector_crystal"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								constellation: "astralsorcery:horologium"
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:size"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:collector.rate"
+											pLevel: 3
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:constellation.horologium"
+											pLevel: 2
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+			]
+			dependencies: ["007D25A62689FF1D"]
+			hide_dependency_lines: false
+			tasks: [
+				{
+					id: "5DB49795F898F390"
+					type: "item"
+					item: "ibpdx:resonated_plated_growth_lens"
+					count: 200L
+				}
+			]
+		}
+		{
+			tasks: [
+				{
+					id: "687D4DC9EA26FEBE"
+					type: "item"
+					item: "masterfulmachinery:starlight_factory_controller"
+					consume_items: true
+				}
+				{
+					id: "01AAC7C446397232"
+					type: "item"
+					item: "masterfulmachinery:starlight_factory_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "3FEA3CF17A68C858"
+					type: "item"
+					item: "masterfulmachinery:starlight_factory_item_port_items_output"
+					consume_items: true
+				}
+				{
+					id: "5B26EC0408C9BB28"
+					type: "item"
+					item: "masterfulmachinery:starlight_factory_fluid_port_fluids_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 16L
+					consume_items: true
+					id: "550BE34180DB69A0"
+					item: "ibpdx:blockcasing_starmetal"
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "113DDD5C087AA354"
+					item: "minecraft:glowstone"
+				}
+				{
+					type: "item"
+					count: 26L
+					consume_items: true
+					id: "6B4F05CBACD66B3B"
+					item: "astralsorcery:marble_raw"
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "6CD057678B02EE10"
+					item: "astralsorcery:black_marble_raw"
+				}
+			]
+			description: ["&b星能工厂&r需要一定数量的&6星辉&r来建造,但作为交换,你可以从&6星能液&r和&6魔力钢锭&r中获得一种制作星辉的方法。之后,你可以升级机器以接受更多的普通金属。"]
+			icon: "masterfulmachinery:starlight_factory_controller"
+			id: "38A0F8C5A32B4B81"
+			x: 4.0d
+			y: -4.5d
+			title: "昂贵的投资"
+			rewards: [
+				{
+					id: "08E3802B8ABCA131"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "thermal:fluid_cell"
+						Count: 1b
+						tag: {
+							Properties: { }
+							BlockEntityTag: {
+								Sides: [B;
+									0b
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+									0b
+									0b
+									0b
+									0b
+									0b
+								]
+								RSControl: {
+									RSThreshold: 0b
+									RSMode: 0b
+								}
+								AmountOut: 1000
+								TankInv: [{
+									FluidName: "astralsorcery:liquid_starlight"
+									Capacity: 32000
+									Tank: 0b
+									Amount: 8000
+								}]
+
+								AmountIn: 1000
+								Xfer: {
+
+									XferOut: 1b
+									XferIn: 0b
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "14E30A5EB4BC77A7"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 14714914
+							author: "?"
+							label: "Starlight Factory.nbt"
+							structureName: "config/capsule/rewards/starlight_factory.nbt"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+				{
+					id: "2585826FA90CCAC2"
+					type: "xp"
+					xp: 20
+				}
+			]
+			dependencies: ["70171CC07F33789E"]
+		}
+		{
+			tasks: [
+				{
+					id: "15E606D3D1244BA0"
+					type: "item"
+					item: "masterfulmachinery:starlight_enchanter_controller"
+					consume_items: true
+				}
+				{
+					id: "5A00596506AE00C0"
+					type: "item"
+					item: "masterfulmachinery:starlight_enchanter_energy_port_energy_input"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "4584722B5C0301FA"
+					item: "masterfulmachinery:starlight_enchanter_fluid_port_fluids_input"
+				}
+				{
+					id: "7A0A64D5DA2D21A5"
+					type: "item"
+					item: "masterfulmachinery:starlight_enchanter_item_port_items_input"
+					consume_items: true
+				}
+				{
+					id: "1264B73FF0A18847"
+					type: "item"
+					item: "masterfulmachinery:starlight_enchanter_item_port_items_output"
+					consume_items: true
+				}
+				{
+					type: "item"
+					count: 8L
+					consume_items: true
+					id: "0EDC27E5A2AAC6F4"
+					item: "minecraft:blue_stained_glass"
+				}
+				{
+					type: "item"
+					count: 14L
+					consume_items: true
+					id: "27098802E1841244"
+					item: "astralsorcery:marble_pillar"
+				}
+				{
+					type: "item"
+					count: 6L
+					consume_items: true
+					id: "33BB14781B2C1E78"
+					item: "minecraft:obsidian"
+				}
+				{
+					type: "item"
+					count: 2L
+					consume_items: true
+					id: "564263CBEB0C1CD5"
+					item: "astralsorcery:marble_arch"
+				}
+				{
+					type: "item"
+					count: 16L
+					consume_items: true
+					id: "28B369B7AE324E3D"
+					item: "ibpdx:blockcasing_starmetal"
+				}
+			]
+			description: ["&b星能附魔师&r使用物品、书、能量、&6星能&r和经验制作&6附魔书&r."]
+			icon: "masterfulmachinery:starlight_enchanter_controller"
+			id: "6B30C9729A3BD45D"
+			x: 4.0d
+			y: -6.0d
+			rewards: [
+				{
+					id: "52E218BC937106B9"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 7
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "starlight_enchanter"
+							structureName: "config/capsule/rewards/starlight_enchanter"
+							display: {
+								color: 16777215
+							}
+							canRotate: 1
+							state: 5
+						}
+					}
+				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "6875B75383CB7A6E"
+					item: "astralsorcery:starmetal_ingot"
+				}
+				{
+					id: "5B572D64750E1398"
+					type: "xp"
+					xp: 10
+				}
+			]
+			dependencies: ["38A0F8C5A32B4B81"]
+			optional: true
+		}
+
+		{
+			tasks: [{
+				id: "6E17EFE94182F748"
+				type: "item"
+				item: "astralsorcery:chalice"
+				count: 2L
+			}]
+
+			description: [
+				"&b纳星圣杯&r是使用流体混合配方的一种有效的方法,其消耗速率低得多!你需要两个相互靠近的纳星圣杯才能工作。此外,这是你如何获得&e血魔法&r的&6意志&r的初始方法。"
+				""
+				"{image:ibpdx:textures/questbook/chalices.png width:200 height:160 align:1}"
+			]
+			id: "1C90C3EBEB93D2A8"
+			x: 1.0d
+			y: 0.5d
+			title: "钻井者"
+			rewards: [{
+
+				id: "4FD019F026FF53D1"
+				type: "item"
+				team_reward: true
+				item: "mysticalagriculture:starmetal_seeds"
+			}]
+
+			dependencies: ["007D25A62689FF1D"]
+		}
+
+		{
+			tasks: [{
+				id: "3F748AF7DB368556"
+				type: "item"
+				title: "Any Lens"
+				item: {
+					id: "itemfilters:or"
+					Count: 1b
+					tag: {
+						items: [
+							{
+								id: "astralsorcery:colored_lens_fire"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_break"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_growth"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_damage"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_regeneration"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_push"
+								Count: 1b
+							}
+							{
+								id: "astralsorcery:colored_lens_spectral"
+								Count: 1b
+							}
+						]
+					}
+				}
+			}]
+
+			description: [
+				"当可见的光线减慢到正确的频率时,它变成特定的颜色."
+				""
+				"在星光下,它会给星辉注入每种颜色的唯一属性。名称使每个颜色的功能或多或少自定义,但列出它们:"
+				""
+				"&6燃烧透镜&r在世界上点燃和烧炼方块."
+				"&e破坏透镜&r在其设置的坐标上破坏方块."
+				"&a生长透镜&r加速作物生长."
+				"&c伤害透镜&r会伤害它接触的实体."
+				"&d再生透镜&r为实体提供再生效果."
+				"&b抗拒透镜&r将方块向光线“推动”的方向进行推动。"
+				"&5幽芒透镜&r让星光束穿过方块到达其他透镜和棱镜."
+			]
+			icon: "astralsorcery:glass_lens"
+			id: "1509210815FF6AB4"
+			x: 6.0d
+			y: -3.0d
+			title: "颜色感觉很好"
+			rewards: [
+				{
+					id: "1C334A25C5BB4CBE"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "astralsorcery:lens"
+						Count: 1b
+						tag: {
+							astralsorcery: {
+								crystalProperties: {
+									attributes: [
+										{
+											property: "astralsorcery:purity"
+											pLevel: 2
+											discovered: 1b
+										}
+										{
+											property: "astralsorcery:shape"
+											pLevel: 3
+											discovered: 1b
+										}
+									]
+								}
+							}
+						}
+					}
+				}
+				{
+					id: "20905E46016D995C"
+					type: "item"
+					team_reward: true
+					item: "astralsorcery:colored_lens_spectral"
+				}
+			]
+			dependencies: ["6D2932884A981777"]
+		}
+		{
+			tasks: [
+				{
+					id: "2BFF659FFEBCCEDE"
+					type: "item"
+					item: "masterfulmachinery:auto_starlight_infuser_controller"
+				}
+				{
+					id: "0B71F429E009C9C9"
+					type: "item"
+					item: "masterfulmachinery:auto_starlight_infuser_item_port_items_input"
+				}
+				{
+					id: "04FD164BD15397D7"
+					type: "item"
+					item: "masterfulmachinery:auto_starlight_infuser_item_port_items_output"
+				}
+				{
+					id: "7FE752FA8785F5EE"
+					type: "item"
+					item: "masterfulmachinery:auto_starlight_infuser_fluid_port_fluids_input"
+				}
+			]
+			description: ["&6星能填充器&r不能使用常规方式自动化,但只需几个额外的组件即可解决。。"]
+			icon: "masterfulmachinery:auto_starlight_infuser_controller"
+			id: "0CD18D449FA26B82"
+			x: 6.0d
+			y: -1.5d
+			title: "Infuse on Loop"
+			rewards: [{
+
+				id: "3A2E5596F0EAE8E2"
+				type: "item"
+				item: {
+					id: "thermal:fluid_cell"
+					Count: 1b
+					tag: {
+						Properties: { }
+						BlockEntityTag: {
+							Sides: [B;
+								0b
+								0b
+								0b
+								0b
+								0b
+								0b
+							]
+							RSControl: {
+								RSThreshold: 0b
+								RSMode: 0b
+							}
+							AmountOut: 1000
+							TankInv: [{
+
+
+								FluidName: "astralsorcery:liquid_starlight"
+								Capacity: 32000
+								Tank: 0b
+								Amount: 8000
+							}]
+
+							AmountIn: 1000
+							Xfer: {
+								XferOut: 1b
+								XferIn: 0b
+							}
+
+
+						}
+					}
+				}
+			}]
+			dependencies: ["0FFF395FFEB4BA29"]
+		}
+	]
+}

@@ -1,0 +1,24 @@
+{
+  "controllerId": "machine_part_crafter",
+  "name": "\u673a\u68b0\u5143\u4ef6\u5408\u6210",
+  "textureOverride": "ibpdx:block/blockcasing_duskstone",
+  "ports": [
+    {
+      "type": "masterfulmachinery:items",
+      "name": "Item",
+      "id": "item",
+      "data": {
+        "rows": 3,
+        "columns": 3
+      }
+    },
+    {
+      "type": "masterfulmachinery:energy",
+      "name": "Energy",
+      "id": "energy",
+      "data": {
+        "capacity": 50000
+      }
+    }
+  ]
+}

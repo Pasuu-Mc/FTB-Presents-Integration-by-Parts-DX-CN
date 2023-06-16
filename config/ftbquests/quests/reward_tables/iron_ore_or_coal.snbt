@@ -1,0 +1,10 @@
+{
+	rewards: [
+		{ item: "minecraft:coal", count: 8 }
+		{ item: "minecraft:iron_ore", count: 2 }
+	]
+	loot_size: 1
+	order_index: 0
+	id: "7FC9393DD2C37A9F"
+	title: "铁和煤炭"
+}

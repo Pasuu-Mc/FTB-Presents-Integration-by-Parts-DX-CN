@@ -1,0 +1,27 @@
+{
+  "_comment": "取消30%的生成.",
+  "deny": [
+    {
+      "values": [
+        {
+          "p": 0.3,
+          "type": "random"
+        },
+        {
+          "values": [
+            {
+              "spawn_reason": "natural",
+              "type": "spawn_reason"
+            },
+            {
+              "spawn_reason": "reinforcement",
+              "type": "spawn_reason"
+            }
+          ],
+          "type": "or"
+        }
+      ],
+      "type": "and"
+    }
+  ]
+}
