@@ -61,7 +61,7 @@ onEvent('block.right_click', event => {
       // Smoke Particles every Second during Delay
       for(let i = 0; i < delay/20; i++){
          server.scheduleInTicks(20*i, entity.block, (cb) =>{
-            server.runCommandSilent(`执行定位 ${x} ${y} ${z} 运行MC粒子：烟雾 ~ ~ ~ 0 1 0 0.05 20 force`)
+            server.runCommandSilent(`execute positioned ${x} ${y} ${z} run particle minecraft:smoke ~ ~ ~ 0 1 0 0.05 20 force`)
          })
       }
 

@@ -34,7 +34,7 @@ onEvent('jei.information', event => {
       jeimachines.forEach(machineArr =>{
         let displayNames = []
         displayNames.push('需要的方块:')
-        const machine = `模块化机械:${machineArr[0]}`
+        const machine = `masterfulmachinery:${machineArr[0]}`
         const blockArray = machineArr[1]
         blockArray.forEach(block => {
             const amount = block.split(' ')[0]
