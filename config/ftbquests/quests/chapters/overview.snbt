@@ -23,7 +23,7 @@
 			description: [
 				"&b魔力池&r将使用&6魔力发射器&r和&6森林法杖&r以及你选择的魔力之花为你产生魔力."
 				""
-				"打开你的第一种处理金属的方法。"
+				"开启你的第一种处理金属的方法。"
 			]
 			icon: "botania:mana_pool"
 			id: "74E844EE60DB77B9"
@@ -68,7 +68,7 @@
 					item: "immersiveengineering:heavy_engineering"
 				}
 			]
-			description: ["&e沉浸工程&r具有许多与其他科技模组功能相似的多方块结构。但是,由于&eFTBIC&r使用自己的电力,如果你只喜欢使用RF能量,你可能想要使用你的&eIE&r机器。你需要一些这些多方块结构,但大多数都是简单的选择，所有胶囊都可以在胶囊公司买到."]
+			description: ["&e沉浸工程&r具有许多与其他科技模组功能相似的多方块结构。但是,由于&eFTBIC&r使用自己的电力,如果你只喜欢使用RF能量,你可能想要使用你的&eIE&r机器。你需要一些多方块结构,但大多数都是简单的选择，所有胶囊都可以在胶囊公司买到."]
 			icon: "immersiveengineering:heavy_engineering"
 			id: "77EDFCCD349C7F6F"
 			x: -8.5d
@@ -127,7 +127,7 @@
 					item: "astralsorcery:altar_discovery"
 				}
 			]
-			description: ["你进入&e星辉魔法&r的第一个主要步骤。一些精准的&e植物魔法&r的饰品可以作为奖励."]
+			description: ["你进入&e星辉魔法&r的第一个主要步骤。一些精准的&e植物魔法&r饰品作为奖励."]
 			id: "22DD44F698EFA1CB"
 			x: -8.5d
 			y: -0.5d
@@ -148,7 +148,7 @@
 					item: "betterendforge:infusion_pedestal"
 				}
 			]
-			description: ["注魔祭坛允许给一个核心物品充能,提供许多额外的物品。虽然它可以制作大量物品,但它也可以作为获得附魔书的额外方法。"]
+			description: ["提供许多额外的物品，注魔祭坛允许给一个核心物品充能。虽然它可以制作大量的物品,但是它也可以作为获得附魔书的额外方法。"]
 			id: "4FC0D1A25318A114"
 			x: -4.5d
 			y: 2.5d
@@ -414,7 +414,7 @@
 					item: "botania:runic_altar"
 				}
 			]
-			description: ["一些在&e植物魔法&r中更复杂的花需要在配方中使用&6符文&r.&b符文祭坛&r上制作其他有用的东西."]
+			description: ["一些&e植物魔法&r中更复杂的花需要在配方中使用&6符文&r.&b符文祭坛&r上制作其他有用的东西."]
 			icon: "botania:runic_altar"
 			id: "581859F226EBA57D"
 			x: -4.5d
@@ -457,7 +457,7 @@
 					item: "astralsorcery:altar_constellation"
 				}
 			]
-			description: ["&b天辉祭坛&r为你的星能相关任务提供了一个不错的检查点。你可以前往&e植物魔法&r或制作&6彩虹祭坛&r来获得一些奖励。"]
+			description: ["&b天辉祭坛&r为你的星光璀璨相关任务提供了一个不错的检查点。你可以前往&e植物魔法&r或制作&6彩虹祭坛&r来获得一些奖励。"]
 			icon: "astralsorcery:altar_constellation"
 			id: "7FDBB2DDAAC7B4ED"
 			x: -6.5d
@@ -529,7 +529,7 @@
 			description: [
 				"恭喜你,你已经到达了modpack的大约一半的程度。这也是一个类型的融合点,确保你在科技和魔法两个方面都有所进阶。"
 				""
-				"现在许多有用的自动化策略都可以向您开放,所以请务必查看你的所有选择!"
+				"现在许多有用的自动化策略向您开放,所以请务必查看你的所有选择!"
 			]
 			icon: "botania:alfheim_portal"
 			x: -2.5d
@@ -588,7 +588,7 @@
 					}
 				}
 			]
-			description: ["想要创造模式飞行吗?现在你都可以使用&b天翼族之冠&r和&b星斗披风&r。但要小心,你需要与御虚座共鸣,并获得相应的能力才能让斗篷发挥作用。"]
+			description: ["想要创造模式飞行吗?现在你可以使用&b天翼族之冠&r和&b星斗披风&r。但要注意,你需要与御虚座共鸣,并获得相应的能力才能让斗篷发挥作用。"]
 			icon: {
 				id: "botania:flight_tiara"
 				Count: 1b
@@ -631,7 +631,7 @@
 					item: "bloodmagic:altar"
 				}
 			]
-			description: ["&e血魔法&r可以开启一些强大的自动化科技。你可以运行机器来模拟Boss为你战斗,也可以使用仪式以不同的方式获得资源."]
+			description: ["&e血魔法&r可以开启一些强大的自动化科技。你可以运行机器来Boss战斗模拟,也可以使用仪式以不同的方式获得资源."]
 			icon: "bloodmagic:altar"
 			id: "1E2DAEBE3A2D4F40"
 			x: -0.5d
@@ -773,7 +773,7 @@
 					item: "ibpdx:bloodshine_ingot"
 				}
 			]
-			description: ["简单来说，这是一个进入游戏后期模组的制作原料的目标。如果你的科技落后了,现在还不用担心。"]
+			description: ["简单来说，这是一个进入游戏后期模组的制作原料。如果你的科技落后了,现在还不用担心。"]
 			icon: "ibpdx:bloodshine_ingot"
 			id: "35FD8111A74D7478"
 			x: 1.5d
@@ -949,7 +949,7 @@
 					}
 				}
 			]
-			description: ["当你可能觉得它会像铅气球一样消失时,&b铅石喷气背包&r会让你在短时间内升空."]
+			description: ["当你觉得它会像铅气球一样消失时,&b铅石喷气背包&r会让你在短时间内升空."]
 			icon: {
 				id: "simplyjetpacks:jetpack_te1"
 				Count: 1b

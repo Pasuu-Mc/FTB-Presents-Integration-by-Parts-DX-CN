@@ -399,7 +399,7 @@
 			id: "13D42BA6D41DD053"
 			x: 5.5d
 			y: 2.5d
-			title: "裂变的有趣"
+			title: "有趣的裂变"
 			rewards: [
 				{
 					id: "207B33DBE9B01F80"
@@ -426,7 +426,7 @@
 					item: "thermal:machine_refinery"
 				}
 			]
-			description: ["&b流体精炼机&r将油精炼成不同的副产物。或者,你可以使用飞跃地球的燃油精炼机。"]
+			description: ["&b流体精炼机&r将油精炼成不同的副产物。或者,你可以使用飞越地球(mod名，全名Space-BossTools)的燃油精炼机。"]
 			id: "49AD48536C56D3B1"
 			x: 2.0d
 			y: 1.0d
@@ -504,7 +504,7 @@
 				}
 			]
 			description: [
-				"&b结晶种子&r可以丢入亚麻油中来制作水晶油."
+				"&b结晶种子&r可以丢入亚麻油中来制作晶化油."
 				""
 				"ProTip:想要自动化?你需要一种将物品丢入世界的方法,一种放置流体的方法,一种收集流体的方法,一种检测流体的传感器,以及一些红石来自动运行."
 			]
@@ -732,7 +732,7 @@
 					item: "astralsorcery:liquid_starlight_bucket"
 				}
 			]
-			description: ["液态星能非常寒冷。它很适合冷却剂。"]
+			description: ["星能液非常寒冷。它很适合冷却剂。"]
 			x: 1.0d
 			id: "5F3F9BCC2C6A4945"
 			disable_toast: true
@@ -908,7 +908,7 @@
 					item: "redstone_arsenal:flux_gem_block"
 				}
 			]
-			description: ["碰撞产生的动能可能很有用,对吗?如果一个生物对红石水晶块造成摔落伤害,它会变成一个钻石块,掉落9个能量碎片,这可以在珠宝能源炉中使用。"]
+			description: ["碰撞产生的动能可能会很有用,对吗?如果一个生物对红石水晶块造成摔落伤害,它会变成一个钻石块,掉落9个能量碎片,这可以在珠宝能源炉中使用。"]
 			id: "7740CB0A70EF451C"
 			x: 12.5d
 			y: -0.5d

@@ -416,7 +416,7 @@
 					item: "ftbic:lv_transformer"
 				}
 			]
-			description: ["变压器通过电线提高或降低电压。如果尝试使用比机器可以处理的高的电压,下级线缆和机器会炸飞一个保险丝!"]
+			description: ["变压器通过电线提高或降低电压。如果尝试使用比机器可以处理的更高电压,下级线缆和机器会炸飞一个保险丝!"]
 			id: "18F6C24BA06FBB9C"
 			x: -0.5d
 			y: 0.0d
@@ -494,7 +494,7 @@
 				}
 			]
 			description: [
-				"灌注基座周围需要8个普通基座来制作一种灌注方式。如果你记得上一个模组包,这是充能器所在的地方,因此是不规则的配方。"
+				"灌注基座周围需要8个普通基座来制作一种灌注方式。如果你记得上一个modpack,这是充能器所在的地方,因此是不规则的配方。"
 				""
 				"{image:ibpdx:textures/questbook/infusion.png width:150 height:100 align:1}"
 			]
@@ -723,7 +723,7 @@
 					item: "storagenetwork:import_kabel"
 				}
 			]
-			description: ["电缆从库存中提取物品并将其放入SSN。"]
+			description: ["电缆从库存中提取物品并将其放入SSN(ps：SSN全名-简单存储-Simple-Storage-Network)。"]
 			id: "29E8078331F5DECD"
 			x: -8.5d
 			y: 1.5d
@@ -786,7 +786,7 @@
 					item: "storagenetwork:filter_kabel"
 				}
 			]
-			description: ["最后,处理事物的一种有用的方法!它可以将物品输入一个带有白名单的容器,这意味着如果你不使用IE的物品分配器,你可以有分拣箱子。"]
+			description: ["最后,处理事物的一种有用的方法!它可以将物品输入一个带有白名单的容器,这意味着如果你不使用IE的物品分配器,你可以分拣箱子。"]
 			id: "7AF71C085F67370D"
 			x: -8.5d
 			y: 4.5d
