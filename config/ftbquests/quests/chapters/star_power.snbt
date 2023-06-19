@@ -1087,7 +1087,12 @@
 					item: "ibpdx:blockcasing_starmetal"
 				}
 			]
-			description: ["&b星能附魔师&r使用物品、书、能量、&6星能&r和经验制作&6附魔书&r."]
+			description: ["&b星能附魔师&r使用物品、书、能量、&6星能&r和经验制作&6附魔书&r."
+				""
+				"它需要&6知识精华&r作为其经验来源, 从&6	&r中获得。右键单击流体端口的水晶来填满它."
+				""
+				"此外,如果你想知道如何制作书,请在JEI中搜索“仿制”."
+			]
 			icon: "masterfulmachinery:starlight_enchanter_controller"
 			id: "6B30C9729A3BD45D"
 			x: 4.0d
@@ -1280,8 +1285,18 @@
 					type: "item"
 					item: "masterfulmachinery:auto_starlight_infuser_fluid_port_fluids_input"
 				}
+				{
+					id: "76A373D48FE75304"
+					type: "item"
+					item: "astralsorcery:marble_runed"
+					count: 9L
+				}
 			]
-			description: ["&6星能填充器&r不能使用常规方式自动化,但只需几个额外的组件即可解决。。"]
+			description: [
+				"&6星能填充器&r不能使用常规方式自动化,但只需几个额外的组件即可解决。"
+				""
+				"&6精致大理石&r填充了底部的空间。如果你一开始就使用了胶囊，不用担心."
+			]
 			icon: "masterfulmachinery:auto_starlight_infuser_controller"
 			id: "0CD18D449FA26B82"
 			x: 6.0d

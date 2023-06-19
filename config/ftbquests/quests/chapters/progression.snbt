@@ -556,32 +556,6 @@
 			title: "Leeloo Dallas,多方块结构."
 			rewards: [
 				{
-					id: "2B3A0454BF7A6E9C"
-					type: "item"
-					team_reward: true
-					item: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							canRotate: 1
-							mirror: "NONE"
-							oneUse: 1b
-							Damage: 0
-							color: 5544791
-							isReward: 1b
-							rotation: "CLOCKWISE_90"
-							author: "?"
-							label: "Bedrock Miner.nbt"
-							structureName: "config/capsule/rewards/bedrock_miner.nbt"
-							display: {
-								color: 13421772
-							}
-							size: 5
-							state: 5
-						}
-					}
-				}
-				{
 					id: "4CBDC1CB652DD1EB"
 					type: "item"
 					team_reward: true
@@ -612,6 +586,33 @@
 					type: "item"
 					team_reward: true
 					item: "botania:blacker_lotus"
+				}
+				{
+					id: "5FC061999975173D"
+					type: "item"
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							mirror: "NONE"
+							oneUse: 1b
+							Damage: 0
+							color: 5544791
+							isReward: 1b
+							RepairCost: 0
+							rotation: "CLOCKWISE_90"
+							author: "?"
+							label: "Bedrock Miner.nbt"
+							structureName: "config/capsule/rewards/bedrock_miner.nbt"
+							display: {
+								color: 13421772
+								Name: "{\"text\":\"Place Me At Bedrock!\"}"
+							}
+							canRotate: 1
+							size: 5
+						}
+					}
 				}
 			]
 			subtitle: "她&o知道&r这是一个多方块结构!"

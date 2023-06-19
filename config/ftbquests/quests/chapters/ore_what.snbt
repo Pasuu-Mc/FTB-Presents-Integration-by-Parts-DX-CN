@@ -435,7 +435,7 @@
 					item: "ftbic:compressor"
 				}
 			]
-			description: ["将&6污浊尘土&r变成两个&6碎块&r."]
+			description: ["将&6污浊尘土&r变成一个&6碎块&r，再将其熔炼成两个&6锭&r."]
 			id: "6374408A8B4E3D68"
 			x: 0.0d
 			y: -0.5d
@@ -548,8 +548,8 @@
 									eject3: 1b
 									eject2: 1b
 								}
-								controlType: 0
 								dumping: 0
+								controlType: 0
 								GasTanks: [
 									{
 										Tank: 0b

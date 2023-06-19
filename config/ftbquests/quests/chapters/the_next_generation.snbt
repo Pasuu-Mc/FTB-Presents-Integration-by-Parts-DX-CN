@@ -164,6 +164,8 @@
 				""
 				"基础发电速率是400RF/tick,更好的冷却剂可以提高发电速率,更好的燃料有更高的总能量输出。"
 				""
+				"注意,要提取能量,你需要&6通用线缆&r、&6能量单元&r或一些其他能提取能量的设备."
+				""
 				"https://docs.google.com/spreadsheets/d/1J5DsDqdXiHqAyvK7DTlURfGuXRqa1CSy0sZhqtxaA2M/edit?usp=sharing"
 			]
 			id: "3ECD76EE10339502"

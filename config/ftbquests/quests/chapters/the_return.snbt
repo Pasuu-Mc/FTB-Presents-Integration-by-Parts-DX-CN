@@ -846,7 +846,10 @@
 						Count: 1b
 						tag: {
 							RepairCost: 15
-							Damage: 0
+							Properties: {
+								BaseMod: 4.0f
+								Radius: 3.0f
+							}
 							Enchantments: [
 								{
 									lvl: 5s
@@ -866,10 +869,7 @@
 								}
 							]
 							Mode: 3
-							Properties: {
-								BaseMod: 4.0f
-								Radius: 3.0f
-							}
+							Damage: 0
 							AS_Amulet_Holder: [I;
 								1322214020
 								-1310177861

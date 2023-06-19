@@ -341,6 +341,13 @@
 					id: "203DCBED406D0775"
 					item: "immersiveposts:fence_iron"
 				}
+				{
+					type: "item"
+					count: 4L
+					consume_items: true
+					id: "1E7B11D69C634030"
+					item: "ibpdx:iron_casing"
+				}
 			]
 			description: ["&b超级合金&r是你的第一个真正的合金机器。它可以处理&6模块化合金&r以更便宜的方式,以及其他基础合金."]
 			id: "00447C8DC955FE54"
