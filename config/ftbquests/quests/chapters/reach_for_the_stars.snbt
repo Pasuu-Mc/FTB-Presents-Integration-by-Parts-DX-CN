@@ -441,25 +441,17 @@
 						id: "capsule:capsule"
 						Count: 1b
 						tag: {
-							size: 7
+							state: 5
 							isReward: 1b
 							oneUse: 1b
-							Damage: 0
-							AS_Amulet_Holder: [I;
-								-921288654
-								1861829095
-								-2014526870
-								864766145
-							]
-							author: "?"
-							color: 7105644
-							label: "Metal Empowerer.nbt"
-							structureName: "config/capsule/rewards/metal_empowerer.nbt"
+							color: 16777215
+							label: "metal_empowerer"
+							structureName: "config/capsule/rewards/metal_empowerer"
 							display: {
-								color: 9819623
+								color: 16777215
 							}
-							canRotate: 1
-							state: 5
+							canRotate: 0b
+							size: 7
 						}
 					}
 				}

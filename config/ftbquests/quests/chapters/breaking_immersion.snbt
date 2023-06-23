@@ -360,6 +360,7 @@
 				{
 					id: "68CDA57A72578409"
 					type: "item"
+					team_reward: true
 					item: {
 						id: "capsule:capsule"
 						Count: 1b

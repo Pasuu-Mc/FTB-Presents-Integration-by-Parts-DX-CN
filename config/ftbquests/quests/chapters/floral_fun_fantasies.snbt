@@ -1095,23 +1095,25 @@
 					item: "botania:mana_fluxfield"
 				}
 				{
-					id: "20C46F8CE9459737"
+					id: "1FA1B85EB32C15D5"
 					type: "item"
-					team_reward: true
 					item: {
 						id: "capsule:capsule"
 						Count: 1b
 						tag: {
-							state: 5
+							RepairCost: 0
 							isReward: 1b
 							oneUse: 1b
+							Damage: 0
 							color: 16777215
+							canRotate: 1
 							label: "fluxial_converter"
 							structureName: "config/capsule/rewards/fluxial_converter"
 							display: {
 								color: 16777215
+								Name: "{\"text\":\"将我安置在亚尔夫海姆!\"}"
 							}
-							canRotate: 0b
+							state: 5
 							size: 7
 						}
 					}

@@ -16,6 +16,9 @@ const hiddenItems = [
 	'dankstorage:dank_5',
 	'dankstorage:dank_6',
 	'dankstorage:dank_7',
+	'dankstorage:4_to_5',
+	'dankstorage:5_to_6',
+	'dankstorage:6_to_7',
 	'miniutilities:stone_drum',
 	'miniutilities:iron_drum',
 	'miniutilities:reinforced_large_drum',
@@ -1100,6 +1103,24 @@ onEvent('item.tooltip', e => {
 
   infusedplanks.forEach(fair => {
     e.add(fair, Text.of('将一根原木投入星能液中。').green())
+  })
+
+  let peat = ['ibpdx:peat']
+
+  peat.forEach(fair => {
+    e.add(fair, Text.of('打碎一块泥炭沼泽.').green())
+  })
+
+  let normore = ['minecraft:iron_ore', 'minecraft:gold_ore', 'thermal:copper_ore', 'thermal:tin_ore', 'thermal:lead_ore', 'thermal:silver_ore']
+
+  normore.forEach(fair => {
+    e.add(fair, Text.of('在普通矿石处理链下处理标准矿石.').green())
+  })
+
+  let hienergyore = ['thermal:nickel_ore', 'immersiveengineering:ore_aluminum', 'mekanism:osmium_ore', 'mekanism:uranium_ore', 'boss_tools:moon_desh_ore', 'boss_tools:mars_silicon_ore', 'draconicevolution:overworld_draconium_ore', 'draconicevolution:nether_draconium_ore', 'draconicevolution:end_draconium_ore']
+
+  hienergyore.forEach(fair => {
+    e.add(fair, Text.of('需要高能量处理线的矿石.').green())
   })
 
 })
