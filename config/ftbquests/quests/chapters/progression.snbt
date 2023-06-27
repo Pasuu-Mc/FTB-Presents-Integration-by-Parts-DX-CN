@@ -548,6 +548,8 @@
 				"这个任务将是一个免费的赠品,让你习惯多方块结构，但不要期待任何更多的全套机器的讲义。"
 				""
 				"这台特定的机器需要&6魔力&r作为能量源."
+				""
+				"如果你想知道如何在机器中制作物品,请按下R键查看其产物."
 			]
 			id: "502B3F473498E7AB"
 			icon: "ibpdx:blockcasing_livingrock"
@@ -590,6 +592,7 @@
 				{
 					id: "5FC061999975173D"
 					type: "item"
+					team_reward: true
 					item: {
 						id: "capsule:capsule"
 						Count: 1b

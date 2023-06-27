@@ -466,5 +466,31 @@
 			]
 			dependencies: ["07C5FB5653809ECC"]
 		}
+		{
+			tasks: [{
+				id: "15E95881E803A48B"
+				type: "item"
+				item: "quark:crate"
+			}]
+			description: [
+				"&b板条箱&r只能容纳10组物品640个物品。"
+				""
+				"如果你存储可堆叠的物品,那就是。"
+				""
+				"它比箱子容纳更多的插槽,这意味着它对于无法堆叠的物品来说很适合。你可以用工具、武器和其他东西填满它。"
+			]
+			id: "25F74AE85137D2D2"
+			x: 0.5d
+			y: -4.5d
+			title: "几乎像文件柜一样"
+			rewards: [{
+				id: "1C69C62D691090BF"
+				type: "item"
+				item: "quark:crate"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			optional: true
+		}
 	]
 }
+

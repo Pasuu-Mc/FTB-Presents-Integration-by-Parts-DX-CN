@@ -45,7 +45,6 @@ const hiddenItems = [
 	'cyclic:generator_item',
 	'cyclic:generator_food',
 	'cyclic:forester',
-	'cyclic:harvester',
 	'cyclic:terra_preta',
 	'cyclic:energy_pipe',
 	'cyclic:item_pipe',
@@ -201,6 +200,7 @@ const hiddenItems = [
 	'titanium:iron_gear',
 	'titanium:diamond_gear',
 	'rftoolsutility:crafter1',
+	'rftoolsutility:crafter2',
 	'astralsorcery:blink_wand',
 	'infused_crystals:infused_redstonium_pickaxe',
 	'infused_crystals:infused_redstonium_sword',
@@ -470,7 +470,10 @@ const hiddenItems = [
 	'industrialforegoing:laser_drill',
 	'mysticalagriculture:element_seeds',
 	'mysticalagriculture:element_essence',
-	'xreliquary:alkahestry_tome'
+	'xreliquary:alkahestry_tome',
+    'draconicadditions:wyvern_harness',
+    'draconicadditions:draconic_harness',
+    'draconicadditions:chaotic_harness'
 	]
 
 
@@ -1121,9 +1124,18 @@ onEvent('item.tooltip', e => {
 
   hienergyore.forEach(fair => {
     e.add(fair, Text.of('需要高能量处理线的矿石.').green())
-  })
+})
+
+
+let mekupgrade = ['mekanism:upgrade_speed', 'mekanism:upgrade_energy']
+
+mekupgrade.forEach(fair => {
+  e.add(fair, Text.of('可以在维度地牢中找到.').green())
+})
 
 })
+
+
 
 onEvent('player.data_from_server.reload', (event) => {
 	global.onReload();

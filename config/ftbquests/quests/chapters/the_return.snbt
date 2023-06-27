@@ -846,10 +846,7 @@
 						Count: 1b
 						tag: {
 							RepairCost: 15
-							Properties: {
-								BaseMod: 4.0f
-								Radius: 3.0f
-							}
+							Damage: 0
 							Enchantments: [
 								{
 									lvl: 5s
@@ -1327,22 +1324,6 @@
 			title: "需要喷气!"
 			rewards: [
 				{
-					id: "03837C79F6F4FA1D"
-					type: "item"
-					item: {
-						id: "minecraft:enchanted_book"
-						Count: 1b
-						tag: {
-							StoredEnchantments: [
-								{
-									lvl: 4s
-									id: "cofh_core:holding"
-								}
-							]
-						}
-					}
-				}
-				{
 					id: "3E8DBED7180AD468"
 					type: "xp"
 					xp: 10
@@ -1351,6 +1332,21 @@
 					id: "3EE3FFC353D11417"
 					type: "item"
 					item: "minecraft:firework_rocket"
+				}
+				{
+					id: "1FA98EFDAD7520E4"
+					type: "item"
+					item: {
+						id: "minecraft:enchanted_book"
+						Count: 1b
+						tag: {
+							StoredEnchantments: [
+								{
+									lvl: 4s
+								id: "simplyjetpacks:fuel_efficiency"
+							}]
+						}
+					}
 				}
 			]
 			dependencies: ["1730BF2DEE0D057A"]

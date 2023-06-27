@@ -895,13 +895,13 @@
 			id: "6E8FF6871F854B11"
 			x: -1.0d
 			y: 4.5d
-			rewards: [
-				{
-					id: "1F2E654345437169"
-					type: "item"
-					item: {
-						id: "capsule:capsule"
-						Count: 1b
+			rewards: [{
+				id: "76490A005784D108"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
 						tag: {
 							size: 29
 							isReward: 1b
@@ -912,7 +912,7 @@
 							display: {
 								color: 16777215
 							}
-							canRotate: 0b
+							canRotate: 1
 							state: 5
 						}
 					}
@@ -1975,34 +1975,132 @@
 			id: "4B8A6DF1B310893E"
 			x: -3.0d
 			y: 4.5d
-			rewards: [
-				{
-					id: "3ECB9B442929748D"
-					type: "item"
-					item: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							state: 5
-							isReward: 1b
-							oneUse: 1b
-							Damage: 0
+			rewards: [{
+				id: "7EFA65F413484CE2"
+				type: "item"
+				team_reward: true
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						rotation: "COUNTERCLOCKWISE_90"
+						mirror: "NONE"
+						oneUse: 1b
+						Damage: 0
+						color: 16777215
+						canRotate: 1
+						state: 5
+						label: "tower_of_industry"
+						structureName: "config/capsule/rewards/tower_of_industry"
+						display: {
 							color: 16777215
-							label: "tower_of_industry"
-							structureName: "config/capsule/rewards/tower_of_industry"
-							display: {
-								color: 16777215
-							}
-							canRotate: 0b
-							size: 41
 						}
+						size: 41
+						isReward: 1b
 					}
 				}
-			]
+			}]
 			dependencies: [
 				"622E55E477FBD715"
 				"48639F567DBAD564"
 			]
+		}
+		{
+			tasks: [{
+				id: "4D3B06CB33EAF400"
+				type: "checkmark"
+				title: "Attunement Altar"
+			}]
+			icon: "astralsorcery:attunement_altar"
+			id: "687BEC2AC9C41AF7"
+			x: 18.0d
+			y: 3.0d
+			rewards: [{
+				id: "146FF90E630AF2EE"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 19
+						state: 3
+						label: "Starlight Attune"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_attune"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["5C2B4C08CACEA43B"]
+		}
+		{
+			tasks: [{
+				id: "4A8F417468B8329E"
+				type: "checkmark"
+				title: "Celestial Crystal Collector"
+			}]
+			icon: {
+				id: "astralsorcery:celestial_collector_crystal"
+				Count: 1b
+				tag: {
+					astralsorcery: {
+						constellation: "astralsorcery:discidia"
+						crystalProperties: {
+							attributes: [
+								{
+									property: "astralsorcery:size"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:purity"
+									pLevel: 2
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:shape"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:collector.rate"
+									pLevel: 3
+									discovered: 1b
+								}
+								{
+									property: "astralsorcery:constellation.discidia"
+									pLevel: 2
+									discovered: 1b
+								}
+							]
+						}
+					}
+				}
+			}
+			id: "724CFE60023C7BDA"
+			x: 20.0d
+			y: 3.0d
+			rewards: [{
+				id: "08E7922A43777E1A"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Starlight Celes Collector"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/starlight_celes_collector"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
+			dependencies: ["5C2B4C08CACEA43B"]
 		}
 	]
 }

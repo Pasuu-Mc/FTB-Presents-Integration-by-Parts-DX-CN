@@ -548,8 +548,8 @@
 									eject3: 1b
 									eject2: 1b
 								}
-								dumping: 0
 								controlType: 0
+								dumping: 0
 								GasTanks: [
 									{
 										Tank: 0b
