@@ -473,7 +473,8 @@ const hiddenItems = [
 	'xreliquary:alkahestry_tome',
     'draconicadditions:wyvern_harness',
     'draconicadditions:draconic_harness',
-    'draconicadditions:chaotic_harness'
+    'draconicadditions:chaotic_harness',
+    'avaritia:neutron_collector'
 	]
 
 

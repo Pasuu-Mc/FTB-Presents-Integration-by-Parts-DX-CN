@@ -478,6 +478,7 @@
 			dependencies: [
 				"2918C4DB605D6026"
 				"1AEE7BF9E10A3801"
+				"37A68731A0417C1D"
 			]
 			tasks: [
 				{
@@ -1440,7 +1441,10 @@
 					item: "ibpdx:power_gearbox"
 				}
 			]
-			description: ["&b齿轮箱&r是增强你的多方块机器以更快或更高的效率的一种方法。&b能量齿轮箱&r有时也允许使用比机器正常处理更多的配方."]
+			description: ["&b齿轮箱&r是增强你的多方块机器以更快或更高的效率的一种方法。&b能量齿轮箱&r有时也允许使用比机器正常处理更多的配方."
+				""
+				"要安装变速箱,请在您想要升级的机器的控制器上按“U”键,然后将变速箱放入显示的位置."
+			]
 			id: "509E7BE0BA695DBD"
 			x: -8.5d
 			y: -7.5d
@@ -1476,5 +1480,20 @@
 			dependencies: ["2E277327DB94599B"]
 			optional: true
 		}
+		{
+			tasks: [{
+				id: "71790ABDE23C38EB"
+				type: "checkmark"
+				title: "油"
+			}]
+			description: ["进度检查。前往“下一个阶段”,确保你完成充能种子的任务."]
+			icon: "ibpdx:empowered_oil_bucket"
+			id: "37A68731A0417C1D"
+			x: -10.5d
+			y: -5.5d
+			title: "充能油"
+			dependencies: ["2918C4DB605D6026"]
+		}
 	]
 }
+
