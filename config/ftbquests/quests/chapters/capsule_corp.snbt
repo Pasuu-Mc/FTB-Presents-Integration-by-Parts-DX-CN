@@ -1397,21 +1397,33 @@
 			id: "14D45DA44A90D686"
 			x: 13.0d
 			y: 3.0d
-			rewards: [
-				{
-					id: "3D72294E77ECFD47"
-					type: "item"
-					item: {
-						id: "capsule:capsule"
-						Count: 1b
-						tag: {
-							size: 17
-							state: 3
-							label: "Ie Distillation Tower"
-							sourceInventory: { }
-							structureName: "config/capsule/prefabs/ie_distillation_tower"
-							display: {
-								color: 2963801
+			rewards: [{
+				id: "254AD4F7E4DB766D"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 17
+						state: 3
+						Damage: 0
+						sourceInventory: { }
+						AS_Amulet_Holder: [I;
+							-921288654
+							1861829095
+							-2014526870
+							864766145
+						]
+						spawnPosition: {
+							x: 51
+							y: 56
+							dim: "minecraft:overworld"
+							z: 139
+						}
+						label: "Ie Distillation Tower"
+						structureName: "config/capsule/prefabs/ie_distillation_tower"
+						display: {
+							color: 2963801
 							}
 						}
 					}

@@ -474,7 +474,21 @@ const hiddenItems = [
     'draconicadditions:wyvern_harness',
     'draconicadditions:draconic_harness',
     'draconicadditions:chaotic_harness',
-    'avaritia:neutron_collector'
+    'avaritia:neutron_collector',
+    'storagenetwork:master', 
+    'storagenetwork:request', 
+    'storagenetwork:crafting_remote', 
+    'storagenetwork:kabel', 
+    'storagenetwork:storage_kabel', 
+    'storagenetwork:import_kabel', 
+    'storagenetwork:import_filter_kabel', 
+    'storagenetwork:import_kabel', 
+    'storagenetwork:collector', 
+    'storagenetwork:stack_upgrade', 
+    'storagenetwork:speed_upgrade', 
+    'storagenetwork:builder_remote', 
+    'storagenetwork:collector_remote',
+    'storagenetwork:filter_kabel'
 	]
 
 
@@ -602,7 +616,7 @@ onEvent('item.tooltip', e => {
   let xdrops = ['xreliquary:rib_bone', 'xreliquary:catalyzing_gland', 'xreliquary:zombie_heart', 'xreliquary:nebulous_heart', 'xreliquary:slime_pearl', 'xreliquary:witch_hat', 'xreliquary:molten_core']
 
   xdrops.forEach(panel => {
-    e.add(panel, Text.of('如果被尸壳杀死，可以以更高的效率实现自动化。').green())
+    e.add(panel, Text.of('如果被尸壳杀死，可以以更高的效率实现自动化，黏液珍珠的笔记,不会从匠魂史莱姆中掉落.。').green())
   })
 
     let a2sword = ['ibpdx:airt2_sword']
@@ -1134,7 +1148,28 @@ mekupgrade.forEach(fair => {
   e.add(fair, Text.of('可以在维度地牢中找到.').green())
 })
 
+let stardust = ['astralsorcery:stardust']
+
+stardust.forEach(fair => {
+  e.add(fair, Text.of('在星辉锭上用星辉切割工具左键单击.').green())
 })
+
+let addon = ['ibpdx:addon_base']
+
+addon.forEach(fair => {
+  e.add(fair, Text.of('自动装配器如果在装配机中合成,则不会工作.').red())
+})
+
+let ssn = ['storagenetwork:master', 'storagenetwork:request', 'storagenetwork:crafting_remote', 'storagenetwork:kabel', 'storagenetwork:storage_kabel', 'storagenetwork:import_kabel', 'storagenetwork:import_filter_kabel', 'storagenetwork:import_kabel', 'storagenetwork:collector', 'storagenetwork:stack_upgrade', 'storagenetwork:speed_upgrade', 'storagenetwork:builder_remote', 'storagenetwork:collector_remote']
+
+ssn.forEach(fair => {
+  e.add(fair, Text.of('由于一些错误，简单存储网络将在未来的版本中被禁用。你可以把它的组件制作成漂亮的管道物品，但它将被逐步淘汰。它不会被移除，所以你的世界将永远不会受到影响.').red())
+})
+
+
+})
+
+
 
 
 

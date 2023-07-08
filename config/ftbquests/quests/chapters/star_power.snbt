@@ -544,9 +544,20 @@
 			title: "巨型桌子"
 			rewards: [
 				{
-					id: "32EE2D26D2FB1444"
 					type: "item"
+					count: 4
 					team_reward: true
+					id: "7E91EB74B6438539"
+					item: "astralsorcery:resonating_gem"
+				}
+				{
+					id: "192340EDCAD0E7C7"
+					type: "xp"
+					xp: 20
+				}
+				{
+					id: "26B029471F6C87A6"
+					type: "item"
 					item: {
 						id: "astralsorcery:celestial_collector_crystal"
 						Count: 1b
@@ -562,7 +573,7 @@
 										}
 										{
 											property: "astralsorcery:purity"
-											pLevel: 2
+											pLevel: 3
 											discovered: 1b
 										}
 										{
@@ -577,7 +588,7 @@
 										}
 										{
 											property: "astralsorcery:constellation.aevitas"
-											pLevel: 2
+											pLevel: 1
 											discovered: 1b
 										}
 									]
@@ -585,18 +596,6 @@
 							}
 						}
 					}
-				}
-				{
-					type: "item"
-					count: 4
-					team_reward: true
-					id: "7E91EB74B6438539"
-					item: "astralsorcery:resonating_gem"
-				}
-				{
-					id: "192340EDCAD0E7C7"
-					type: "xp"
-					xp: 20
 				}
 			]
 			dependencies: ["0FFF395FFEB4BA29"]

@@ -330,8 +330,10 @@ onEvent('item.registry', event => {
 	event.create('ibpdx:watert2_sword').type('sword').tier('watert2').displayName('潮汐剑')
 	event.create('ibpdx:watert2_axe').type('axe').tier('watert2').displayName('潮汐斧')
 	event.create('ibpdx:watert2_shovel').type('shovel').tier('watert2').displayName('潮汐铲')
-
-})
+	event.create('ibpdx:spaghetti_and_meatballs').displayName('意大利面和肉丸').food(food=>{food.hunger(12).saturation(1.4)
+	})
+	
+	})
 
 onEvent('item.modification', event => {
     event.modify('botania:quartz_dark', item => {

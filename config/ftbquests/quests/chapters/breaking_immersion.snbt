@@ -916,8 +916,8 @@
 				"传送带、水、等等可以用来传输这些生物."
 			]
 			id: "7F1CCF50B6C504CA"
-			x: -1.0d
-			y: -2.0d
+			x: 0.5d
+			y: -0.5d
 			title: "Shazzam!"
 			rewards: [
 				{
@@ -948,6 +948,40 @@
 				}
 			]
 			dependencies: ["43C39702FE00E750"]
+		}
+		{
+			tasks: [
+				{
+					id: "6F800AC7351593B7"
+					type: "item"
+					item: "mekanism:logistical_sorter"
+				}
+				{
+					id: "10DAA160F300EA90"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+				}
+			]
+			description: ["&b逻辑分拣器&r是一种早期整理&6箱子&r和&6桶&r的方法。每个管道都有一种颜色可以设置为分拣目的,&b分拣器&r将特定颜色的物品发送到线下,直到它到达正确的目的地."]
+			icon: "mekanism:logistical_sorter"
+			id: "5B5953A4EB85DFFC"
+			x: 0.5d
+			y: -3.5d
+			title: "勺子放在勺子抽屉中,叉子放在叉子抽屉中"
+			rewards: [
+				{
+					id: "2C65BF20FA567056"
+					type: "item"
+					item: "mekanism:basic_logistical_transporter"
+					count: 16
+				}
+				{
+					id: "0916B3103C11974A"
+					type: "item"
+					item: "mekanism:configurator"
+				}
+			]
+			dependencies: ["102FFE60B6953B5E"]
 		}
 	]
 }

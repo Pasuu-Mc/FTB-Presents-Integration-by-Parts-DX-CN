@@ -971,25 +971,16 @@
 			optional: true
 		}
 		{
-			tasks: [
-				{
-					id: "23BD15E4D4CB8D65"
-					type: "item"
-					item: "storagenetwork:request"
-				}
-			]
-			description: ["&b合成存储终端&r可以从存储网络中制作物品."]
+			tasks: [{
+				id: "72124DB73FFD5AD9"
+				type: "item"
+				item: "prettypipes:crafting_terminal"
+			}]
+			description: ["&b合成终端&r可以从你的存储网络中制作物品."]
 			id: "7DC4AEB5885FDE56"
 			x: -8.5d
 			y: -3.5d
 			rewards: [
-				{
-					type: "item"
-					count: 16
-					team_reward: true
-					id: "7C90D3832DA81AB2"
-					item: "storagenetwork:kabel"
-				}
 				{
 					id: "64FE467544A6C44E"
 					type: "xp"
@@ -1002,41 +993,19 @@
 					id: "292F88E92CEE77F2"
 					item: "immersiveengineering:reinforced_crate"
 				}
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "3F0A94A5C339D07A"
+					item: "prettypipes:pipe"
+				}
 			]
 			dependencies: ["301BB7E56A9DC2C4"]
 		}
 		{
-			tasks: [
-				{
-					id: "4C188C908F730D12"
-					type: "item"
-					item: "storagenetwork:crafting_remote"
-				}
-			]
-			description: ["&b合成存储终端&r,但远程!"]
-			id: "5B020FA02BC27B77"
-			x: -8.5d
-			y: -2.5d
-			rewards: [
-				{
-					type: "item"
-					count: 2
-					team_reward: true
-					id: "3F0A1706A62ECE33"
-					item: "mysticalagriculture:blazing_crystal_seeds"
-				}
-				{
-					id: "013C3F5DC888CDFD"
-					type: "xp"
-					xp: 5
-				}
-			]
-			dependencies: ["7DC4AEB5885FDE56"]
-		}
-		{
-			tasks: [
-				{
-					id: "2A381A06A0932FB1"
+			tasks: [{
+				id: "2A381A06A0932FB1"
 					type: "item"
 					item: "ibpdx:carbonic_acid_bucket"
 				}

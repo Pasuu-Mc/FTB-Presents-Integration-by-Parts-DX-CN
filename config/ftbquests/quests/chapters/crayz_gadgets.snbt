@@ -275,5 +275,23 @@
 			title: "数沙漠中的沙子粒"
 			optional: true
 		}
+		{
+			tasks: [{
+				id: "42443805A62C483F"
+				type: "item"
+				item: "cyclic:magic_net"
+			}]
+			description: ["&b生物捕捉球&r可以将怪物从一个地方传送到另一个地方."]
+			id: "4DC0CB1B40942CFD"
+			x: -1.5d
+			y: 0.0d
+			title: "Go! Zombie!"
+			rewards: [{
+				id: "4859A180CD192ED8"
+				type: "item"
+				item: "cyclic:magic_net"
+			}]
+			optional: true
+		}
 	]
 }

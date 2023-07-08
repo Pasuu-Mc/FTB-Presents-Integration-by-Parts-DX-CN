@@ -472,6 +472,7 @@
 				{
 					id: "1BCBCDFE87C56CB3"
 					type: "item"
+					team_reward: true
 					item: {
 						id: "capsule:capsule"
 						Count: 1b

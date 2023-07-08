@@ -675,24 +675,17 @@
 			dependencies: ["2450C2D8FE3D910C"]
 		}
 		{
-			tasks: [
-				{
-					id: "681A58E2FEC382A7"
-					type: "item"
-					item: "storagenetwork:kabel"
-				}
-				{
-					id: "18BA341B7F1896B7"
-					type: "item"
-					item: "storagenetwork:master"
-				}
-			]
+			tasks: [{
+				id: "07601256520B4844"
+				type: "item"
+				item: "prettypipes:pipe"
+			}]
 			description: [
-				"简易存储网络使用的基础线缆。它除了连接电缆外别无他法。"
+				"&e更好的管道&r是&6逻辑分拣器&r的一种替代物。目前,你只能使用管道和一些基础模块,但它的一些真正卓越功能正在向你靠近,所以你现在可以让基本设备运行了."
 				""
-				"您的系统需要存储网络根部来允许它做任何事情。"
+				"基础的&b管道&r是您的标准链接模块,并且必须连接到“网络”中想要的容器。"
 			]
-			icon: "storagenetwork:master"
+			icon: "prettypipes:pipe"
 			id: "614A12FC542696E9"
 			x: -8.5d
 			y: 0.0d
@@ -700,10 +693,10 @@
 			rewards: [
 				{
 					type: "item"
-					count: 32
+					count: 16
 					team_reward: true
 					id: "50D82654FED008B2"
-					item: "storagenetwork:kabel"
+					item: "prettypipes:pipe"
 				}
 				{
 					type: "item"
@@ -716,25 +709,28 @@
 			dependencies: ["117BBECA8864CAB1"]
 		}
 		{
-			tasks: [
-				{
-					id: "1D0ECA99C7BD8703"
-					type: "item"
-					item: "storagenetwork:import_kabel"
-				}
-			]
-			description: ["电缆从库存中提取物品并将其放入SSN(ps：SSN全名-简单存储-Simple-Storage-Network)。"]
+			tasks: [{
+				id: "62FA4EBAD6C3DFD6"
+				type: "item"
+				item: "prettypipes:low_extraction_module"
+			}]
+			description: ["&b提取模块&r从库存中提取物品并将其发送到其他库存中."]
 			id: "29E8078331F5DECD"
 			x: -8.5d
 			y: 1.5d
-			title: "每日收纳"
+			title: "Daily Intake"
 			rewards: [
 				{
 					type: "item"
 					count: 4
 					team_reward: true
 					id: "157C87B8F1568A08"
-					item: "storagenetwork:import_filter_kabel"
+					item: "prettypipes:low_extraction_module"
+				}
+				{
+					id: "62FB529C3EBB2451"
+					type: "item"
+					item: "prettypipes:wrench"
 				}
 			]
 			dependencies: [
@@ -743,14 +739,12 @@
 			]
 		}
 		{
-			tasks: [
-				{
-					id: "406F8ED833EE7A1E"
-					type: "item"
-					item: "storagenetwork:storage_kabel"
-				}
-			]
-			description: ["链接线缆使库存在网络中“可见”,但只有在你从单个方块中访问系统外的物品时才会更有用。"]
+			tasks: [{
+				id: "5D8974282DAA9FEA"
+				type: "item"
+				item: "prettypipes:low_filter_module"
+			}]
+			description: ["&b过滤模块&r定义了物品可能的目的地."]
 			id: "0CE8122B2DC3BD1A"
 			x: -8.5d
 			y: 3.0d
@@ -761,14 +755,7 @@
 					count: 4
 					team_reward: true
 					id: "3258577EE57BB180"
-					item: "storagenetwork:storage_kabel"
-				}
-				{
-					type: "item"
-					count: 8
-					team_reward: true
-					id: "121EC356FA8D13F4"
-					item: "storagenetwork:kabel"
+					item: "prettypipes:low_filter_module"
 				}
 				{
 					id: "18E9EE5840755625"
@@ -781,31 +768,23 @@
 		{
 			tasks: [
 				{
-					id: "0F28A1DD8347BEC6"
+					id: "320D1BEC51C231AA"
 					type: "item"
-					item: "storagenetwork:filter_kabel"
+					item: "prettypipes:mod_filter_modifier"
+				}
+				{
+					id: "4DE1CF2D4BC28059"
+					type: "item"
+					item: "prettypipes:tag_filter_modifier"
 				}
 			]
-			description: ["最后,处理事物的一种有用的方法!它可以将物品输入一个带有白名单的容器,这意味着如果你不使用IE的物品分配器,你可以分拣箱子。"]
+			description: ["其他模块允许过滤说明。这两个可能是最有用的原始排序,但你可能想要在特定情况下尝试一下,比如附魔排序或战利品排序。"]
+			icon: "prettypipes:mod_filter_modifier"
 			id: "7AF71C085F67370D"
 			x: -8.5d
 			y: 4.5d
 			title: "解决你的问题"
 			rewards: [
-				{
-					type: "item"
-					count: 2
-					team_reward: true
-					id: "334AE04CD16866E5"
-					item: "storagenetwork:filter_kabel"
-				}
-				{
-					type: "item"
-					count: 8
-					team_reward: true
-					id: "168C885ACC94B286"
-					item: "storagenetwork:kabel"
-				}
 				{
 					id: "456709CFDD5B7E80"
 					type: "xp"
@@ -817,6 +796,12 @@
 					team_reward: true
 					id: "4353FE9BBF1583C5"
 					item: "storagedrawers:emerald_storage_upgrade"
+				}
+				{
+					id: "2420D5E80E1FF5C5"
+					type: "item"
+					item: "prettypipes:blank_module"
+					count: 4
 				}
 			]
 			dependencies: ["0CE8122B2DC3BD1A"]

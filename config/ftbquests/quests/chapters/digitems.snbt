@@ -491,6 +491,24 @@
 			dependencies: ["07C5FB5653809ECC"]
 			optional: true
 		}
+		{
+			tasks: [{
+				id: "56FB519682968009"
+				type: "item"
+				item: "automationbuffers:multibuffer"
+			}]
+			description: ["对于在配方中使用流体和物品的任务,&b多方块缓存器&r可能会有用. "]
+			id: "710AD122B95CA93B"
+			x: 0.5d
+			y: -1.5d
+			title: "液体或固体?"
+			rewards: [{
+				id: "08FC65A5A32429F7"
+				type: "item"
+				item: "automationbuffers:multibuffer"
+			}]
+			dependencies: ["10B4B876832364FC"]
+		}
 	]
 }
 

@@ -1227,6 +1227,8 @@
 				"&b魔力死亡发电机&r会消耗各种生物的生命能量并将其转化为魔力。它可以消耗两组可能的原料。"
 				""
 				"它可以从&6血、奶和液态末影&r或&6烈焰血、霜雪血和液态末影中产生魔力.&r后一种配方的产能比前一种高两倍."
+				""
+				"&6魔法水晶&r放在活木顶部,控制器放在前面(记住左边是输入,右边是输出)。"
 			]
 			icon: "masterfulmachinery:mana_death_reactor_controller"
 			id: "7E19E6EFCD52D022"
@@ -1243,6 +1245,29 @@
 					id: "193A51FE8D229E94"
 					type: "xp"
 					xp: 10
+				}
+				{
+					id: "25C38FCC14B38CDA"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							size: 9
+							isReward: 1b
+							oneUse: 1b
+							color: 7105644
+							author: "?"
+							label: "Mana Death Generator.nbt"
+							structureName: "config/capsule/rewards/mana_death_generator.nbt"
+							display: {
+								color: 10076989
+							}
+							canRotate: 0b
+							state: 5
+						}
+					}
 				}
 			]
 			dependencies: ["43762F0C3DEF95F3"]
