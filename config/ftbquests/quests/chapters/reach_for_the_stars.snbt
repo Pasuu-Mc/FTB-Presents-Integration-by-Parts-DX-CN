@@ -654,10 +654,11 @@
 			title: "我是太空中最好的"
 			rewards: [
 				{
-					id: "737BB1765193D0C1"
 					type: "item"
-					item: "mysticalagriculture:netherite_seeds"
 					count: 2
+					team_reward: true
+					id: "737BB1765193D0C1"
+					item: "mysticalagriculture:netherite_seeds"
 				}
 				{
 					id: "6C55A11117E77EE5"
@@ -665,10 +666,11 @@
 					xp: 10
 				}
 				{
-					id: "12842D9D42B8A6B5"
 					type: "item"
-					item: "ibpdx:stainless_steel_ingot"
 					count: 8
+					team_reward: true
+					id: "12842D9D42B8A6B5"
+					item: "ibpdx:stainless_steel_ingot"
 				}
 			]
 			dependencies: ["18EDCBEF9DD689DA"]

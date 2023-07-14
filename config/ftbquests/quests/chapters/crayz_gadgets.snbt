@@ -65,6 +65,20 @@
 					id: "1F28165E3CFFE13B"
 					item: "compactmachines:wall"
 				}
+				{
+					id: "68138B2DF4AC3DD9"
+					type: "item"
+					item: {
+						id: "compactmachines:tunnel"
+						Count: 1b
+						tag: {
+							definition: {
+								id: "compactmachines:item"
+							}
+						}
+					}
+					count: 16
+				}
 			]
 			dependencies: ["3B7A9D6E1069EA93"]
 			optional: true

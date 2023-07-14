@@ -204,7 +204,7 @@
 			]
 			id: "53CE64D64736807F"
 			x: 14.0d
-			y: -9.5d
+			y: -11.5d
 			shape: "octagon"
 			title: "通用重构"
 			rewards: [
@@ -239,7 +239,7 @@
 					xp_levels: 50
 				}
 			]
-			dependencies: ["268656F8FDEAA9B8"]
+			dependencies: ["044A811B78C23F21"]
 			tasks: [
 				{
 					id: "51B9A75DED81D363"
@@ -1087,5 +1087,23 @@
 			]
 			dependencies: ["2211FE12DD3B5DFF"]
 		}
+		{
+			tasks: [{
+				id: "4E2B6D9BFFCB42E6"
+				type: "item"
+				item: "ibpdx:liquid_nitrogen_bucket"
+			}]
+			description: ["&b液氮&r可以在&6急速冷冻机&r中制作."]
+			id: "044A811B78C23F21"
+			x: 14.0d
+			y: -9.5d
+			rewards: [{
+				id: "6EAD709A9EC6D16B"
+				type: "item"
+				item: "thermal:upgrade_augment_2"
+			}]
+			dependencies: ["268656F8FDEAA9B8"]
+		}
 	]
 }
+

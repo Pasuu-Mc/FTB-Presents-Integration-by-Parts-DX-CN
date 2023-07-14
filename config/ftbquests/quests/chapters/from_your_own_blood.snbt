@@ -753,7 +753,6 @@
 				{
 					id: "510042F1C376DF85"
 					type: "item"
-					team_reward: true
 					item: "pamhc2foodcore:epicbaconitem"
 				}
 			]
@@ -1090,6 +1089,35 @@
 			]
 			dependencies: ["3B657C48A24C52DA"]
 			dependency_requirement: "one_completed"
+		}
+		{
+			tasks: [{
+				id: "2DDF641CF9CCE65E"
+				type: "item"
+				item: "bloodmagic:incensealtar"
+			}]
+			description: [
+				"&b熏香祭坛&r是献祭的一种更好选择。它可以让你一次性牺牲大部分的HP，而不是猛击和冒着意外过度点击的风险。"
+				""
+				"更多关于它如何工作的信息在&6Sanguine Scientem&r中."
+			]
+			id: "2C764512AD1578A6"
+			x: 2.0d
+			y: -1.0d
+			title: "我感到...镇静"
+			rewards: [{
+				id: "3D0D297300CF164D"
+				type: "item"
+				item: {
+					id: "patchouli:guide_book"
+					Count: 1b
+					tag: {
+						"patchouli:book": "bloodmagic:guide"
+					}
+				}
+			}]
+			dependencies: ["7D32C585EDAC8EDF"]
+			optional: true
 		}
 	]
 }

@@ -79,7 +79,10 @@
 					item: "ibpdx:cooking_oil_bucket"
 				}
 			]
-			description: ["对于油炸物品,你会想要使用油作为流体."]
+			description: ["对于油炸物品,你会想要使用油作为流体."
+				""
+				"用&b食用油&r右键单击."
+			]
 			id: "78EA0724366659D3"
 			x: -7.0d
 			y: -1.0d
@@ -127,7 +130,10 @@
 					item: "ibpdx:hot_water_bucket"
 				}
 			]
-			description: ["水,但很热!"]
+			description: ["水,但很热!"
+			""
+			"用&b淡水&r右键单击."
+			]
 			id: "414D6EB06126E595"
 			x: -7.0d
 			y: 2.0d
@@ -149,7 +155,10 @@
 					item: "ibpdx:milk_bucket"
 				}
 			]
-			description: ["保温牛奶有自己的一些配方。"]
+			description: ["保温牛奶有自己的一些配方。"
+				""
+				"用&b鲜奶&r右键单击."
+			]
 			id: "5427B4A43C19E281"
 			x: -7.0d
 			y: 3.5d
@@ -171,7 +180,10 @@
 					item: "ibpdx:fake_air_bucket"
 				}
 			]
-			description: ["这当然不是假装烹饪盘在没有任何液体的情况下工作的方法。只需要装成正常工作即可。"]
+			description: ["这当然不是假装烹饪盘在没有任何液体的情况下工作的方法。只需要装成正常工作即可。"
+				""
+				"右键&b玻璃瓶&r."
+			]
 			id: "7878220AB63770F5"
 			x: -7.0d
 			y: 0.5d

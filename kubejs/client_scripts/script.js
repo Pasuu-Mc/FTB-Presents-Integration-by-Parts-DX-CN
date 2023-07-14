@@ -754,7 +754,7 @@ onEvent('item.tooltip', e => {
   let enchanting = ['minecraft:enchanting_table']
 
   enchanting.forEach(fair => {
-    e.add(fair, Text.of('无法制作。请使用星能附魔师多方块结构或在世界中寻找一个。').green())
+    e.add(fair, Text.of('无法制作。请使用星能附魔师多方块结构或在世界中寻找一个。也可能从铁战利品袋中掉落。').green())
   })
 
   let cook = ['ibpdx:hot_cooking_plate', 'ibpdx:cool_cooking_plate']
@@ -820,7 +820,7 @@ onEvent('item.tooltip', e => {
   let key = ['dimdungeons:item_portal_key']
 
   key.forEach(fair => {
-    e.add(fair, Text.of('右键点击末地传送门激活。').green())
+    e.add(fair, Text.of('右键点击末地传送门或钥匙写入台激活。').green())
   })
 
   let dist = ['thermal:redstone_bucket','thermal:glowstone_bucket', 'tconstruct:molten_glass_bucket']
@@ -1166,11 +1166,38 @@ ssn.forEach(fair => {
   e.add(fair, Text.of('由于一些错误，简单存储网络将在未来的版本中被禁用。你可以把它的组件制作成漂亮的管道物品，但它将被逐步淘汰。它不会被移除，所以你的世界将永远不会受到影响.').red())
 })
 
+let antimatter = ['ftbic:antimatter']
 
+antimatter.forEach(fair => {
+  e.add(fair, Text.of('在反物质构建机中制作.').green())
+})
+
+let bchammer = ['blockcarpentry:hammer']
+
+bchammer.forEach(fair => {
+  e.add(fair, Text.of('从框架和幻影方块中移除方块。').green())
+})
+
+let bcchisel = ['blockcarpentry:chisel']
+
+bcchisel.forEach(fair => {
+  e.add(fair, Text.of('改变某些细木工制品的风格，如门或墙。').green())
+})
+
+let bcpaint = ['blockcarpentry:paintbrush']
+
+bcpaint.forEach(fair => {
+  e.add(fair, Text.of('更改某些木工砌块上的额外功能，例如门上的门把手。').green())
+})
+
+let bcwrench = ['blockcarpentry:texture_wrench']
+
+bcwrench.forEach(fair => {
+  e.add(fair, Text.of('可以使块的每一面都显示相同的纹理，例如工作台的顶面。').green())
 })
 
 
-
+})
 
 
 onEvent('player.data_from_server.reload', (event) => {
