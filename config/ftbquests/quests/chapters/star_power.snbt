@@ -556,7 +556,7 @@
 					xp: 20
 				}
 				{
-					id: "26B029471F6C87A6"
+					id: "5763B1F49FC5579A"
 					type: "item"
 					item: {
 						id: "astralsorcery:celestial_collector_crystal"
@@ -568,7 +568,7 @@
 									attributes: [
 										{
 											property: "astralsorcery:size"
-											pLevel: 3
+											pLevel: 1
 											discovered: 1b
 										}
 										{
@@ -802,9 +802,8 @@
 					item: "astralsorcery:ritual_pedestal"
 				}
 				{
-					id: "4713D4799F06AF43"
+					id: "5F38234E1F1C62CF"
 					type: "item"
-					team_reward: true
 					item: {
 						id: "astralsorcery:celestial_collector_crystal"
 						Count: 1b
@@ -815,7 +814,7 @@
 									attributes: [
 										{
 											property: "astralsorcery:size"
-											pLevel: 3
+											pLevel: 2
 											discovered: 1b
 										}
 										{

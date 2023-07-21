@@ -51,6 +51,6 @@ onEvent('block.registry', event => {
 	event.create('ibpdx:carmine_moon_stone').material('stone').hardness(1.0).displayName('深红月石')
 	event.create('ibpdx:ultramarine_moon_stone').material('stone').hardness(1.0).displayName('天青月石')
 	event.create('ibpdx:umbral_moon_stone').material('stone').hardness(1.0).displayName('阴影月石')
-
+	event.create('ibpdx:lead_plating').material('stone').hardness(1.0).displayName('电镀铅')
 
 })

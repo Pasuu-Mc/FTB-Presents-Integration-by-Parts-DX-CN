@@ -84,6 +84,17 @@
 						}
 					}
 				}
+				{
+					id: "2262B065280F88A7"
+					type: "item"
+					item: {
+						id: "patchouli:guide_book"
+						Count: 1b
+						tag: {
+							"patchouli:book": "bloodmagic:guide"
+						}
+					}
+				}
 			]
 			dependencies: ["3B657C48A24C52DA"]
 		}
@@ -1106,15 +1117,10 @@
 			y: -1.0d
 			title: "我感到...镇静"
 			rewards: [{
-				id: "3D0D297300CF164D"
+				id: "46606D3C85E640F5"
 				type: "item"
-				item: {
-					id: "patchouli:guide_book"
-					Count: 1b
-					tag: {
-						"patchouli:book": "bloodmagic:guide"
-					}
-				}
+				item: "bloodmagic:stonetilepath"
+				count: 64
 			}]
 			dependencies: ["7D32C585EDAC8EDF"]
 			optional: true

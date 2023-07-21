@@ -1197,37 +1197,43 @@
 		{
 			tasks: [
 				{
-					id: "149860AA1B6D14A5"
 					type: "item"
-					item: "masterfulmachinery:mana_death_reactor_controller"
-				}
-				{
+					count: 3L
+					consume_items: true
 					id: "19B457A5EF6EBD90"
-					type: "item"
 					item: "ibpdx:blockcasing_terrasteel"
-					count: 3L
 				}
 				{
-					id: "03157069627B450A"
 					type: "item"
-					item: "botania:framed_livingwood"
 					count: 7L
+					consume_items: true
+					id: "03157069627B450A"
+					item: "botania:framed_livingwood"
 				}
 				{
-					id: "5A95023C7455AC9B"
 					type: "item"
-					item: "masterfulmachinery:mana_death_reactor_fluid_port_fluids_input"
 					count: 3L
+					consume_items: true
+					id: "5A95023C7455AC9B"
+					item: "masterfulmachinery:mana_death_reactor_fluid_port_fluids_input"
 				}
 				{
 					id: "5353DC7968746DF5"
 					type: "item"
 					item: "masterfulmachinery:mana_death_reactor_mana_port_botania_mana_output"
+					consume_items: true
 				}
 				{
 					id: "0A885B49097E20DB"
 					type: "item"
 					item: "botania:mana_pylon"
+					consume_items: true
+				}
+				{
+					id: "5D75D6EF002FBF2F"
+					type: "item"
+					item: "masterfulmachinery:mana_death_reactor_controller"
+					consume_items: true
 				}
 			]
 			description: [

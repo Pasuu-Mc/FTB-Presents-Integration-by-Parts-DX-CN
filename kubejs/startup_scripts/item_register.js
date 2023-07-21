@@ -331,6 +331,7 @@ onEvent('item.registry', event => {
 	event.create('ibpdx:watert2_axe').type('axe').tier('watert2').displayName('潮汐斧')
 	event.create('ibpdx:watert2_shovel').type('shovel').tier('watert2').displayName('潮汐铲')
 	event.create('ibpdx:spaghetti_and_meatballs').displayName('意大利面和肉丸').food(food=>{food.hunger(12).saturation(1.4)
+	event.create('ibpdx:smithing_table_nugget').displayName('锻造台粒').tooltip('§7锻造台的力量，尽在掌中')
 	})
 	
 	})

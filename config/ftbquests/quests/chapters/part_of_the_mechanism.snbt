@@ -559,7 +559,7 @@
 			icon: "mekanism:basic_induction_cell"
 			id: "0553780B5EE3E630"
 			x: 8.0d
-			y: -6.5d
+			y: -9.5d
 			title: "平息岩浆"
 			rewards: [
 				{
@@ -595,10 +595,7 @@
 					item: "rftoolsbase:information_screen"
 				}
 			]
-			dependencies: [
-				"089C7F036D912048"
-				"339867861185A852"
-			]
+			dependencies: ["089C7F036D912048"]
 		}
 		{
 			tasks: [
@@ -663,16 +660,10 @@
 			dependencies: ["580DE03B36FF15F1"]
 		}
 		{
-			tasks: [
-				{
-					id: "77F500A2650D14A0"
-					type: "item"
-					item: "ibpdx:crystal_of_life"
-				}
-			]
+			size: 1.25d
 			description: ["药水水晶就如同它们听起来的样子,结晶药水。"]
-			x: 8.0d
 			id: "339867861185A852"
+			x: 8.0d
 			y: -5.0d
 			shape: "pentagon"
 			title: "魔法块"
@@ -696,6 +687,11 @@
 				}
 			]
 			dependencies: ["108B50CAB0B4C0AA"]
+			tasks: [{
+				id: "77F500A2650D14A0"
+				type: "item"
+				item: "ibpdx:crystal_of_life"
+			}]
 		}
 		{
 			tasks: [
@@ -1103,6 +1099,33 @@
 				item: "thermal:upgrade_augment_2"
 			}]
 			dependencies: ["268656F8FDEAA9B8"]
+		}
+		{
+			tasks: [
+				{
+					id: "3CB76ED502A4CEE8"
+					type: "item"
+					item: "fluxnetworks:flux_point"
+				}
+				{
+					id: "2CBD9C742637CAD4"
+					type: "item"
+					item: "fluxnetworks:flux_plug"
+				}
+			]
+			description: ["&e通量网络&r允许你使用&b通量接出点&r和&b通量接入点&r来保持所有机器的电线。您可以通过无线RF网络输入和输出."]
+			icon: "fluxnetworks:flux_point"
+			id: "4D71B7B92B591EE7"
+			x: 8.0d
+			y: -6.5d
+			title: "接入，接出"
+			rewards: [{
+				id: "1CE4B39B5A4CE6D0"
+				type: "item"
+				item: "fluxnetworks:flux_block"
+				count: 4
+			}]
+			dependencies: ["339867861185A852"]
 		}
 	]
 }

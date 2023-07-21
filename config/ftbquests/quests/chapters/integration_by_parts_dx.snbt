@@ -35,19 +35,17 @@
 				"所以,你可以期待些什么呢?一个不是专家的“专家包”。我们删除了许多繁琐的工作,使其更适合不同级别的玩家,并将乐趣放在首位。"
 				"将有许多奇怪而有趣的配方,大量的跨mod兼容,还有更多需要被发现!"
 			]
-			icon: "jecalculation:item_calculator_math"
+			icon: "ibpdx:energized_infinity_chunk"
 			x: -2.5d
 			id: "6C8124F246693A5E"
 			y: -0.5d
 			shape: "gear"
 			title: "足够解释了"
-			rewards: [
-				{
-					id: "68E60AA12B353253"
-					type: "item"
-					item: "jecalculation:item_calculator_math"
-				}
-			]
+			rewards: [{
+				id: "07BBAB92F281235F"
+				type: "item"
+				item: "pamhc2foodcore:chocolatedonutitem"
+			}]
 		}
 		{
 			tasks: [
@@ -65,12 +63,17 @@
 				""
 				"所以,玩得开心!"
 			]
-			icon: "jecalculation:item_calculator_craft"
+			icon: "avaritia:infinity_catalyst"
 			x: 1.5d
 			id: "0D3900E01421136E"
 			y: -0.5d
 			shape: "gear"
 			title: "再次向您问好,老手们!"
+			rewards: [{
+				id: "59264B8765EA7207"
+				type: "item"
+				item: "pamhc2foodcore:chocolaterollitem"
+			}]
 		}
 		{
 			tasks: [

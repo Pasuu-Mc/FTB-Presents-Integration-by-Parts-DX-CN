@@ -488,7 +488,9 @@ const hiddenItems = [
     'storagenetwork:speed_upgrade', 
     'storagenetwork:builder_remote', 
     'storagenetwork:collector_remote',
-    'storagenetwork:filter_kabel'
+    'storagenetwork:filter_kabel',
+    'shrink:shrink_ray',
+    'shrink:mob_bottle'
 	]
 
 
