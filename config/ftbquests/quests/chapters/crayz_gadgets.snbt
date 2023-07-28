@@ -32,7 +32,7 @@
 			icon: "compactmachines:personal_shrinking_device"
 			id: "3B7A9D6E1069EA93"
 			x: 2.5d
-			y: -1.5d
+			y: 0.0d
 			title: "精致压缩"
 			rewards: [
 				{
@@ -55,7 +55,7 @@
 			description: ["不是最小的,但第一个可以容纳一些小型多方块,但仍然可以让你在其中移动。里面有个5x5x5。"]
 			id: "74B2CDB516FF913B"
 			x: 2.5d
-			y: -3.0d
+			y: -1.5d
 			title: "压缩的第一层"
 			rewards: [
 				{

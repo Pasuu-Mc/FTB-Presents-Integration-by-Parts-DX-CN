@@ -1148,6 +1148,24 @@
 			x: 4.0d
 			y: 7.5d
 			title: "高级化工厂"
+			rewards: [{
+				id: "25292E301C9D0453"
+				type: "item"
+				item: {
+					id: "capsule:capsule"
+					Count: 1b
+					tag: {
+						size: 5
+						state: 3
+						label: "Advanced Chemical Plant"
+						sourceInventory: { }
+						structureName: "config/capsule/prefabs/advanced_chemical_plant"
+						display: {
+							color: 2963801
+						}
+					}
+				}
+			}]
 			dependencies: ["1290D6B2716C0297"]
 		}
 		{

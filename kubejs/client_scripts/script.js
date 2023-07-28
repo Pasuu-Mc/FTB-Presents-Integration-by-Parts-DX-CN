@@ -489,7 +489,6 @@ const hiddenItems = [
     'storagenetwork:builder_remote', 
     'storagenetwork:collector_remote',
     'storagenetwork:filter_kabel',
-    'shrink:shrink_ray',
     'shrink:mob_bottle'
 	]
 
@@ -524,7 +523,8 @@ const hiddenItems = [
 		'industrialforegoing:infinity_nuke',
 		'industrialforegoing:infinity_saw',
 		'industrialforegoing:infinity_backpack',
-		'industrialforegoing:infinity_hammer'
+		'industrialforegoing:infinity_hammer',
+    	'shrink:shrink_ray',
 	]
 
 	const hiddenItemsWithNBT = 
@@ -1198,8 +1198,22 @@ bcwrench.forEach(fair => {
   e.add(fair, Text.of('可以使块的每一面都显示相同的纹理，例如工作台的顶面。').green())
 })
 
+let coaldust = ['mekanism:dust_coal']
+
+coaldust.forEach(fair => {
+  e.add(fair, Text.of('用工具锤右键单击煤炭块').green())
+})
+
+let lenses = ['astralsorcery:lens', 'astralsorcery:prism']
+
+lenses.forEach(fair => {
+  e.add(fair, Text.of('必须有 NBT 数据才能使用！如果没有统计信息，您需要将其制作成有统计信息的版本！').green())
+})
 
 })
+
+
+
 
 
 onEvent('player.data_from_server.reload', (event) => {

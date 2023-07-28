@@ -1070,10 +1070,14 @@
 					xp_levels: 30
 				}
 			]
-			dependencies: ["4E0970B8BF1577D0"]
+			dependencies: [
+				"4E0970B8BF1577D0"
+				"6ACA6B128CF6CBEC"
+				"1C8F75EF987A0A09"
+			]
 		}
 		{
-			tasks: [
+			tasks: [{
 				{
 					id: "005CB5EC5E86120E"
 					type: "item"

@@ -83,7 +83,7 @@
 			]
 			icon: "botania:mana_pool"
 			id: "07D35F22FBF6FB0C"
-			x: 0.0d
+			x: -1.0d
 			y: 0.0d
 			title: "花之力量"
 			rewards: [
@@ -160,7 +160,7 @@
 			description: ["现在你的&6魔力池&r已经充电了,你可以用它将基础金属加工成可冶炼的粉尘!这不是这样做的最高效方法。当然,但你必须承认通过魔法水熔炼是很酷的!"]
 			id: "07C5FB5653809ECC"
 			icon: "minecraft:iron_ingot"
-			x: 2.0d
+			x: 1.0d
 			y: 0.0d
 			title: "现在,一些完全不同的东西"
 			rewards: [
@@ -168,6 +168,12 @@
 					id: "7549995D711D7BF1"
 					type: "choice"
 					table_id: 9207953850827504287L
+				}
+				{
+					id: "491CEEE4C5E62432"
+					type: "item"
+					team_reward: true
+					item: "minecraft:hopper"
 				}
 			]
 			subtitle: "但是也有点相关。"
@@ -183,7 +189,7 @@
 			]
 			description: ["做个铁镐然后挖一个&b钻石&r。或者两个。或者三个。你需要一些用来制作。"]
 			id: "38D0894A4411CD0B"
-			x: 4.0d
+			x: 3.0d
 			y: 0.0d
 			title: "回到基础"
 			rewards: [
@@ -238,8 +244,8 @@
 			description: ["做一些&b沼泽土&r,然后将其放置在&6白雏菊&r旁,然后破坏产生的&6泥炭田&r."]
 			icon: "ibpdx:mixed_brick"
 			id: "11DF8FA9D131044C"
-			x: 6.5d
-			y: -2.5d
+			x: 5.0d
+			y: 0.0d
 			title: "不要让这个沼泽降级"
 			rewards: [
 				{
@@ -256,37 +262,12 @@
 					id: "1EA0D550E7D8296D"
 					item: "minecraft:clay"
 				}
-			]
-			dependencies: ["38D0894A4411CD0B"]
-		}
-		{
-			tasks: [
-				{
-					id: "38726FE148633A97"
-					type: "item"
-					item: "minecraft:brick"
-					count: 4L
-				}
-			]
-			description: ["让粘土变热。现在你有一个&b砖块&r。恭喜"]
-			id: "78E201316E2F5E55"
-			x: 6.5d
-			y: -1.0d
-			title: "我铸砖"
-			rewards: [
 				{
 					type: "item"
-					count: 8
+					count: 2
 					team_reward: true
-					id: "5F76EECB25DBEDBB"
-					item: "minecraft:coal"
-				}
-				{
-					type: "item"
-					count: 16
-					team_reward: true
-					id: "40803856471D7CDC"
-					item: "minecraft:brick"
+					id: "45DFA877D0D858F0"
+					item: "mysticalagriculture:prudentium_furnace"
 				}
 			]
 			dependencies: ["38D0894A4411CD0B"]
@@ -323,31 +304,6 @@
 					team_reward: true
 					id: "643CECCA3851CD99"
 					item: "minecraft:obsidian"
-				}
-			]
-			dependencies: ["38D0894A4411CD0B"]
-		}
-		{
-			tasks: [
-				{
-					id: "3A3DFC0DAF9408E3"
-					type: "item"
-					item: "tconstruct:seared_brick"
-					count: 32L
-				}
-			]
-			description: ["你可能需要大量的&b焦黑砖&r.只是直说."]
-			id: "5FC0EB9EE386FEA1"
-			x: 6.5d
-			y: 2.5d
-			title: "超绝缘砖块"
-			rewards: [
-				{
-					type: "item"
-					count: 2
-					team_reward: true
-					id: "4415B3E620A375C1"
-					item: "mysticalagriculture:prudentium_furnace"
 				}
 			]
 			dependencies: ["38D0894A4411CD0B"]
@@ -411,58 +367,60 @@
 					id: "6A66119072E04A82"
 					item: "tconstruct:seared_stone"
 				}
-			]
-			dependencies: [
-				"78E201316E2F5E55"
-				"11DF8FA9D131044C"
-				"5FC0EB9EE386FEA1"
-				"7EEE6AE0845EC57F"
-			]
-			tasks: [
 				{
-					id: "755AEC0E7236C46B"
+					id: "1077032DA4089F99"
 					type: "item"
-					item: "tconstruct:smeltery_controller"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "basic_smeltery"
+							structureName: "config/capsule/rewards/basic_smeltery"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 5
+						}
+					}
 				}
 				{
-					id: "68551B8B6A28A49F"
+					id: "4ED8C4B97A7C497B"
 					type: "item"
-					item: "tconstruct:seared_bricks"
-					count: 17L
-				}
-				{
-					id: "0A25D638AAC82023"
-					type: "item"
-					item: "tconstruct:seared_drain"
-					count: 2L
-				}
-				{
-					id: "125C55E5801ACF06"
-					type: "item"
-					item: "tconstruct:seared_faucet"
-					count: 2L
-				}
-				{
-					id: "0F0E0F4EA058F6E8"
-					type: "item"
-					item: "tconstruct:seared_fuel_tank"
-				}
-				{
-					id: "3FEA9D6FB7FAAEA1"
-					type: "item"
+					team_reward: true
 					item: "tconstruct:seared_table"
 				}
 				{
-					id: "732C22FF0C5C8AAD"
+					id: "39F58E83DB650451"
 					type: "item"
+					team_reward: true
 					item: "tconstruct:seared_basin"
 				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "21FD219D4E34470F"
+					item: "tconstruct:seared_faucet"
+				}
 			]
+			dependencies: ["11DF8FA9D131044C"]
+			tasks: [{
+				type: "item"
+				count: 16L
+				consume_items: true
+				id: "2548D89784974FA1"
+				item: "tconstruct:seared_bricks"
+			}]
 		}
 		{
-			tasks: [
-				{
-					id: "24CEB2F017831159"
+			tasks: [{
+				id: "24CEB2F017831159"
 					type: "item"
 					item: "ibpdx:modularium"
 					count: 4L
@@ -771,6 +729,13 @@
 					type: "xp"
 					xp: 30
 				}
+				{
+					type: "item"
+					count: 2
+					team_reward: true
+					id: "352E75A1FAF5AA08"
+					item: "cyclic:placer"
+				}
 			]
 			dependencies: ["1C496F6BB54C2AB8"]
 			tasks: [
@@ -801,7 +766,7 @@
 				"我意思是...它&oIS&r魔法。"
 			]
 			id: "2D42BDC843600079"
-			x: 4.0d
+			x: 3.0d
 			y: 2.0d
 			title: "修补精简版"
 			rewards: [
@@ -848,7 +813,7 @@
 					Damage: 0
 				}
 			}
-			x: 0.0d
+			x: -1.0d
 			id: "51931A742B1FDEAC"
 			y: 2.0d
 			shape: "gear"
@@ -987,7 +952,7 @@
 		{
 			size: 2.0d
 			description: ["在维多利亚时代,人们可以只使用花来进行整个对话（ps：维多利亚时代以崇尚道德修养和谦虚礼貌而著称）.&e植物魔法&r使用花生产&6魔力&r来为你的设备供电."]
-			x: -2.0d
+			x: -3.0d
 			id: "5CF518D3ECA038C1"
 			y: 0.0d
 			shape: "pentagon"
@@ -1006,10 +971,84 @@
 					id: "64EF876765CEEC55"
 					item: "thermal:apatite"
 				}
-			]
-			tasks: [
 				{
-					id: "000F0F4D605FE5D6"
+					id: "68407B87FD8413C8"
+					type: "item"
+					item: {
+						id: "thermal:satchel"
+						Count: 1b
+						tag: {
+							RepairCost: 3
+							ItemInv: {
+								ItemInv: [
+									{
+										Slot: 0b
+										id: "minecraft:oak_log"
+										Count: 64b
+									}
+									{
+										Slot: 1b
+										id: "minecraft:cobblestone"
+										Count: 64b
+									}
+									{
+										Slot: 2b
+										id: "minecraft:cobblestone"
+										Count: 64b
+									}
+									{
+										Slot: 3b
+										id: "minecraft:iron_ore"
+										Count: 8b
+									}
+									{
+										Slot: 4b
+										id: "thermal:copper_ore"
+										Count: 8b
+									}
+									{
+										Slot: 5b
+										id: "botania:fertilizer"
+										Count: 4b
+									}
+									{
+										Slot: 6b
+										id: "minecraft:bone_meal"
+										Count: 8b
+									}
+									{
+										Slot: 7b
+										id: "capsule:capsule"
+										Count: 1b
+										tag: {
+											state: 5
+											isReward: 1b
+											oneUse: 1b
+											color: 16777215
+											label: "tiny_house"
+											structureName: "config/capsule/rewards/tiny_house"
+											display: {
+												color: 16777215
+											}
+											canRotate: 0b
+											size: 9
+										}
+									}
+								]
+							}
+							display: {
+								Name: "{\"text\":\"Starter Pack\"}"
+							}
+							Enchantments: [{
+								lvl: 3s
+								id: "cofh_core:holding"
+							}]
+						}
+					}
+				}
+			]
+			tasks: [{
+				id: "000F0F4D605FE5D6"
 					type: "item"
 					item: "botania:apothecary_default"
 				}
@@ -1110,7 +1149,7 @@
 			]
 			icon: "minecraft:charcoal"
 			id: "5BBABAB0CF8F79D9"
-			x: 2.0d
+			x: 1.0d
 			y: -2.0d
 			title: "工作时间与效率"
 			rewards: [
@@ -1149,7 +1188,7 @@
 			]
 			icon: "treemendous:japanese_sapling"
 			id: "245894493BB8B311"
-			x: 0.0d
+			x: -1.0d
 			y: -2.0d
 			title: "Alchetree"
 			rewards: [
@@ -1188,7 +1227,7 @@
 			]
 			description: ["&b伐木斧&r是一次砍倒整棵树的早期方法。它们有固定的破坏速度,所以砍大的树比砍小的树效率高得多."]
 			id: "2FF7B8CD3D0249D8"
-			x: 2.0d
+			x: 1.0d
 			y: 2.0d
 			title: "砍树!"
 			rewards: [
@@ -1298,7 +1337,7 @@
 			]
 			description: ["&b巨型火把&r可以防止敌对生物在其效果范围内生成."]
 			id: "06C26AA94BA794D4"
-			x: 4.0d
+			x: 3.0d
 			y: -2.0d
 			title: "怪物,怪物,离开!"
 			rewards: [
@@ -1309,6 +1348,190 @@
 				}
 			]
 			dependencies: ["38D0894A4411CD0B"]
+		}
+		{
+			tasks: [{
+				id: "1FCD6D64AE1125E5"
+				type: "item"
+				item: {
+					id: "boss_tools:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			description: [
+				"&b锤子&r可以手动粉碎一种方式."
+				""
+				"右键单击后,您可以从&6铁、金、铜、锡、铅、银和镍矿石&r中获得3个额外的粒,也可以从&6煤块&r中获得&6煤粉&r."
+			]
+			id: "2B260CB0233EAB3F"
+			x: 5.0d
+			y: 2.0d
+			title: "简单的粉碎"
+			rewards: [{
+				type: "item"
+				count: 6
+				team_reward: true
+				id: "7F3E3C8F16C1F51C"
+				item: "minecraft:iron_ore"
+			}]
+			dependencies: ["07C5FB5653809ECC"]
+			hide_dependency_lines: true
+		}
+		{
+			tasks: [{
+				id: "1E3C04FEAC830BC1"
+				type: "item"
+				item: "tconstruct:seared_bricks"
+			}]
+			description: ["通过用&6煤粉&r右键单击&6混合砖块&r,你可以将其转化为&b焦黑砖块&r."]
+			id: "40154C53301E54BA"
+			x: 7.0d
+			y: 0.0d
+			rewards: [{
+				type: "item"
+				count: 8
+				team_reward: true
+				id: "2B301A34BDFC7AE9"
+				item: "ibpdx:mixed_brick_block"
+			}]
+			dependencies: [
+				"11DF8FA9D131044C"
+				"2B260CB0233EAB3F"
+			]
+		}
+		{
+			tasks: [{
+				id: "59D366829E08B69C"
+				type: "item"
+				item: "minecraft:anvil"
+			}]
+			description: [
+				"&b铁砧&r在某种程度上是&6锤子&r的一种更好的形式。如果它掉落在物品上,它会处理一些东西。如果你真的想要使用一些&6方块破坏器、方块放置器、红石时钟和一些其他杂项组件,现在你可以自动化它了。&r"
+				""
+				"或者你可以手动来一次大粉碎。由你决定。小心&b铁砧&r下落距离不能超过一个方块以上,否则会受到伤害."
+			]
+			id: "742FC484D6D9F389"
+			x: 7.0d
+			y: 2.0d
+			title: "超级粉碎伙伴"
+			rewards: [
+				{
+					id: "01A137989385A625"
+					type: "item"
+					item: "miniutilities:redstone_clock"
+				}
+				{
+					id: "1640645489CC7E12"
+					type: "item"
+					item: "botania:open_crate"
+				}
+				{
+					id: "07112C3227C11A26"
+					type: "item"
+					item: "darkutils:ender_hopper"
+				}
+			]
+			dependencies: ["2B260CB0233EAB3F"]
+		}
+		{
+			tasks: [{
+				type: "item"
+				count: 20L
+				consume_items: true
+				id: "69CF41AACCF4F958"
+				item: "tconstruct:seared_bricks"
+			}]
+			description: ["如果你真的想得到，就可以获得更多的&b冶炼炉&r,这是个可重复的任务。"]
+			id: "03EFDEE020D5366B"
+			icon: "tconstruct:seared_drain"
+			disable_toast: true
+			x: 9.0d
+			y: 2.0d
+			title: "更多冶炼炉!"
+			rewards: [
+				{
+					id: "76E5481B3F50F590"
+					type: "item"
+					team_reward: true
+					item: {
+						id: "capsule:capsule"
+						Count: 1b
+						tag: {
+							state: 5
+							isReward: 1b
+							oneUse: 1b
+							color: 16777215
+							label: "basic_smeltery"
+							structureName: "config/capsule/rewards/basic_smeltery"
+							display: {
+								color: 16777215
+							}
+							canRotate: 0b
+							size: 5
+						}
+					}
+				}
+				{
+					id: "623D2B5F8B13BD13"
+					type: "command"
+					command: "/ftbquests change_progress @p reset 03EFDEE020D5366B"
+					player_command: false
+				}
+			]
+			dependencies: ["4F87B1CBC7A8E75C"]
+			optional: true
+		}
+		{
+			tasks: [{
+				id: "5CC37906F0B923A6"
+				type: "item"
+				item: "tconstruct:rod_cast"
+			}]
+			description: ["牛奶可以制造坚固的骨头,对吗?如果你在&6铸造台&r中施放一些&6牛奶&r..."]
+			icon: "minecraft:bone"
+			id: "045CCF53A3E3026E"
+			x: 11.0d
+			y: -2.0d
+			title: "坏到骨子里"
+			rewards: [{
+				type: "item"
+				count: 16
+				team_reward: true
+				id: "43010678AC29112E"
+				item: "minecraft:bone"
+			}]
+			dependencies: ["4F87B1CBC7A8E75C"]
+		}
+		{
+			tasks: [{
+				id: "00C26063656354D1"
+				type: "item"
+				item: "minecraft:dispenser"
+			}]
+			description: ["&b发射器&r是一种用途比你想象的还要广泛的工具。它可以在农作物上使用&6骨粉&r、种植&6种子&r、用&6桶&r放置和拾取流体等等."]
+			id: "45CC748A44A1FB1B"
+			x: 13.0d
+			y: -2.0d
+			title: "在这里需要一个发射器"
+			rewards: [
+				{
+					type: "item"
+					count: 16
+					team_reward: true
+					id: "3F7AD9DF3C34B5FE"
+					item: "minecraft:dispenser"
+				}
+				{
+					id: "682BFD6E6E252F86"
+					type: "item"
+					team_reward: true
+					item: "botania:hourglass"
+				}
+			]
+			dependencies: ["045CCF53A3E3026E"]
 		}
 	]
 }

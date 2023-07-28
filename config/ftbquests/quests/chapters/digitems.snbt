@@ -509,6 +509,68 @@
 			}]
 			dependencies: ["10B4B876832364FC"]
 		}
+		{
+			tasks: [{
+				id: "270A942BA11706AF"
+				type: "item"
+				title: "任意#storagedrawers:drawers"
+				item: {
+					id: "itemfilters:tag"
+					Count: 1b
+					tag: {
+						value: "storagedrawers:drawers"
+					}
+				}
+			}]
+			description: [
+				"&b抽屉&r以它存储许多同一物品的能力而闻名."
+				""
+				"锁定后,它们可以作为原始物品过滤器。"
+			]
+			icon: "storagedrawers:oak_full_drawers_1"
+			id: "4331D84C22A9A619"
+			x: 3.5d
+			y: -6.0d
+			title: "经典的超级存储器"
+			rewards: [
+				{
+					id: "411BC55A0566A087"
+					type: "item"
+					item: "storagedrawers:drawer_key"
+				}
+				{
+					id: "2E94AF40ACBBBE19"
+					type: "item"
+					item: "storagedrawers:quantify_key"
+				}
+				{
+					id: "75EF2D75316184BE"
+					type: "item"
+					item: "storagedrawers:shroud_key"
+				}
+			]
+		}
+		{
+			tasks: [{
+				id: "6B5FE77F9FDDE3C1"
+				type: "item"
+				item: "storagedrawers:controller"
+			}]
+			description: ["&b抽屉控制器&r会将输入的物品分流到连接控制器本身的抽屉或触摸它的抽屉中。它优先考虑装满的抽屉，而不是空抽屉。"]
+			id: "094BD4F3C8CF84D8"
+			x: 3.5d
+			y: -4.5d
+			rewards: [{
+				type: "item"
+				count: 4
+				team_reward: true
+				id: "6FA96DDF9278403B"
+				item: "storagedrawers:controller_slave"
+			}]
+			dependencies: [
+				"4331D84C22A9A619"
+				"48639F567DBAD564"
+			]
+		}
 	]
 }
-

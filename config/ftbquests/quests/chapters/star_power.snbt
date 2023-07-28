@@ -1294,12 +1294,16 @@
 				"&6星能填充器&r不能使用常规方式自动化,但只需几个额外的组件即可解决。"
 				""
 				"&6精致大理石&r填充了底部的空间。如果你一开始就使用了胶囊，不用担心."
+				""
+				"如果你忘记了,你可以对控制器按“U”键查看多方块结构."
+				""
+				"这不会自动执行所有配方，只会自动执行对填充器有用且独一无二的配方，因此不会进行矿石加工。"
 			]
 			icon: "masterfulmachinery:auto_starlight_infuser_controller"
 			id: "0CD18D449FA26B82"
 			x: 6.0d
 			y: -1.5d
-			title: "Infuse on Loop"
+			title: "循环灌注"
 			rewards: [{
 
 				id: "3A2E5596F0EAE8E2"

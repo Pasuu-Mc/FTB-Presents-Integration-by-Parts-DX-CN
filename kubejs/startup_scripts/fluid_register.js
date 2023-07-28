@@ -16,7 +16,7 @@ onEvent('fluid.registry', event => {
     event.create('ibpdx:tin_slurry').textureThick(0xacccd4).bucketColor(0xacccd4).displayName('锡浆')
     event.create('ibpdx:copper_slurry').textureThick(0xf4b434).bucketColor(0xf4b434).displayName('铜浆')
 	event.create('ibpdx:fusion_waste').textureThick(0x092e08).bucketColor(0x092e08).displayName('熔融废料')
-	event.create('ibpdx:empowered_oil').textureThin(0xCE3535).bucketColor(0xCE3535).displayName('充能油')
+	event.create('ibpdx:empowered_oil').textureThin(0xAC0E0E).bucketColor(0xAC0E0E).displayName('充能油')
 	event.create('ibpdx:crystallized_oil').textureThin(0xCE3535).bucketColor(0xCE3535).displayName('晶化油')
 	event.create('ibpdx:carbonic_acid').textureThin(0x111111).bucketColor(0x111111).displayName('碳酸')
     event.create('ibpdx:molten_chromium').textureThick(0xe4f2f7).bucketColor(0xe4f2f7).displayName('熔融铬')

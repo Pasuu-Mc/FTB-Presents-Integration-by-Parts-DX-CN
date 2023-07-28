@@ -742,45 +742,59 @@
 					consume_items: true
 				}
 				{
+					type: "item"
+					count: 8L
+					consume_items: true
 					id: "4D752AA70EDC9917"
-					type: "item"
 					item: "immersiveengineering:slab_sheetmetal_steel"
-					count: 8L
 				}
 				{
-					id: "2347AD6FE1ABA006"
 					type: "item"
-					item: "immersiveengineering:steel_fence"
 					count: 12L
+					consume_items: true
+					id: "2347AD6FE1ABA006"
+					item: {
+						id: "itemfilters:tag"
+						Count: 1b
+						tag: {
+							value: "forge:fences/steel"
+						}
+					}
+					title: "Any #forge:fences/steel"
 				}
 				{
+					type: "item"
+					count: 2L
+					consume_items: true
 					id: "77C8E182B7A207D7"
-					type: "item"
 					item: "masterfulmachinery:advanced_chemical_plant_fluid_port_fluids_output"
-					count: 2L
 				}
 				{
+					type: "item"
+					count: 8L
+					consume_items: true
 					id: "04869B3F8C0DC47D"
-					type: "item"
 					item: "ibpdx:stainless_steel_casing"
-					count: 8L
 				}
 				{
+					type: "item"
+					count: 8L
+					consume_items: true
 					id: "6233A74FC86FEBF0"
-					type: "item"
 					item: "ibpdx:blockcasing_steel"
-					count: 8L
 				}
 				{
-					id: "447C2CBCD4ED4F1F"
 					type: "item"
-					item: "masterfulmachinery:advanced_chemical_plant_fluid_port_fluids_input"
 					count: 2L
+					consume_items: true
+					id: "447C2CBCD4ED4F1F"
+					item: "masterfulmachinery:advanced_chemical_plant_fluid_port_fluids_input"
 				}
 				{
 					id: "2F792A74D402EF43"
 					type: "item"
 					item: "masterfulmachinery:advanced_chemical_plant_energy_port_energy_input"
+					consume_items: true
 				}
 			]
 			description: [

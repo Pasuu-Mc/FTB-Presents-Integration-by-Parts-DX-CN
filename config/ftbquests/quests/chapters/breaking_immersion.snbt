@@ -664,6 +664,11 @@
 						}
 					}
 				}
+				{
+					id: "708BB39062FEB5DA"
+					type: "item"
+					item: "immersiveengineering:conveyor_extract"
+				}
 			]
 			dependencies: ["091E1E0C922050E9"]
 		}
@@ -982,6 +987,50 @@
 				}
 			]
 			dependencies: ["102FFE60B6953B5E"]
+		}
+		{
+			tasks: [{
+				id: "4CB7988EE3F147CF"
+				type: "item"
+				item: "cyclic:harvester"
+			}]
+			description: [
+				"&b收割机&r会温柔地破坏它前面的作物,这样就不需要重新种植了,但不要捡起它们的产物。你需要某种物品收集器。"
+				""
+				"这可能会超出你现在的价格范围,所以也许应该等一等。"
+				""
+				"你特别需要&6胡桃树叶&r,所以请记住有Alchetree存在."
+			]
+			id: "5FE7D825E170A7D4"
+			x: 3.5d
+			y: -5.0d
+			title: "Fun Farm"
+			rewards: [{
+				id: "2A5290B910C5E014"
+				type: "item"
+				team_reward: true
+				item: "cyclic:collector"
+			}]
+			dependencies: ["144871AFDCF9F014"]
+		}
+		{
+			tasks: [{
+				id: "23F301FB837CD307"
+				type: "item"
+				item: "immersiveengineering:cloche"
+			}]
+			description: ["对于任何作物来说，&b园艺玻璃罩&r与&6收割机&r是相兼容的的强大替代品。它可以使用电力、水和肥料来种植作物。也许一些自动的骨粉可以帮助你获得更多产物?"]
+			id: "288C5471478B8EA1"
+			x: 5.0d
+			y: -5.0d
+			title: "瓶子里的农场"
+			rewards: [{
+				id: "18DAD3369E396F4F"
+				type: "item"
+				team_reward: true
+				item: "immersiveengineering:cloche"
+			}]
+			dependencies: ["5FE7D825E170A7D4"]
 		}
 	]
 }

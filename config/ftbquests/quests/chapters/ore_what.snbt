@@ -10,7 +10,10 @@
 	quests: [
 		{
 			size: 1.25d
-			description: ["标准矿石包括铁、金、铜、锡、铅和银"]
+			description: ["标准矿石包括铁、金、铜、锡、铅和银"
+				""
+				"有些时候，镍会跟在后面。但不是一直都这样。"
+			]
 			id: "0B306C10DC71B09B"
 			icon: "minecraft:iron_ore"
 			x: -4.5d
@@ -856,6 +859,36 @@
 				}
 			]
 			dependencies: ["63C6D31757663744"]
+		}
+		{
+			tasks: [{
+				id: "591C8F87069B5814"
+				type: "item"
+				item: {
+					id: "boss_tools:hammer"
+					Count: 1b
+					tag: {
+						Damage: 0
+					}
+				}
+			}]
+			description: ["1.33x 手动处理矿石。铁砧的作用与此相同,但可以自动化。"]
+			dependencies: ["0B306C10DC71B09B"]
+			id: "4D13A5410848DE97"
+			y: -4.5d
+			x: -6.0d
+		}
+		{
+			tasks: [{
+				id: "0061CDAEBD07E9D6"
+				type: "item"
+				item: "astralsorcery:infuser"
+			}]
+			description: ["3x 矿石,但只能手动完成。"]
+			dependencies: ["0B306C10DC71B09B"]
+			id: "295A04A9ADCD244C"
+			y: -4.5d
+			x: -3.0d
 		}
 	]
 }
